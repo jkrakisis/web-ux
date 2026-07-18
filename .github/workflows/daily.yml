@@ -14,6 +14,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: gdweb-daily
@@ -56,11 +58,34 @@ jobs:
           if-no-files-found: ignore
           retention-days: 30
 
-      - name: Persist checkpoint
-        if: success() && env.DRY_RUN == 'false'
+      - name: Configure GitHub Pages
+        if: always()
+        uses: actions/configure-pages@v5
+
+      - name: Upload dashboard
+        if: always()
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: Persist dashboard and checkpoint
+        if: success()
         run: |
           git config user.name "gdweb-daily-bot"
           git config user.email "gdweb-daily-bot@users.noreply.github.com"
-          git add state/checkpoint.json
+          git add docs/data/latest.json
+          if [ "$DRY_RUN" = "false" ]; then git add state/checkpoint.json; fi
           git diff --cached --quiet || git commit -m "chore: update GDWEB checkpoint"
           git push
+
+  deploy-pages:
+    needs: collect
+    if: always()
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy dashboard
+        id: deployment
+        uses: actions/deploy-pages@v4

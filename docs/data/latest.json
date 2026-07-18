@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-07-18T13:00:37.094053+09:00",
+  "mode": "dry-run",
+  "status": "success",
+  "new_count": 1,
+  "failure_count": 0,
+  "items": [
+    {
+      "str_no": "27271",
+      "site_name": "더가든피부과",
+      "registered_date": "2026-07-17",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27271",
+      "live_url": "https://thegardenclinic.co.kr/",
+      "domain": "thegardenclinic.co.kr",
+      "agency": "매스티지",
+      "targets": [
+        "여성",
+        "남성"
+      ],
+      "methods": [
+        "모션그래픽",
+        "사진",
+        "영상",
+        "타이포"
+      ],
+      "concepts": [
+        "고급스러운",
+        "여성적인",
+        "역동적인",
+        "모던한"
+      ],
+      "colors": [
+        "BROWN"
+      ],
+      "technologies": [
+        "jQuery",
+        "GSAP",
+        "Swiper"
+      ],
+      "evidence": [
+        "jQuery: HTML에서 'jquery-' 확인",
+        "GSAP: HTML에서 'gsap.min.js' 확인",
+        "Swiper: HTML에서 'swiper-bundle' 확인"
+      ],
+      "website_reachable": true,
+      "lines": [
+        "1) 더가든피부과 / 2026-07-17 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27271 / 실사이트: https://thegardenclinic.co.kr/",
+        "2) 목적: 더가든피부과 / 타겟: 여성, 남성 / IA: 진료기준, Why The Garden, 의료진 소개, 4단계 통증조절, 시그니처, 더가든 3-step 리프팅, 더가든 진피재생 프로그램, 비수술 눈밑 교정",
+        "3) 메뉴 기반 탐색, 주요 CTA(Reservation 예약, 예약, 상담예약), 표현 방식(모션그래픽, 사진, 영상, 타이포)",
+        "4) GDWEB 근거상 고급스러운, 여성적인, 역동적인, 모던한 컨셉과 모션그래픽, 사진, 영상, 타이포 표현을 일관되게 활용",
+        "5) 자동 근거 수집 범위 내 세부 사용성 검증이 제한되어 핵심 과업의 접근 단계·키보드 탐색·모바일 상태 추가 점검 필요",
+        "6) 기술/플러그인 키워드: jQuery, GSAP, Swiper + A) 메인 IA 퀵액션은 최빈 과업을 첫 화면 상단에 우선 배치 + B) KPI는 CTA 전환율·핵심 콘텐츠 체류시간·메뉴 탐색 성공률로 측정 + C) 공공기관 Do: 명확한 과업명·접근성 제공 / Don't: 모션 의존·모호한 메뉴명 + D) 오늘의 한 줄: 근거가 확인되는 범위부터 작게 측정하고 개선"
+      ]
+    }
+  ],
+  "failures": []
+}

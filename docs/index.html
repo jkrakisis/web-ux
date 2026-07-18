@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="GDWEB WEB 부문 신규 선정작을 평일마다 기록하는 UX 모니터"
+    />
+    <meta name="theme-color" content="#0b1220" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="GDWEB UX Monitor" />
+    <meta property="og:description" content="평일마다 기록하는 웹 UX 인사이트" />
+    <meta property="og:url" content="https://jkrakisis.github.io/web-ux/" />
+    <meta property="og:image" content="https://jkrakisis.github.io/web-ux/og.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="GDWEB UX Monitor" />
+    <meta name="twitter:description" content="평일마다 기록하는 웹 UX 인사이트" />
+    <meta name="twitter:image" content="https://jkrakisis.github.io/web-ux/og.png" />
+    <title>GDWEB UX Monitor</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#results">결과로 바로가기</a>
+
+    <header class="hero">
+      <nav class="nav" aria-label="주요 링크">
+        <a class="brand" href="./" aria-label="GDWEB UX Monitor 홈">
+          <span class="brand-mark" aria-hidden="true">G</span>
+          <span>GDWEB UX Monitor</span>
+        </a>
+        <div class="nav-actions">
+          <a href="https://www.gdweb.co.kr/sub/list.asp" target="_blank" rel="noreferrer">GDWEB</a>
+          <a href="https://github.com/jkrakisis/web-ux/actions" target="_blank" rel="noreferrer">실행 기록</a>
+        </div>
+      </nav>
+
+      <div class="hero-copy">
+        <p class="eyebrow">WEEKDAY WEB CURATION</p>
+        <h1>오늘 등록된 좋은 웹 경험을<br />실무 관점으로 빠르게 확인합니다.</h1>
+        <p class="hero-description">
+          GDWEB WEB 부문 신규 선정작을 수집하고 목적·IA·UX 패턴·개선 포인트와 기술 근거를 6줄로 정리합니다.
+        </p>
+        <div class="hero-meta">
+          <span id="statusBadge" class="status-badge loading">불러오는 중</span>
+          <span id="updatedAt">최근 실행 시각 확인 중</span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="summary" aria-label="실행 요약">
+        <article class="metric-card accent">
+          <span class="metric-label">신규 선정작</span>
+          <strong id="newCount" class="metric-value">–</strong>
+          <span class="metric-note">이번 실행 기준</span>
+        </article>
+        <article class="metric-card">
+          <span class="metric-label">자동 등록 실패</span>
+          <strong id="failureCount" class="metric-value">–</strong>
+          <span class="metric-note">확인 필요 항목</span>
+        </article>
+        <article class="metric-card">
+          <span class="metric-label">실행 모드</span>
+          <strong id="runMode" class="metric-value text">–</strong>
+          <span class="metric-note">평일 08:37 KST</span>
+        </article>
+      </section>
+
+      <section class="content-section" id="results">
+        <div class="section-header">
+          <div>
+            <p class="section-kicker">LATEST REVIEW</p>
+            <h2>최신 UX 분석</h2>
+          </div>
+          <div class="toolbar">
+            <label class="search-field">
+              <span class="sr-only">사이트 검색</span>
+              <input id="searchInput" type="search" placeholder="사이트명·기술 검색" autocomplete="off" />
+            </label>
+            <button id="refreshButton" type="button">새로고침</button>
+          </div>
+        </div>
+
+        <div id="emptyState" class="empty-state" hidden>
+          <div class="empty-icon" aria-hidden="true">✓</div>
+          <h3>신규 없음</h3>
+          <p>마지막 확인 이후 새로 등록된 WEB 부문 선정작이 없습니다.</p>
+        </div>
+
+        <div id="errorState" class="empty-state error" hidden>
+          <div class="empty-icon" aria-hidden="true">!</div>
+          <h3>데이터를 불러오지 못했습니다</h3>
+          <p>잠시 후 다시 시도하거나 GitHub Actions 실행 기록을 확인해 주세요.</p>
+        </div>
+
+        <div id="cards" class="cards" aria-live="polite"></div>
+        <section id="failures" class="failures" hidden>
+          <div class="failure-heading">
+            <p class="section-kicker">NEEDS ATTENTION</p>
+            <h2>자동 등록 실패</h2>
+          </div>
+          <div id="failureList" class="failure-list"></div>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      <p>공개된 GDWEB 및 실사이트 근거를 바탕으로 자동 생성됩니다.</p>
+      <a href="https://github.com/jkrakisis/web-ux" target="_blank" rel="noreferrer">Source on GitHub</a>
+    </footer>
+  </body>
+</html>

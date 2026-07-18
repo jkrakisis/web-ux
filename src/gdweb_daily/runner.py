@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -67,6 +68,52 @@ def _write_report(path: Path, text: str) -> None:
     path.write_text(text.rstrip() + "\n", encoding="utf-8")
 
 
+def _write_dashboard(
+    path: Path,
+    generated_at: datetime,
+    dry_run: bool,
+    records: list[ProcessedRecord],
+    failures: list[str],
+) -> None:
+    items: list[dict[str, object]] = []
+    for record in records:
+        detail = record.detail
+        items.append(
+            {
+                "str_no": detail.str_no,
+                "site_name": detail.site_name,
+                "registered_date": detail.registered_date.isoformat(),
+                "detail_url": detail.detail_url,
+                "live_url": detail.live_url,
+                "domain": detail.domain,
+                "agency": detail.agency,
+                "targets": detail.targets,
+                "methods": detail.methods,
+                "concepts": detail.concepts,
+                "colors": detail.colors,
+                "technologies": record.evidence.technologies,
+                "evidence": record.evidence.evidence,
+                "website_reachable": record.evidence.reachable,
+                "lines": format_six_lines(detail, record.analysis),
+            }
+        )
+    status = "partial" if failures else ("success" if items else "no_new")
+    payload = {
+        "generated_at": generated_at.isoformat(),
+        "mode": "dry-run" if dry_run else "live",
+        "status": status,
+        "new_count": len(items),
+        "failure_count": len(failures),
+        "items": items,
+        "failures": [{"text": failure} for failure in failures],
+    }
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+
 def run(config: AppConfig, since: str = "", no_ai: bool = False) -> tuple[int, str]:
     started_at = datetime.now(KST)
     state = RunState.load(config.state_path)
@@ -111,6 +158,7 @@ def run(config: AppConfig, since: str = "", no_ai: bool = False) -> tuple[int, s
     processed = set(state.processed_str_nos)
     output_blocks: list[str] = []
     failures: list[str] = []
+    dashboard_records: list[ProcessedRecord] = []
 
     for listing in listings:
         if listing.str_no in processed:
@@ -191,6 +239,7 @@ def run(config: AppConfig, since: str = "", no_ai: bool = False) -> tuple[int, s
                 continue
 
         output_blocks.append("\n".join(lines))
+        dashboard_records.append(record)
         if not config.dry_run:
             processed.add(detail.str_no)
 
@@ -206,6 +255,13 @@ def run(config: AppConfig, since: str = "", no_ai: bool = False) -> tuple[int, s
         report = "신규 없음"
         exit_code = 0
     _write_report(config.report_path, report)
+    _write_dashboard(
+        config.dashboard_path,
+        datetime.now(KST),
+        config.dry_run,
+        dashboard_records,
+        failures,
+    )
     return exit_code, report
 
 

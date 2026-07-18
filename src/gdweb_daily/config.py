@@ -40,6 +40,7 @@ class AppConfig:
     dry_run: bool = True
     state_path: Path = Path("state/checkpoint.json")
     report_path: Path = Path("reports/latest.txt")
+    dashboard_path: Path = Path("docs/data/latest.json")
 
     @classmethod
     def from_env(cls) -> "AppConfig":
@@ -63,6 +64,9 @@ class AppConfig:
             dry_run=_bool("DRY_RUN", True),
             state_path=Path(os.getenv("STATE_PATH", "state/checkpoint.json")),
             report_path=Path(os.getenv("REPORT_PATH", "reports/latest.txt")),
+            dashboard_path=Path(
+                os.getenv("DASHBOARD_PATH", "docs/data/latest.json")
+            ),
         )
 
     @property
