@@ -1,4 +1,17 @@
-# GDWEB Daily
+# Web UX Archive
+
+A personal UX research pipeline that automatically collects new GDWEB winners, analyzes UX patterns, and archives insights into Notion.
+
+## Features
+
+- ✔ GitHub Actions Scheduler
+- ✔ Notion API
+- ✔ Duplicate Detection
+- ✔ Schema Validation
+- ✔ UX Insight Generation
+- ✔ Dashboard
+
+## GDWEB Daily
 
 GDWEB의 WEB 부문 신규 선정작을 평일마다 확인하고, GDWEB 상세 및 실사이트의 근거를 모아 6줄로 요약한 뒤 Notion Data Source에 중복 없이 등록하는 자동화입니다.
 
