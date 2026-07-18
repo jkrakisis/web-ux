@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import difflib
+import re
 from collections.abc import Iterable
 from typing import Any
 
@@ -14,7 +15,7 @@ ALIASES: dict[str, tuple[str, ...]] = {
     "site_name": ("사이트명", "이름", "Name", "제목", "Title"),
     "registered_date": ("등록일", "선정일", "Date", "Registration Date"),
     "gdweb_url": ("GDWEB URL", "GDWEB 상세", "상세 URL", "GDWEB"),
-    "live_url": ("실사이트 URL", "사이트 URL", "Live URL", "웹사이트"),
+    "live_url": ("실사이트", "실사이트 URL", "사이트 URL", "Live URL", "웹사이트"),
     "str_no": ("GDWEB str_no", "str_no", "GDWEB 번호", "식별자"),
     "domain": ("도메인", "Domain", "실사이트 도메인"),
     "agency": ("제작사", "Agency"),
@@ -22,10 +23,33 @@ ALIASES: dict[str, tuple[str, ...]] = {
     "methods": ("표현방법", "표현 방법", "Method"),
     "concepts": ("디자인 컨셉", "컨셉", "Concept"),
     "colors": ("주색상", "색상", "Color"),
-    "technologies": ("기술 키워드", "기술/플러그인", "Technology"),
-    "summary": ("6줄 요약", "요약", "Summary"),
+    "technologies": (
+        "기술/플러그인 키워드",
+        "기술 키워드",
+        "기술/플러그인",
+        "Technology",
+    ),
+    "summary": ("요약(6줄)", "6줄 요약", "요약", "Summary"),
     "status": ("처리 상태", "상태", "Status"),
-    "collected_at": ("수집 시각", "확인 시각", "Collected At"),
+    "collected_at": (
+        "Last check 시각",
+        "수집 시각",
+        "확인 시각",
+        "Collected At",
+    ),
+    "purpose": ("목적", "Purpose"),
+    "ia": ("IA(메뉴)", "IA", "메뉴"),
+    "ux_patterns": ("핵심 UX 패턴", "UX 패턴"),
+    "strengths": ("강점", "Strengths"),
+    "improvements": ("개선 포인트", "개선점", "Improvements"),
+    "observations": ("근거(관찰)", "근거", "Evidence"),
+    "quick_action": ("A) IA 퀵액션",),
+    "kpi": ("B) KPI",),
+    "public_do_dont": ("C) 공공 Do/Don't",),
+    "one_line": ("D) 오늘의 한 줄",),
+    "month_text": ("월_YYYYMM",),
+    "is_new": ("신규여부", "신규"),
+    "is_weekend": ("주말",),
 }
 
 
@@ -102,11 +126,33 @@ class NotionClient:
             )
             if domain_filter and date_filter:
                 return self._query_any({"and": [domain_filter, date_filter]})
+
+        live_url_name = self.semantic_names.get("live_url")
+        if live_url_name and date_name and record.detail.live_url:
+            variants = _url_variants(record.detail.live_url)
+            live_filters = [
+                candidate
+                for candidate in (
+                    self._equals_filter(live_url_name, variant) for variant in variants
+                )
+                if candidate
+            ]
+            date_filter = self._equals_filter(
+                date_name, record.detail.registered_date.isoformat()
+            )
+            if live_filters and date_filter:
+                url_filter: dict[str, object]
+                if len(live_filters) == 1:
+                    url_filter = live_filters[0]
+                else:
+                    url_filter = {"or": live_filters}
+                return self._query_any({"and": [url_filter, date_filter]})
         return False
 
     def create_record(self, record: ProcessedRecord, collected_at: str) -> str:
         self._ensure_schema()
         lines = format_six_lines(record.detail, record.analysis)
+        actions = _action_parts(record.analysis.tech_actions)
         values: dict[str, object] = {
             "site_name": record.detail.site_name,
             "registered_date": record.detail.registered_date.isoformat(),
@@ -123,6 +169,19 @@ class NotionClient:
             "summary": "\n".join(lines),
             "status": "완료",
             "collected_at": collected_at,
+            "purpose": record.analysis.purpose_target_ia,
+            "ia": ", ".join(record.evidence.menu_labels),
+            "ux_patterns": record.analysis.ux_patterns,
+            "strengths": record.analysis.strengths,
+            "improvements": record.analysis.improvements,
+            "observations": "; ".join(record.evidence.evidence),
+            "quick_action": actions.get("A", ""),
+            "kpi": actions.get("B", ""),
+            "public_do_dont": actions.get("C", ""),
+            "one_line": actions.get("D", ""),
+            "month_text": record.detail.registered_date.strftime("%Y-%m"),
+            "is_new": True,
+            "is_weekend": record.detail.registered_date.weekday() >= 5,
         }
         properties: dict[str, object] = {}
         for semantic, value in values.items():
@@ -268,3 +327,23 @@ def _unique_options(options: Iterable[dict[str, str]]) -> list[dict[str, str]]:
         unique[str(option["id"])] = option
     return list(unique.values())
 
+
+def _url_variants(url: str) -> list[str]:
+    stripped = url.strip()
+    if not stripped:
+        return []
+    variants = [stripped]
+    if stripped.endswith("/"):
+        variants.append(stripped.rstrip("/"))
+    else:
+        variants.append(stripped + "/")
+    return list(dict.fromkeys(variants))
+
+
+def _action_parts(value: str) -> dict[str, str]:
+    parts: dict[str, str] = {}
+    for segment in re.split(r"\s*\+\s*(?=[ABCD]\))", value):
+        match = re.match(r"([ABCD])\)\s*(.*)", segment, flags=re.DOTALL)
+        if match:
+            parts[match.group(1)] = match.group(2).strip()
+    return parts
