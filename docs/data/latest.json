@@ -1,10 +1,530 @@
 {
-  "generated_at": "2026-07-18T13:00:37.094053+09:00",
+  "generated_at": "2026-07-18T16:17:03.044407+09:00",
   "mode": "dry-run",
   "status": "success",
-  "new_count": 1,
+  "new_count": 13,
   "failure_count": 0,
   "items": [
+    {
+      "str_no": "27262",
+      "site_name": "밝은성모안과",
+      "registered_date": "2026-07-13",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27262",
+      "live_url": "https://oklasik.com/",
+      "domain": "oklasik.com",
+      "agency": "와커스",
+      "targets": [
+        "20-30대",
+        "30-40대",
+        "40대 이후"
+      ],
+      "methods": [
+        "모션그래픽",
+        "타이포"
+      ],
+      "concepts": [
+        "인간적인",
+        "깔끔한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "BLUE",
+        "ORANGE",
+        "VIOLET",
+        "WHITE"
+      ],
+      "technologies": [
+        "Google Analytics",
+        "jQuery",
+        "GSAP",
+        "Swiper"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "jQuery: HTML에서 'jquery-' 확인",
+        "GSAP: HTML에서 'gsap.min.js' 확인",
+        "Swiper: HTML에서 'swiper-bundle' 확인"
+      ],
+      "website_reachable": true,
+      "lines": [
+        "1) 밝은성모안과 / 2026-07-13 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27262 / 실사이트: https://oklasik.com/",
+        "2) 목적: 강남역에 위치한 밝은성모안과는 스마트노바프로, 실크스마일라식, 스마트라식, 투데이라섹 등 맞춤형 시력교정술을 전문으로 합니다. 40만 건 이상 수술 경험과 평생 재수술 보장으로 안전하고 빠른 회복을 약속드립니다. / 타겟: 20-30대, 30-40대, 40대 이후 / IA: 강남점, 부산점, 밝은성모안과, 합리적인 선택, 전문의료진, 진료안내, 병원둘러보기, 의료장비소개",
+        "3) 메뉴 기반 탐색, 주요 CTA(전문의료진, 신청하기, NAVER 예약, 네이버 예약, 네이버예약), 표현 방식(모션그래픽, 타이포)",
+        "4) GDWEB 근거상 인간적인, 깔끔한, 신뢰적인 컨셉과 모션그래픽, 타이포 표현을 일관되게 활용",
+        "5) 자동 근거 수집 범위 내 세부 사용성 검증이 제한되어 핵심 과업의 접근 단계·키보드 탐색·모바일 상태 추가 점검 필요",
+        "6) 기술/플러그인 키워드: Google Analytics, jQuery, GSAP, Swiper + A) 메인 IA 퀵액션은 최빈 과업을 첫 화면 상단에 우선 배치 + B) KPI는 CTA 전환율·핵심 콘텐츠 체류시간·메뉴 탐색 성공률로 측정 + C) 공공기관 Do: 명확한 과업명·접근성 제공 / Don't: 모션 의존·모호한 메뉴명 + D) 오늘의 한 줄: 근거가 확인되는 범위부터 작게 측정하고 개선"
+      ]
+    },
+    {
+      "str_no": "27273",
+      "site_name": "스튜디오카일",
+      "registered_date": "2026-07-13",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27273",
+      "live_url": "https://www.studiokyle.kr/",
+      "domain": "studiokyle.kr",
+      "agency": "(주)비쥬얼스토리",
+      "targets": [
+        "여성",
+        "남성",
+        "20-30대",
+        "30-40대",
+        "40대 이후",
+        "기업"
+      ],
+      "methods": [
+        "모션그래픽",
+        "사진",
+        "일러스트",
+        "그래픽디자인",
+        "제품",
+        "콘텐츠"
+      ],
+      "concepts": [
+        "고급스러운",
+        "화려한",
+        "독특한 레이아웃",
+        "강렬한",
+        "모던한",
+        "깔끔한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "IVORY",
+        "RED",
+        "YELLOW"
+      ],
+      "technologies": [],
+      "evidence": [],
+      "website_reachable": false,
+      "lines": [
+        "1) 스튜디오카일 / 2026-07-13 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27273 / 실사이트: https://www.studiokyle.kr/",
+        "2) 목적: 스튜디오카일의 정보·서비스 제공 / 타겟: 여성, 남성, 20-30대, 30-40대, 40대 이후, 기업 / IA: 확인 불가",
+        "3) 메뉴 기반 탐색, 주요 CTA(확인 불가), 표현 방식(모션그래픽, 사진, 일러스트, 그래픽디자인, 제품, 콘텐츠)",
+        "4) GDWEB 근거상 고급스러운, 화려한, 독특한 레이아웃, 강렬한, 모던한, 깔끔한, 신뢰적인 컨셉과 모션그래픽, 사진, 일러스트, 그래픽디자인, 제품, 콘텐츠 표현을 일관되게 활용",
+        "5) 자동 근거 수집 범위 내 세부 사용성 검증이 제한되어 핵심 과업의 접근 단계·키보드 탐색·모바일 상태 추가 점검 필요",
+        "6) 기술/플러그인 키워드: 확인 불가 + A) 메인 IA 퀵액션은 최빈 과업을 첫 화면 상단에 우선 배치 + B) KPI는 CTA 전환율·핵심 콘텐츠 체류시간·메뉴 탐색 성공률로 측정 + C) 공공기관 Do: 명확한 과업명·접근성 제공 / Don't: 모션 의존·모호한 메뉴명 + D) 오늘의 한 줄: 근거가 확인되는 범위부터 작게 측정하고 개선"
+      ]
+    },
+    {
+      "str_no": "27276",
+      "site_name": "신한퓨처스랩",
+      "registered_date": "2026-07-13",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27276",
+      "live_url": "https://futureslab.kr/",
+      "domain": "futureslab.kr",
+      "agency": "서로커뮤니케이션",
+      "targets": [
+        "여성",
+        "남성",
+        "기업"
+      ],
+      "methods": [
+        "모션그래픽"
+      ],
+      "concepts": [
+        "강렬한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "BLUE"
+      ],
+      "technologies": [],
+      "evidence": [],
+      "website_reachable": false,
+      "lines": [
+        "1) 신한퓨처스랩 / 2026-07-13 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27276 / 실사이트: https://futureslab.kr/",
+        "2) 목적: 신한퓨처스랩의 정보·서비스 제공 / 타겟: 여성, 남성, 기업 / IA: 확인 불가",
+        "3) 메뉴 기반 탐색, 주요 CTA(확인 불가), 표현 방식(모션그래픽)",
+        "4) GDWEB 근거상 강렬한, 신뢰적인 컨셉과 모션그래픽 표현을 일관되게 활용",
+        "5) 자동 근거 수집 범위 내 세부 사용성 검증이 제한되어 핵심 과업의 접근 단계·키보드 탐색·모바일 상태 추가 점검 필요",
+        "6) 기술/플러그인 키워드: 확인 불가 + A) 메인 IA 퀵액션은 최빈 과업을 첫 화면 상단에 우선 배치 + B) KPI는 CTA 전환율·핵심 콘텐츠 체류시간·메뉴 탐색 성공률로 측정 + C) 공공기관 Do: 명확한 과업명·접근성 제공 / Don't: 모션 의존·모호한 메뉴명 + D) 오늘의 한 줄: 근거가 확인되는 범위부터 작게 측정하고 개선"
+      ]
+    },
+    {
+      "str_no": "27284",
+      "site_name": "카랩",
+      "registered_date": "2026-07-13",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27284",
+      "live_url": "https://carlab.kr/",
+      "domain": "carlab.kr",
+      "agency": "미등록",
+      "targets": [
+        "20-30대",
+        "30-40대"
+      ],
+      "methods": [
+        "영상"
+      ],
+      "concepts": [
+        "인간적인"
+      ],
+      "colors": [
+        "BLUE"
+      ],
+      "technologies": [],
+      "evidence": [],
+      "website_reachable": true,
+      "lines": [
+        "1) 카랩 / 2026-07-13 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27284 / 실사이트: https://carlab.kr/",
+        "2) 목적: 카랩의 정보·서비스 제공 / 타겟: 20-30대, 30-40대 / IA: 확인 불가",
+        "3) 메뉴 기반 탐색, 주요 CTA(확인 불가), 표현 방식(영상)",
+        "4) GDWEB 근거상 인간적인 컨셉과 영상 표현을 일관되게 활용",
+        "5) 자동 근거 수집 범위 내 세부 사용성 검증이 제한되어 핵심 과업의 접근 단계·키보드 탐색·모바일 상태 추가 점검 필요",
+        "6) 기술/플러그인 키워드: 확인 불가 + A) 메인 IA 퀵액션은 최빈 과업을 첫 화면 상단에 우선 배치 + B) KPI는 CTA 전환율·핵심 콘텐츠 체류시간·메뉴 탐색 성공률로 측정 + C) 공공기관 Do: 명확한 과업명·접근성 제공 / Don't: 모션 의존·모호한 메뉴명 + D) 오늘의 한 줄: 근거가 확인되는 범위부터 작게 측정하고 개선"
+      ]
+    },
+    {
+      "str_no": "27283",
+      "site_name": "케빈스룸",
+      "registered_date": "2026-07-14",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27283",
+      "live_url": "https://www.kevinsroom.co.kr/",
+      "domain": "kevinsroom.co.kr",
+      "agency": "소이정",
+      "targets": [
+        "여성",
+        "남성",
+        "학부모",
+        "대학생",
+        "20-30대",
+        "30-40대",
+        "40대 이후",
+        "기업",
+        "주부"
+      ],
+      "methods": [
+        "3D",
+        "일상소품",
+        "그래픽디자인",
+        "제품",
+        "콘텐츠"
+      ],
+      "concepts": [
+        "귀여운",
+        "재미있는",
+        "모던한",
+        "깔끔한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "BLUE",
+        "WHITE"
+      ],
+      "technologies": [],
+      "evidence": [],
+      "website_reachable": true,
+      "lines": [
+        "1) 케빈스룸 / 2026-07-14 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27283 / 실사이트: https://www.kevinsroom.co.kr/",
+        "2) 목적: 케빈스룸의 정보·서비스 제공 / 타겟: 여성, 남성, 학부모, 대학생, 20-30대, 30-40대, 40대 이후, 기업, 주부 / IA: 확인 불가",
+        "3) 메뉴 기반 탐색, 주요 CTA(확인 불가), 표현 방식(3D, 일상소품, 그래픽디자인, 제품, 콘텐츠)",
+        "4) GDWEB 근거상 귀여운, 재미있는, 모던한, 깔끔한, 신뢰적인 컨셉과 3D, 일상소품, 그래픽디자인, 제품, 콘텐츠 표현을 일관되게 활용",
+        "5) 자동 근거 수집 범위 내 세부 사용성 검증이 제한되어 핵심 과업의 접근 단계·키보드 탐색·모바일 상태 추가 점검 필요",
+        "6) 기술/플러그인 키워드: 확인 불가 + A) 메인 IA 퀵액션은 최빈 과업을 첫 화면 상단에 우선 배치 + B) KPI는 CTA 전환율·핵심 콘텐츠 체류시간·메뉴 탐색 성공률로 측정 + C) 공공기관 Do: 명확한 과업명·접근성 제공 / Don't: 모션 의존·모호한 메뉴명 + D) 오늘의 한 줄: 근거가 확인되는 범위부터 작게 측정하고 개선"
+      ]
+    },
+    {
+      "str_no": "27281",
+      "site_name": "SM 오디션",
+      "registered_date": "2026-07-15",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27281",
+      "live_url": "https://audition.smtown.com/",
+      "domain": "audition.smtown.com",
+      "agency": "이퓨전아이",
+      "targets": [
+        "중고등학생",
+        "대학생"
+      ],
+      "methods": [],
+      "concepts": [
+        "강렬한"
+      ],
+      "colors": [
+        "BLACK"
+      ],
+      "technologies": [
+        "Google Analytics",
+        "Google Tag Manager",
+        "React",
+        "Next.js"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "React: HTML에서 '_next/static' 확인",
+        "Next.js: HTML에서 '/_next/' 확인",
+        "응답 헤더 x-powered-by=Next.js"
+      ],
+      "website_reachable": true,
+      "lines": [
+        "1) SM 오디션 / 2026-07-15 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27281 / 실사이트: https://audition.smtown.com/",
+        "2) 목적: 음악, 드라마, 예능, 스포츠, 패션, 뉴미디어, 라이프스타일 등을 아우르는 아시아 최고엔터테인먼트 그룹 / 타겟: 중고등학생, 대학생 / IA: 확인 불가",
+        "3) 메뉴 기반 탐색, 주요 CTA(확인 불가), 표현 방식(확인 불가)",
+        "4) GDWEB 근거상 강렬한 컨셉과 확인 불가 표현을 일관되게 활용",
+        "5) 자동 근거 수집 범위 내 세부 사용성 검증이 제한되어 핵심 과업의 접근 단계·키보드 탐색·모바일 상태 추가 점검 필요",
+        "6) 기술/플러그인 키워드: Google Analytics, Google Tag Manager, React, Next.js + A) 메인 IA 퀵액션은 최빈 과업을 첫 화면 상단에 우선 배치 + B) KPI는 CTA 전환율·핵심 콘텐츠 체류시간·메뉴 탐색 성공률로 측정 + C) 공공기관 Do: 명확한 과업명·접근성 제공 / Don't: 모션 의존·모호한 메뉴명 + D) 오늘의 한 줄: 근거가 확인되는 범위부터 작게 측정하고 개선"
+      ]
+    },
+    {
+      "str_no": "27282",
+      "site_name": "유니클로",
+      "registered_date": "2026-07-15",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27282",
+      "live_url": "https://www.uniqlo.com/kr/ko/",
+      "domain": "uniqlo.com",
+      "agency": "이퓨전아이",
+      "targets": [
+        "대학생",
+        "20-30대"
+      ],
+      "methods": [],
+      "concepts": [
+        "모던한"
+      ],
+      "colors": [],
+      "technologies": [
+        "Google Tag Manager"
+      ],
+      "evidence": [
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인"
+      ],
+      "website_reachable": true,
+      "lines": [
+        "1) 유니클로 / 2026-07-15 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27282 / 실사이트: https://www.uniqlo.com/kr/ko/",
+        "2) 목적: 여성 남성 및 키즈&베이비 의류  |  유니클로 공식 온라인 스토어 / 타겟: 대학생, 20-30대 / IA: UNIQLO 홈, women, men, kids, baby, 티셔츠 & UT, 셔츠 & 블라우스 & 폴로셔츠, 니트 & 가디건",
+        "3) 메뉴 기반 탐색, 주요 CTA(확인 불가), 표현 방식(확인 불가)",
+        "4) GDWEB 근거상 모던한 컨셉과 확인 불가 표현을 일관되게 활용",
+        "5) 자동 근거 수집 범위 내 세부 사용성 검증이 제한되어 핵심 과업의 접근 단계·키보드 탐색·모바일 상태 추가 점검 필요",
+        "6) 기술/플러그인 키워드: Google Tag Manager + A) 메인 IA 퀵액션은 최빈 과업을 첫 화면 상단에 우선 배치 + B) KPI는 CTA 전환율·핵심 콘텐츠 체류시간·메뉴 탐색 성공률로 측정 + C) 공공기관 Do: 명확한 과업명·접근성 제공 / Don't: 모션 의존·모호한 메뉴명 + D) 오늘의 한 줄: 근거가 확인되는 범위부터 작게 측정하고 개선"
+      ]
+    },
+    {
+      "str_no": "27293",
+      "site_name": "케이뱅크",
+      "registered_date": "2026-07-15",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27293",
+      "live_url": "https://www.kbanknow.com/",
+      "domain": "kbanknow.com",
+      "agency": "미등록",
+      "targets": [],
+      "methods": [
+        "콘텐츠"
+      ],
+      "concepts": [
+        "모던한"
+      ],
+      "colors": [
+        "BLUE"
+      ],
+      "technologies": [],
+      "evidence": [],
+      "website_reachable": true,
+      "lines": [
+        "1) 케이뱅크 / 2026-07-15 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27293 / 실사이트: https://www.kbanknow.com/",
+        "2) 목적: 케이뱅크는 예적금, 대출, 카드, 투자, 해외송금 등 폭넓은 금융 상품 및 서비스를 제공합니다. 다양한 연령과 라이프 스타일을 반영한 혜택을 제공하며, 일상 속에서 금융을 보다 편리하고, 신뢰감 있게 경험할 수 있습니다. / 타겟: 확인 불가 / IA: 본문 바로가기, 주메뉴 바로가기",
+        "3) 메뉴 기반 탐색, 주요 CTA(1:1문의), 표현 방식(콘텐츠)",
+        "4) GDWEB 근거상 모던한 컨셉과 콘텐츠 표현을 일관되게 활용",
+        "5) 자동 근거 수집 범위 내 세부 사용성 검증이 제한되어 핵심 과업의 접근 단계·키보드 탐색·모바일 상태 추가 점검 필요",
+        "6) 기술/플러그인 키워드: 확인 불가 + A) 메인 IA 퀵액션은 최빈 과업을 첫 화면 상단에 우선 배치 + B) KPI는 CTA 전환율·핵심 콘텐츠 체류시간·메뉴 탐색 성공률로 측정 + C) 공공기관 Do: 명확한 과업명·접근성 제공 / Don't: 모션 의존·모호한 메뉴명 + D) 오늘의 한 줄: 근거가 확인되는 범위부터 작게 측정하고 개선"
+      ]
+    },
+    {
+      "str_no": "27294",
+      "site_name": "대한항공",
+      "registered_date": "2026-07-15",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27294",
+      "live_url": "https://www.koreanair.com/",
+      "domain": "koreanair.com",
+      "agency": "미등록",
+      "targets": [],
+      "methods": [
+        "콘텐츠"
+      ],
+      "concepts": [
+        "깔끔한"
+      ],
+      "colors": [
+        "BLUE"
+      ],
+      "technologies": [],
+      "evidence": [],
+      "website_reachable": false,
+      "lines": [
+        "1) 대한항공 / 2026-07-15 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27294 / 실사이트: https://www.koreanair.com/",
+        "2) 목적: 대한항공의 정보·서비스 제공 / 타겟: 확인 불가 / IA: 확인 불가",
+        "3) 메뉴 기반 탐색, 주요 CTA(확인 불가), 표현 방식(콘텐츠)",
+        "4) GDWEB 근거상 깔끔한 컨셉과 콘텐츠 표현을 일관되게 활용",
+        "5) 자동 근거 수집 범위 내 세부 사용성 검증이 제한되어 핵심 과업의 접근 단계·키보드 탐색·모바일 상태 추가 점검 필요",
+        "6) 기술/플러그인 키워드: 확인 불가 + A) 메인 IA 퀵액션은 최빈 과업을 첫 화면 상단에 우선 배치 + B) KPI는 CTA 전환율·핵심 콘텐츠 체류시간·메뉴 탐색 성공률로 측정 + C) 공공기관 Do: 명확한 과업명·접근성 제공 / Don't: 모션 의존·모호한 메뉴명 + D) 오늘의 한 줄: 근거가 확인되는 범위부터 작게 측정하고 개선"
+      ]
+    },
+    {
+      "str_no": "27269",
+      "site_name": "더샵천안라크원",
+      "registered_date": "2026-07-16",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27269",
+      "live_url": "https://더샵천안라크원.kr",
+      "domain": "더샵천안라크원.kr",
+      "agency": "디아트픽셀",
+      "targets": [
+        "여성",
+        "남성",
+        "20-30대",
+        "30-40대",
+        "40대 이후"
+      ],
+      "methods": [
+        "모션그래픽",
+        "사진",
+        "영상",
+        "건물/빌딩"
+      ],
+      "concepts": [
+        "서정적인",
+        "독특한 레이아웃",
+        "모던한",
+        "깔끔한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "BLACK",
+        "WHITE"
+      ],
+      "technologies": [
+        "Google Analytics",
+        "Google Tag Manager",
+        "jQuery",
+        "GSAP",
+        "Swiper",
+        "Cafe24"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "jQuery: HTML에서 'jquery.min.js' 확인",
+        "GSAP: HTML에서 'scrolltrigger' 확인",
+        "Swiper: HTML에서 'swiper.min' 확인",
+        "Cafe24: HTML에서 'cafe24.com' 확인"
+      ],
+      "website_reachable": true,
+      "lines": [
+        "1) 더샵천안라크원 / 2026-07-16 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27269 / 실사이트: https://더샵천안라크원.kr",
+        "2) 목적: 일상의 모든 순간, 모든 가치 - 더샵 천안라크원 / 타겟: 여성, 남성, 20-30대, 30-40대, 40대 이후 / IA: 로고, ON/OFF, 1500.0000, 관심고객등록",
+        "3) 메뉴 기반 탐색, 주요 CTA(확인 불가), 표현 방식(모션그래픽, 사진, 영상, 건물/빌딩)",
+        "4) GDWEB 근거상 서정적인, 독특한 레이아웃, 모던한, 깔끔한, 신뢰적인 컨셉과 모션그래픽, 사진, 영상, 건물/빌딩 표현을 일관되게 활용",
+        "5) 자동 근거 수집 범위 내 세부 사용성 검증이 제한되어 핵심 과업의 접근 단계·키보드 탐색·모바일 상태 추가 점검 필요",
+        "6) 기술/플러그인 키워드: Google Analytics, Google Tag Manager, jQuery, GSAP, Swiper, Cafe24 + A) 메인 IA 퀵액션은 최빈 과업을 첫 화면 상단에 우선 배치 + B) KPI는 CTA 전환율·핵심 콘텐츠 체류시간·메뉴 탐색 성공률로 측정 + C) 공공기관 Do: 명확한 과업명·접근성 제공 / Don't: 모션 의존·모호한 메뉴명 + D) 오늘의 한 줄: 근거가 확인되는 범위부터 작게 측정하고 개선"
+      ]
+    },
+    {
+      "str_no": "27289",
+      "site_name": "한빛산업",
+      "registered_date": "2026-07-16",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27289",
+      "live_url": "https://hanvit-ind.com/",
+      "domain": "hanvit-ind.com",
+      "agency": "디자인픽셀",
+      "targets": [
+        "남성",
+        "대학생",
+        "20-30대",
+        "30-40대",
+        "40대 이후",
+        "기업"
+      ],
+      "methods": [
+        "3D",
+        "사진",
+        "영상",
+        "타이포",
+        "그래픽디자인",
+        "건물/빌딩",
+        "제품",
+        "콘텐츠"
+      ],
+      "concepts": [
+        "심플한",
+        "첨단적인",
+        "실험적인",
+        "강렬한",
+        "모던한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "BLACK",
+        "BLUE",
+        "WHITE"
+      ],
+      "technologies": [
+        "jQuery",
+        "GSAP",
+        "Swiper"
+      ],
+      "evidence": [
+        "jQuery: HTML에서 'jquery-' 확인",
+        "GSAP: HTML에서 'gsap.min.js' 확인",
+        "Swiper: HTML에서 'swiper.min' 확인"
+      ],
+      "website_reachable": true,
+      "lines": [
+        "1) 한빛산업 / 2026-07-16 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27289 / 실사이트: https://hanvit-ind.com/",
+        "2) 목적: 한빛산업의 정보·서비스 제공 / 타겟: 남성, 대학생, 20-30대, 30-40대, 40대 이후, 기업 / IA: About Us, Products, Industries, Service, R&D, Resources, Careers",
+        "3) 메뉴 기반 탐색, 주요 CTA(제품문의), 표현 방식(3D, 사진, 영상, 타이포, 그래픽디자인, 건물/빌딩, 제품, 콘텐츠)",
+        "4) GDWEB 근거상 심플한, 첨단적인, 실험적인, 강렬한, 모던한, 신뢰적인 컨셉과 3D, 사진, 영상, 타이포, 그래픽디자인, 건물/빌딩, 제품, 콘텐츠 표현을 일관되게 활용",
+        "5) 자동 근거 수집 범위 내 세부 사용성 검증이 제한되어 핵심 과업의 접근 단계·키보드 탐색·모바일 상태 추가 점검 필요",
+        "6) 기술/플러그인 키워드: jQuery, GSAP, Swiper + A) 메인 IA 퀵액션은 최빈 과업을 첫 화면 상단에 우선 배치 + B) KPI는 CTA 전환율·핵심 콘텐츠 체류시간·메뉴 탐색 성공률로 측정 + C) 공공기관 Do: 명확한 과업명·접근성 제공 / Don't: 모션 의존·모호한 메뉴명 + D) 오늘의 한 줄: 근거가 확인되는 범위부터 작게 측정하고 개선"
+      ]
+    },
+    {
+      "str_no": "27290",
+      "site_name": "윌비랩",
+      "registered_date": "2026-07-16",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27290",
+      "live_url": "https://willbe-lab.co.kr/",
+      "domain": "willbe-lab.co.kr",
+      "agency": "도아 DOA",
+      "targets": [
+        "남성",
+        "20-30대",
+        "30-40대",
+        "40대 이후"
+      ],
+      "methods": [
+        "사진",
+        "콘텐츠"
+      ],
+      "concepts": [
+        "심플한",
+        "안정적",
+        "모던한",
+        "깔끔한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "WHITE",
+        "YELLOW"
+      ],
+      "technologies": [
+        "Google Analytics",
+        "Google Tag Manager",
+        "jQuery",
+        "Cafe24"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "jQuery: HTML에서 'jquery-' 확인",
+        "Cafe24: HTML에서 'cafe24.com' 확인"
+      ],
+      "website_reachable": true,
+      "lines": [
+        "1) 윌비랩 / 2026-07-16 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27290 / 실사이트: https://willbe-lab.co.kr/",
+        "2) 목적: 현대적인 라이프스타일에 어울리는 새로운 워크웨어를 제안하는 컨템포러리 워크웨어 브랜드입니다. / 타겟: 남성, 20-30대, 30-40대, 40대 이후 / IA: 확인 불가",
+        "3) 메뉴 기반 탐색, 주요 CTA(확인 불가), 표현 방식(사진, 콘텐츠)",
+        "4) GDWEB 근거상 심플한, 안정적, 모던한, 깔끔한, 신뢰적인 컨셉과 사진, 콘텐츠 표현을 일관되게 활용",
+        "5) 자동 근거 수집 범위 내 세부 사용성 검증이 제한되어 핵심 과업의 접근 단계·키보드 탐색·모바일 상태 추가 점검 필요",
+        "6) 기술/플러그인 키워드: Google Analytics, Google Tag Manager, jQuery, Cafe24 + A) 메인 IA 퀵액션은 최빈 과업을 첫 화면 상단에 우선 배치 + B) KPI는 CTA 전환율·핵심 콘텐츠 체류시간·메뉴 탐색 성공률로 측정 + C) 공공기관 Do: 명확한 과업명·접근성 제공 / Don't: 모션 의존·모호한 메뉴명 + D) 오늘의 한 줄: 근거가 확인되는 범위부터 작게 측정하고 개선"
+      ]
+    },
     {
       "str_no": "27271",
       "site_name": "더가든피부과",
