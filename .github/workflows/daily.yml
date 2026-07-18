@@ -30,7 +30,8 @@ jobs:
       NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
       NOTION_DATA_SOURCE_ID: ${{ secrets.NOTION_DATA_SOURCE_ID }}
       NOTION_PROPERTY_MAP: ${{ vars.NOTION_PROPERTY_MAP }}
-      DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || false }}
+      # Secrets 설정 전 예약 실패를 막는다. LIVE_ENABLED=true일 때만 예약 실등록.
+      DRY_RUN: ${{ (github.event_name == 'schedule' && vars.LIVE_ENABLED != 'true') || (github.event_name == 'workflow_dispatch' && inputs.dry_run) }}
 
     steps:
       - uses: actions/checkout@v4
