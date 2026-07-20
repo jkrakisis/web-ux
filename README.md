@@ -2,6 +2,8 @@
 
 A personal UX research pipeline that automatically collects new GDWEB winners, analyzes UX patterns, and archives insights into Notion.
 
+제품 및 기술 구현 과정: [TECHNICAL_JOURNEY.md](TECHNICAL_JOURNEY.md)
+
 ## Features
 
 - ✔ GitHub Actions Scheduler
