@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-20T10:07:12+09:00",
+  "generated_at": "2026-07-20T21:23:44.529275+09:00",
   "mode": "live",
   "status": "no_new",
   "new_count": 0,
   "failure_count": 0,
-  "total_count": 13,
+  "total_count": 54,
   "items": [
     {
       "str_no": "27271",
@@ -51,7 +51,9 @@
         "4) 강점 한줄: 고급스럽고 여성적인 브랜드 콘셉트와 브라운 계열 색상·다양한 비주얼 자산(모션·영상·타이포)으로 시각적 완성도가 높고 예약 CTA(Reservation/예약/상담예약)가 명시되어 있음(확인 가능).",
         "5) 개선점 한줄: CTA 라벨(Reservation/예약/상담예약) 통일 및 중복 메뉴(메뉴 많음) 간소화로 IA·탐색 경로 단순화 필요, 모바일·접근성 상태는 제공 근거에 없음으로 확인 불가.",
         "6) 기술/플러그인 키워드: jQuery, GSAP, Swiper + A) 메인 IA 퀵액션 재배치: 'Reservation/예약/상담예약'을 하나로 통합해 상단 우측 고정 예약 CTA로 배치하고 시그니처·고민별 주요 시술을 퀵링크로 노출할 것 + B) 전환/체류/탐색 KPI: 예약 클릭률(CTR), 상담접수 전환율, 페이지당 체류시간, 이탈률(바운스), 슬라이더 인터랙션(스와이프/재생) 이벤트 추적 + C) 공공기관 Do/Don't: Do: 한국어로 명확한 진료정보·의료진·개인정보 안내 우선 노출, 예약 프로세스 가시성 확보; Don't: 영어·한국어 중복 CTA 유지 및 메뉴 중복으로 사용자 혼란 유발 금지 + D) 오늘의 한 줄: 예약 버튼을 최상단에 고정해 사용자 흐름을 단순화하세요."
-      ]
+      ],
+      "notion_url": "https://app.notion.com/p/3a169790c1438183ac7ace2031a964d0",
+      "source": "notion"
     },
     {
       "str_no": "27290",
@@ -102,7 +104,9 @@
         "4) 브랜드 목적과 콘셉트가 명료하며 사이트에 GA·GTM 태깅과 Cafe24 기반 구현이 확인되어 분석/전자상거래 추적 준비가 되어 있음(제공 근거).",
         "5) 메뉴·CTA 라벨 데이터가 비어 있어 사이트 내비게이션 및 CTA 우선순위가 확인 불가(제공: menu_labels·cta_labels 빈값); 따라서 상단 네비·명확한 CTA·상품 흐름(퀵액션) 우선 정비 권장(구조 세부사항은 확인 불가).",
         "6) 기술/플러그인 키워드: Google Analytics, Google Tag Manager, jQuery, Cafe24 + A) 메인 IA 퀵액션 재배치: 상단 우선순위 제안 — Shop(상품) → New/신상품 → Lookbook/콘텐츠 → 브랜드(스토리) → 고객센터/문의(메뉴·CTA 미기재로 재배치 권장) + B) 전환/체류/탐색 KPI: 구매전환율, 장바구니 추가율, 체크아웃 완료율(오퍼머스 지표), 평균 세션시간, 페이지/세션, 이탈률(측정 근거: GA/GTM) + C) 공공기관 Do/Don't: Do — 접근성·개인정보·문의채널 명시(확인 불가: 현재 표기 여부), Do — 명확한 정보구조 제공; Don't — 필수정보 숨김·복잡한 네비게이션(확인 불가) + D) 오늘의 한 줄: 심플·모던 콘셉트를 유지하되 메뉴·CTA 정비로 전환 최적화를 우선하세요."
-      ]
+      ],
+      "notion_url": "https://app.notion.com/p/3a169790c143819483ecf814a9a3d8dc",
+      "source": "notion"
     },
     {
       "str_no": "27289",
@@ -161,7 +165,9 @@
         "4) 강점: 최종 URL 접근 가능(https://hanvit-ind.com/ 확인), 명확한 메뉴 구조(About Us/Products/Industries/Service/R&D/Resources/Careers)와 단일 CTA('제품문의') 존재, GSAP·Swiper·jQuery 적용으로 시각적 표현과 인터랙션 강화가 확인됨; 기타 성능·전환 수치는 확인 불가.",
         "5) 개선점: 웹사이트 메타 설명(description)이 빈 값으로 SEO·소셜 공유 카드 개선 필요, 단일 CTA인 '제품문의'의 가시성·전환 경로 최적화 권장; 접근성·모바일 최적화·구체적 전환 데이터는 제공 근거 없어 확인 불가.",
         "6) 기술/플러그인 키워드: jQuery, GSAP, Swiper + A) 메인 IA 퀵액션 재배치: 메뉴 우선순위를 제품 중심으로 재정렬(예: Products → Service → Industries → R&D → About Us → Resources → Careers)하고 상단·모바일 퀵액션에 '제품문의'·'제품 카테고리'·'자료실'을 배치해 탐색 단계를 단축할 것. + B) 전환/체류/탐색 KPI: 제품문의(CTA) 클릭률 및 문의 전환율, 제품 상세 페이지 뷰수·평균 페이지 체류시간, 페이지/세션(탐색 깊이), 이탈률을 핵심 지표로 설정할 것. + C) 공공기관 Do/Don't: Do – 명확한 연락/문의 경로와 개인정보·보안 안내를 눈에 띄게 노출; Don't – 과도한 애니메이션으로 접근성·탐색 방해하지 않기. + D) 오늘의 한 줄: 메타데이터 보강과 CTA 가시성 개선을 우선해 제품 중심 탐색 흐름을 단축하라."
-      ]
+      ],
+      "notion_url": "https://app.notion.com/p/3a169790c143810f9f7cc3febaf45528",
+      "source": "notion"
     },
     {
       "str_no": "27269",
@@ -219,7 +225,9 @@
         "4) 강점: Google Analytics·GTM으로 분석·태깅 환경이 구축되어 있고(javascript 스니펫 확인), GSAP·Swiper로 풍부한 모션·슬라이더 경험 구현 가능하며 Cafe24 기반으로 호스팅/관리 편의성 보유(확인 근거: evidence의 기술 목록 및 HTML 확인).",
         "5) 개선권고(근거 기반): 메뉴 라벨과 CTA를 재정렬해 '관심고객등록'을 명확한 최상위 CTA로 노출, 'ON/OFF'·'1500.0000' 용도는 HTML상으로 의미 불명확하여 용도 확인 후 재레이블 또는 제거, GA/GTM로 이벤트(CTA 클릭·스크롤·폼 제출) 정의해 전환 측정 체계화 필요(확인 불가 항목은 'ON/OFF'·'1500.0000'의 의미).",
         "6) 기술/플러그인 키워드: Google Analytics, Google Tag Manager, jQuery, GSAP, Swiper, Cafe24 + A) 메인 IA 퀵액션 재배치: 상단 우측에 '관심고객등록'을 고정 CTA로 배치·로고는 홈 링크로 유지·'ON/OFF'·'1500.0000'은 현재 용도 HTML상 확인 불가하므로 용도 검증 후 레이블화 또는 제거 + B) 전환/체류/탐색 KPI: 관심고객등록 클릭률(CTA 클릭 이벤트), 폼 제출 전환율, 페이지 평균 체류시간(average session duration), 스크롤 깊이(engagement depth), 페이지당 조회수 및 이탈률 — 모든 KPI는 GA/GTM 이벤트로 계측 적용 + C) 공공기관 Do/Don't: Do — 메뉴와 CTA는 사용자 언어로 명확히 라벨링하고 개인정보 수집 시 명확한 동의창 제공·접근성(키보드/스크린리더) 준수; Don't — 기술적·숫자 라벨('1500.0000')을 그대로 노출하거나 과도한 모션으로 접근성 저해 금지(근거: menu_labels, GSAP 존재) + D) 오늘의 한 줄: 메뉴 라벨 정비와 CTA 가시성 확보가 곧 전환 개선의 지름길."
-      ]
+      ],
+      "notion_url": "https://app.notion.com/p/3a169790c14381e192d7c5b3abc64a79",
+      "source": "notion"
     },
     {
       "str_no": "27294",
@@ -229,7 +237,6 @@
       "live_url": "https://www.koreanair.com/",
       "domain": "koreanair.com",
       "agency": "미등록",
-      "targets": [],
       "methods": [
         "콘텐츠"
       ],
@@ -239,8 +246,6 @@
       "colors": [
         "BLUE"
       ],
-      "technologies": [],
-      "evidence": [],
       "website_reachable": false,
       "lines": [
         "1) 대한항공 / 2026-07-15 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27294 / 실사이트: https://www.koreanair.com/",
@@ -249,7 +254,9 @@
         "4) 강점: 콘텐츠 중심의 깔끔한 디자인 콘셉트와 블루 계열의 통일감, 'WINNER PRIZE' 수상 기록(제공 근거 존재).",
         "5) 개선점: 확인 불가 — 실사이트 접근 실패로 구체적 UI/내비게이션·성능 개선점 파악 불가.",
         "6) 기술/플러그인 키워드: 확인 불가 + A) 메인 IA 퀵액션 재배치: 확인 불가 — 메인 IA 구조 미확인으로 권장 위치 제시 불가 + B) 전환/체류/탐색 KPI: 확인 불가 — 실접근성·분석데이터 필요 + C) 공공기관 Do/Don't: Do — 접근성·명확한 콘텐츠 구조·일관된 색상 사용 권장; Don't — 비표준 네비게이션·정보 은폐 금지(제안) + D) 오늘의 한 줄: 실사이트 접근 실패로 상세 UX 분석 불가, 추가 접근 정보 제공 필요."
-      ]
+      ],
+      "notion_url": "https://app.notion.com/p/3a169790c14381dab275d44e8de2463a",
+      "source": "notion"
     },
     {
       "str_no": "27293",
@@ -259,7 +266,6 @@
       "live_url": "https://www.kbanknow.com/",
       "domain": "kbanknow.com",
       "agency": "미등록",
-      "targets": [],
       "methods": [
         "콘텐츠"
       ],
@@ -269,8 +275,6 @@
       "colors": [
         "BLUE"
       ],
-      "technologies": [],
-      "evidence": [],
       "website_reachable": true,
       "lines": [
         "1) 케이뱅크 / 2026-07-15 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27293 / 실사이트: https://www.kbanknow.com/",
@@ -279,7 +283,9 @@
         "4) 서비스 범위가 넓고 모던 콘셉트와 블루 계열 사용으로 신뢰감 제공, 접근성 바로가기·상담 CTA 보유, 'WINNER PRIZE' 수상으로 외부 인정 확인됨.",
         "5) 기술 스택·분석 태깅·구체적 IA 흐름이 미기재(확인 불가)하여 전환 최적화 및 접근성·성과지표 가시성 강화 필요.",
         "6) 기술/플러그인 키워드: 확인 불가 + A) 메인 IA 퀵액션 재배치: '본문 바로가기'·'주메뉴 바로가기' 유지하되 1:1문의는 헤더 고정 또는 하단 고정 퀵버튼으로 노출해 상담 진입 경로 단축 + B) 전환/체류/탐색 KPI: 신규계좌·상품 가입 전환율, 1:1문의 CTA 클릭률, 상품 상세 클릭률, 평균 세션시간 및 이탈률 추적 + C) 공공기관 Do/Don't: Do: 명확한 접근성·보안·수수료·상담경로 표기, 모바일 퍼스트·분석 태깅 적용; Don't: 전문용어만 사용해 정보 접근성 저해하거나 상담 경로를 숨기기 + D) 오늘의 한 줄: 모던한 신뢰감은 강점이나 기술·분석 가시성 보완이 필요."
-      ]
+      ],
+      "notion_url": "https://app.notion.com/p/3a169790c1438110bd39cf0da328d912",
+      "source": "notion"
     },
     {
       "str_no": "27282",
@@ -293,11 +299,9 @@
         "대학생",
         "20-30대"
       ],
-      "methods": [],
       "concepts": [
         "모던한"
       ],
-      "colors": [],
       "technologies": [
         "Google Tag Manager"
       ],
@@ -312,7 +316,9 @@
         "4) 강점: 공식 온라인 스토어 명시로 신뢰성 확보, 메뉴 라벨을 통한 상품군 분류가 명확함, Google Tag Manager 설치로 분석 연동 준비되어 있음.",
         "5) 개선점: CTA 레이블·구매유도 요소 부재(제공 데이터상 미확인)로 전환경로 불명확, 색상·디자인 콘셉트는 제공 데이터로 확인 불가, 전환·체류 등 주요 수치는 확인 불가 — 우선 CTA 가시성 확보 및 GTM 기반 전환 이벤트 구현 권장.",
         "6) 기술/플러그인 키워드: Google Tag Manager + A) 메인 IA 퀵액션 재배치: 상단에 'UT(그래픽 티셔츠)', 'Special Collaborations', '에어리즘', 'women/men'을 퀵액션으로 배치하여 타깃(대학생·20-30대) 접근성 강화 + B) KPI: 전환(구매전환율·장바구니 도달률), 체류(페이지당 평균 체류시간), 탐색(카테고리 클릭률·검색-클릭 전환율) 추적 설정 + C) 공공기관 Do/Don't: Do—명확한 메뉴 라벨 유지 및 Google Tag Manager 등 태그 운영에 대한 개인정보 처리·동의 고지; Don't—외부 스크립트 무단실행 및 CTA/네비게이션 숨김 금지 + D) 오늘의 한 줄: 공식 스토어로서 카테고리 명확성은 강점이나 CTA 가시성·전환추적 보완이 최우선 과제입니다."
-      ]
+      ],
+      "notion_url": "https://app.notion.com/p/3a169790c1438154b894eb0fe36be8a0",
+      "source": "notion"
     },
     {
       "str_no": "27281",
@@ -326,7 +332,6 @@
         "중고등학생",
         "대학생"
       ],
-      "methods": [],
       "concepts": [
         "강렬한"
       ],
@@ -354,7 +359,9 @@
         "4) 강점: 모던 스택(React·Next.js)으로 성능·확장성 확보 가능, 분석 툴(GA·GTM) 연동으로 데이터 기반 운영 가능, 브랜드·타이틀(AUDITION)과 대상(중고등·대학생) 일치.",
         "5) 개선점: 메뉴·CTA 라벨 부재로 정보구조·유입경로 불명확(데이터상 미등록) — 명확한 지원 CTA·연령별 랜딩·일정·FAQ 우선 추가 권장; 그 외 세부 UX·접근성 정보는 제공 근거로는 확인 불가.",
         "6) 기술/플러그인 키워드: Google Analytics, Google Tag Manager, React, Next.js + A) 메인 IA 퀵액션 재배치: 헤더 우선순위 '지원하기(Primary CTA) → 공고/일정 → 자주 묻는 질문(FAQ) → 합격자 안내'로 지원 흐름 단순화 + B) 전환/체류/탐색 KPI: 지원 CTA 클릭률(CTR), 지원 완료(폼 제출) 전환률, 페이지별 평균 체류시간 및 이탈률, 모바일/데스크톱 세션 비중 추적 + C) 공공기관 Do/Don't: Do: 모집공고·접수절차·일정·결과 공개 기준과 개인정보 처리방침을 명확히 제시; Don't: 절차 불명확·임의 링크로 유도하거나 분석 툴 미연동 상태로 운영하지 않음 + D) 오늘의 한 줄: 메뉴와 주요 CTA가 보이지 않으면 유입은 들어와도 전환은 일어나지 않는다."
-      ]
+      ],
+      "notion_url": "https://app.notion.com/p/SM-3a169790c143810398cacdbb45c1c08a",
+      "source": "notion"
     },
     {
       "str_no": "27283",
@@ -393,8 +400,6 @@
         "BLUE",
         "WHITE"
       ],
-      "technologies": [],
-      "evidence": [],
       "website_reachable": true,
       "lines": [
         "1) 케빈스룸 / 2026-07-14 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27283 / 실사이트: https://www.kevinsroom.co.kr/",
@@ -403,7 +408,9 @@
         "4) 강점: 광범위한 타깃 설정과 다양한 제공 방법(methods)으로 확장성이 높고 브랜드 콘셉트·주색이 명시되어 있어 일관된 비주얼·브랜딩 기반 마련이 가능하며 수상 이력(WINNER PRIZE, 증서번호)으로 신뢰 요소 보유.",
         "5) 개선점(우선순위): 1) 메타 제목·설명 부재로 SEO 보강 필요, 2) 메뉴·CTA 라벨 미기재로 정보구조·전환경로 명확화 필요, 3) 모바일·접근성·분석 도구 연동 점검 권장 — 구체 현황은 사이트 내부 데이터 부재로 확인 불가.",
         "6) 기술/플러그인 키워드: GA4·Hotjar·Search Console·SEO 플러그인·접근성 검사(Lighthouse/WAVE) + A) 메인 IA 퀵액션 재배치: 메인 네비게이션 우선순위로 '제품(카테고리) → 신상품/베스트 → 콘텐츠(3D·그래픽) → 스토리/브랜드 → 고객지원·문의' 순 권장(현재 메뉴 구조는 확인 불가) + B) 전환/체류/탐색 KPI: 전환율(구매·문의), 평균 세션 지속시간, 페이지당 이탈률, 내부검색 사용률 측정·대시보드화(현행 지표 연동 여부는 확인 불가) + C) 공공기관 Do/Don't: Do—명확한 라벨링·메타 제공, 접근성 준수(대체텍스트·키보드 네비게이션), 분석지표 공개(내부용 요약); Don't—불필요한 팝업으로 이용자 흐름 방해 금지·비표준 색 대비 미사용 금지 + D) 오늘의 한 줄: 메타·네비게이션·CTA부터 정리하면 빠른 UX·SEO 개선 효과가 나타납니다."
-      ]
+      ],
+      "notion_url": "https://app.notion.com/p/3a169790c1438163b4d4ef09e7627213",
+      "source": "notion"
     },
     {
       "str_no": "27284",
@@ -426,8 +433,6 @@
       "colors": [
         "BLUE"
       ],
-      "technologies": [],
-      "evidence": [],
       "website_reachable": true,
       "lines": [
         "1) 카랩 / 2026-07-13 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27284 / 실사이트: https://carlab.kr/",
@@ -436,7 +441,9 @@
         "4) 강점: WINNER PRIZE 수상 표기와 명시된 타깃(20-30대·30-40대) 및 사이트 접속 가능(https://carlab.kr/), 다만 세부 메타·메뉴 정보는 미제공.",
         "5) 개선: 메타 타이틀·설명·메뉴 레이블·CTA 라벨·기술 스택·증거(evidence) 항목이 비어 있어 SEO·접근성·분석 지표 설정이 불가능하므로 해당 항목들을 우선 보완할 것.",
         "6) 기술/플러그인 키워드: GA/Hotjar/Accessibility Plugin + A) 메인 IA 퀵액션 재배치: 영상 접근을 우선으로 하는 퀵액션(예: '영상 보기')을 상단 또는 고정 네비게이션에 배치하여 진입 동선을 단축할 것(현재 메뉴 레이블 미제공으로 영상 우선 배치 권고) + B) 전환/체류/탐색 KPI: 영상 재생 시작률·재생 완료율·평균 세션 시간·이탈률·CTA 클릭률(문의/예약 등)로 설정 및 주간 모니터링 + C) 공공기관 Do/Don't: Do—명확한 메뉴·메타정보·접근성 문서화, 개인정보·문의 절차 명시, 분석 툴 도입; Don't—불명확한 CTA·빈약한 메타정보 방치, 사용자 경로 미기록 + D) 오늘의 한 줄: 영상 중심의 인간적 브랜딩을 즉시 식별 가능한 메뉴·CTA로 연결하라."
-      ]
+      ],
+      "notion_url": "https://app.notion.com/p/3a169790c14381aaad5ff96751cba2a4",
+      "source": "notion"
     },
     {
       "str_no": "27276",
@@ -461,8 +468,6 @@
       "colors": [
         "BLUE"
       ],
-      "technologies": [],
-      "evidence": [],
       "website_reachable": false,
       "lines": [
         "1) 신한퓨처스랩 / 2026-07-13 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27276 / 실사이트: https://futureslab.kr/",
@@ -471,7 +476,9 @@
         "4) 근거 기반 강점: WINNER PRIZE 수상 표기, 에이전시(서로커뮤니케이션) 참여, 모션그래픽 활용·‘강렬·신뢰적인’ 콘셉트 및 BLUE 컬러, 타겟(여성·남성·기업) 명시.",
         "5) 우선조치: 실사이트 SSL/TLS 오류 복구로 접근성 확보, 웹접근성(a11y)·모바일 적응성 검사, CTA·접수(신청) 흐름 가시성 검토 및 수상·사례의 신뢰성 표시 강화; 세부 콘텐츠·내비게이션 구조는 확인 불가.",
         "6) 기술/플러그인 키워드: SSL/TLS, CDN, Lighthouse(웹접근성), Google Analytics(GA4) + A) 메인 IA 퀵액션 재배치: 프로그램(신청) > 멘토링·네트워킹 > 기업협업·파트너 > 성과·사례(수상) > 공지·이벤트(우선순위는 타깃·전환 관점) + B) 전환/체류/탐색 KPI: 신청 전환률(프로그램 신청 완료율), 클릭률(퀵액션), 페이지당 평균 체류시간, 이탈률·세션당 페이지수, 이벤트(다운로드/문의) 발생수 + C) 공공기관 Do/Don't: Do: 명확한 개인정보·약관 고지, SSL·보안표시, 웹접근성 준수, 모바일 우선 검증; Don't: 과도한 자동재생 모션·불투명한 신청절차 또는 비용표시 누락 + D) 오늘의 한 줄: 실사이트 SSL 오류 복구가 최우선입니다."
-      ]
+      ],
+      "notion_url": "https://app.notion.com/p/3a169790c1438104ac71c04dc043eca7",
+      "source": "notion"
     },
     {
       "str_no": "27273",
@@ -511,8 +518,6 @@
         "RED",
         "YELLOW"
       ],
-      "technologies": [],
-      "evidence": [],
       "website_reachable": false,
       "lines": [
         "1) 스튜디오카일 / 2026-07-13 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27273 / 실사이트: https://www.studiokyle.kr/",
@@ -521,7 +526,9 @@
         "4) 강점: 모션그래픽·사진·일러스트·제품·콘텐츠 등 다양한 제작방식과 고급·화려한 비주얼 콘셉트, WINNER PRIZE 수상으로 포트폴리오 신뢰성 확보; 세부 UI/내비게이션은 실사이트 미접속으로 확인 불가.",
         "5) 개선(확인 근거: 실사이트 접근 실패): 우선 라이브 사이트 접근성 복구(호스팅/SSL/서버 응답 점검) 후 주요 CTA·메뉴 라벨·포트폴리오 필터링·모바일 반응성·접근성(WCAG) 점검 및 성능 최적화 권장(세부 안은 실사이트 확인 필요).",
         "6) 기술/플러그인 키워드: CDN, WebP/AVIF, lazy-loading, GSAP/AOS, Lighthouse, Google Analytics/GTM + A) 메인 IA 퀵액션 재배치: 상단 글로벌 내비게이션과 모바일 하단에 '포트폴리오 / 서비스 / 문의' 퀵액션 고정 배치 권장(실사이트 구조 확인 불가) + B) 전환/체류/탐색 KPI: 문의 전환률(CTA 클릭률), 페이지당 평균 체류시간, 포트폴리오 뷰·필터 사용률, 사이트 이탈률(세션당 페이지수) 측정 + C) 공공기관 Do/Don't: Do - 명확한 서비스·연락처 노출, 접근성(WCAG) 준수, SSL·서버 가동성 확보; Don't - 자동재생 소리·과도한 팝업, 비표준 네비게이션으로 접근성 저해 금지 + D) 오늘의 한 줄: 실사이트 접속 불가로 상세 분석은 제한되니 우선 '접속 안정화'를 최우선으로 조치하라."
-      ]
+      ],
+      "notion_url": "https://app.notion.com/p/3a169790c143814e8618dd5b975f4abf",
+      "source": "notion"
     },
     {
       "str_no": "27262",
@@ -571,7 +578,1022 @@
         "4) 강점: 시술 라인업과 지점·의료진 정보를 메뉴로 명확히 배치하고(메뉴 레이블), 다수의 예약 CTA(네이버 예약·신청하기)를 통해 전환 경로를 확보했으며 GA로 행동분석 가능하다.",
         "5) 개선점: '네이버 예약' 라벨 중복 정리 및 CTA 통일로 사용자 혼선 제거·예약 흐름 단일화, 상단·모바일 퀵액션에 예약·전문의료진·진료안내 우선 배치해 전환 경로 단축, 애니메이션 로드·접근성(사용자 제어) 최적화 필요; 상세 화면별 문제점은 확인 불가.",
         "6) 기술/플러그인 키워드: Google Analytics, jQuery, GSAP, Swiper + A) 메인 IA 퀵액션 재배치: 상단 우측 및 모바일 고정바 최우선에 '예약(네이버 예약)' 배치 → 2순위 '전문의료진' → 3순위 '진료안내/과정 및 주의사항' → 4순위 '병원둘러보기/지점'으로 간소화 + B) 전환/체류/탐색 KPI: 예약 전환율(네이버 예약 클릭→완료), CTA 클릭률(Top CTA별), 평균 세션 지속시간 및 페이지별 이탈률, 랜딩페이지별 전환 퍼널 + C) 공공기관 Do/Don't: Do: CTA 레이블 통일·투명한 시술·재수술 보장 정보 표기(사이트 설명에 재수술 보장 명시됨), 사용자 제어 가능한 애니메이션 제공; Don't: 중복 CTA 방치·과장 표기(확인 불가한 주장 표기는 지양) + D) 오늘의 한 줄: 중복된 '네이버 예약' 라벨 정리만으로도 예약 유입과 사용자 신뢰가 즉시 개선됩니다."
-      ]
+      ],
+      "notion_url": "https://app.notion.com/p/3a169790c1438186a366c91aca5a26f3",
+      "source": "notion"
+    },
+    {
+      "str_no": "27267",
+      "site_name": "NYPC",
+      "registered_date": "2026-07-10",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?str_no=27267",
+      "live_url": "https://nypc.co.kr",
+      "domain": "nypc.co.kr",
+      "technologies": [
+        "Java/JSP 계열 .do 라우팅 추정",
+        "로그인/본인인증",
+        "다국어",
+        "팝업/모달",
+        "동의 플로우"
+      ],
+      "lines": [
+        "1) NYPC / 2026-07-10 / GDWEB: gdweb.co.kr/sub/view.asp?str_no=27267 / 실사이트: nypc.co.kr",
+        "2) 목적·타겟·IA: 청소년·학부모 대상 프로그래밍 대회 안내/참가신청. 메뉴는 소개, 일정, 시상/특전, 스타, 소식, 자료실, 문의, My 중심.",
+        "3) 핵심 UX 패턴: 대회형 정보구조, 참가신청 CTA, 공지/뉴스/영상 콘텐츠 허브, 로그인 기반 마이페이지, KO/EN 언어 전환.",
+        "4) 강점: 참가 전환에 필요한 일정·신청·자료·문의 흐름이 명확하고, 청소년 대상 서비스에 맞춰 안내/동의/본인인증 절차를 구조화함.",
+        "5) 개선 포인트: 개인정보 동의·법정대리인 동의 등 절차성 콘텐츠가 길어 모바일 단계 분리와 진행률 피드백이 중요함.",
+        "6) 기술/플러그인 키워드: Java/JSP 계열로 추정되는 .do 라우팅, 로그인/본인인증, 다국어, 팝업/모달, 동의 플로우 + A) 메인 IA 퀵액션: 참가신청·일정·공지·자료실 우선 + B) KPI: 참가신청 전환/일정·자료 체류/공지 탐색 + C) 공공기관 Do: 청소년 개인정보·접근성·보호자 동의 명확화, Don’t: 신청 절차 은닉 금지 + D) 오늘의 한 줄: 대회 사이트는 ‘참가 가능 여부’와 ‘다음 행동’을 첫 화면에서 즉시 판단하게 해야 한다."
+      ],
+      "notion_url": "https://app.notion.com/p/NYPC-39e69790c14381759936e58285da1beb",
+      "source": "notion"
+    },
+    {
+      "str_no": "27229",
+      "site_name": "뉴스공장 금요미식회",
+      "registered_date": "2026-07-07",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?str_no=27229",
+      "technologies": [
+        "미확정"
+      ],
+      "lines": [
+        "1) 뉴스공장 금요미식회 / 2026-07-07 / GDWEB: gdweb.co.kr/sub/view.asp?str_no=27229 / 실사이트: 미확정",
+        "2) 목적·타겟·IA: 프로그램/콘텐츠 소개형으로 추정, 상세 확인 필요",
+        "3) 핵심 UX 패턴: 미확정 — 실사이트 접근 후 확인",
+        "4) 강점: GDWEB WEB 부문 선정작으로 시각/경험 품질 검토 대상",
+        "5) 개선 포인트: 실사이트, 제작사, 표현방법, 컨셉, 색상 근거 확보 필요",
+        "6) 기술/플러그인 키워드: 미확정 + A) IA 퀵액션 확인 필요 + B) KPI 확인 필요 + C) 공공기관 적용 시 저작권/접근성 검토 + D) 오늘의 한 줄: 콘텐츠형 사이트는 첫 화면에서 정체성과 다음 행동을 동시에 보여줘야 한다."
+      ],
+      "notion_url": "https://app.notion.com/p/39769790c14381d8b6a8eac75598bc97",
+      "source": "notion"
+    },
+    {
+      "str_no": "27227",
+      "site_name": "펜타힐즈 더블유",
+      "registered_date": "2026-07-07",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?str_no=27227",
+      "technologies": [
+        "미확정"
+      ],
+      "lines": [
+        "1) 펜타힐즈 더블유 / 2026-07-07 / GDWEB: gdweb.co.kr/sub/view.asp?str_no=27227 / 실사이트: 미확정",
+        "2) 목적·타겟·IA: 부동산/분양 홍보형으로 추정, 상세 확인 필요",
+        "3) 핵심 UX 패턴: 미확정 — 실사이트 접근 후 확인",
+        "4) 강점: 입지·상품성·문의 전환 구조를 비교 분석할 가치 있음",
+        "5) 개선 포인트: 분양 정보의 신뢰성, CTA 반복 위치, 모바일 가독성 확인 필요",
+        "6) 기술/플러그인 키워드: 미확정 + A) IA 퀵액션 확인 필요 + B) KPI 확인 필요 + C) 공공기관 적용 시 과장 표현 주의 + D) 오늘의 한 줄: 분양 사이트는 감성보다 정보 신뢰와 상담 전환의 균형이 핵심이다."
+      ],
+      "notion_url": "https://app.notion.com/p/39769790c143811bbc34fca3424e3b77",
+      "source": "notion"
+    },
+    {
+      "str_no": "27225",
+      "site_name": "theclav60",
+      "registered_date": "2026-07-07",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?str_no=27225",
+      "technologies": [
+        "미확정"
+      ],
+      "lines": [
+        "1) theclav60 / 2026-07-07 / GDWEB: gdweb.co.kr/sub/view.asp?str_no=27225 / 실사이트: 미확정",
+        "2) 목적·타겟·IA: 브랜드/프로모션형으로 추정, 상세 확인 필요",
+        "3) 핵심 UX 패턴: 미확정 — 실사이트 접근 후 확인",
+        "4) 강점: 네이밍·비주얼 중심 브랜드 경험 구조 검토 대상",
+        "5) 개선 포인트: 브랜드 스토리와 전환 CTA의 연결성 확인 필요",
+        "6) 기술/플러그인 키워드: 미확정 + A) IA 퀵액션 확인 필요 + B) KPI 확인 필요 + C) 공공기관 적용 시 장식보다 정보 명료성 우선 + D) 오늘의 한 줄: 브랜드 사이트는 분위기를 만든 뒤 사용자가 무엇을 해야 하는지 놓치면 안 된다."
+      ],
+      "notion_url": "https://app.notion.com/p/theclav60-39769790c14381afa5abf4afbe95bc44",
+      "source": "notion"
+    },
+    {
+      "str_no": "27223",
+      "site_name": "원강금속",
+      "registered_date": "2026-07-07",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?str_no=27223",
+      "technologies": [
+        "미확정"
+      ],
+      "lines": [
+        "1) 원강금속 / 2026-07-07 / GDWEB: gdweb.co.kr/sub/view.asp?str_no=27223 / 실사이트: 미확정",
+        "2) 목적·타겟·IA: 제조/금속 기업 소개형으로 추정, 상세 확인 필요",
+        "3) 핵심 UX 패턴: 미확정 — 실사이트 접근 후 확인",
+        "4) 강점: 제조 도메인의 신뢰/기술력 전달 방식 검토 가치 있음",
+        "5) 개선 포인트: 제품·기술·문의 CTA의 정보 우선순위 확인 필요",
+        "6) 기술/플러그인 키워드: 미확정 + A) IA 퀵액션 확인 필요 + B) KPI 확인 필요 + C) 공공기관 적용 시 신뢰 근거 구조 참고 + D) 오늘의 한 줄: 제조 사이트는 멋보다 신뢰 근거와 문의 전환이 먼저다."
+      ],
+      "notion_url": "https://app.notion.com/p/39769790c1438129a393ca4d5676093b",
+      "source": "notion"
+    },
+    {
+      "str_no": "27178",
+      "site_name": "티케이 병원 홈페이지",
+      "registered_date": "2026-07-07",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?str_no=27178",
+      "technologies": [
+        "미확정"
+      ],
+      "lines": [
+        "1) 티케이 병원 홈페이지 / 2026-07-07 / GDWEB: gdweb.co.kr/sub/view.asp?str_no=27178 / 실사이트: 미확정",
+        "2) 목적·타겟·IA: 병원/의료기관 정보 제공형으로 추정, 상세 확인 필요",
+        "3) 핵심 UX 패턴: 미확정 — 실사이트 접근 후 확인",
+        "4) 강점: 의료기관의 신뢰·예약·진료 탐색 구조를 검토할 가치 있음",
+        "5) 개선 포인트: 진료과/의료진/예약 CTA의 모바일 접근성 확인 필요",
+        "6) 기술/플러그인 키워드: 미확정 + A) IA 퀵액션 확인 필요 + B) KPI 확인 필요 + C) 공공기관 적용 시 접근성·개인정보·의료광고 기준 준수 + D) 오늘의 한 줄: 병원 사이트는 예쁜 화면보다 환자의 빠른 판단과 예약 접근이 우선이다."
+      ],
+      "notion_url": "https://app.notion.com/p/39769790c14381ebbb99d5a2a35980a4",
+      "source": "notion"
+    },
+    {
+      "str_no": "26794",
+      "site_name": "대한민국 청와대",
+      "registered_date": "2026-04-01",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?Txt_fgbn=5&str_no=26794",
+      "live_url": "https://president.go.kr/",
+      "domain": "president.go.kr",
+      "targets": [
+        "국민·언론·연구자·해외 이용자"
+      ],
+      "technologies": [
+        ".do 엔드포인트(index.do) 형태(서버사이드 라우팅 신호)",
+        "포털형 내비게이션"
+      ],
+      "lines": [
+        "[통합DB로 이관됨] (중복 방지용)"
+      ],
+      "notion_url": "https://app.notion.com/p/33569790c14381158676e1ce1ed88517",
+      "source": "notion"
+    },
+    {
+      "str_no": "26788",
+      "site_name": "요리엔",
+      "registered_date": "2026-04-01",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?Txt_fgbn=5&str_no=26788",
+      "live_url": "https://yorien.com/",
+      "domain": "yorien.com",
+      "targets": [
+        "프리미엄 소비자/구매자"
+      ],
+      "technologies": [
+        "커머스(장바구니/구매) 모듈",
+        "모달 UI",
+        "FAQ/콘텐츠 섹션"
+      ],
+      "lines": [
+        "[통합DB로 이관됨] (중복 방지용)"
+      ],
+      "notion_url": "https://app.notion.com/p/33569790c143815ea66cfcf0b5b1899e",
+      "source": "notion"
+    },
+    {
+      "str_no": "26765",
+      "site_name": "플랜티엠",
+      "registered_date": "2026-04-01",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?Txt_fgbn=5&str_no=26765",
+      "live_url": "https://plantym.com/",
+      "domain": "plantym.com",
+      "targets": [
+        "잠재 고객·파트너·지원자"
+      ],
+      "technologies": [
+        "레이어(오버레이) 메뉴",
+        "스크롤 랜딩",
+        "카드 모듈"
+      ],
+      "lines": [
+        "1) 플랜티엠 / 2026-04-01 / GDWEB: gdweb.co.kr/sub/view.asp?Txt_fgbn=5&str_no=26765 / Live: plantym.com",
+        "2) 목적·타겟·IA: 기업 소개/사업/PR/채용(B2B/지원자) / IA: 회사소개·사업정보·PR·Careers·문의",
+        "3) 코어 UX: 오버레이 메뉴 + 스토리텔링 스크롤 + 카드 딥링크 + 파트너 로고",
+        "4) 강점: ‘사업 3축’ 즉시 이해 + 신뢰 신호(보도/파트너) 전면 배치",
+        "5) 개선: 사례/성과를 전면 배치해 문의 퍼널 강화",
+        "6) 키워드+A/B/C/D: 레이어UI·카드모듈 / A)사업·레퍼·문의 B)전환/체류/탐색 C)접근성 D)증거→문의"
+      ],
+      "notion_url": "https://app.notion.com/p/33569790c1438139ad21f705717d66a9",
+      "source": "notion"
+    },
+    {
+      "str_no": "26749",
+      "site_name": "하트하트아트앤컬처",
+      "registered_date": "2026-04-01",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?Txt_fgbn=5&str_no=26749",
+      "live_url": "https://heartanc.org/",
+      "domain": "heartanc.org",
+      "targets": [
+        "기업 파트너·후원자·관람/참여자"
+      ],
+      "technologies": [
+        "스킵링크(접근성)",
+        "카드형 모듈",
+        "섹션 랜딩"
+      ],
+      "lines": [
+        "[통합DB로 이관됨] (중복 방지용)"
+      ],
+      "notion_url": "https://app.notion.com/p/33569790c143812e921ac9405868a0fd",
+      "source": "notion"
+    },
+    {
+      "str_no": "26785",
+      "site_name": "비상교재",
+      "registered_date": "2026-03-30",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?str_no=26785",
+      "live_url": "https://book.visang.com",
+      "domain": "book.visang.com",
+      "targets": [
+        "학생·학부모·교사·교육 콘텐츠 이용자"
+      ],
+      "technologies": [
+        "콘텐츠 중심",
+        "컨셉=안정",
+        "주색=WHITE"
+      ],
+      "lines": [
+        "1) 비상교재 / 2026-03-30 / GDWEB: gdweb.co.kr/sub/view.asp?str_no=26785 / Live: book.visang.com",
+        "2) 목적·타겟·IA: 교재 탐색·구매/자료 제공 / 학생·학부모·교사 / 교재·학년·과목·자료·고객지원",
+        "3) 핵심 UX: 콘텐츠 리스트 + 카테고리 드릴다운 + 검색/필터",
+        "4) 강점: 교육 정보서비스에 맞는 안정적 탐색 구조",
+        "5) 개선: 학년·과목·시리즈 필터와 비교/미리보기 강화",
+        "6) 키워드+A/B/C/D: 콘텐츠·WHITE / A)학년·과목·시리즈 B)구매·체류·탐색 C)검색우선 D)필터=매출"
+      ],
+      "notion_url": "https://app.notion.com/p/33569790c14381f898fdd2e9dab813f2",
+      "source": "notion"
+    },
+    {
+      "str_no": "26775",
+      "site_name": "네이버 클라우드 플랫폼",
+      "registered_date": "2026-03-30",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?str_no=26775",
+      "live_url": "https://ncloud.com/v2/",
+      "domain": "ncloud.com",
+      "targets": [
+        "기업 의사결정자·개발자·IT/인프라 담당자"
+      ],
+      "technologies": [
+        "콘텐츠 중심",
+        "컨셉=안정",
+        "주색=BLUE"
+      ],
+      "lines": [
+        "1) 네이버 클라우드 플랫폼 / 2026-03-30 / GDWEB: gdweb.co.kr/sub/view.asp?str_no=26775 / Live: ncloud.com/v2/",
+        "2) 목적·타겟·IA: 클라우드 제품/솔루션 탐색→견적/문의/콘솔 전환 / 기업·개발자 / Products·Solutions·Pricing·Docs·Console",
+        "3) 핵심 UX: 제품 카드 탐색 + 문서 진입 + 세일즈 CTA 퍼널",
+        "4) 강점: 안정적 톤과 BLUE 컬러로 B2B 신뢰 강화",
+        "5) 개선: 사용자 유형별 진입·통합검색·가격/보안 근거 접근 강화",
+        "6) 키워드+A/B/C/D: 콘텐츠·BLUE / A)가격·Docs·콘솔 B)리드·체류·매칭 C)근거접근 D)신뢰=IA"
+      ],
+      "notion_url": "https://app.notion.com/p/33569790c143812a98b1f3aca45cece5",
+      "source": "notion"
+    },
+    {
+      "str_no": "26774",
+      "site_name": "HDC홀딩스",
+      "registered_date": "2026-03-27",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?str_no=26774",
+      "live_url": "https://hdc-holdings.com",
+      "domain": "hdc-holdings.com",
+      "targets": [
+        "투자자·파트너·구직자"
+      ],
+      "technologies": [
+        "코퍼레이트 포털",
+        "문서/리포트 허브",
+        "반응형"
+      ],
+      "lines": [
+        "1) HDC홀딩스 / 2026-03-27 / GDWEB 상세: https://gdweb.co.kr/sub/view.asp?str_no=26774 / 실사이트: https://hdc-holdings.com",
+        "2) 목적·타겟·IA: 그룹/지주사 브랜드·IR·ESG·뉴스 허브 / 타겟: 투자자·파트너·구직자 / IA: HDC Group · Business · IR · Sustainability · Media",
+        "3) 핵심 UX 패턴: 섹션 스크롤로 사업→IR→ESG 순차 설득, KR/EN 전환",
+        "4) 강점: 과한 연출 없이 안정감 있는 코퍼레이트 톤",
+        "5) 개선 포인트: IR 하위(공시/재무/지배구조) 목적형 분기 강화",
+        "6) 기술/플러그인 키워드: 코퍼레이트 포털, 문서/리포트 허브, 반응형 + A) IR/ESG Report/News/Contact 헤더 고정 + B) IR 도달시간, 다운로드율, 딥클릭률 + C) Do: 핵심 문서 원클릭 · Don’t: 브랜딩이 탐색 지연 + D) 지주사 UX는 ‘IR 1클릭’이 성패다."
+      ],
+      "notion_url": "https://app.notion.com/p/HDC-33569790c14381bd9d94f1048cd2c69b",
+      "source": "notion"
+    },
+    {
+      "str_no": "26769",
+      "site_name": "이와이드플러스",
+      "registered_date": "2026-03-27",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?str_no=26769",
+      "live_url": "https://ewideplus.com",
+      "domain": "ewideplus.com",
+      "targets": [
+        "기업 클라이언트"
+      ],
+      "technologies": [
+        "RAG/sLLM 키워드",
+        "포트폴리오",
+        "반응형"
+      ],
+      "lines": [
+        "1) 이와이드플러스 / 2026-03-27 / GDWEB 상세: https://gdweb.co.kr/sub/view.asp?str_no=26769 / 실사이트: https://ewideplus.com",
+        "2) 목적·타겟·IA: AI/디지털 역량 소개 및 문의 / 타겟: 기업 클라이언트 / IA: about · portfolio · inquire",
+        "3) 핵심 UX 패턴: 키워드+프로젝트 카드로 전문성 인지 강화",
+        "4) 강점: IA 단순화, 포지셔닝 빠름",
+        "5) 개선 포인트: 케이스 성과 템플릿(문제/해결/성과/기간/역할) 강제",
+        "6) 기술/플러그인 키워드: RAG/sLLM 키워드, 포트폴리오, 반응형 + A) portfolio 필터 + inquire 고정 + B) 포트폴리오→문의 전환, 케이스 체류 + C) Do: 근거/지표 링크 · Don’t: 전문용어만 + D) AI는 ‘성과 템플릿’으로 판다."
+      ],
+      "notion_url": "https://app.notion.com/p/33569790c1438176bee5f2f51d5c40bc",
+      "source": "notion"
+    },
+    {
+      "str_no": "26768",
+      "site_name": "코너스톤인터렉티브",
+      "registered_date": "2026-03-27",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?str_no=26768",
+      "live_url": "https://cstone.co.kr",
+      "domain": "cstone.co.kr",
+      "targets": [
+        "기업 클라이언트"
+      ],
+      "technologies": [
+        "포트폴리오 리스트/필터",
+        "다운로드 게이트",
+        "반응형"
+      ],
+      "lines": [
+        "1) 코너스톤인터렉티브 / 2026-03-27 / GDWEB 상세: https://gdweb.co.kr/sub/view.asp?str_no=26768 / 실사이트: https://cstone.co.kr",
+        "2) 목적·타겟·IA: 에이전시 리드(문의/소개서) / 타겟: 기업 클라이언트 / IA: Projects · Company · News · 회사소개서 · 프로젝트 문의",
+        "3) 핵심 UX 패턴: Projects 쇼케이스 + 다운로드/문의 CTA",
+        "4) 강점: 실적 기반 설득 효율 높음",
+        "5) 개선 포인트: 프로젝트 필터/유사 케이스로 탐색 비용 절감",
+        "6) 기술/플러그인 키워드: 포트폴리오 리스트/필터, 다운로드 게이트, 반응형 + A) Projects(필터)/다운로드/문의 헤더 고정 + B) 상세 진입률, 문의 전환율, 다운로드율 + C) Do: 성과/역할 템플릿화 · Don’t: 갤러리만 + D) 필터 없는 포트폴리오는 이탈이다."
+      ],
+      "notion_url": "https://app.notion.com/p/33569790c143819888dbd3ae6e5f7170",
+      "source": "notion"
+    },
+    {
+      "str_no": "26760",
+      "site_name": "대동기어(주)",
+      "registered_date": "2026-03-27",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?str_no=26760",
+      "live_url": "https://daedonggear.kr",
+      "domain": "daedonggear.kr",
+      "targets": [
+        "기업/투자자/구직자"
+      ],
+      "technologies": [
+        "문서 허브",
+        "제품 카탈로그",
+        "반응형"
+      ],
+      "lines": [
+        "1) 대동기어(주) / 2026-03-27 / GDWEB 상세: https://gdweb.co.kr/sub/view.asp?str_no=26760 / 실사이트: https://daedonggear.kr",
+        "2) 목적·타겟·IA: 제조업 코퍼레이트(제품/IR/ESG/채용) / 타겟: 기업/투자자/구직자 / IA: 회사소개 · 지속가능경영 · 제품소개 · R&D · IR정보 · 고객지원 · 인재채용",
+        "3) 핵심 UX 패턴: 코퍼레이트 표준 IA + ESG/IR 1뎁스",
+        "4) 강점: 제조업 B2B 신뢰 톤 + 투명성 구조화",
+        "5) 개선 포인트: ‘제품/IR/문의/채용’ 목적형 바로가기 강화",
+        "6) 기술/플러그인 키워드: 문서 허브, 제품 카탈로그, 반응형 + A) 제품 카탈로그/IR/문의/채용 고정 + B) 카탈로그 다운로드, IR 조회/다운로드, 문의 전환 + C) Do: 문서 접근성 · Don’t: 공시 숨김 + D) 제조업 웹은 ‘목적형 바로가기’가 신뢰다."
+      ],
+      "notion_url": "https://app.notion.com/p/33569790c1438161b08cc25316eb6539",
+      "source": "notion"
+    },
+    {
+      "str_no": "26751",
+      "site_name": "옥정중앙역 디에트",
+      "registered_date": "2026-03-27",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?str_no=26751",
+      "live_url": "https://detre-oj.co.kr",
+      "domain": "detre-oj.co.kr",
+      "targets": [
+        "30–40대/40대+"
+      ],
+      "technologies": [
+        "랜딩 전환(폼/전화)",
+        "반응형"
+      ],
+      "lines": [
+        "1) 옥정중앙역 디에트 / 2026-03-27 / GDWEB 상세: https://gdweb.co.kr/sub/view.asp?str_no=26751 / 실사이트: https://detre-oj.co.kr",
+        "2) 목적·타겟·IA: 분양 랜딩(관심고객 등록) / 타겟: 30–40대/40대+ / IA: 사업안내 · 단지안내 · 세대안내 · 청약안내 · 홍보센터 · 관심고객등록",
+        "3) 핵심 UX 패턴: 티저 히어로 + 메뉴 중심 탐색, 등록 CTA",
+        "4) 강점: 모던/깔끔 톤으로 분양 신뢰 확보",
+        "5) 개선 포인트: 관심고객등록을 스크롤 중 상시 노출(고정 CTA)",
+        "6) 기술/플러그인 키워드: 랜딩 전환(폼/전화), 반응형 + A) 등록/전화/입지/청약 퀵액션 고정 + B) 등록 전환율, 전화 클릭률, 세대안내 진입률 + C) Do: 약관/개인정보 접근성 · Don’t: 티저로 핵심정보 숨김 + D) 분양은 ‘등록 버튼 위치’로 판가름 난다."
+      ],
+      "notion_url": "https://app.notion.com/p/33569790c14381f9935afab4d758cf7b",
+      "source": "notion"
+    },
+    {
+      "str_no": "26735",
+      "site_name": "니프코코리아",
+      "registered_date": "2026-03-27",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?str_no=26735",
+      "live_url": "https://nifco.co.kr",
+      "domain": "nifco.co.kr",
+      "targets": [
+        "기업/파트너/구직자"
+      ],
+      "technologies": [
+        "제품 카테고리 IA",
+        "반응형"
+      ],
+      "lines": [
+        "1) 니프코코리아 / 2026-03-27 / GDWEB 상세: https://gdweb.co.kr/sub/view.asp?str_no=26735 / 실사이트: https://nifco.co.kr",
+        "2) 목적·타겟·IA: 제조업 코퍼레이트(제품/ESG/채용/문의) / 타겟: 기업/파트너/구직자 / IA: Company · Product · R&D · ESG · Career · Contact",
+        "3) 핵심 UX 패턴: 슬로건 히어로 + Company/Product 반복 노출",
+        "4) 강점: 제품 축이 명확, 글로벌 톤",
+        "5) 개선 포인트: Contact/자료/사업장 메인·헤더 상시 노출",
+        "6) 기술/플러그인 키워드: 제품 카테고리 IA, 반응형 + A) 상담/사업장/카탈로그/채용 고정 + B) 제품 진입률, 문의 전환율, 채용 클릭률 + C) Do: 목적 분기 명확 · Don’t: 문의 말단화 + D) 제품→문의 동선이 짧을수록 강하다."
+      ],
+      "notion_url": "https://app.notion.com/p/33569790c14381989b88f31d614b9eb8",
+      "source": "notion"
+    },
+    {
+      "str_no": "26750",
+      "site_name": "하나은행 기업",
+      "registered_date": "2026-03-25",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?str_no=26750",
+      "live_url": "https://biz.hanabank.com",
+      "domain": "biz.hanabank.com",
+      "targets": [
+        "기업 고객(B2B)"
+      ],
+      "technologies": [
+        "보안/인증 흐름",
+        "포털형 대시보드",
+        "반응형"
+      ],
+      "lines": [
+        "1) 하나은행 기업 / 2026-03-25 / GDWEB 상세: https://gdweb.co.kr/sub/view.asp?str_no=26750 / 실사이트: https://biz.hanabank.com",
+        "2) 목적·타겟·IA: 기업 금융/서비스 허브 / 타겟: 기업 고객(B2B) / IA: 기업뱅킹 · 상품 · 지원 · 고객센터 · 인증/로그인",
+        "3) 핵심 UX 패턴: 업무 진입 퀵액션 + 가이드/지원 허브",
+        "4) 강점: 신뢰 톤 유지 + 사용 부담 낮춤",
+        "5) 개선 포인트: 조회/이체/신청/상담 ‘업무 시작’ 퀵액션 1뎁스 강화",
+        "6) 기술/플러그인 키워드: 보안/인증 흐름, 포털형 대시보드, 반응형 + A) 로그인/업무시작/상품/상담 4CTA + B) 업무시작 클릭률, 상담 전환율, 상품 탐색 깊이 + C) Do: 업무 CTA 고정/상태 명확 · Don’t: 브랜딩이 업무 동선 가림 + D) B2B는 ‘첫 클릭’이 전환이다."
+      ],
+      "notion_url": "https://app.notion.com/p/33569790c14381899ca4f4a3d6dc6e07",
+      "source": "notion"
+    },
+    {
+      "str_no": "26727",
+      "site_name": "아이파크",
+      "registered_date": "2026-03-24",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?str_no=26727",
+      "live_url": "https://i-park.com",
+      "domain": "i-park.com",
+      "targets": [
+        "30–40대/40대+"
+      ],
+      "technologies": [
+        "이미지 중심 UI",
+        "스크롤 스토리",
+        "반응형"
+      ],
+      "lines": [
+        "1) 아이파크 / 2026-03-24 / GDWEB 상세: https://gdweb.co.kr/sub/view.asp?str_no=26727 / 실사이트: https://i-park.com",
+        "2) 목적·타겟·IA: 브랜드 경험 + 단지/분양 탐색 / 타겟: 30–40대/40대+ / IA: 브랜드 · 단지/분양 · 스토리 · 고객지원",
+        "3) 핵심 UX 패턴: 사진 기반 감성 스토리텔링 + 스크롤 섹션 전개",
+        "4) 강점: 프리미엄 인지/호감 형성",
+        "5) 개선 포인트: 단지찾기/분양/상담 퀵액션 1뎁스 고정",
+        "6) 기술/플러그인 키워드: 이미지 중심 UI, 스크롤 스토리, 반응형 + A) 단지찾기/분양/상담 고정 CTA + B) 상담 클릭률, 단지 상세 진입률, 체류시간 + C) Do: 핵심업무 CTA 상단 고정 · Don’t: 히어로 과다 + D) 감성은 유입, 퀵액션은 전환."
+      ],
+      "notion_url": "https://app.notion.com/p/33569790c143811ab598e15fa89a2e0a",
+      "source": "notion"
+    },
+    {
+      "str_no": "26737",
+      "site_name": "메종 반클리프 아펠",
+      "registered_date": "2026-03-23",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?str_no=26737",
+      "live_url": "https://vancleefarpels.com",
+      "domain": "vancleefarpels.com",
+      "targets": [
+        "여성 소비자"
+      ],
+      "technologies": [
+        "일러스트/모션",
+        "스토리텔링",
+        "글로벌 내비게이션"
+      ],
+      "lines": [
+        "1) 메종 반클리프 아펠 / 2026-03-23 / GDWEB 상세: https://gdweb.co.kr/sub/view.asp?str_no=26737 / 실사이트: https://vancleefarpels.com",
+        "2) 목적·타겟·IA: 럭셔리 브랜드 경험/스토리 / 타겟: 여성 소비자 / IA: Collections · Stories · Maison · Store/Service",
+        "3) 핵심 UX 패턴: 일러스트 기반 내러티브로 감상→각인",
+        "4) 강점: 톤&무드 일관성 극대화",
+        "5) 개선 포인트: 컬렉션/매장찾기/예약 전환 루프 단축",
+        "6) 기술/플러그인 키워드: 일러스트/모션, 스토리텔링, 글로벌 내비게이션 + A) Collections/Store/Appointment 1뎁스 고정 + B) 컬렉션 상세 진입률, 매장찾기 클릭률, 예약 전환율 + C) Do: 탐색도구 상시 노출 · Don’t: 인터랙션으로 정보 접근 차단 + D) 서정은 유지, 전환은 단축."
+      ],
+      "notion_url": "https://app.notion.com/p/33569790c143817db163d2a88798e1eb",
+      "source": "notion"
+    },
+    {
+      "str_no": "26731",
+      "site_name": "동아쏘시오홀딩스",
+      "registered_date": "2026-03-23",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?str_no=26731",
+      "live_url": "https://donga.co.kr",
+      "domain": "donga.co.kr",
+      "targets": [
+        "투자자·파트너·구직자"
+      ],
+      "technologies": [
+        "문서/리포트",
+        "포털 IA",
+        "반응형"
+      ],
+      "lines": [
+        "1) 동아쏘시오홀딩스 / 2026-03-23 / GDWEB 상세: https://gdweb.co.kr/sub/view.asp?str_no=26731 / 실사이트: https://donga.co.kr",
+        "2) 목적·타겟·IA: 지주/기업 PR·IR·ESG·채용 허브 / 타겟: 투자자·파트너·구직자 / IA: Company · Business · IR · ESG · News · Careers",
+        "3) 핵심 UX 패턴: 포털형 정보 구조 + 사진/인물 기반 신뢰 톤",
+        "4) 강점: 이해관계자 신뢰 확보, 목적형 메뉴 구조",
+        "5) 개선 포인트: IR/ESG/채용 목적별 허브를 메인에서 강제 분기",
+        "6) 기술/플러그인 키워드: 문서/리포트, 포털 IA, 반응형 + A) IR/ESG/채용/문의 4CTA 고정 + B) IR 다운로드율, 채용 지원 전환율, 딥클릭률 + C) Do: 목적별 허브/절차 안내 · Don’t: 기관소개가 메인 점유 + D) 포털은 ‘목적 분기’가 UX다."
+      ],
+      "notion_url": "https://app.notion.com/p/33569790c143815b833ffee2b25a3c62",
+      "source": "notion"
+    },
+    {
+      "str_no": "26728",
+      "site_name": "와커스 글로벌",
+      "registered_date": "2026-03-23",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?str_no=26728",
+      "live_url": "https://wacusglobal.com/en",
+      "domain": "wacusglobal.com",
+      "targets": [
+        "기업 클라이언트"
+      ],
+      "technologies": [
+        "3D/그래픽",
+        "인터랙션",
+        "실험 레이아웃"
+      ],
+      "lines": [
+        "1) 와커스 글로벌 / 2026-03-23 / GDWEB 상세: https://gdweb.co.kr/sub/view.asp?str_no=26728 / 실사이트: https://wacusglobal.com/en",
+        "2) 목적·타겟·IA: 글로벌 스튜디오/브랜드 쇼케이스 / 타겟: 기업 클라이언트 / IA: Work · Capabilities · Studio · Contact",
+        "3) 핵심 UX 패턴: 3D/그래픽 기반 경험형 탐색(실험 레이아웃)",
+        "4) 강점: 기억되는 차별(임팩트)",
+        "5) 개선 포인트: Work→문의로 이어지는 설명형 케이스 템플릿 필요",
+        "6) 기술/플러그인 키워드: 3D/그래픽, 인터랙션, 실험 레이아웃 + A) Work/Capabilities/Contact 헤더 고정 + B) 케이스 체류, 문의 전환, 이탈률 + C) Do: 정보 우선/접근성 · Don’t: 과도한 실험 레이아웃 + D) 실험은 기억, 케이스는 매출."
+      ],
+      "notion_url": "https://app.notion.com/p/33569790c1438156bfc6f4523994a79d",
+      "source": "notion"
+    },
+    {
+      "str_no": "26730",
+      "site_name": "전주국제영화제",
+      "registered_date": "2026-03-20",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?str_no=26730",
+      "live_url": "https://jeonjufest.kr",
+      "domain": "jeonjufest.kr",
+      "targets": [
+        "관람객·업계"
+      ],
+      "technologies": [
+        "이벤트 스케줄/필터",
+        "티켓 전환",
+        "반응형"
+      ],
+      "lines": [
+        "1) 전주국제영화제 / 2026-03-20 / GDWEB 상세: https://gdweb.co.kr/sub/view.asp?str_no=26730 / 실사이트: https://jeonjufest.kr",
+        "2) 목적·타겟·IA: 영화제 프로그램/예매/소식 / 타겟: 관람객·업계 / IA: Program · Schedule · Tickets · News · About",
+        "3) 핵심 UX 패턴: 시간표/프로그램 탐색 + 예매 CTA",
+        "4) 강점: 행사 아이덴티티 선명",
+        "5) 개선 포인트: 프로그램→예매 정보 연속성(필터/상영정보 통합)",
+        "6) 기술/플러그인 키워드: 이벤트 스케줄/필터, 티켓 전환, 반응형 + A) 오늘상영/시간표/예매/FAQ 고정 + B) 프로그램→예매 전환율, 시간표 사용률, 이탈률 + C) Do: 검색/필터 성능 최우선 · Don’t: 브랜딩이 탐색 가림 + D) 행사 사이트는 ‘시간표 UX’가 브랜드보다 중요하다."
+      ],
+      "notion_url": "https://app.notion.com/p/33569790c143816a98f6ee98ee329335",
+      "source": "notion"
+    },
+    {
+      "str_no": "26729",
+      "site_name": "썬더잡",
+      "registered_date": "2026-03-20",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?str_no=26729",
+      "live_url": "https://thunderjob.com",
+      "domain": "thunderjob.com",
+      "targets": [
+        "대학생·20–30대"
+      ],
+      "technologies": [
+        "잡보드 검색/필터",
+        "저장/지원 플로우",
+        "반응형"
+      ],
+      "lines": [
+        "1) 썬더잡 / 2026-03-20 / GDWEB 상세: https://gdweb.co.kr/sub/view.asp?str_no=26729 / 실사이트: https://thunderjob.com",
+        "2) 목적·타겟·IA: 채용/커리어 매칭 서비스 / 타겟: 대학생·20–30대 / IA: Jobs · Company · Resume · Community · Help",
+        "3) 핵심 UX 패턴: 리스트/필터 탐색, 지원 CTA 반복 노출",
+        "4) 강점: 타겟 명확, 그래픽 커뮤니케이션으로 진입 장벽↓",
+        "5) 개선 포인트: 지원 플로우 단계/필터 조작 비용 축소가 전환 핵심",
+        "6) 기술/플러그인 키워드: 잡보드 검색/필터, 저장/지원 플로우, 반응형 + A) 상단 ‘검색/필터/저장/즉시지원’ 고정 + B) 공고→지원 전환율, 필터 사용률, 지원 완료시간 + C) Do: 필터 상태 명확/접근성 · Don’t: 필터 숨김 + D) 채용 UX는 ‘지원 마찰’이 곧 매출이다."
+      ],
+      "notion_url": "https://app.notion.com/p/33569790c143819ba2c2d31dda5d85b9",
+      "source": "notion"
+    },
+    {
+      "str_no": "26725",
+      "site_name": "와커스",
+      "registered_date": "2026-03-19",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?str_no=26725",
+      "live_url": "https://wacuskorea.com",
+      "domain": "wacuskorea.com",
+      "targets": [
+        "기업 클라이언트"
+      ],
+      "technologies": [
+        "포트폴리오",
+        "인터랙션",
+        "반응형"
+      ],
+      "lines": [
+        "1) 와커스 / 2026-03-19 / GDWEB 상세: https://gdweb.co.kr/sub/view.asp?str_no=26725 / 실사이트: https://wacuskorea.com",
+        "2) 목적·타겟·IA: 스튜디오/에이전시 쇼케이스 / 타겟: 기업 클라이언트 / IA: Work · Studio · Service · Contact",
+        "3) 핵심 UX 패턴: 타이포+그래픽+인물 조합 브랜딩, 포트폴리오 중심",
+        "4) 강점: 심플 구조에서 존재감 확보, 인물 컷으로 신뢰/온도 부여",
+        "5) 개선 포인트: 케이스에 문제–해결–성과 구조 없으면 문의 전환 약화",
+        "6) 기술/플러그인 키워드: 포트폴리오, 인터랙션, 반응형 + A) Work 상세에 ‘바로 문의’ 고정 CTA + B) 케이스 체류시간, 문의 전환율, 다음 케이스 이동률 + C) Do: 사례 템플릿화 · Don’t: 비주얼만 전시 + D) 케이스는 ‘성과의 언어’가 있어야 팔린다."
+      ],
+      "notion_url": "https://app.notion.com/p/33569790c1438148870fd59f5a94d395",
+      "source": "notion"
+    },
+    {
+      "str_no": "26719",
+      "site_name": "넥스트에어로스페이스",
+      "registered_date": "2026-03-18",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?str_no=26719",
+      "live_url": "https://nextaerospace.co.kr",
+      "domain": "nextaerospace.co.kr",
+      "targets": [
+        "기업/파트너"
+      ],
+      "technologies": [
+        "기술 쇼케이스",
+        "자료 다운로드",
+        "반응형"
+      ],
+      "lines": [
+        "1) 넥스트에어로스페이스 / 2026-03-18 / GDWEB 상세: https://gdweb.co.kr/sub/view.asp?str_no=26719 / 실사이트: https://nextaerospace.co.kr",
+        "2) 목적·타겟·IA: 항공/테크 기업 브랜드·기술 소개 / 타겟: 기업/파트너 / IA: Company · Tech · Product · News · Contact",
+        "3) 핵심 UX 패턴: 사진+제품 중심 신뢰형 쇼케이스",
+        "4) 강점: 테크 기업에 정합한 신뢰 톤",
+        "5) 개선 포인트: 요약→상세→근거자료(다운로드)로 기술 콘텐츠 구조화",
+        "6) 기술/플러그인 키워드: 기술 쇼케이스, 자료 다운로드, 반응형 + A) 기술요약/자료다운/문의 고정 + B) 자료 다운로드율, 문의 전환율, 기술 섹션 체류 + C) Do: 근거자료 제공 · Don’t: 추상 홍보 문구만 + D) B2B는 ‘근거 링크’가 UX의 핵심이다."
+      ],
+      "notion_url": "https://app.notion.com/p/33569790c14381128b54d5fb4f9f8211",
+      "source": "notion"
+    },
+    {
+      "str_no": "26718",
+      "site_name": "펜테리움",
+      "registered_date": "2026-03-18",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?str_no=26718",
+      "live_url": "https://penterium.kr",
+      "domain": "penterium.kr",
+      "targets": [
+        "기업 고객"
+      ],
+      "technologies": [
+        "코퍼레이트 랜딩",
+        "CTA 고정",
+        "반응형"
+      ],
+      "lines": [
+        "1) 펜테리움 / 2026-03-18 / GDWEB 상세: https://gdweb.co.kr/sub/view.asp?str_no=26718 / 실사이트: https://penterium.kr",
+        "2) 목적·타겟·IA: B2B 브랜드/서비스 소개 / 타겟: 기업 고객 / IA: Business · Projects · About · Contact",
+        "3) 핵심 UX 패턴: 건물/빌딩 비주얼 기반 신뢰형 구성, 스캔 가능한 블록",
+        "4) 강점: 깔끔 톤으로 B2B 신뢰 구축 빠름",
+        "5) 개선 포인트: 상담/자료요청 CTA 강화",
+        "6) 기술/플러그인 키워드: 코퍼레이트 랜딩, CTA 고정, 반응형 + A) 프로젝트/상담/자료 3CTA 고정 + B) 상담 전환율, 프로젝트 상세 진입률, 체류시간 + C) Do: 정보 스캔성 확보 · Don’t: 홍보 비주얼 과다 + D) 깔끔함은 기본, 전환 장치가 성과를 만든다."
+      ],
+      "notion_url": "https://app.notion.com/p/33569790c14381bc9d80f4bfded98999",
+      "source": "notion"
+    },
+    {
+      "str_no": "26712",
+      "site_name": "cass",
+      "registered_date": "2026-03-17",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?str_no=26712",
+      "live_url": "https://cass.co.kr",
+      "domain": "cass.co.kr",
+      "targets": [
+        "20–30대 소비자"
+      ],
+      "technologies": [
+        "캠페인 랜딩",
+        "모션/비주얼",
+        "반응형"
+      ],
+      "lines": [
+        "1) cass / 2026-03-17 / GDWEB 상세: https://gdweb.co.kr/sub/view.asp?str_no=26712 / 실사이트: https://cass.co.kr",
+        "2) 목적·타겟·IA: 맥주 브랜드 캠페인/경험 / 타겟: 20–30대 소비자 / IA: Brand Story · Product · Campaign/Experience · Media/Content",
+        "3) 핵심 UX 패턴: 풀스크린 히어로, 사진 기반 감성 콘텐츠, 스크롤 스토리텔링",
+        "4) 강점: 브랜드 아이덴티티 전달력 높음",
+        "5) 개선 포인트: 제품 정보/구매 연계 UX 보강",
+        "6) 기술/플러그인 키워드: 캠페인 랜딩, 모션/비주얼, 반응형 + A) Experience→Product→Campaign→구매/채널 안내 흐름 + B) 체류시간, 캠페인 참여율, 제품 페이지 이동률 + C) Do: 콘텐츠+정보 균형 · Don’t: 감성만 강조 + D) 브랜드 경험은 ‘감성+정보 균형’이 핵심이다."
+      ],
+      "notion_url": "https://app.notion.com/p/cass-33569790c143816c953ec0845fe45b82",
+      "source": "notion"
+    },
+    {
+      "str_no": "26711",
+      "site_name": "부산영상위원회",
+      "registered_date": "2026-03-17",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?str_no=26711",
+      "live_url": "https://bfc.or.kr",
+      "domain": "bfc.or.kr",
+      "targets": [
+        "제작사·창작자·시민"
+      ],
+      "technologies": [
+        "공공 포털 패턴",
+        "카드 모듈",
+        "반응형"
+      ],
+      "lines": [
+        "1) 부산영상위원회 / 2026-03-17 / GDWEB 상세: https://gdweb.co.kr/sub/view.asp?str_no=26711 / 실사이트: https://bfc.or.kr",
+        "2) 목적·타겟·IA: 영화·영상 산업 지원기관 포털 / 타겟: 제작사·창작자·시민 / IA: 지원사업 · 로케이션/촬영지원 · 산업정보 · 커뮤니티/공지",
+        "3) 핵심 UX 패턴: 영상 기반 히어로 + 서비스 중심 포털, 프로그램 카드 UI",
+        "4) 강점: 서비스 메뉴 구조 명확, 기관 기능 이해도 높음",
+        "5) 개선 포인트: 지원사업 정보 분산 → 통합 안내/신청 절차를 한 흐름으로",
+        "6) 기술/플러그인 키워드: 공공 포털 패턴, 카드 모듈, 반응형 + A) 지원사업 통합허브→신청→로케이션 DB→산업정보 + B) 지원사업 진입률, 신청 전환율, 체류시간 + C) Do: 단계 안내/서비스 우선 · Don’t: 기관소개 과다 + D) 공공 UX는 ‘서비스 접근 경로 단순화’가 경쟁력이다."
+      ],
+      "notion_url": "https://app.notion.com/p/33569790c143815f83d8e39d584b95a6",
+      "source": "notion"
+    },
+    {
+      "str_no": "26681",
+      "site_name": "세종대학교 학술정보원",
+      "registered_date": "2026-03-17",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?Txt_fgbn=5&str_no=26681&Txt_word=%EC%84%B8%EC%A2%85%EB%8C%80%ED%95%99%EA%B5%90+%ED%95%99%EC%88%A0%EC%A0%95%EB%B3%B4%EC%9B%90",
+      "live_url": "https://library.sejong.ac.kr",
+      "domain": "library.sejong.ac.kr",
+      "targets": [
+        "학생·연구자"
+      ],
+      "technologies": [
+        "통합검색 시스템",
+        "DB 연동",
+        "포털형 UI",
+        "반응형"
+      ],
+      "lines": [
+        "1) 세종대학교 학술정보원 / 2026-03-17 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?Txt_fgbn=5&str_no=26681&Txt_word=%EC%84%B8%EC%A2%85%EB%8C%80%ED%95%99%EA%B5%90+%ED%95%99%EC%88%A0%EC%A0%95%EB%B3%B4%EC%9B%90 / 실사이트: https://library.sejong.ac.kr",
+        "2) 목적·타겟·IA: 대학 도서관/학술정보 포털 / 타겟: 학생·연구자 / IA: 통합검색 · 학술DB/전자자료 · 이용안내 · 연구지원 · 공지",
+        "3) 핵심 UX 패턴: 통합검색 중심 메인, DB 바로가기 카드, 모듈형 대시보드",
+        "4) 강점: 검색/DB 접근을 전면 배치해 목적 기반 UX 명확",
+        "5) 개선 포인트: 정보 밀도↑ → 시각 계층/모바일 스캔성 보강",
+        "6) 기술/플러그인 키워드: 통합검색 시스템, DB 연동, 포털형 UI, 반응형 + A) 검색→인기DB→연구지원→가이드로 1화면 분기 강화 + B) 검색 사용률, DB 클릭률, 다운로드 전환율 + C) Do: 핵심 서비스(검색) 우선 · Don’t: 공지 과다로 탐색 방해 + D) 정보 포털 UX는 ‘검색 중심 구조’가 좌우한다."
+      ],
+      "notion_url": "https://app.notion.com/p/33569790c143816db430de8e7b86e359",
+      "source": "notion"
+    },
+    {
+      "str_no": "26690",
+      "site_name": "매스티지",
+      "registered_date": "2026-03-12",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?str_no=26690",
+      "live_url": "https://masstige.biz",
+      "domain": "masstige.biz",
+      "targets": [
+        "기업 클라이언트"
+      ],
+      "technologies": [
+        "스크롤 인터랙션",
+        "포트폴리오",
+        "반응형"
+      ],
+      "lines": [
+        "1) 매스티지 / 2026-03-12 / GDWEB 상세: https://gdweb.co.kr/sub/view.asp?str_no=26690 / 실사이트: https://masstige.biz",
+        "2) 목적·타겟·IA: 에이전시/스튜디오 소개 / 타겟: 기업 클라이언트 / IA: Home · About · Service · Portfolio · Insight · Contact",
+        "3) 핵심 UX 패턴: 강한 타이포 히어로, 비대칭 레이아웃, 프로젝트 카드",
+        "4) 강점: 아이덴티티 강한 비주얼로 차별",
+        "5) 개선 포인트: 케이스에 문제–해결–성과 내러티브 강화",
+        "6) 기술/플러그인 키워드: 스크롤 인터랙션, 포트폴리오, 반응형 + A) Portfolio→Case Study→Result→Contact 흐름으로 재배치 + B) 포트폴리오→문의 전환율, 상세 체류시간 + C) Do: 사례를 성과 구조로 제시 · Don’t: 비주얼만 전시 + D) 성과 중심 사례 구조가 설득력을 만든다."
+      ],
+      "notion_url": "https://app.notion.com/p/33569790c1438147b62feeb03da642fd",
+      "source": "notion"
+    },
+    {
+      "str_no": "26636",
+      "site_name": "WEEF",
+      "registered_date": "2026-03-12",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?str_no=26636",
+      "live_url": "https://weef.co.kr",
+      "domain": "weef.co.kr",
+      "targets": [
+        "일반 사용자"
+      ],
+      "technologies": [
+        "일러스트 UI",
+        "모듈 레이아웃",
+        "반응형"
+      ],
+      "lines": [
+        "1) WEEF / 2026-03-12 / GDWEB 상세: https://gdweb.co.kr/sub/view.asp?str_no=26636 / 실사이트: https://weef.co.kr",
+        "2) 목적·타겟·IA: 브랜드/서비스 소개 / 타겟: 일반 사용자 / IA: Home · Story/Brand · Product/Service · Content/Community · Support",
+        "3) 핵심 UX 패턴: 일러스트/그래픽 기반 친화 UI, 카드형 모듈",
+        "4) 강점: 친근한 톤으로 접근성 높음",
+        "5) 개선 포인트: USP/정보 계층 강화(첫 화면 메시지 선명화)",
+        "6) 기술/플러그인 키워드: 일러스트 UI, 모듈 레이아웃, 반응형 + A) Hero→핵심 서비스 3개→사례→CTA로 재배치 + B) 서비스 클릭률, 스크롤 깊이, 참여 전환율 + C) Do: 그래픽+정보 계층 병행 · Don’t: 그래픽이 메시지 희석 + D) 친근함은 강점, USP는 무기다."
+      ],
+      "notion_url": "https://app.notion.com/p/WEEF-33569790c1438154bb59cd8e9f776fb9",
+      "source": "notion"
+    },
+    {
+      "str_no": "26686",
+      "site_name": "MOTZ",
+      "registered_date": "2026-03-11",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?str_no=26686",
+      "live_url": "https://motz.kr",
+      "domain": "motz.kr",
+      "targets": [
+        "디지털 서비스 이용자/파트너"
+      ],
+      "technologies": [
+        "반응형",
+        "스크롤 인터랙션",
+        "이미지 레이아웃"
+      ],
+      "lines": [
+        "1) MOTZ / 2026-03-11 / GDWEB 상세: https://gdweb.co.kr/sub/view.asp?str_no=26686 / 실사이트: https://motz.kr",
+        "2) 목적·타겟·IA: 브랜드/서비스 소개 + 리드 / 타겟: 디지털 서비스 이용자/파트너 / IA: Home · About/Brand · Service · Portfolio/Case · Contact",
+        "3) 핵심 UX 패턴: 대형 히어로 + 스크롤 스토리, 카드형 콘텐츠 블록",
+        "4) 강점: 메시지 전달력 우수, 정보 인지성이 높음",
+        "5) 개선 포인트: 서비스 가치→사례→전환 동선을 더 짧게(CTA 상시)",
+        "6) 기술/플러그인 키워드: 반응형, 스크롤 인터랙션, 이미지 레이아웃 + A) Brand→Service→Case→Contact CTA 고정 흐름 + B) 서비스 스크롤 깊이, 사례 진입률, 문의 클릭률 + C) Do: 정보 접근성 우선 · Don’t: 비주얼로 탐색 지연 + D) 브랜드는 좋다. 전환은 더 짧게 설계하라."
+      ],
+      "notion_url": "https://app.notion.com/p/MOTZ-33569790c14381e29637f9fac92b15d2",
+      "source": "notion"
+    },
+    {
+      "str_no": "26680",
+      "site_name": "KakaoBank Answer",
+      "registered_date": "2026-03-06",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?str_no=26680",
+      "live_url": "https://answer.kakaobank.com",
+      "domain": "answer.kakaobank.com",
+      "targets": [
+        "카카오뱅크 이용자/금융 정보 탐색자"
+      ],
+      "technologies": [
+        "검색 IA",
+        "카드 UI",
+        "반응형"
+      ],
+      "lines": [
+        "1) KakaoBank Answer / 2026-03-06 / GDWEB 상세: https://gdweb.co.kr/sub/view.asp?str_no=26680 / 실사이트: https://answer.kakaobank.com",
+        "2) 목적·타겟·IA: 금융 Q&A/정보 탐색 플랫폼 / 타겟: 카카오뱅크 이용자/금융 정보 탐색자 / IA: 검색 · 질문 탐색 · 주제 카테고리 · 콘텐츠 상세 · 서비스 안내",
+        "3) 핵심 UX 패턴: 검색 중심 탐색, 질문 카드 리스트, FAQ형 구조",
+        "4) 강점: 문제 해결형 사용 패턴에 정합, 정보 접근성 높음",
+        "5) 개선 포인트: 콘텐츠 상세 하단에 관련 서비스/상품 CTA로 전환 루프 강화",
+        "6) 기술/플러그인 키워드: 검색 IA, 카드 UI, 반응형 + A) 콘텐츠 하단 ‘관련 상품/서비스’ 퀵액션 삽입 + B) 검색→콘텐츠 클릭률, 체류시간, 서비스 전환율 + C) Do: 검색/카테고리 우선 · Don’t: 복잡 인터랙션 + D) 정보 UX의 끝은 ‘다음 행동’이다."
+      ],
+      "notion_url": "https://app.notion.com/p/KakaoBank-Answer-33569790c143818183c6cc65e4b1e214",
+      "source": "notion"
+    },
+    {
+      "str_no": "26679",
+      "site_name": "함께하는 사랑밭",
+      "registered_date": "2026-03-06",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?str_no=26679",
+      "live_url": "https://withgo.or.kr",
+      "domain": "withgo.or.kr",
+      "targets": [
+        "일반 후원자·기업 CSR"
+      ],
+      "technologies": [
+        "CMS 콘텐츠",
+        "폼 전환",
+        "반응형"
+      ],
+      "lines": [
+        "1) 함께하는 사랑밭 / 2026-03-06 / GDWEB 상세: https://gdweb.co.kr/sub/view.asp?str_no=26679 / 실사이트: https://withgo.or.kr",
+        "2) 목적·타겟·IA: NGO 소개/후원 참여 유도 / 타겟: 일반 후원자·기업 CSR / IA: 단체소개 · 사업소개 · 캠페인/후원 · 소식 · 참여/문의",
+        "3) 핵심 UX 패턴: 캠페인 스토리 + 카드형 프로젝트 목록, 후원 CTA 반복",
+        "4) 강점: 공익 메시지 전달 명확, 참여 흐름 직관적",
+        "5) 개선 포인트: 정기후원/캠페인 참여 CTA의 시각적 강조 및 상시 노출",
+        "6) 기술/플러그인 키워드: CMS 콘텐츠, 폼 전환, 반응형 + A) Global Nav에 ‘후원하기’ 고정 CTA + 캠페인→후원 단축 + B) 후원 CTA 클릭률, 후원 전환율, 캠페인 체류시간 + C) Do: 메시지/정보 균형 · Don’t: 감성 이미지 과다로 정보 지연 + D) 공익 UX도 전환 설계가 있어야 지속된다."
+      ],
+      "notion_url": "https://app.notion.com/p/33569790c14381f6a1b5c77f40dcd717",
+      "source": "notion"
+    },
+    {
+      "str_no": "26643",
+      "site_name": "핸들리",
+      "registered_date": "2026-03-05",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?str_no=26643",
+      "live_url": "https://handely.co.kr",
+      "domain": "handely.co.kr",
+      "targets": [
+        "일반 사용자·파트너"
+      ],
+      "technologies": [
+        "반응형 랜딩",
+        "아이콘/일러스트 시스템",
+        "CTA"
+      ],
+      "lines": [
+        "1) 핸들리 / 2026-03-05 / GDWEB 상세: https://gdweb.co.kr/sub/view.asp?str_no=26643 / 실사이트: https://handely.co.kr",
+        "2) 목적·타겟·IA: 서비스 소개/전환(앱/플랫폼) / 타겟: 일반 사용자·파트너 / IA: Home · 서비스 소개 · 이용방법 · 고객지원 · 다운로드/문의",
+        "3) 핵심 UX 패턴: 단계형 이용가이드, 아이콘 기반 기능 설명, 랜딩 페이지 구조",
+        "4) 강점: 사용 흐름 설명이 명확, 이해도 높은 정보 전개",
+        "5) 개선 포인트: USP 1문장/핵심 기능 3개를 1화면에서 더 강하게",
+        "6) 기술/플러그인 키워드: 반응형 랜딩, 아이콘/일러스트 시스템, CTA + A) Hero에 ‘핵심 기능 3 + 다운로드’ 고정 + 하단 문의 CTA + B) 다운로드 클릭률, 스크롤 깊이, 문의 전환율 + C) Do: 단계형 안내/가독성 · Don’t: 기능 설명 과도 애니메이션 + D) 전환은 ‘USP 한 문장’에서 시작한다."
+      ],
+      "notion_url": "https://app.notion.com/p/33569790c14381a486f0eb718810a640",
+      "source": "notion"
+    },
+    {
+      "str_no": "26642",
+      "site_name": "뉴버드",
+      "registered_date": "2026-03-05",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?str_no=26642",
+      "live_url": "https://newbird.co.kr",
+      "domain": "newbird.co.kr",
+      "targets": [
+        "일반 소비자·기업 파트너"
+      ],
+      "technologies": [
+        "반응형",
+        "이미지 중심 랜딩",
+        "기본 JS 인터랙션"
+      ],
+      "lines": [
+        "1) 뉴버드 / 2026-03-05 / GDWEB 상세: https://gdweb.co.kr/sub/view.asp?str_no=26642 / 실사이트: https://newbird.co.kr",
+        "2) 목적·타겟·IA: 브랜드/기업 소개 사이트 / 타겟: 일반 소비자·기업 파트너 / IA: Home · Brand · Service/Product · Portfolio/Case · Contact",
+        "3) 핵심 UX 패턴: 브랜드 메시지 히어로 + 이미지 섹션 분할, 카드형 블록",
+        "4) 강점: 시각적 일관성, 정보 인지와 스캔이 쉬움",
+        "5) 개선 포인트: 서비스 설명 깊이/근거 강화(차별점/성과)",
+        "6) 기술/플러그인 키워드: 반응형, 이미지 중심 랜딩, 기본 JS 인터랙션 + A) Service → Case → Contact 스토리형 한 페이지 흐름 강화 + B) 서비스 섹션 체류시간, 사례 진입률, 문의 전환율 + C) Do: 서비스 정보 구조화 · Don’t: 브랜딩 메시지 반복으로 정보 희석 + D) 브랜드는 명확해도 설득은 디테일에서 완성된다."
+      ],
+      "notion_url": "https://app.notion.com/p/33569790c143819f816eeee647ecb5f6",
+      "source": "notion"
+    },
+    {
+      "str_no": "26691",
+      "site_name": "서플라이 CRM",
+      "registered_date": "2026-03-04",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?str_no=26691",
+      "live_url": "https://crm.sufly.net",
+      "domain": "crm.sufly.net",
+      "targets": [
+        "기업 영업/운영 조직"
+      ],
+      "technologies": [
+        "반응형 UI",
+        "랜딩 전환 패턴",
+        "폼/리드 캡처"
+      ],
+      "lines": [
+        "1) 서플라이 CRM / 2026-03-04 / GDWEB 상세: https://gdweb.co.kr/sub/view.asp?str_no=26691 / 실사이트: https://crm.sufly.net",
+        "2) 목적·타겟·IA: B2B CRM SaaS 소개 및 리드 전환 / 타겟: 기업 영업/운영 조직 / IA: Home · Features/CRM · Integrations · Pricing/문의",
+        "3) 핵심 UX 패턴: 다크톤 히어로 + 기능 설명 섹션형 스토리, 카드형 기능 블록",
+        "4) 강점: 복합 기능을 블록으로 명확히 전달, B2B 제품 가치 전달 직관적",
+        "5) 개선 포인트: Use case/도입 프로세스/가격 정보 보강으로 의사결정 UX 강화",
+        "6) 기술/플러그인 키워드: 반응형 UI, 랜딩 전환 패턴, 폼/리드 캡처 + A) Features → Use Cases → Demo/문의 흐름으로 재배치 + B) 데모 요청 전환율, CTA 클릭률, 스크롤 깊이 + C) Do: 사례/절차 중심 정보 구조 · Don’t: 개념 설명만 강조 + D) B2B 전환은 ‘도입 근거’가 좌우한다."
+      ],
+      "notion_url": "https://app.notion.com/p/CRM-33569790c14381aa9ce6da25f7f2f817",
+      "source": "notion"
+    },
+    {
+      "str_no": "26656",
+      "site_name": "atuin",
+      "registered_date": "2026-03-04",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?str_no=26656",
+      "live_url": "https://atuin.media/en",
+      "domain": "atuin.media",
+      "targets": [
+        "글로벌 브랜드/콘텐츠 제작 파트너"
+      ],
+      "technologies": [
+        "인터랙션 JS",
+        "반응형 그리드",
+        "이미지 최적화"
+      ],
+      "lines": [
+        "1) atuin / 2026-03-04 / GDWEB 상세: https://gdweb.co.kr/sub/view.asp?str_no=26656 / 실사이트: https://atuin.media/en",
+        "2) 목적·타겟·IA: 미디어/크리에이티브 스튜디오 포트폴리오 / 타겟: 글로벌 브랜드/콘텐츠 제작 파트너 / IA: Projects(Work) · Studio/About · Services · Journal/News · Contact",
+        "3) 핵심 UX 패턴: 풀스크린 히어로 + 프로젝트 갤러리, 스크롤 리빌 인터랙션",
+        "4) 강점: 포트폴리오 중심 설득력, 비주얼 임팩트와 몰입도",
+        "5) 개선 포인트: 프로젝트 상세 내 Next/Related 루프 및 서비스 설명 깊이 보강",
+        "6) 기술/플러그인 키워드: 인터랙션 JS, 반응형 그리드, 이미지 최적화 + A) Project detail 하단 Contact CTA 고정 + Related Work 노출 + B) 프로젝트 상세 체류시간, 문의 전환율, 스크롤 깊이 + C) Do: 사례 구조화(문제/해결/성과) · Don’t: 과도 인터랙션으로 정보 접근 지연 + D) 포트폴리오는 ‘전환 루프’까지 설계해야 완성이다."
+      ],
+      "notion_url": "https://app.notion.com/p/atuin-33569790c143810dac4afeb85be916df",
+      "source": "notion"
+    },
+    {
+      "str_no": "26615",
+      "site_name": "뷰전(VSION)",
+      "registered_date": "2026-03-03",
+      "detail_url": "https://gdweb.co.kr/sub/view.asp?str_no=26615",
+      "live_url": "https://vsion.global",
+      "domain": "vsion.global",
+      "targets": [
+        "B2B 기업/파트너"
+      ],
+      "technologies": [
+        "반응형 레이아웃",
+        "이미지 최적화",
+        "스크롤 인터랙션(프론트엔드 JS)"
+      ],
+      "lines": [
+        "1) 뷰전(VSION) / 2026-03-03 / GDWEB 상세: https://gdweb.co.kr/sub/view.asp?str_no=26615 / 실사이트: https://vsion.global",
+        "2) 목적·타겟·IA: 글로벌 기술 기업 브랜딩 / 타겟: B2B 기업/파트너 / IA: Company · Technology · Products/Solutions · News · Contact",
+        "3) 핵심 UX 패턴: 대형 히어로 + 블록형 정보 카드, 스크롤 기반 섹션 전개",
+        "4) 강점: B2B 신뢰형 디자인 톤과 콘텐츠 인지성 우수",
+        "5) 개선 포인트: CTA(문의/견적/파트너십) 강화, 제품·기술 딥링크 보강",
+        "6) 기술/플러그인 키워드: 반응형 레이아웃, 이미지 최적화, 스크롤 인터랙션(프론트엔드 JS) + A) Global Nav에 Products/Technology/Contact 1차 레벨 재배치 + B) 제품 상세 진입률, 문의 전환율, 스크롤 깊이 + C) Do: 정보 우선 구조/가독성 유지 · Don’t: 히어로 과다로 정보 접근 지연 + D) B2B는 ‘콘텐츠+CTA’를 같이 설계해야 성과가 난다."
+      ],
+      "notion_url": "https://app.notion.com/p/VSION-33569790c1438139a6f5cc9b699302ea",
+      "source": "notion"
     }
   ],
   "preview_items": [],
@@ -580,9 +1602,34 @@
     "2026-07-16",
     "2026-07-15",
     "2026-07-14",
-    "2026-07-13"
+    "2026-07-13",
+    "2026-07-10",
+    "2026-07-07",
+    "2026-04-01",
+    "2026-03-30",
+    "2026-03-27",
+    "2026-03-25",
+    "2026-03-24",
+    "2026-03-23",
+    "2026-03-20",
+    "2026-03-19",
+    "2026-03-18",
+    "2026-03-17",
+    "2026-03-12",
+    "2026-03-11",
+    "2026-03-06",
+    "2026-03-05",
+    "2026-03-04",
+    "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-07-20T21:23:44.529275+09:00",
+      "mode": "live",
+      "status": "no_new",
+      "new_count": 0,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-07-20T10:07:12+09:00",
       "mode": "live",
