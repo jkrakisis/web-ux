@@ -2,6 +2,8 @@
 
 A personal UX research pipeline that automatically collects new GDWEB winners, analyzes UX patterns, and archives insights into Notion.
 
+채용용 요약: [CASE_STUDY.md](CASE_STUDY.md)
+
 제품 및 기술 구현 과정: [TECHNICAL_JOURNEY.md](TECHNICAL_JOURNEY.md)
 
 ## Features
