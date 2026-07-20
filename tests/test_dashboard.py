@@ -23,6 +23,29 @@ def test_merge_dashboard_items_preserves_history_and_updates_duplicate() -> None
     assert merged[1]["site_name"] == "수정된 사이트"
 
 
+def test_merge_dashboard_items_keeps_richer_existing_fields() -> None:
+    merged = _merge_dashboard_items(
+        [
+            {
+                "str_no": "1",
+                "site_name": "기존",
+                "agency": "제작사",
+                "technologies": ["GSAP"],
+            }
+        ],
+        [{"str_no": "1", "site_name": "노션", "agency": "", "technologies": []}],
+    )
+
+    assert merged == [
+        {
+            "str_no": "1",
+            "site_name": "노션",
+            "agency": "제작사",
+            "technologies": ["GSAP"],
+        }
+    ]
+
+
 def test_no_new_run_keeps_existing_dashboard_items(tmp_path) -> None:
     path = tmp_path / "latest.json"
     path.write_text(

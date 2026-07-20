@@ -98,7 +98,15 @@ def _merge_dashboard_items(
         key = _dashboard_item_key(item)
         if key == "domain_date::":
             continue
-        merged[key] = item
+        previous = merged.get(key, {})
+        merged[key] = {
+            **previous,
+            **{
+                field: value
+                for field, value in item.items()
+                if value not in (None, "", [], {})
+            },
+        }
     return sorted(
         merged.values(),
         key=lambda item: (
@@ -132,6 +140,7 @@ def _write_dashboard(
     dry_run: bool,
     records: list[ProcessedRecord],
     failures: list[str],
+    notion_items: list[dict[str, object]] | None = None,
 ) -> None:
     new_items: list[dict[str, object]] = []
     for record in records:
@@ -159,10 +168,10 @@ def _write_dashboard(
     existing_items = previous.get("items", [])
     if not isinstance(existing_items, list):
         existing_items = []
-    items = (
-        _merge_dashboard_items(existing_items, new_items)
-        if not dry_run
-        else _merge_dashboard_items(existing_items, [])
+    history_items = notion_items or []
+    items = _merge_dashboard_items(
+        existing_items,
+        [*history_items, *([] if dry_run else new_items)],
     )
     status = "partial" if failures else ("success" if new_items else "no_new")
     run_entry = {
@@ -229,6 +238,8 @@ def run(config: AppConfig, since: str = "", no_ai: bool = False) -> tuple[int, s
         config.openai_model,
     )
     notion: NotionClient | None = None
+    notion_items: list[dict[str, object]] = []
+    notion_sync_error: Exception | None = None
     if config.notion_enabled:
         notion = NotionClient(
             config.notion_token,
@@ -238,12 +249,36 @@ def run(config: AppConfig, since: str = "", no_ai: bool = False) -> tuple[int, s
         )
         # 생성 전에 반드시 스키마와 기존 select/multi_select 옵션을 먼저 읽는다.
         notion.load_schema()
+        try:
+            notion_items = notion.list_dashboard_items()
+        except Exception as exc:
+            notion_sync_error = exc
 
-    listings = collector.fetch_recent(earliest_date, config.max_pages)
     processed = set(state.processed_str_nos)
     output_blocks: list[str] = []
     failures: list[str] = []
     dashboard_records: list[ProcessedRecord] = []
+
+    try:
+        listings = collector.fetch_recent(earliest_date, config.max_pages)
+    except Exception as exc:
+        failures.append(f"자동 등록 실패 — GDWEB 목록 수집 실패: {type(exc).__name__}")
+        if notion_sync_error and not notion_items:
+            failures.append(
+                "자동 등록 실패 — Notion 대시보드 동기화 실패: "
+                f"{type(notion_sync_error).__name__}"
+            )
+        report = "\n\n".join(failures)
+        _write_report(config.report_path, report)
+        _write_dashboard(
+            config.dashboard_path,
+            datetime.now(KST),
+            config.dry_run,
+            dashboard_records,
+            failures,
+            notion_items,
+        )
+        return 1, report
 
     for listing in listings:
         if listing.str_no in processed:
@@ -333,6 +368,16 @@ def run(config: AppConfig, since: str = "", no_ai: bool = False) -> tuple[int, s
         state.mark_completed(started_at, datetime.now(KST))
         state.save(config.state_path)
 
+    if notion:
+        try:
+            notion_items = notion.list_dashboard_items()
+        except Exception as exc:
+            if not notion_items:
+                failures.append(
+                    "자동 등록 실패 — Notion 대시보드 동기화 실패: "
+                    f"{type(exc).__name__}"
+                )
+
     if output_blocks or failures:
         report = "\n\n".join([*output_blocks, *failures])
         exit_code = 1 if failures else 0
@@ -346,6 +391,7 @@ def run(config: AppConfig, since: str = "", no_ai: bool = False) -> tuple[int, s
         config.dry_run,
         dashboard_records,
         failures,
+        notion_items,
     )
     return exit_code, report
 

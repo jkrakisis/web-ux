@@ -60,12 +60,12 @@ jobs:
           retention-days: 30
 
       - name: Persist dashboard and checkpoint
-        if: steps.collect.outcome == 'success'
+        if: always()
         run: |
           git config user.name "gdweb-daily-bot"
           git config user.email "gdweb-daily-bot@users.noreply.github.com"
           git add docs/data/latest.json
-          if [ "$DRY_RUN" = "false" ]; then git add state/checkpoint.json; fi
+          if [ "$DRY_RUN" = "false" ] && [ "${{ steps.collect.outcome }}" = "success" ]; then git add state/checkpoint.json; fi
           git diff --cached --quiet || git commit -m "chore: update GDWEB checkpoint"
           git push
 

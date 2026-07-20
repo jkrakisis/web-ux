@@ -49,3 +49,48 @@ def test_actions_and_url_variants() -> None:
         "https://example.com/",
         "https://example.com",
     ]
+
+
+def test_notion_page_is_converted_to_dashboard_item() -> None:
+    client = NotionClient("token", "data-source")
+    client.schema = {
+        "사이트명": {"type": "title"},
+        "등록일": {"type": "date"},
+        "GDWEB 상세": {"type": "url"},
+        "실사이트": {"type": "url"},
+        "기술/플러그인 키워드": {"type": "rich_text"},
+        "요약(6줄)": {"type": "rich_text"},
+    }
+    client.semantic_names = client._resolve_semantic_names()
+    page = {
+        "url": "https://notion.so/page",
+        "properties": {
+            "사이트명": {"type": "title", "title": [{"plain_text": "샘플"}]},
+            "등록일": {"type": "date", "date": {"start": "2026-07-17"}},
+            "GDWEB 상세": {
+                "type": "url",
+                "url": "gdweb.co.kr/sub/view.asp?str_no=27271",
+            },
+            "실사이트": {"type": "url", "url": "example.com"},
+            "기술/플러그인 키워드": {
+                "type": "rich_text",
+                "rich_text": [{"plain_text": "['GSAP', 'Swiper']"}],
+            },
+            "요약(6줄)": {
+                "type": "rich_text",
+                "rich_text": [
+                    {
+                        "plain_text": "1) 샘플\n2) 목적\n3) 패턴\n4) 강점\n5) 개선\n6) 기술"
+                    }
+                ],
+            },
+        },
+    }
+
+    item = client._dashboard_item(page)
+
+    assert item is not None
+    assert item["str_no"] == "27271"
+    assert item["domain"] == "example.com"
+    assert item["technologies"] == ["GSAP", "Swiper"]
+    assert len(item["lines"]) == 6
