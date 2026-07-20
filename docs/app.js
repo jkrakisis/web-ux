@@ -3,7 +3,8 @@ const DATA_URL = "data/latest.json";
 const elements = {
   statusBadge: document.querySelector("#statusBadge"),
   updatedAt: document.querySelector("#updatedAt"),
-  newCount: document.querySelector("#newCount"),
+  totalCount: document.querySelector("#totalCount"),
+  newCountNote: document.querySelector("#newCountNote"),
   failureCount: document.querySelector("#failureCount"),
   runMode: document.querySelector("#runMode"),
   cards: document.querySelector("#cards"),
@@ -12,10 +13,26 @@ const elements = {
   failures: document.querySelector("#failures"),
   failureList: document.querySelector("#failureList"),
   searchInput: document.querySelector("#searchInput"),
+  dateFilter: document.querySelector("#dateFilter"),
   refreshButton: document.querySelector("#refreshButton"),
 };
 
 let snapshot = null;
+
+function allItems() {
+  if (!snapshot) return [];
+  const items = [...(snapshot.items || []), ...(snapshot.preview_items || [])];
+  const unique = new Map();
+  items.forEach((item) => {
+    const key = item.str_no || `${item.domain || ""}:${item.registered_date || ""}`;
+    unique.set(key, item);
+  });
+  return [...unique.values()].sort((a, b) => {
+    const byDate = String(b.registered_date || "").localeCompare(String(a.registered_date || ""));
+    if (byDate) return byDate;
+    return Number(b.str_no || 0) - Number(a.str_no || 0);
+  });
+}
 
 function el(tag, className, text) {
   const node = document.createElement(tag);
@@ -94,8 +111,11 @@ function createCard(item) {
 function render() {
   if (!snapshot) return;
   const query = elements.searchInput.value.trim().toLocaleLowerCase("ko-KR");
+  const selectedDate = elements.dateFilter.value;
   elements.cards.replaceChildren();
-  const filtered = (snapshot.items || []).filter((item) => {
+  const items = allItems();
+  const filtered = items.filter((item) => {
+    if (selectedDate && item.registered_date !== selectedDate) return false;
     if (!query) return true;
     return [
       item.site_name,
@@ -107,7 +127,7 @@ function render() {
   });
   filtered.forEach((item) => elements.cards.append(createCard(item)));
 
-  elements.emptyState.hidden = snapshot.items.length > 0 || query.length > 0;
+  elements.emptyState.hidden = items.length > 0 || query.length > 0;
   if (query && filtered.length === 0) {
     const noResult = el("div", "empty-state");
     noResult.append(
@@ -125,7 +145,9 @@ function renderSnapshot(data) {
   elements.statusBadge.textContent = statusLabel(data.status);
   elements.statusBadge.className = `status-badge ${data.status === "partial" ? "partial" : ""}`;
   elements.updatedAt.textContent = `최근 실행 ${formatDateTime(data.generated_at)}`;
-  elements.newCount.textContent = String(data.new_count ?? 0);
+  const items = allItems();
+  elements.totalCount.textContent = String(data.total_count ?? items.length);
+  elements.newCountNote.textContent = `이번 실행 신규 ${data.new_count ?? 0}건`;
   elements.failureCount.textContent = String(data.failure_count ?? 0);
   elements.runMode.textContent = data.mode === "live" ? "Notion 실등록" : "드라이런";
 
@@ -135,6 +157,12 @@ function renderSnapshot(data) {
   failures.forEach((failure) => {
     elements.failureList.append(el("article", "failure-card", failure.text));
   });
+
+  const previousDate = elements.dateFilter.value;
+  const dates = [...new Set(items.map((item) => item.registered_date).filter(Boolean))].sort().reverse();
+  elements.dateFilter.replaceChildren(new Option("전체 날짜", ""));
+  dates.forEach((date) => elements.dateFilter.append(new Option(date, date)));
+  elements.dateFilter.value = dates.includes(previousDate) ? previousDate : (dates[0] || "");
   render();
 }
 
@@ -156,6 +184,7 @@ async function loadData() {
 }
 
 elements.searchInput.addEventListener("input", render);
+elements.dateFilter.addEventListener("change", render);
 elements.refreshButton.addEventListener("click", loadData);
 loadData();
 

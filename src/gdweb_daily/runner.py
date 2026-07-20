@@ -68,6 +68,64 @@ def _write_report(path: Path, text: str) -> None:
     path.write_text(text.rstrip() + "\n", encoding="utf-8")
 
 
+def _load_dashboard_payload(path: Path) -> dict[str, object]:
+    if not path.exists():
+        return {}
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+    return payload if isinstance(payload, dict) else {}
+
+
+def _dashboard_item_key(item: dict[str, object]) -> str:
+    str_no = str(item.get("str_no") or "").strip()
+    if str_no:
+        return f"str_no:{str_no}"
+    domain = str(item.get("domain") or "").strip().lower()
+    registered_date = str(item.get("registered_date") or "").strip()
+    return f"domain_date:{domain}:{registered_date}"
+
+
+def _merge_dashboard_items(
+    existing: list[dict[str, object]],
+    incoming: list[dict[str, object]],
+) -> list[dict[str, object]]:
+    merged: dict[str, dict[str, object]] = {}
+    for item in [*existing, *incoming]:
+        if not isinstance(item, dict):
+            continue
+        key = _dashboard_item_key(item)
+        if key == "domain_date::":
+            continue
+        merged[key] = item
+    return sorted(
+        merged.values(),
+        key=lambda item: (
+            str(item.get("registered_date") or ""),
+            int(str(item.get("str_no") or "0"))
+            if str(item.get("str_no") or "").isdigit()
+            else 0,
+        ),
+        reverse=True,
+    )
+
+
+def _append_run_history(
+    existing: object,
+    entry: dict[str, object],
+    limit: int = 120,
+) -> list[dict[str, object]]:
+    history = [item for item in existing if isinstance(item, dict)] if isinstance(existing, list) else []
+    history.append(entry)
+    deduped = {str(item.get("generated_at") or index): item for index, item in enumerate(history)}
+    return sorted(
+        deduped.values(),
+        key=lambda item: str(item.get("generated_at") or ""),
+        reverse=True,
+    )[:limit]
+
+
 def _write_dashboard(
     path: Path,
     generated_at: datetime,
@@ -75,10 +133,10 @@ def _write_dashboard(
     records: list[ProcessedRecord],
     failures: list[str],
 ) -> None:
-    items: list[dict[str, object]] = []
+    new_items: list[dict[str, object]] = []
     for record in records:
         detail = record.detail
-        items.append(
+        new_items.append(
             {
                 "str_no": detail.str_no,
                 "site_name": detail.site_name,
@@ -97,14 +155,41 @@ def _write_dashboard(
                 "lines": format_six_lines(detail, record.analysis),
             }
         )
-    status = "partial" if failures else ("success" if items else "no_new")
+    previous = _load_dashboard_payload(path)
+    existing_items = previous.get("items", [])
+    if not isinstance(existing_items, list):
+        existing_items = []
+    items = (
+        _merge_dashboard_items(existing_items, new_items)
+        if not dry_run
+        else _merge_dashboard_items(existing_items, [])
+    )
+    status = "partial" if failures else ("success" if new_items else "no_new")
+    run_entry = {
+        "generated_at": generated_at.isoformat(),
+        "mode": "dry-run" if dry_run else "live",
+        "status": status,
+        "new_count": len(new_items),
+        "failure_count": len(failures),
+    }
     payload = {
         "generated_at": generated_at.isoformat(),
         "mode": "dry-run" if dry_run else "live",
         "status": status,
-        "new_count": len(items),
+        "new_count": len(new_items),
         "failure_count": len(failures),
+        "total_count": len(items),
         "items": items,
+        "preview_items": new_items if dry_run else [],
+        "available_dates": sorted(
+            {
+                str(item.get("registered_date"))
+                for item in items
+                if item.get("registered_date")
+            },
+            reverse=True,
+        ),
+        "run_history": _append_run_history(previous.get("run_history"), run_entry),
         "failures": [{"text": failure} for failure in failures],
     }
     path.parent.mkdir(parents=True, exist_ok=True)

@@ -267,10 +267,12 @@ main {
 
 .toolbar {
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
 }
 
 .search-field input,
+.date-field select,
 .toolbar button {
   height: 46px;
   border: 1px solid var(--line);
@@ -285,6 +287,12 @@ main {
   padding: 0 15px;
 }
 
+.date-field select {
+  min-width: 150px;
+  padding: 0 38px 0 14px;
+  cursor: pointer;
+}
+
 .toolbar button {
   padding: 0 17px;
   cursor: pointer;
@@ -292,6 +300,7 @@ main {
 }
 
 .search-field input:focus,
+.date-field select:focus-visible,
 .toolbar button:focus-visible,
 .button-link:focus-visible {
   outline: 3px solid rgba(49, 87, 255, 0.25);
@@ -560,6 +569,10 @@ footer a {
 
   .search-field {
     flex: 1;
+  }
+
+  .date-field select {
+    width: 100%;
   }
 
   .search-field input {

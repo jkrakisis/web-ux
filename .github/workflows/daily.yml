@@ -47,6 +47,7 @@ jobs:
         run: python -m pip install .
 
       - name: Collect and register
+        id: collect
         run: python -m gdweb_daily
 
       - name: Upload report
@@ -58,18 +59,8 @@ jobs:
           if-no-files-found: ignore
           retention-days: 30
 
-      - name: Configure GitHub Pages
-        if: always()
-        uses: actions/configure-pages@v5
-
-      - name: Upload dashboard
-        if: always()
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: docs
-
       - name: Persist dashboard and checkpoint
-        if: success()
+        if: steps.collect.outcome == 'success'
         run: |
           git config user.name "gdweb-daily-bot"
           git config user.email "gdweb-daily-bot@users.noreply.github.com"
@@ -77,6 +68,17 @@ jobs:
           if [ "$DRY_RUN" = "false" ]; then git add state/checkpoint.json; fi
           git diff --cached --quiet || git commit -m "chore: update GDWEB checkpoint"
           git push
+
+      - name: Configure GitHub Pages
+        if: always()
+        continue-on-error: true
+        uses: actions/configure-pages@v5
+
+      - name: Upload dashboard
+        if: always()
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
 
   deploy-pages:
     needs: collect
