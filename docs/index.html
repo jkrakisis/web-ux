@@ -52,9 +52,9 @@
     <main>
       <section class="summary" aria-label="실행 요약">
         <article class="metric-card accent">
-          <span class="metric-label">신규 선정작</span>
-          <strong id="newCount" class="metric-value">–</strong>
-          <span class="metric-note">이번 실행 기준</span>
+          <span class="metric-label">누적 선정작</span>
+          <strong id="totalCount" class="metric-value">–</strong>
+          <span id="newCountNote" class="metric-note">이번 실행 신규 –건</span>
         </article>
         <article class="metric-card">
           <span class="metric-label">자동 등록 실패</span>
@@ -71,10 +71,16 @@
       <section class="content-section" id="results">
         <div class="section-header">
           <div>
-            <p class="section-kicker">LATEST REVIEW</p>
-            <h2>최신 UX 분석</h2>
+            <p class="section-kicker">DAILY ARCHIVE</p>
+            <h2>일별 UX 아카이브</h2>
           </div>
           <div class="toolbar">
+            <label class="date-field">
+              <span class="sr-only">등록일 선택</span>
+              <select id="dateFilter" aria-label="등록일 선택">
+                <option value="">전체 날짜</option>
+              </select>
+            </label>
             <label class="search-field">
               <span class="sr-only">사이트 검색</span>
               <input id="searchInput" type="search" placeholder="사이트명·기술 검색" autocomplete="off" />
