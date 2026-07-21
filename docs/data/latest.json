@@ -1,11 +1,72 @@
 {
-  "generated_at": "2026-07-20T21:23:44.529275+09:00",
+  "generated_at": "2026-07-21T10:02:08.059768+09:00",
   "mode": "live",
-  "status": "no_new",
-  "new_count": 0,
+  "status": "success",
+  "new_count": 1,
   "failure_count": 0,
-  "total_count": 54,
+  "total_count": 55,
   "items": [
+    {
+      "str_no": "27304",
+      "site_name": "한국전광",
+      "registered_date": "2026-07-21",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27304",
+      "live_url": "https://keoc.kr/",
+      "domain": "keoc.kr",
+      "targets": [
+        "남성",
+        "대학생",
+        "20-30대",
+        "30-40대",
+        "40대 이후",
+        "기업"
+      ],
+      "technologies": [
+        "jQuery",
+        "GSAP",
+        "Swiper"
+      ],
+      "lines": [
+        "1) 한국전광 / 2026-07-21 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27304 / 실사이트: https://keoc.kr/",
+        "2) 목적: 영상·모션·제품 포트폴리오를 통한 기업·개인(남성·대학생·20–40대·기업) 대상 문의 유도; 현재 메뉴 라벨이 제공되지 않아 정보구조(IA) 상세는 확인 불가.",
+        "3) GSAP 기반 애니메이션 및 Swiper 슬라이더로 동적 비주얼 중심의 탐색 패턴이 예상되며 jQuery가 DOM 조작에 사용되는 것으로 확인됨; 메뉴 구조는 HTML상 라벨 미제공으로 확인 불가.",
+        "4) 브랜드 콘셉트(심플·안정·첨단·모던·신뢰)와 BLACK/BLUE/GRAY/WHITE 팔레트로 일관된 시각 정체성 제공, GSAP·Swiper로 동적 표현 가능, 주요 CTA(문의접수) 존재.",
+        "5) 명확한 메뉴 라벨·정보구조 표기 및 CTA 상시 노출로 탐색성과 전환성 개선 권장, 애니메이션(확인 불가) 및 라이브러리 로딩 최적화·접근성 점검 권고.",
+        "6) 기술/플러그인 키워드: jQuery, GSAP, Swiper + A) 메인 IA 퀵액션 재배치: '문의접수'를 상단 고정 우측 버튼(데스크탑) 및 모바일 하단 스티키로 이동해 모든 뷰포트에서 즉시 액세스 가능하도록 함 + B) 전환/체류/탐색 KPI: 클릭률(CTA CTR), 문의전환율(문의접수→완료), 평균체류시간, 이탈률, 페이지/세션 당 화면수 추적 + C) 공공기관 Do/Don't: Do: 명확한 네비게이션 라벨링·접근성(대체텍스트·키보드포커스)·연락처/개인정보처리 고지 명시; Don't: 과도한 자동재생 애니메이션·복잡한 네비게이션으로 접근성 저해하지 않기 + D) 오늘의 한 줄: CTA 가시성 우선, 모션은 목적(문의유도)을 보조하도록 간결하게 유지."
+      ],
+      "notion_url": "https://app.notion.com/p/3a469790c143812f8dffef3dab608f2f",
+      "source": "notion",
+      "agency": "디자인픽셀",
+      "methods": [
+        "모션그래픽",
+        "사진",
+        "영상",
+        "타이포",
+        "제품"
+      ],
+      "concepts": [
+        "심플한",
+        "안정적",
+        "첨단적인",
+        "실험적인",
+        "강렬한",
+        "모던한",
+        "깔끔한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "BLACK",
+        "BLUE",
+        "GRAY",
+        "WHITE"
+      ],
+      "evidence": [
+        "jQuery: HTML에서 'jquery-' 확인",
+        "GSAP: HTML에서 'gsap.min.js' 확인",
+        "Swiper: HTML에서 'swiper.min' 확인"
+      ],
+      "website_reachable": true
+    },
     {
       "str_no": "27271",
       "site_name": "더가든피부과",
@@ -1598,6 +1659,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-07-21",
     "2026-07-17",
     "2026-07-16",
     "2026-07-15",
@@ -1623,6 +1685,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-07-21T10:02:08.059768+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 1,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-07-20T21:23:44.529275+09:00",
       "mode": "live",
