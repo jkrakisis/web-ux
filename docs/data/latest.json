@@ -1,11 +1,53 @@
 {
-  "generated_at": "2026-07-21T10:02:08.059768+09:00",
+  "generated_at": "2026-07-22T09:59:41.608578+09:00",
   "mode": "live",
   "status": "success",
   "new_count": 1,
   "failure_count": 0,
-  "total_count": 55,
+  "total_count": 56,
   "items": [
+    {
+      "str_no": "27309",
+      "site_name": "KIM SEUNGHYUK PORTFOLIO",
+      "registered_date": "2026-07-21",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27309",
+      "live_url": "https://seunghyuk.com",
+      "domain": "seunghyuk.com",
+      "targets": [
+        "20-30대",
+        "30-40대",
+        "기업"
+      ],
+      "lines": [
+        "1) KIM SEUNGHYUK PORTFOLIO / 2026-07-21 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27309 / 실사이트: https://seunghyuk.com",
+        "2) 목적: 김승혁 개인 포트폴리오로 B2B 제안·프레젠테이션·3D 제품 컨셉을 홍보하며 주요 대상은 20–30대·30–40대·기업으로 IA 목표는 '포트폴리오(작업) → 서비스(제안) → 연락(컨택트)' 중심으로 설계하는 것.",
+        "3) 비주얼 중심의 포트폴리오형 UX, 흑백의 심플·모던 톤과 실험적·첨단적 연출이 콘셉트로 명시되어 있으나 구체적 메뉴 구성·CTA 표시는 제공 자료에서 확인 불가.",
+        "4) 타깃(20–30대·30–40대·기업)과 작업 방법(3D·모션그래픽·타이포·그래픽디자인), 콘셉트(신비적·심플·첨단·실험적·모던) 및 수상 이력(WINNER PRIZE)이 명시되어 있어 포트폴리오 브랜딩과 B2B 어필에 적합하다.",
+        "5) menu_labels·cta_labels가 비어 있어 명시적 내비게이션(메뉴/카테고리)과 CTA(연락·제안요청) 추가가 필요하며 기술 스택은 제공 자료에서 확인 불가하므로 접근성·SEO·모바일 최적화 점검을 권고한다.",
+        "6) 기술/플러그인 키워드: WebGL, Lottie, GA4, Hotjar, 이미지 최적화(WebP/AVIF) + A) 메인 IA 퀵액션 재배치: 헤더/히어로 영역 우측에 고정 퀵액션 순서 'WORKS(대표프로젝트) → SERVICES(제안·패키지) → ABOUT(프로필·수상) → CONTACT(문의/견적)'으로 배치 + B) 전환/체류/탐색 KPI: 전환(문의폼 제출률 목표 5% 이상), 체류(평균 세션시간 90초 이상), 탐색(방문당 프로젝트 페이지 뷰 3회 이상)으로 설정 + C) 공공기관 Do/Don't: Do-명확한 연락경로·접근성 준수(대체텍스트·키보드 내비게이션) 및 문서·포트폴리오 다운로드 제공, Don't-장식적 애니메이션이 핵심정보 접근을 방해하도록 배치하지 말 것 + D) 오늘의 한 줄: 흑백의 실험적 포트폴리오를 명확한 CTA로 비즈니스 성과로 연결하라."
+      ],
+      "notion_url": "https://app.notion.com/p/KIM-SEUNGHYUK-PORTFOLIO-3a569790c143811491bdc392583acd47",
+      "source": "notion",
+      "agency": "김승혁",
+      "methods": [
+        "3D",
+        "모션그래픽",
+        "타이포",
+        "그래픽디자인"
+      ],
+      "concepts": [
+        "신비적인",
+        "심플한",
+        "첨단적인",
+        "실험적인",
+        "모던한"
+      ],
+      "colors": [
+        "BLACK",
+        "WHITE"
+      ],
+      "website_reachable": true
+    },
     {
       "str_no": "27304",
       "site_name": "한국전광",
@@ -1685,6 +1727,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-07-22T09:59:41.608578+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 1,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-07-21T10:02:08.059768+09:00",
       "mode": "live",
