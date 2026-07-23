@@ -1,11 +1,56 @@
 {
-  "generated_at": "2026-07-22T09:59:41.608578+09:00",
+  "generated_at": "2026-07-23T10:05:05.205101+09:00",
   "mode": "live",
   "status": "success",
   "new_count": 1,
   "failure_count": 0,
-  "total_count": 56,
+  "total_count": 57,
   "items": [
+    {
+      "str_no": "27314",
+      "site_name": "더 신라",
+      "registered_date": "2026-07-22",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27314",
+      "live_url": "https://www.shillahotels.com/",
+      "domain": "shillahotels.com",
+      "targets": [
+        "30-40대",
+        "40대 이후"
+      ],
+      "technologies": [
+        "Google Tag Manager",
+        "jQuery",
+        "Swiper",
+        "_"
+      ],
+      "lines": [
+        "1) 더 신라 / 2026-07-22 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27314 / 실사이트: https://www.shillahotels.com/",
+        "2) 목적·타깃·IA: Shilla Hotels & Resorts 공식 사이트로 '직접 예약(베스트 레이트) 유도'가 목적이며 제공된 타깃은 30-40대·40대 이후; IA 핵심 항목으로 메뉴에서 'Find a Hotel / My Reservations / Membership / Join / Contact Us'가 노출됨.",
+        "3) UX 패턴: 사진 중심 비주얼(근거: methods에 '사진'), Swiper 기반 슬라이더 사용 확인, 상단 글로벌 메뉴에 호텔별 항목 나열 및 회원·예약 관련 CTA('Join','Contact Us') 노출, Google Tag Manager·jQuery로 태깅·인터랙션 처리 가능.",
+        "4) 강점: '고급스러운' 콘셉트와 BROWN 계열 색상 표기, 사진 중심의 시각 표현, 호텔군(The Shilla·Shilla Monogram·Shilla Stay 등) 항목을 통한 포트폴리오 제시가 명확함.",
+        "5) 개선: 메뉴의 호텔·지점 열거가 길어 주요 행동 경로를 상단 퀵액션으로 묶어 간결화 권장(예: Find a Hotel/예약/내 예약/멤버십/문의); Swiper 상호작용·GTM 이벤트 태깅 정합성 점검 필요(해당 지표는 확인 불가).",
+        "6) 기술/플러그인 키워드: Google Tag Manager, jQuery, Swiper, _ + A) 메인 IA 퀵액션 재배치: 상단 우선순위로 'Find a Hotel(호텔찾기) / Book(예약 바로가기) / My Reservations(내 예약) / Membership(멤버십) / Contact Us(문의)'를 고정 노출하여 예약 경로 단축 + B) 전환/체류/탐색 KPI: 예약 전환율(예약 완료/세션), 예약 퍼널 이탈율, 'Find a Hotel' 클릭율 및 클릭→예약 전환율, 평균 체류시간·페이지뷰, Swiper 상호작용(슬라이드 클릭·전환율) + C) 공공기관 Do/Don't: Do—메뉴·CTA 라벨을 명확히 표기하고 GTM을 통한 데이터 수집 목적과 개인정보 처리 방침을 명시할 것; Don't—자동재생 음성·과도한 팝업 등 사용자 경험을 저해하는 요소는 지양할 것(세부 영향은 확인 불가) + D) 오늘의 한 줄: 메인 네비게이션을 'Find a Hotel / Book / My Reservations / Membership / Contact'로 재정렬해 예약 전환 경로를 단축하라."
+      ],
+      "notion_url": "https://app.notion.com/p/3a669790c143812eb162f1d01d5c1fb0",
+      "source": "notion",
+      "agency": "미등록",
+      "methods": [
+        "사진"
+      ],
+      "concepts": [
+        "고급스러운"
+      ],
+      "colors": [
+        "BROWN"
+      ],
+      "evidence": [
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "jQuery: HTML에서 'jquery-' 확인",
+        "Swiper: HTML에서 'swiper-bundle' 확인",
+        "응답 헤더 x-powered-by=_"
+      ],
+      "website_reachable": true
+    },
     {
       "str_no": "27309",
       "site_name": "KIM SEUNGHYUK PORTFOLIO",
@@ -1701,6 +1746,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-07-22",
     "2026-07-21",
     "2026-07-17",
     "2026-07-16",
@@ -1727,6 +1773,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-07-23T10:05:05.205101+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 1,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-07-22T09:59:41.608578+09:00",
       "mode": "live",
