@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T10:11:48.377437+09:00",
+  "generated_at": "2026-07-28T09:58:43.158630+09:00",
   "mode": "live",
   "status": "no_new",
   "new_count": 0,
@@ -1866,6 +1866,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-07-28T09:58:43.158630+09:00",
+      "mode": "live",
+      "status": "no_new",
+      "new_count": 0,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-07-27T10:11:48.377437+09:00",
       "mode": "live",
