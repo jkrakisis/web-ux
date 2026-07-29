@@ -35,7 +35,7 @@ GDWEB의 WEB 부문 신규 선정작을 평일마다 확인하고, GDWEB 상세 
 Python 3.11 이상이 필요합니다.
 
 ```powershell
-cd C:\Users\kim\Documents\gdweb-daily
+cd D:\codex\gdweb-daily
 py -m venv .venv
 .\.venv\Scripts\python -m pip install -e ".[dev]"
 .\.venv\Scripts\python -m pytest
@@ -79,9 +79,26 @@ $env:NOTION_PROPERTY_MAP = '{"site_name":"프로젝트명","str_no":"고유 번�
 5. 결과 artifact를 확인한 뒤 `dry_run=false`로 수동 실행합니다.
 6. 예약 실행까지 Notion 실등록으로 전환하려면 Repository Variable `LIVE_ENABLED`를 `true`로 추가합니다.
 
-예약은 한국시간 평일 08:37입니다. `LIVE_ENABLED=true`가 없으면 예약은 안전한 드라이런으로 실행되며 Notion에 쓰지 않습니다. 체크포인트는 실등록 성공 실행 후 `state/checkpoint.json`에 자동 커밋됩니다. 한 항목의 실패는 다른 항목을 막지 않지만, 실패 항목이 있으면 workflow를 실패 처리하여 확인 가능하게 합니다.
+예약은 한국시간 평일 18:30입니다. GDWEB 안내 운영시간인 10:00–18:00 이후에 실행해 당일 늦게 등록되는 항목까지 한 번에 수집하는 구성입니다. `LIVE_ENABLED=true`가 없으면 예약은 안전한 드라이런으로 실행되며 Notion에 쓰지 않습니다. 체크포인트는 실등록 성공 실행 후 `state/checkpoint.json`에 자동 커밋됩니다. 한 항목의 실패는 다른 항목을 막지 않지만, 실패 항목이 있으면 workflow를 실패 처리하여 확인 가능하게 합니다.
 
 각 실행은 `docs/data/latest.json`을 갱신하고 같은 workflow에서 GitHub Pages 대시보드를 배포합니다. 페이지에는 공개된 GDWEB·실사이트 분석 결과만 포함하며 API 키와 Notion 토큰은 포함하지 않습니다.
+
+## 대시보드 표시
+
+- 1–5번 분석은 목적·타겟·IA, UX 패턴, 강점과 개선점 순서로 표시합니다.
+- 6번은 `기술·플러그인`, `A · IA 퀵액션`, `B · 핵심 KPI`, `C · 공공기관 Do/Don’t`, `D · 오늘의 한 줄`로 분리합니다.
+- 기술 키워드는 개별 칩으로 표시합니다.
+- 데스크톱에서 A와 B는 2열, C와 D는 각각 전체 너비를 사용합니다.
+- 모바일에서는 모든 하위 영역을 1열로 표시합니다.
+
+## 최근 업데이트 — 2026-07-29
+
+- 평일 1회 예약을 08:37에서 18:30으로 변경
+- 오전 실행 이후 같은 날 추가된 GDWEB 항목 2건을 확인하고 늦은 등록 누락 사례 기록
+- 최근 7일 중첩 조회와 `str_no` 중복 제거를 이용한 다음 실행 복구 원칙 재확인
+- 기술/플러그인 및 A–D 제안을 독립 카드로 분리해 긴 6번 문장의 가독성 개선
+- C · 공공기관 Do/Don’t와 D · 오늘의 한 줄을 전체 너비로 확장
+- 누적 63건, 등록일 28일, 드라이런 신규 2건, 실패 0건 검증
 
 ## 출력
 

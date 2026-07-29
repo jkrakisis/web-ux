@@ -42,20 +42,22 @@ GitHub Actions가 평일마다 GDWEB 신규 선정작을 확인한다. GDWEB 상
 - **Schema safety:** Notion 등록 전 스키마를 읽고 기존 select 옵션만 매핑
 - **Duplicate protection:** GDWEB `str_no`, 또는 실사이트 도메인과 등록일로 중복 방지
 - **Resilient history:** 신규 0건이나 GDWEB 오류가 발생해도 기존 Notion 이력 유지
+- **Late-day coverage:** 하루 1회 실행을 GDWEB 운영 종료 후인 평일 18:30으로 조정
+- **Scannable evidence:** 기술 키워드와 IA·KPI·공공기관 기준·오늘의 한 줄을 독립 영역으로 표시
 - **Private credentials:** API 키와 Notion 토큰은 GitHub Secrets에서만 사용
 
 ## Result
 
 | 결과 | 검증값 |
 | --- | --- |
-| 누적 UX 레퍼런스 | 54건 |
-| 탐색 가능한 등록일 | 23일 |
+| 웹 아카이브 누적 | 63건 |
+| 탐색 가능한 등록일 | 28일 |
 | 자동화 테스트 | 10 passed |
-| 최신 수동 실행 | collect·deploy-pages 성공 |
+| 최신 수동 실행 | 신규 2건 감지·실패 0건·Pages 배포 성공 |
 | 신규가 없는 날 | 기존 아카이브 유지 |
-| 데이터 접근 | 날짜 필터·전체 보기·검색 제공 |
+| 데이터 접근 | 날짜 필터·검색·기술 및 UX 제안 분리 제공 |
 
-반복 확인 작업이 줄었고, 실행 누락과 실패 원인을 GitHub에서 추적할 수 있게 됐다. Notion의 구조화된 저장 장점은 유지하면서 웹에서는 레퍼런스를 더 빠르게 탐색할 수 있게 됐다.
+반복 확인 작업이 줄었고, 실행 누락과 실패 원인을 GitHub에서 추적할 수 있게 됐다. Notion의 구조화된 저장 장점은 유지하면서 웹에서는 레퍼런스를 더 빠르게 탐색할 수 있게 됐다. 실제 운영 데이터에 맞춰 실행 시각과 정보 구조를 다시 조정하는 개선 루프도 확보했다.
 
 ## Product Roadmap
 
