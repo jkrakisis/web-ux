@@ -426,6 +426,11 @@ main {
   border-bottom: 0;
 }
 
+.analysis-list .analysis-breakdown-item {
+  align-items: start;
+  padding-top: 20px;
+}
+
 .analysis-list li::before {
   display: grid;
   width: 26px;
@@ -438,6 +443,78 @@ main {
   counter-increment: analysis;
   font-size: 11px;
   font-weight: 800;
+}
+
+.insight-breakdown {
+  display: grid;
+  min-width: 0;
+  margin: 0;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.insight-block {
+  min-width: 0;
+  padding: 15px 16px;
+  border: 1px solid #e3e8f0;
+  border-radius: 12px;
+  background: #f9fafc;
+}
+
+.technology-block,
+.one-line-block {
+  grid-column: 1 / -1;
+}
+
+.technology-block {
+  border-color: #dbe1ff;
+  background: #f5f6ff;
+}
+
+.one-line-block {
+  border-color: #cfe8df;
+  background: #f2faf7;
+}
+
+.insight-label {
+  margin: 0 0 8px;
+  color: var(--blue-dark);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+.insight-value {
+  margin: 0;
+  color: #313a49;
+  line-height: 1.65;
+}
+
+.tech-keyword-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin: 0;
+}
+
+.tech-keyword {
+  padding: 5px 9px;
+  border: 1px solid #d7defc;
+  border-radius: 999px;
+  background: var(--paper);
+  color: var(--blue-dark);
+  font-size: 12px;
+  font-weight: 750;
+  line-height: 1.3;
+}
+
+.one-line-block .insight-label {
+  color: var(--success);
+}
+
+.one-line-block .insight-value {
+  color: #173e32;
+  font-weight: 700;
 }
 
 .empty-state {
@@ -601,6 +678,19 @@ footer a {
 
   .tag-list {
     padding-left: 20px;
+  }
+
+  .insight-breakdown {
+    grid-template-columns: 1fr;
+  }
+
+  .technology-block,
+  .one-line-block {
+    grid-column: auto;
+  }
+
+  .insight-block {
+    padding: 14px;
   }
 
   footer {

@@ -68,6 +68,74 @@ function createLink(label, href, primary = false) {
   return link;
 }
 
+function parseTechActions(line) {
+  const content = String(line || "").replace(/^6\)\s*/, "");
+  const legacy = content.match(
+    /^키워드\+A\/B\/C\/D\s*:\s*(.*?)\s*\/\s*A\)(.*?)\s+B\)(.*?)\s+C\)(.*?)\s+D\)(.*)$/s,
+  );
+  if (legacy) {
+    return {
+      technology: legacy[1].trim(),
+      A: legacy[2].trim(),
+      B: legacy[3].trim(),
+      C: legacy[4].trim(),
+      D: legacy[5].trim(),
+    };
+  }
+
+  const parts = content.split(/\s+\+\s+(?=[A-D]\))/);
+
+  if (parts.length < 2) return null;
+
+  const sections = {
+    technology: parts.shift().replace(/^기술\/플러그인 키워드\s*:\s*/, "").trim(),
+  };
+
+  parts.forEach((part) => {
+    const match = part.match(/^([A-D])\)\s*(.*)$/s);
+    if (match) sections[match[1]] = match[2].trim();
+  });
+
+  return sections.A || sections.B || sections.C || sections.D ? sections : null;
+}
+
+function createInsightBlock(label, value, className = "") {
+  const block = el("div", `insight-block${className ? ` ${className}` : ""}`);
+  block.append(el("dt", "insight-label", label), el("dd", "insight-value", value || "확인 불가"));
+  return block;
+}
+
+function createTechActions(line) {
+  const sections = parseTechActions(line);
+  if (!sections) return null;
+
+  const breakdown = el("dl", "insight-breakdown");
+  const technology = el("div", "insight-block technology-block");
+  technology.append(el("dt", "insight-label", "기술 · 플러그인"));
+
+  const keywords = sections.technology
+    .split(/\s*,\s*|\s*·\s*/)
+    .map((keyword) => keyword.trim())
+    .filter(Boolean);
+
+  if (keywords.length > 1) {
+    const keywordList = el("dd", "tech-keyword-list");
+    keywords.forEach((keyword) => keywordList.append(el("span", "tech-keyword", keyword)));
+    technology.append(keywordList);
+  } else {
+    technology.append(el("dd", "insight-value", sections.technology || "확인 불가"));
+  }
+
+  breakdown.append(
+    technology,
+    createInsightBlock("A · IA 퀵액션", sections.A),
+    createInsightBlock("B · 핵심 KPI", sections.B),
+    createInsightBlock("C · 공공기관 Do / Don’t", sections.C),
+    createInsightBlock("D · 오늘의 한 줄", sections.D, "one-line-block"),
+  );
+  return breakdown;
+}
+
 function createCard(item) {
   const article = el("article", "site-card");
   article.dataset.search = [
@@ -101,8 +169,16 @@ function createCard(item) {
   }
 
   const analysis = el("ol", "analysis-list");
-  (item.lines || []).forEach((line) => {
-    analysis.append(el("li", "", line.replace(/^\d+\)\s*/, "")));
+  (item.lines || []).forEach((line, index) => {
+    const listItem = el("li");
+    const techActions = index === 5 ? createTechActions(line) : null;
+    if (techActions) {
+      listItem.classList.add("analysis-breakdown-item");
+      listItem.append(techActions);
+    } else {
+      listItem.textContent = line.replace(/^\d+\)\s*/, "");
+    }
+    analysis.append(listItem);
   });
   article.append(analysis);
   return article;
