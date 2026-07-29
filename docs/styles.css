@@ -462,6 +462,7 @@ main {
 }
 
 .technology-block,
+.public-guideline-block,
 .one-line-block {
   grid-column: 1 / -1;
 }
@@ -685,6 +686,7 @@ footer a {
   }
 
   .technology-block,
+  .public-guideline-block,
   .one-line-block {
     grid-column: auto;
   }

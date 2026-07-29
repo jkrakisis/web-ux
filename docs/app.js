@@ -130,7 +130,7 @@ function createTechActions(line) {
     technology,
     createInsightBlock("A · IA 퀵액션", sections.A),
     createInsightBlock("B · 핵심 KPI", sections.B),
-    createInsightBlock("C · 공공기관 Do / Don’t", sections.C),
+    createInsightBlock("C · 공공기관 Do / Don’t", sections.C, "public-guideline-block"),
     createInsightBlock("D · 오늘의 한 줄", sections.D, "one-line-block"),
   );
   return breakdown;
