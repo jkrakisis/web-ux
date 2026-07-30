@@ -1,11 +1,187 @@
 {
-  "generated_at": "2026-07-29T22:31:46.768611+09:00",
-  "mode": "dry-run",
+  "generated_at": "2026-07-30T20:30:01.072046+09:00",
+  "mode": "live",
   "status": "success",
-  "new_count": 2,
+  "new_count": 4,
   "failure_count": 0,
-  "total_count": 63,
+  "total_count": 67,
   "items": [
+    {
+      "str_no": "27342",
+      "site_name": "크림",
+      "registered_date": "2026-07-30",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27342",
+      "live_url": "https://www.crea-m.com/",
+      "domain": "crea-m.com",
+      "targets": [
+        "기업"
+      ],
+      "technologies": [
+        "React",
+        "Next.js"
+      ],
+      "lines": [
+        "1) 크림 / 2026-07-30 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27342 / 실사이트: https://www.crea-m.com/",
+        "2) 기업 대상 디지털 크리에이티브 포트폴리오 및 프로젝트 수주용 사이트(IA: Works·AX·Journal·Careers·Contact 중심).",
+        "3) 포트폴리오 중심 네비게이션(Works, AX, Journal)과 채용·문의 메뉴 분리, Contact·프로젝트 문의하기 CTA 존재로 문의 유도 패턴 확인.",
+        "4) 사이트 타이틀·설명에서 'AI Creative Tech' 메시지가 명확하며 HTML에서 React·Next.js 사용이 확인되어 현대적 프론트엔드 스택을 활용 중임.",
+        "5) 상세 콘텐츠 우선순위·접근성·색상 정보는 제공된 근거로 확인 불가; 'AX' 레이블의 정확한 의미와 CTA 노출 빈도/위치는 추가 검증 권장.",
+        "6) 기술/플러그인 키워드: React, Next.js + A) 메인 IA 퀵액션 재배치: 헤더 우상단에 Contact·프로젝트 문의하기를 고정 퀵버튼으로 배치하고 Works(포트폴리오)로 즉시 이동하는 퀵링크 추가하여 문의 전환 경로 단축. + B) 전환/체류/탐색 KPI: 전환 — 프로젝트 문의 제출 수(월별), 체류 — 평균 세션 지속시간 및 페이지별 체류시간, 탐색 — 페이지당 조회수 및 Works→Contact 전환율. + C) 공공기관 Do/Don't: Do — 문의경로와 연락처를 모든 페이지에서 명확히 노출하고 접근성 표준 준수; Don't — 브랜딩 비주얼로 핵심 연락·사업 정보를 숨기지 말 것. + D) 오늘의 한 줄: AI Native 포지셔닝을 전면에 내세운 기업 대상 크리에이티브 포트폴리오 사이트."
+      ],
+      "notion_url": "https://app.notion.com/p/3ad69790c14381ec90b5c87d0b5609db",
+      "source": "notion",
+      "agency": "더크림유니언",
+      "methods": [
+        "영상"
+      ],
+      "concepts": [
+        "고급스러운"
+      ],
+      "evidence": [
+        "React: HTML에서 '_next/static' 확인",
+        "Next.js: HTML에서 '/_next/' 확인"
+      ],
+      "website_reachable": true
+    },
+    {
+      "str_no": "27313",
+      "site_name": "영림프라임창호",
+      "registered_date": "2026-07-30",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27313",
+      "live_url": "http://ylchem.co.kr",
+      "domain": "ylchem.co.kr",
+      "targets": [
+        "30-40대",
+        "40대 이후",
+        "기업"
+      ],
+      "technologies": [
+        "jQuery",
+        "GSAP",
+        "Swiper",
+        "Cafe24"
+      ],
+      "lines": [
+        "1) 영림프라임창호 / 2026-07-30 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27313 / 실사이트: http://ylchem.co.kr",
+        "2) 목적: 고효율·고성능 창호 홍보 및 '견적문의' 유도; 주요 대상은 30-40대·40대 이후·기업으로 설정되어 있으며 IA 인사이트는 메뉴 레이블이 비어 있어 현재 네비게이션 구조를 확인할 수 없으므로(확인 불가) 견적/상담 CTA를 헤더와 모바일 플로팅으로 상시 노출하는 퀵액세스 재배치가 필요함.",
+        "3) 모션그래픽(GSAP), 이미지 중심(제품/건물 사진), 슬라이더(스크립트로 Swiper 확인) 조합으로 '클래식·모던·신뢰' 콘셉트를 시각적으로 구현한 것으로 보이며 플랫폼은 Cafe24 기반으로 구축됨.",
+        "4) 명확한 주요 CTA('견적문의','리모델링 상담 신청하기')와 GSAP/Swiper를 활용한 시각적 표현, Cafe24로 빠른 배포·운영 가능성이 강점이며 사이트 타이틀은 '영림화학주식회사'로 확인됨(등록명과 불일치 여부는 확인 불가).",
+        "5) 네비게이션 메뉴 레이블 부재 보완(메뉴 구조 노출), 헤더/모바일에 CTA 상시 노출·고정, 이미지·애니메이션 지연 로드로 성능 최적화, 접근성(모션·색 대비) 점검 및 회사명 표기 일관화 권장; 기타 내부 흐름·폼 전환 퍼널은 현재 확인 불가.",
+        "6) 기술/플러그인 키워드: jQuery, GSAP, Swiper, Cafe24 + A) 메인 IA 퀵액션 재배치: 헤더 우측에 '견적문의'·'리모델링 상담 신청' 고정 버튼 추가(데스크톱 고정, 모바일은 플로팅 버튼) + B) 전환/체류/탐색 KPI: CTA 클릭률(견적문의 클릭), 문의 완수 전환율, 페이지당뷰·평균 세션시간, 이탈률(랜딩 페이지별) + C) 공공기관 Do/Don't: Do—접근성(고대비·모션 최소화), 연락처·사업자 정보 명확 표기, 문서·자료 다운로드 제공; Don't—필수 정보 숨김, 과도한 자동 재생 모션·비표준 네비게이션 + D) 오늘의 한 줄: CTA 가시성 확보로 문의 전환부터 성과를 빠르게 측정하십시오."
+      ],
+      "notion_url": "https://app.notion.com/p/3ad69790c14381d58ba9e029afefba80",
+      "source": "notion",
+      "agency": "OOOS",
+      "methods": [
+        "모션그래픽",
+        "사진",
+        "그래픽디자인",
+        "건물/빌딩",
+        "제품"
+      ],
+      "concepts": [
+        "클래식한",
+        "모던한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "BLACK",
+        "IVORY",
+        "WHITE"
+      ],
+      "evidence": [
+        "jQuery: HTML에서 'jquery-' 확인",
+        "GSAP: HTML에서 'gsap.min.js' 확인",
+        "Swiper: HTML에서 'swiper-bundle' 확인",
+        "Cafe24: HTML에서 'cafe24.com' 확인"
+      ],
+      "website_reachable": true
+    },
+    {
+      "str_no": "27338",
+      "site_name": "이스트소프트",
+      "registered_date": "2026-07-29",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27338",
+      "live_url": "https://estsoft.ai/",
+      "domain": "estsoft.ai",
+      "technologies": [
+        "Google Tag Manager"
+      ],
+      "lines": [
+        "1) 이스트소프트 / 2026-07-29 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27338 / 실사이트: https://estsoft.ai/",
+        "2) 목적: AI 기술 기반의 기업·제품·기술·비즈니스·IR·채용 정보를 전달하는 기업 사이트; 타깃: 제품·기술 관심자, 비즈니스 파트너, 투자자(IR), 구직자(Recruit)로 메뉴 구성에서 확인됨; IA 핵심은 상단 글로벌 네비게이션(Our Story, Product, Tech, Business, IR, Company, Recruit) 및 반복 CTA 구성.",
+        "3) 화이트 기반의 미니멀 레이아웃, 상단 글로벌 메뉴 중심의 IA, 여러 위치에 중복된 CTA 라벨(Contact Us / Get Started 등), 영상 매체 활용(방법에 '영상' 명시), Google Tag Manager로 이벤트 추적 준비된 형태가 확인됨.",
+        "4) 강점: 명확한 브랜드 메시지(타이틀·설명), 기업·제품·기술 섹션의 분리로 정보 구조가 직관적이며, 다수의 CTA로 문의 유도 가능성 보유·Google Tag Manager 삽입으로 분석 연동 준비됨.",
+        "5) 개선안: 중복된 CTA 라벨을 통합해 혼란 최소화, 메인 IA에 제품 퀵액션·데모 접근성 우선순위 부여, 영상 콘텐츠에 자막·스크립트 등 접근성 보완 및 영상→CTA 흐름 연결 강화, 상세 사용자 세그먼트·행동 동선은 제공 근거로만은 확인 불가.",
+        "6) 기술/플러그인 키워드: Google Tag Manager + A) 메인 IA 퀵액션 재배치: 상단 네비게이션 우측에 통합 CTA(예: 'Contact / Get Started') 배치 및 'Product Quick Links' 드롭다운으로 주요 제품·데모 접근성 우선화 + B) 전환/체류/탐색 KPI: CTA 클릭률, 컨택폼 제출수(전환), 제품·기술 페이지 뷰 및 비디오 재생률(탐색), 세션 지속시간(체류)을 GTM 이벤트로 수집·모니터링 + C) 공공기관 Do/Don't: Do - 연락처·IR·채용정보 명확 표기 및 접근성(자막·대체텍스트) 제공, Do - 분석 태깅과 명확한 전환 경로 설계, Don't - 중복·모호한 CTA 라벨 사용 금지 + D) 오늘의 한 줄: CTA 라벨 통합으로 방문자의 의사결정 경로를 단축하세요."
+      ],
+      "notion_url": "https://app.notion.com/p/3ad69790c143814f8f93fabd18dd8ef1",
+      "source": "notion",
+      "agency": "미등록",
+      "methods": [
+        "영상"
+      ],
+      "colors": [
+        "WHITE"
+      ],
+      "evidence": [
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인"
+      ],
+      "website_reachable": true
+    },
+    {
+      "str_no": "27325",
+      "site_name": "센트레빌 아스테이룸 거제",
+      "registered_date": "2026-07-29",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27325",
+      "live_url": "https://xn--v69aw3t99ak5in9d1rcn6g6ods3d556ajsd.com/",
+      "domain": "xn--v69aw3t99ak5in9d1rcn6g6ods3d556ajsd.com",
+      "targets": [
+        "30-40대",
+        "기업"
+      ],
+      "technologies": [
+        "Google Analytics",
+        "Google Tag Manager",
+        "jQuery",
+        "GSAP",
+        "Cafe24"
+      ],
+      "lines": [
+        "1) 센트레빌 아스테이룸 거제 / 2026-07-29 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27325 / 실사이트: https://xn--v69aw3t99ak5in9d1rcn6g6ods3d556ajsd.com/",
+        "2) 목적·타깃·IA: 메뉴('분양안내','홍보센터','사업안내' 등) 구성으로 분양·홍보 목적이 명시되며 타깃은 제공된 근거상 30-40대 및 기업이고 IA는 사업·단지·평형 등 세부정보 중심 구조임.",
+        "3) UX 패턴: GSAP 기반 모션·영상 중심 표현(근거: GSAP·모션그래픽·영상 기재), 분석툴 연동(GA·GTM), Cafe24 호스팅 기반이며 메뉴 중심의 상세 내비게이션이 다수 존재하나 CTA 레이블은 부재(근거: cta_labels 빈 배열).",
+        "4) 강점: 사이트 접근 가능(최종 URL 응답), Google Analytics·GTM 적용으로 데이터 기반 분석 여지 확보, GSAP로 동적 연출 가능, 사업·단지·평형 등 상세 메뉴로 정보 범위가 넓으며 Cafe24 기반으로 운영·관리 편의성 보유(근거: technologies·menu_labels).",
+        "5) 개선권장: CTA 부재(근거: cta_labels 빈 배열)로 '분양문의/모델하우스/분양일정' 등 퀵액션 추가, 메뉴 레이블 다수로 주요 동선 우선순위 재정렬 권장, GA·GTM을 활용한 전환 이벤트(문의·신청) 및 애니메이션 성능 측정 구현 권장.",
+        "6) 기술/플러그인 키워드: Google Analytics, Google Tag Manager, jQuery, GSAP, Cafe24 + A) 메인 IA 퀵액션 재배치: 상단에 분양문의 / e모델하우스 / 분양일정 / 오시는 길 우선 배치 및 모바일에서 고정 CTA로 노출(우선순위 재배치 권장) + B) 전환/체류/탐색 KPI: 전환=분양문의 클릭·문의폼 제출·분양신청 클릭, 체류=평균 세션 시간·페이지별 체류시간, 탐색=페이지 뎁스(페이지당 이동수)·주요 진입/이탈 경로(이벤트로 GTM에 수집) + C) 공공기관 Do/Don't: Do=명확한 문서·연락처 표시, 접근성 및 개인정보 안내 강화, 데이터 추적·보안 설정 명시; Don't=혼란스러운 광고성 문구 과다 사용, 핵심정보 숨김, 추적 미설정(로그 부재) + D) 오늘의 한 줄: 주요 전환 버튼을 최상단 고정해 방문자가 즉시 문의할 수 있도록 배치하라."
+      ],
+      "notion_url": "https://app.notion.com/p/3ad69790c14381788cf6f8591321995d",
+      "source": "notion",
+      "agency": "(주)로고스커뮤니케이션",
+      "methods": [
+        "모션그래픽",
+        "영상",
+        "건물/빌딩"
+      ],
+      "concepts": [
+        "고급스러운",
+        "역동적인",
+        "클래식한",
+        "모던한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "BROWN"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "jQuery: HTML에서 'jquery-' 확인",
+        "GSAP: HTML에서 'gsap.min.js' 확인",
+        "Cafe24: HTML에서 'cafe24.com' 확인"
+      ],
+      "website_reachable": true
+    },
     {
       "str_no": "27320",
       "site_name": "모리스",
@@ -2029,92 +2205,9 @@
       "source": "notion"
     }
   ],
-  "preview_items": [
-    {
-      "str_no": "27325",
-      "site_name": "센트레빌 아스테이룸 거제",
-      "registered_date": "2026-07-29",
-      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27325",
-      "live_url": "https://xn--v69aw3t99ak5in9d1rcn6g6ods3d556ajsd.com/",
-      "domain": "xn--v69aw3t99ak5in9d1rcn6g6ods3d556ajsd.com",
-      "agency": "(주)로고스커뮤니케이션",
-      "targets": [
-        "30-40대",
-        "기업"
-      ],
-      "methods": [
-        "모션그래픽",
-        "영상",
-        "건물/빌딩"
-      ],
-      "concepts": [
-        "고급스러운",
-        "역동적인",
-        "클래식한",
-        "모던한",
-        "신뢰적인"
-      ],
-      "colors": [
-        "BROWN"
-      ],
-      "technologies": [
-        "Google Analytics",
-        "Google Tag Manager",
-        "jQuery",
-        "GSAP",
-        "Cafe24"
-      ],
-      "evidence": [
-        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
-        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
-        "jQuery: HTML에서 'jquery-' 확인",
-        "GSAP: HTML에서 'gsap.min.js' 확인",
-        "Cafe24: HTML에서 'cafe24.com' 확인"
-      ],
-      "website_reachable": true,
-      "lines": [
-        "1) 센트레빌 아스테이룸 거제 / 2026-07-29 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27325 / 실사이트: https://xn--v69aw3t99ak5in9d1rcn6g6ods3d556ajsd.com/",
-        "2) 목적: 신규 분양(홍보·정보 제공) 사이트로 확인되며 주요 타깃은 제공된 값에 따라 30-40대 및 기업이며 메인 IA는 사업안내·단지안내·평형안내·분양안내 중심으로 구성되어 있음.",
-        "3) 모션·영상 중심의 비주얼 탐색 패턴(GSAP·모션그래픽·영상 사용, 메뉴 기반 정보 카테고리 다수 사용)이며 CTA는 자료상 미표시(cta_labels 비어있음)로 즉각적 전환 유도 요소 부재가 관찰됨.",
-        "4) 상세한 분양 관련 메뉴 구조(사업안내·단지안내·평형안내·분양안내 등)와 브랜드 콘셉트(고급·클래식·모던 등)를 모션/애니메이션(GSAP)으로 전달하며, Google Analytics·GTM 등 분석 툴이 적용되어 있음.",
-        "5) CTA 부재(cta_labels 없음)로 전환 경로 불명확 → 상단·모바일 퀵액션 추가 권장, 메뉴 과다로 IA 간소화 권장; 추적·목표 설정(GA/GTM)은 적용 확인되나 세부 전환 설정 여부는 확인 불가.",
-        "6) 기술/플러그인 키워드: Google Analytics, Google Tag Manager, jQuery, GSAP, Cafe24 + A) 메인 IA 퀵액션 재배치: 상단 퀵액션 순서를 '분양안내 > e모델하우스 > 분양일정 > 모집공고 > 오시는 길'로 배치하여 분양 전환 경로 단축 + B) 전환/체류/탐색 KPI: '분양문의(전화/신청) 전환율, e모델하우스 체류시간(시간/페이지), 주요 페이지(평형·단지) 클릭률, 이탈률 및 CTA 클릭 횟수' + C) 공공기관 Do/Don't: Do: 모집공고·분양일정·공급안내 등 핵심정보의 정확하고 최신 표기, 접근성(명확한 링크와 모바일 최적화) 보장; Don't: 불명확한 정보나 오도 가능 문구 사용 금지(확인 불가한 정보 표기는 지양) + D) 오늘의 한 줄: 분양 정보는 충실하나 즉시 전환을 유도하는 CTA와 IA 간소화가 시급함."
-      ]
-    },
-    {
-      "str_no": "27338",
-      "site_name": "이스트소프트",
-      "registered_date": "2026-07-29",
-      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27338",
-      "live_url": "https://estsoft.ai/",
-      "domain": "estsoft.ai",
-      "agency": "미등록",
-      "targets": [],
-      "methods": [
-        "영상"
-      ],
-      "concepts": [],
-      "colors": [
-        "WHITE"
-      ],
-      "technologies": [
-        "Google Tag Manager"
-      ],
-      "evidence": [
-        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인"
-      ],
-      "website_reachable": true,
-      "lines": [
-        "1) 이스트소프트 / 2026-07-29 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27338 / 실사이트: https://estsoft.ai/",
-        "2) 목적: 이스트소프트의 AI 기반 서비스·브랜드 홍보 및 제품·기술·기업정보 제공; 타깃: 확인 불가; IA: 상단 글로벌 네비(Our Story, Product, Tech, Business, IR, Company, Recruit)와 Contact Us/Get Started 중심 CTAs.",
-        "3) 영상 기반(‘영상’ 근거) 콘텐츠 활용, 화이트 배경의 미니멀 브랜드 마케팅 구조, 상단 메뉴와 다수 CTA(‘Contact Us’, ‘Get Started’) 반복 배치, Google Tag Manager 설치 확인.",
-        "4) 명확한 브랜드 미션 문구(사이트 설명), 일관된 상단 메뉴·CTA 노출, 영상 매체 사용 근거 및 Google Tag Manager로 기본 분석 환경 마련됨.",
-        "5) 권장 개선점: CTA 중복 정리 및 우선순위화(‘Get Started’ 중심), GTM으로 전환·영상·CTA 상세 이벤트 태깅 확장, 다국어·웹접근성·모바일 최적화 여부는 제공 근거 없어 '확인 불가'.",
-        "6) 기술/플러그인 키워드: Google Tag Manager + A) 메인 IA 퀵액션 재배치: 상단 우측 고정 CTA를 'Get Started' 우선, 'Contact Us' 보조로 배치하고 메뉴 우선순위를 Product→Tech→Business→Our Story→Company→IR→Recruit로 정리해 주요 전환 경로 단축 + B) 전환/체류/탐색 KPI: CTA 클릭률(%)·폼 제출 수·비디오 재생률·비디오 완료율·세션 지속시간·페이지/세션·이탈률·네비게이션 클릭 순위 + C) 공공기관 Do/Don't: Do - 태깅·쿠키·개인정보 처리명확 고지 및 옵트인, 웹접근성 준수, 로그·보안정책 문서화; Don't - 사용자 동의 없는 프로파일링/과도한 추적, 개인정보 비고지 + D) 오늘의 한 줄: GTM이 설치되어 있으므로 우선 CTA·영상 이벤트를 태깅해 전환 가시성을 확보하세요."
-      ]
-    }
-  ],
+  "preview_items": [],
   "available_dates": [
+    "2026-07-30",
     "2026-07-29",
     "2026-07-28",
     "2026-07-23",
@@ -2145,6 +2238,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-07-30T20:30:01.072046+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 4,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-07-29T22:31:46.768611+09:00",
       "mode": "dry-run",
