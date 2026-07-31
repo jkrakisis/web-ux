@@ -1,11 +1,97 @@
 {
-  "generated_at": "2026-07-30T20:30:01.072046+09:00",
+  "generated_at": "2026-07-31T20:39:07.273565+09:00",
   "mode": "live",
   "status": "success",
-  "new_count": 4,
+  "new_count": 2,
   "failure_count": 0,
-  "total_count": 67,
+  "total_count": 69,
   "items": [
+    {
+      "str_no": "27351",
+      "site_name": "K뉴딜아카데미",
+      "registered_date": "2026-07-31",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27351",
+      "live_url": "https://knda.korchamhrd.net/",
+      "domain": "knda.korchamhrd.net",
+      "targets": [
+        "대학생"
+      ],
+      "technologies": [
+        "jQuery",
+        "Swiper"
+      ],
+      "lines": [
+        "1) K뉴딜아카데미 / 2026-07-31 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27351 / 실사이트: https://knda.korchamhrd.net/",
+        "2) 목적(제공근거: 사이트명): 'K-뉴딜아카데미'로 교육 관련 플랫폼으로 추정(세부 목적은 확인 불가); 주요 타깃: 대학생(제공됨); 주요 IA: 메뉴 라벨(아카데미, 아카데미 소개, 함께하는 기업, 모집중인 과정, 교육혜택, 수료혜택, 취업 프로그램, 코딩테스트, 과정인증코드, 사업문의, 참여문의(기업), 채용문의(기업), 오시는 길, 커뮤니티, 공지사항, 보도자료, 수강후기, 훈련생 FAQ).",
+        "3) 확인된 기술 근거: Swiper(HTML 상 'swiper-bundle' 확인)로 슬라이더/카루셀 형태의 동적 콘텐츠, jQuery('jquery-' 확인) 기반 DOM 조작과 이벤트 바인딩을 활용한 모듈형 인터랙션; 메뉴 중심의 다계층 네비게이션 패턴이 관찰됨.",
+        "4) 접근성(사이트 도달 가능: live_url 도달 확인), 명확한 기관 브랜드 표기('K-뉴딜아카데미 | 대한상공회의소'), 풍부한 메뉴·CTA 구성(사업문의·참여문의·채용문의 등)과 Swiper/jQuery로 구현된 동적 UI 요소가 강점으로 확인됨.",
+        "5) 메타 설명이 비어있음(SEO·공유 카드 개선 필요), CTA 라벨이 다수 존재해 우선순위·문구 간결화 필요, 3D·역동적 콘셉트 반영을 위해 퍼포먼스·접근성 영향 점검 권고(퍼포먼스/접근성 상태는 확인 불가).",
+        "6) 기술/플러그인 키워드: jQuery, Swiper + A) 메인 IA 퀵액션 재배치 제안: 1) 모집중인 과정 2) 교육혜택/수료혜택 3) 취업 프로그램/코딩테스트 4) 수강후기 5) 사업문의/참여문의(기업)/채용문의(기업) — 대학생 우선 흐름으로 재정렬(세부 우선순위는 서비스 전략에 따라 조정) + B) 전환/체류/탐색 KPI 제안: 모집중인 과정 클릭률(CTR), 과정 신청/문의 폼 제출 전환율, 페이지별 평균 체류시간(특히 과정·수강후기 페이지), 슬라이더 상호작용률(Swiper interaction rate), 이탈률(모집중인 과정 진입 후 이탈) + C) 공공기관 Do/Don't: Do: 명확한 접수·문의 경로 표기, 기관 신뢰성(대한상공회의소) 강조, 메타데이터·공고 이력 보존; Don't: CTA 중복으로 사용자 혼란 유발 금지, 과도한 시각·3D 효과로 접근성 저해 금지 + D) 오늘의 한 줄: 대학생 사용 흐름을 먼저 정의하고 '모집중인 과정 → 신청/문의' 동선을 간결하게 만드는 것이 우선입니다."
+      ],
+      "notion_url": "https://app.notion.com/p/K-3ae69790c143813a8e9cd84ad5446d03",
+      "source": "notion",
+      "agency": "플렉스",
+      "methods": [
+        "3D"
+      ],
+      "concepts": [
+        "역동적인"
+      ],
+      "colors": [
+        "BLUE",
+        "GREEN"
+      ],
+      "evidence": [
+        "jQuery: HTML에서 'jquery-' 확인",
+        "Swiper: HTML에서 'swiper-bundle' 확인"
+      ],
+      "website_reachable": true
+    },
+    {
+      "str_no": "27341",
+      "site_name": "불닭닷컴",
+      "registered_date": "2026-07-31",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27341",
+      "live_url": "https://buldak.com/kr/",
+      "domain": "buldak.com",
+      "targets": [
+        "대학생",
+        "20-30대"
+      ],
+      "technologies": [
+        "Google Analytics",
+        "Google Tag Manager",
+        "React",
+        "Next.js"
+      ],
+      "lines": [
+        "1) 불닭닷컴 / 2026-07-31 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27341 / 실사이트: https://buldak.com/kr/",
+        "2) 목적: 불닭 제품군 홍보 및 브랜드 경험 강화(사이트 타이틀·설명 근거), 주요 대상: 대학생·20-30대(제공된 targets), 주요 IA: Product / News / Event / About(제공된 menu_labels) — 세부 구매 흐름 유무는 확인 불가.",
+        "3) React·Next.js 사용이 확인되어 클라이언트 사이드 라우팅과 동적 렌더링 가능성 존재(기술 사용은 확인됨; 실제 페이지 전환 속도/SPA 특성 적용 여부는 확인 불가), Google Analytics·GTM이 삽입되어 행동분석 기반 개선 가능.",
+        "4) 대상(targets)과 콘셉트(재미있는), 브랜드 컬러(RED) 및 모던 스택(React/Next.js)·분석 툴(GA/GTM) 적용이 명확하여 젊은층 경험 설계와 성과 측정 기반이 마련되어 있음.",
+        "5) 주요 CTA 레이블 없음(cta_labels 비어있음)으로 전환 유도 장치 부재 확인, 제품 탐색·구매 유도용 명확한 퀵액션 및 이벤트 참여 흐름 필요; 모바일/접근성 상태 등은 확인 불가.",
+        "6) 기술/플러그인 키워드: Google Analytics, Google Tag Manager, React, Next.js + A) 메인 IA 퀵액션 재배치: Product → Event → News → About(메뉴 우선순위 재정렬 및 상단 퀵액션에 'Best Seller'·'이벤트 참여' 배치 권장; 구체 라벨 추가는 확인 불가) + B) 전환/체류/탐색 KPI: GA 기반 전환율(구매·이벤트 참여), 이벤트 클릭률 및 CT A 클릭률, 평균 세션시간·페이지/세션, 이탈률 및 캠페인 참여 전환(구성 가능성은 확인됨) + C) 공공기관 Do/Don't: Do — 명확한 CTA·분석 이벤트 태깅, 개인정보·트래킹 고지 및 웹 접근성 준수; Don't — 과도한 팝업/자동재생으로 체류 저해, 브랜드 컬러 대비 무시(RED 사용 시 대비 체크) + D) 오늘의 한 줄: CT A 부재 개선과 분석 이벤트 태깅으로 20-30대 대상 전환 잠재력을 빠르게 끌어올리세요."
+      ],
+      "notion_url": "https://app.notion.com/p/3ae69790c14381769ad0f81c9c0a015e",
+      "source": "notion",
+      "agency": "디자인피버",
+      "methods": [
+        "그래픽디자인"
+      ],
+      "concepts": [
+        "재미있는"
+      ],
+      "colors": [
+        "RED"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "React: HTML에서 '_next/static' 확인",
+        "Next.js: HTML에서 '/_next/' 확인"
+      ],
+      "website_reachable": true
+    },
     {
       "str_no": "27342",
       "site_name": "크림",
@@ -2207,6 +2293,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-07-31",
     "2026-07-30",
     "2026-07-29",
     "2026-07-28",
@@ -2238,6 +2325,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-07-31T20:39:07.273565+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 2,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-07-30T20:30:01.072046+09:00",
       "mode": "live",
