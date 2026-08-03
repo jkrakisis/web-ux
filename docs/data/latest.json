@@ -1,11 +1,92 @@
 {
-  "generated_at": "2026-07-31T20:39:07.273565+09:00",
+  "generated_at": "2026-08-03T21:43:30.330947+09:00",
   "mode": "live",
   "status": "success",
   "new_count": 2,
   "failure_count": 0,
-  "total_count": 69,
+  "total_count": 71,
   "items": [
+    {
+      "str_no": "27367",
+      "site_name": "삼성서울병원 영문",
+      "registered_date": "2026-08-03",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27367",
+      "live_url": "https://www.samsunghospital.com/en/",
+      "domain": "samsunghospital.com",
+      "targets": [
+        "30-40대",
+        "40대 이후"
+      ],
+      "technologies": [
+        "Google Tag Manager",
+        "GSAP",
+        "Swiper"
+      ],
+      "lines": [
+        "1) 삼성서울병원 영문 / 2026-08-03 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27367 / 실사이트: https://www.samsunghospital.com/en/",
+        "2) 영문 사이트 목적(확인된 근거): 국제 환자·해외 방문자에게 병원·진료 정보 제공 및 진료 시작(예약) 유도; 주 타깃은 30–40대 및 40대 이후.",
+        "3) IA/내비게이션 패턴: 상단 메뉴에 'Start Your Care','Request an Appointment','International Healthcare Center' 등 예약·국제환자 중심 레이블과 CTA('Start Your Care','Contact Us')가 전면 배치; 영상 사용(방법), 안정적 콘셉트·블루 색상, GSAP(애니메이션)·Swiper(슬라이더), Google Tag Manager(분석) 검출.",
+        "4) 강점: 국제환자 전용 메뉴 및 예약 관련 CTA가 명확히 노출되어 진료 유도 가능성, GSAP·Swiper로 인터랙션 구현 근거와 Google Tag Manager로 분석 연동 근거 보유.",
+        "5) 개선(권장): 'Request an Appointment'·'Start Your Care'·'Contact Us'를 주상단 혹은 모바일 하단 고정 퀵액션으로 재배치해 국제환자 진료 여정 단축; 영상·슬라이더의 접근성·로딩 영향 여부는 현재 상태로는 확인 불가.",
+        "6) 기술/플러그인 키워드: Google Tag Manager, GSAP, Swiper + A) 상단 우측(데스크톱) 및 모바일 하단 고정 버튼으로 'Start Your Care'·'Request an Appointment'·'Contact Us'를 그룹화하여 진료 예약 경로를 1클릭 이내로 축소 재배치 + B) KPI: 예약 전환율(International pages), CTA 클릭률(상단/모바일 퀵), 페이지별 평균 체류시간(진료·IHC), 예약 흐름 이탈률(탐색 전환) 모니터링 + C) 공공기관 Do/Don't: Do — 진료·비용·연락 절차를 명확히 고지; Don't — 의료정보 과장·불명확한 수수료·절차 표기는 금지 + D) 오늘의 한 줄: 국제 환자 유입을 위해 예약 CTA를 더 눈에 띄게 고정하세요."
+      ],
+      "notion_url": "https://app.notion.com/p/3b169790c143817699efddaa1ef9fc4e",
+      "source": "notion",
+      "agency": "미등록",
+      "methods": [
+        "영상"
+      ],
+      "concepts": [
+        "안정적"
+      ],
+      "colors": [
+        "BLUE"
+      ],
+      "evidence": [
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "GSAP: HTML에서 'gsap.min.js' 확인",
+        "Swiper: HTML에서 'swiper-bundle' 확인"
+      ],
+      "website_reachable": true
+    },
+    {
+      "str_no": "27362",
+      "site_name": "백록담",
+      "registered_date": "2026-08-03",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27362",
+      "live_url": "https://www.baekrokdam.com/",
+      "domain": "baekrokdam.com",
+      "targets": [
+        "40대 이후"
+      ],
+      "technologies": [
+        "Google Analytics"
+      ],
+      "lines": [
+        "1) 백록담 / 2026-08-03 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27362 / 실사이트: https://www.baekrokdam.com/",
+        "2) 목적: 인천 송도 백록담한의원의 진료 안내·진료예약 유도(페이지 타이틀·다수 예약 CTA에서 확인 가능), 대상: 40대 이후(제공된 타깃 정보), 주요 IA: 질환별 카테고리와 안내성 메뉴(의료진 소개·오시는 길·진료 예약) 중심.",
+        "3) 관찰된 UX 패턴: 다수의 '진료 예약' CTA(중복 레이블 존재), 질환별 카테고리 기반 네비게이션(소화기·마음건강·피부질환 등), 정보성 콘텐츠 메뉴(치료후기·건강칼럼·건강가이드) 및 '더보기+' 확장 링크, 디자인 컨셉은 '서정적'·BLUE(메타정보); 레이아웃·반응성 등 세부사항은 확인 불가.",
+        "4) 강점: 페이지 타이틀·설명으로 서비스 목적(회복·신체 균형)과 지역(인천 송도) 명확, 진료 카테고리·정보성 메뉴가 풍부해 탐색 경로가 다양하며 예약 CTA가 여러 위치에 있어 예약 유도 잠재력 보유, Google Analytics(gtag)로 기본 트래킹 확인됨.",
+        "5) 개선점: 중복·유사한 예약 CTA 레이블을 통합해 단일 우선 CTA('진료 예약')로 통일하고 우선순위에 따라 배치하되, 메뉴에서 핵심 IA(진료예약·의료진·오시는 길)를 상단·고정으로 재구성 및 예약 유입 경로에 대한 세분화된 트래킹 도입 권장, 기타 디자인·접근성 관련 상태는 확인 불가.",
+        "6) 기술/플러그인 키워드: Google Analytics, gtag + A) 메인 IA 퀵액션 재배치: 모든 중복 예약 CTA를 '진료 예약'으로 통합하여 헤더 우측과(데스크톱) 모바일 하단 고정으로 우선 배치하고, '의료진 소개'·'오시는 길'을 2순위로 배치하여 예약 동선을 단순화할 것 + B) 전환/체류/탐색 KPI: 예약 전환율(예약 클릭→예약완료), CTA 클릭률(버튼별), 페이지별 평균 체류시간(건강칼럼·치료후기 우선), 페이지당 이탈률 및 카테고리별 페이지 깊이(질환별 탐색 흐름) 추적 + C) 공공기관 Do/Don't: Do - 의료진·오시는 길·진료예약 가시성 확보 및 CTA 레이블 일관성 유지; Don't - 중복·혼동되는 CTA 레이블과 불명확한 예약 흐름 방치하지 않기 + D) 오늘의 한 줄: 중복된 예약 버튼을 단일화해 예약 흐름을 즉시 단순화하세요."
+      ],
+      "notion_url": "https://app.notion.com/p/3b169790c14381bea716e4f0eeb645bc",
+      "source": "notion",
+      "agency": "미등록",
+      "methods": [
+        "그래픽디자인"
+      ],
+      "concepts": [
+        "서정적인"
+      ],
+      "colors": [
+        "BLUE"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인"
+      ],
+      "website_reachable": true
+    },
     {
       "str_no": "27351",
       "site_name": "K뉴딜아카데미",
@@ -2293,6 +2374,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-08-03",
     "2026-07-31",
     "2026-07-30",
     "2026-07-29",
@@ -2325,6 +2407,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-08-03T21:43:30.330947+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 2,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-07-31T20:39:07.273565+09:00",
       "mode": "live",
