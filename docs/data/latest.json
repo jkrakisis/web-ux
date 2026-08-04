@@ -1,11 +1,107 @@
 {
-  "generated_at": "2026-08-03T21:43:30.330947+09:00",
+  "generated_at": "2026-08-04T20:39:15.358337+09:00",
   "mode": "live",
   "status": "success",
   "new_count": 2,
   "failure_count": 0,
-  "total_count": 71,
+  "total_count": 73,
   "items": [
+    {
+      "str_no": "27370",
+      "site_name": "엔코스",
+      "registered_date": "2026-08-04",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27370",
+      "live_url": "https://www.ancors.co.kr/",
+      "domain": "ancors.co.kr",
+      "targets": [
+        "기업"
+      ],
+      "technologies": [
+        "Express"
+      ],
+      "lines": [
+        "1) 엔코스 / 2026-08-04 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27370 / 실사이트: https://www.ancors.co.kr/",
+        "2) 목적·대상·현행 IA: 기업(B2B) 대상 하이드로겔·제형 전문 화장품 ODM 영업·브랜딩이 목적(타이틀·설명 근거), 현재 메뉴·CTA 라벨은 제공되지 않아 상세 IA 구성은 확인 불가.",
+        "3) UX 패턴: 3D·영상 중심의 모던·심플·깔끔 비주얼 콘셉트(제공된 methods·concepts·colors 근거)를 지향하는 것으로 보이나 실제 내비게이션·CTA 흐름은 메뉴·CTA 데이터 미제공으로 확인 불가.",
+        "4) 강점: 독자 기술·대량생산 역량(월 6,000만 개), 38개국 수출, 300+ 글로벌 브랜드 협업 등 신뢰성·제조 역량을 전면에 내세운 메시지(설명 근거)와 BLACK/RED/WHITE의 모던 비주얼 콘셉트, 서버 응답헤더로 Express 사용이 확인됨.",
+        "5) 개선점: 메뉴·CTA 라벨이 제공되지 않아 주요 정보 접근·전환 동선 불명확(확인 불가) — 주요 정보(제품/기술·생산능력·수출/파트너·샘플요청/문의)를 명확한 상단/고정 CTA로 배치하고 접근성·모바일 성능·인증·사례 가시성 강화 권장.",
+        "6) 기술/플러그인 키워드: Express(확인됨), Analytics(권장), CDN(권장), A/B테스트(권장) + A) 메인 IA 퀵액션 재배치: 상단 고정 헤더 또는 히어로 영역 우측에 우선순위로 '제품/기술' → '생산능력(월 생산량)' → '파트너/수출' → '샘플/문의' 배치하여 즉시 문의 유도 + B) 전환/체류/탐색 KPI: 문의 전환율(샘플요청 포함), 랜딩 페이지 이탈률, 평균 세션 지속시간, 페이지/세션, CTA 클릭률(A/B 테스트로 개선) + C) 공공기관 Do/Don't: Do – 주요 연락처·인증·데이터·웹접근성 명시(명확한 퍼블릭 정보 제공), Do – 간결한 내비게이션·표준 용어 사용; Don't – CTA 숨김·중복된 메뉴로 혼란 유발, Don't – 근거없는 과장 표기 + D) 오늘의 한 줄: 제조역량과 글로벌 협업을 전면에 둔 B2B ODM 메시지는 강하나 메뉴·CTA 부재로 전환 동선 검증 불가."
+      ],
+      "notion_url": "https://app.notion.com/p/3b269790c1438107b314e4bb8a7afe2d",
+      "source": "notion",
+      "agency": "뮤자인",
+      "methods": [
+        "3D",
+        "영상"
+      ],
+      "concepts": [
+        "심플한",
+        "모던한",
+        "깔끔한"
+      ],
+      "colors": [
+        "BLACK",
+        "RED",
+        "WHITE"
+      ],
+      "evidence": [
+        "응답 헤더 x-powered-by=Express"
+      ],
+      "website_reachable": true
+    },
+    {
+      "str_no": "27345",
+      "site_name": "몬드리안에이아이",
+      "registered_date": "2026-08-04",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27345",
+      "live_url": "https://mondrian.ai/",
+      "domain": "mondrian.ai",
+      "targets": [
+        "여성",
+        "남성",
+        "기업"
+      ],
+      "technologies": [
+        "Google Analytics",
+        "Google Tag Manager",
+        "GSAP",
+        "Swiper"
+      ],
+      "lines": [
+        "1) 몬드리안에이아이 / 2026-08-04 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27345 / 실사이트: https://mondrian.ai/",
+        "2) 목적: AI 클라우드·인프라·플랫폼을 통한 고객의 AI 여정 가속화(사이트 설명 근거); 주요 타깃: 여성, 남성, 기업.",
+        "3) 상단 메뉴(‘AI Cloud’, ‘AI Infra’, ‘AI Platform’, ‘Case Stories’, ‘Resource’, ‘About’ 등)와 KOR/ENG 언어 토글, 다수의 'Contact' CTA 중복, 리소스·케이스·블로그 중심 탐색 구조가 확인되며 GSAP·Swiper로 인터랙션·슬라이더 구현이 확인됨.",
+        "4) 브랜드 콘셉트('안정적·모던·깔끔·신뢰적')와 색상 팔레트(BLACK/BLUE/WHITE)가 일관되어 신뢰성 강조, Cloud→Infra→Platform으로 제품 범위를 명확히 제시하며 Google Analytics·GTM 도입으로 트래픽 추적 준비됨.",
+        "5) Contact CTA 및 메뉴 레이블의 중복·장황성으로 전환 경로 혼선 가능; 구체적 사용자 흐름, 모바일 반응성, 접근성 수준 등은 제공된 근거로는 확인 불가.",
+        "6) 기술/플러그인 키워드: Google Analytics, Google Tag Manager, GSAP, Swiper + A) 메인 IA 퀵액션 재배치: 상단 우측 및 모바일 헤더의 중복된 'Contact' 버튼을 단일화하고 'Cloud / Infra / Platform' 빠른접근 버튼 3개로 통합해 전환 동선 단순화 + B) 전환/체류/탐색 KPI: Contact 클릭률(CTA CTR), 문의(폼) 제출수, 세션 지속시간(평균 체류), 이탈률(Bounce rate), 페이지/세션(케이스·리소스 조회량) + C) 공공기관 Do/Don't: Do — CTA 단일화 및 명확한 라벨링, 분석툴·쿠키 수집에 대한 명확한 고지와 동의 절차, 접근성(명도 대비·키보드 네비게이션) 보장; Don't — 중복 CTA·장황한 메뉴 유지, 추적·수집 고지 생략 금지 + D) 오늘의 한 줄: Contact CTA를 단일화하고 핵심 IA(Cloud/Infra/Platform) 바로가기를 최상단에 배치하세요."
+      ],
+      "notion_url": "https://app.notion.com/p/3b269790c1438199b3f0d00b05101036",
+      "source": "notion",
+      "agency": "잇다소프트",
+      "methods": [
+        "일러스트",
+        "타이포",
+        "콘텐츠"
+      ],
+      "concepts": [
+        "안정적",
+        "모던한",
+        "깔끔한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "BLACK",
+        "BLUE",
+        "WHITE"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "GSAP: HTML에서 'gsap.min.js' 확인",
+        "Swiper: HTML에서 'swiper-bundle' 확인"
+      ],
+      "website_reachable": true
+    },
     {
       "str_no": "27367",
       "site_name": "삼성서울병원 영문",
@@ -2374,6 +2470,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-08-04",
     "2026-08-03",
     "2026-07-31",
     "2026-07-30",
@@ -2407,6 +2504,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-08-04T20:39:15.358337+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 2,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-08-03T21:43:30.330947+09:00",
       "mode": "live",
