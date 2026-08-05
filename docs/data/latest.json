@@ -1,11 +1,177 @@
 {
-  "generated_at": "2026-08-04T20:39:15.358337+09:00",
+  "generated_at": "2026-08-05T20:37:49.538816+09:00",
   "mode": "live",
   "status": "success",
-  "new_count": 2,
+  "new_count": 3,
   "failure_count": 0,
-  "total_count": 73,
+  "total_count": 76,
   "items": [
+    {
+      "str_no": "27359",
+      "site_name": "이화여자대학교",
+      "registered_date": "2026-08-05",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27359",
+      "live_url": "https://www.ewha.ac.kr/",
+      "domain": "ewha.ac.kr",
+      "targets": [
+        "여성",
+        "남성",
+        "초등학생",
+        "중고등학생",
+        "학부모",
+        "대학생",
+        "20-30대",
+        "30-40대",
+        "40대 이후",
+        "기업"
+      ],
+      "technologies": [
+        "Google Analytics",
+        "jQuery",
+        "GSAP"
+      ],
+      "lines": [
+        "1) 이화여자대학교 / 2026-08-05 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27359 / 실사이트: https://www.ewha.ac.kr/",
+        "2) 목적: 이화여자대학교의 대학 정보·학사·서비스 제공을 위한 웹사이트로, IA의 주요 타깃은 제공된 대상(여성, 남성, 초등학생, 중고등학생, 학부모, 대학생, 20-30대, 30-40대, 40대 이후, 기업)이며 메뉴 중심은 포털/로그인 및 이화소개 계열임.",
+        "3) 상단에 이화포탈·ENG·로그인 같은 포털 접근성 링크와 '이화소개' 기반 계층형 네비게이션이 중심이며, 학사/장학/수강신청 등 실무형 CTA가 노출되고 비주얼은 BLACK·GREEN과 모션/사진/영상/타이포 기반의 고급·모던 콘셉트로 구성됨.",
+        "4) Google Analytics·jQuery·GSAP 사용 흔적으로 통계·인터랙션 구현 가능성이 있고, 학사·장학·수강 관련 명확한 CTA 레이블 보유 및 다중 타깃·고급·심플 콘셉트(증거: colors/concepts/methods)가 강점임.",
+        "5) 웹사이트 설명(meta description) 미기재(website.description 빈값)로 SEO 보강 필요, 포털·수강신청·장학·성적입력 등 CTA를 우선순위화한 퀵액션 배치와 이벤트 기반 분석 적용 권장; 구체적 접근성·사용성 이슈는 제공 근거로는 '확인 불가'.",
+        "6) 기술/플러그인 키워드: Google Analytics, jQuery, GSAP + A) 메인 IA 퀵액션 재배치: 상단(혹은 모바일 하단)에 이화포탈·로그인·수강신청·장학신청·성적입력/이의신청 등 핵심 CTA를 고정 퀵액션으로 재배치하여 접근경로 단축 + B) 전환/체류/탐색 KPI: 1) 포털 로그인 전환율 2) 수강신청·장학 신청 완료율(폼 제출율) 3) 주요 CTA 클릭률(CTR) 4) 페이지별 평균 체류시간·이탈률 5) 내부 검색·탐색 경로 완료율 + C) 공공기관 Do/Don't: Do: 명확한 절차 안내·필수정보(개인정보·이용약관) 고지·접근성(ARIA·대체텍스트) 준수 및 모바일 최적화, Don't: 메뉴 과다로 인한 혼선 유발·외부추적 미고지하지 않기 + D) 오늘의 한 줄: 퀵액션 우선배치와 메타데이터 강화로 학사 서비스 접근성을 먼저 개선하세요."
+      ],
+      "notion_url": "https://app.notion.com/p/3b369790c1438179ae64e85620d73d32",
+      "source": "notion",
+      "agency": "(주)앤드와이즈, 기분좋은커뮤니케이션 (공동제작)",
+      "methods": [
+        "모션그래픽",
+        "사진",
+        "영상",
+        "타이포",
+        "그래픽디자인"
+      ],
+      "concepts": [
+        "고급스러운",
+        "심플한",
+        "안정적",
+        "여성적인",
+        "역동적인",
+        "모던한",
+        "깔끔한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "BLACK",
+        "GREEN"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'google-analytics.com' 확인",
+        "jQuery: HTML에서 'jquery-' 확인",
+        "GSAP: HTML에서 'gsap.min.js' 확인"
+      ],
+      "website_reachable": true
+    },
+    {
+      "str_no": "27355",
+      "site_name": "코오롱몰",
+      "registered_date": "2026-08-05",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27355",
+      "live_url": "https://www.kolonmall.com/",
+      "domain": "kolonmall.com",
+      "technologies": [
+        "Google Analytics",
+        "Google Tag Manager",
+        "React",
+        "Next.js",
+        "jQuery"
+      ],
+      "lines": [
+        "1) 코오롱몰 / 2026-08-05 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27355 / 실사이트: https://www.kolonmall.com/",
+        "2) 목적: 의류·스포츠·골프·라이프 카테고리 중심의 전자상거래 제공(사이트 설명 근거); 타깃: 세부 세그먼트 불명(확인 불가); IA: 메뉴 라벨 미수집으로 구조·내비게이션 상세 확인 불가.",
+        "3) React·Next.js 기반(증거: '_next/static', '/_next/', x-powered-by=Next.js)·jQuery 병행으로 SPA 성격의 콘텐츠·상품 중심 인터페이스가 가늠되며, 확인된 CTA는 '토스페이먼츠 가입확인', '입점문의', '상품 더보기'이고 시각 콘셉트는 '안정적'·화이트 기반; 상세 내비게이션 패턴은 메뉴 라벨 부재로 확인 불가.",
+        "4) 강점: 최신 웹스택(React/Next.js)과 Google Analytics·Google Tag Manager 연동(증거 있음)으로 데이터 기반 운영·측정 가능, 명시적 CTA·상품 중심 콘텐츠, 수상(WINNER PRIZE) 및 안정적(WHITE) 비주얼 콘셉트 확인.",
+        "5) 개선점: 크롤러에 수집된 메뉴 라벨이 없어 IA·주요 구매 경로 및 전환 플로우 분석 불가(확인 불가), 권장 조치로는 메뉴·카테고리 라벨 표준화, 주요 CTA·구매 여정에 대한 태깅 강화, 결제(토스페이먼츠) 연동 지점의 전환 퍼널 가시화.",
+        "6) 기술/플러그인 키워드: Google Analytics, Google Tag Manager, React, Next.js, jQuery, TossPayments + A) 주요 IA 퀵액션 재배치: '상품/카테고리 → 장바구니/결제확인 → 고객지원/입점문의' 순으로 상단·모바일 퀵액션 우선순위 조정 + B) 전환/체류/탐색 KPI: 구매전환율, 장바구니 추가율(Add-to-cart), 체크아웃 완료율, 세션당 페이지수·평균 세션 지속시간, 이탈률 및 주요 CTA 클릭률(모든 항목 GA/GTM 태깅 필요) + C) 공공기관 Do/Don't: Do - GA·GTM을 이용한 전환 태깅과 결제 구간(토스페이먼츠) 보안·개인정보 처리방침 명확화; Don't - 결제·개인정보 관련 스크립트·로그를 공개적으로 노출하지 말 것(현재 보안·접근성 준수 여부는 확인 불가) + D) 오늘의 한 줄: 메뉴 구조와 주요 구매 여정을 우선 태깅해 가시화하면 빠르게 전환 최적화 포인트를 찾을 수 있습니다."
+      ],
+      "notion_url": "https://app.notion.com/p/3b369790c143814b9ce4fd1ce5cc6514",
+      "source": "notion",
+      "agency": "미등록",
+      "methods": [
+        "콘텐츠"
+      ],
+      "concepts": [
+        "안정적"
+      ],
+      "colors": [
+        "WHITE"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "React: HTML에서 '_next/static' 확인",
+        "Next.js: HTML에서 '/_next/' 확인",
+        "jQuery: HTML에서 'jquery-' 확인",
+        "응답 헤더 x-powered-by=Next.js"
+      ],
+      "website_reachable": true
+    },
+    {
+      "str_no": "27344",
+      "site_name": "제니하우스",
+      "registered_date": "2026-08-05",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27344",
+      "live_url": "https://www.jennyhouse.co.kr/index.php",
+      "domain": "jennyhouse.co.kr",
+      "targets": [
+        "여성",
+        "대학생",
+        "20-30대",
+        "30-40대"
+      ],
+      "technologies": [
+        "Google Analytics",
+        "jQuery",
+        "GSAP",
+        "Swiper"
+      ],
+      "lines": [
+        "1) 제니하우스 / 2026-08-05 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27344 / 실사이트: https://www.jennyhouse.co.kr/index.php",
+        "2) 목적: 프리미엄 뷰티 살롱 제니하우스의 브랜드 인지도 강화와 예약 전환 촉진; 주요 타깃은 여성(대학생·20–30대·30–40대)으로 IA는 예약(Booking)·룩북 중심 우선순위가 필요함.",
+        "3) 사진·타이포·인물 중심의 강렬·고급·여성적 비주얼과 복고·심플 콘셉트, BLACK/PINK/WHITE 색상, 소셜·예약 중심의 다수 CTA와 GSAP/Swiper 기반 인터랙션 패턴이 관찰됨.",
+        "4) 강점: '대한민국 No.1 프리미엄' 메시지로 브랜드 포지셔닝이 명확하고 타깃 정의가 되어 있으며, 예약 의도를 드러내는 다수의 CTA와 Google Analytics·GSAP·Swiper 등 데이터·인터랙션 기술 보유가 확인됨.",
+        "5) 개선점: CTA 레이블(Booking/예약 등) 중복으로 주요 액션이 불분명하고 메뉴 최상단에 INSTAGRAM/YOUTUBE/NAVER BOOKING 등 소셜·예약 항목이 혼재해 IA 우선순위 재설정 필요; 이벤트 트래킹 세부 구현 여부는 확인 불가.",
+        "6) 기술/플러그인 키워드: Google Analytics, jQuery, GSAP, Swiper + A) 메인 IA 퀵액션 재배치: 'Booking' 관련 중복 라벨을 단일화해 '예약하기'로 통합하고 상단 네비게이션에 고정/우선 노출 + B) 전환/체류/탐색 KPI: 예약 전환율(예약 완료 수/방문자), CTA 클릭률(상단 예약 버튼), 페이지별 평균 체류시간, 네비게이션 이탈률 + C) 공공기관 Do/Don't: Do—명확한 버튼 라벨·접근성(대체텍스트·키보드 내비) 적용 및 예약 플로우 단순화, Don't—중복 CTA 노출로 핵심경로를 분산시키지 않기 + D) 오늘의 한 줄: 예약 CTA를 한곳으로 통합·상단 고정하면 예약 전환성이 빠르게 개선된다."
+      ],
+      "notion_url": "https://app.notion.com/p/3b369790c14381c6aeb2cd184e8678c1",
+      "source": "notion",
+      "agency": "맑음",
+      "methods": [
+        "사진",
+        "타이포",
+        "인물/사람",
+        "콘텐츠"
+      ],
+      "concepts": [
+        "고급스러운",
+        "복고적인",
+        "심플한",
+        "여성적인",
+        "재미있는",
+        "독특한 레이아웃",
+        "강렬한",
+        "모던한"
+      ],
+      "colors": [
+        "BLACK",
+        "PINK",
+        "WHITE"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "jQuery: HTML에서 'jquery.min.js' 확인",
+        "GSAP: HTML에서 'gsap.min.js' 확인",
+        "Swiper: HTML에서 'swiper-bundle' 확인"
+      ],
+      "website_reachable": true
+    },
     {
       "str_no": "27370",
       "site_name": "엔코스",
@@ -2470,6 +2636,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-08-05",
     "2026-08-04",
     "2026-08-03",
     "2026-07-31",
@@ -2504,6 +2671,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-08-05T20:37:49.538816+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 3,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-08-04T20:39:15.358337+09:00",
       "mode": "live",
