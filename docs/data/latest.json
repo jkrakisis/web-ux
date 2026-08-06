@@ -1,11 +1,95 @@
 {
-  "generated_at": "2026-08-05T20:37:49.538816+09:00",
+  "generated_at": "2026-08-06T20:40:51.926215+09:00",
   "mode": "live",
   "status": "success",
-  "new_count": 3,
+  "new_count": 2,
   "failure_count": 0,
-  "total_count": 76,
+  "total_count": 78,
   "items": [
+    {
+      "str_no": "27361",
+      "site_name": "카카오뱅크 answer",
+      "registered_date": "2026-08-06",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27361",
+      "live_url": "https://blog.kakaobank.com/",
+      "domain": "blog.kakaobank.com",
+      "technologies": [
+        "Google Tag Manager",
+        "React",
+        "Next.js"
+      ],
+      "lines": [
+        "1) 카카오뱅크 answer / 2026-08-06 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27361 / 실사이트: https://blog.kakaobank.com/",
+        "2) 목적·대상·IA: 카카오뱅크의 브랜드와 생활 속 금융 이야기를 전달하는 공식 블로그로, Home·Life·Brand·Series·Writers·Company·기술블로그·인재영입블로그·SNS·Contact 등 카테고리 중심 IA가 확인됨.",
+        "3) 탐색 패턴: 상단 메뉴 기반 카테고리 분류(시리즈·필진·회사·SNS)와 단일 CTA(Contact) 중심 구성이며, 기술 스택은 React·Next.js 기반이고 Google Tag Manager 연동이 확인됨.",
+        "4) 강점: 명확한 타이틀·설명으로 브랜드 스토리 목적이 분명하고 시리즈·필진·회사·SNS 등 다중 진입점을 제공하며 최신 스택(React/Next.js)과 GTM으로 분석·운영이 가능함.",
+        "5) 개선: CTA가 'Contact' 단일 표기로 전환 경로가 제한되어 보이며(증거: cta_labels=['Contact']) CTA 다양화 및 퀵액션 재배치 권장; 구체적 효율성 수치는 확인 불가.",
+        "6) 기술/플러그인 키워드: Google Tag Manager, React, Next.js + A) 메인 IA 퀵액션 재배치: Header 상단에 Contact를 고정된 주 CTA로 배치하고 '시리즈'·'필진'을 퀵액션으로 옮겨 주요 콘텐츠 접근성 강화 + B) 전환/체류/탐색 KPI: Contact 클릭률(CTR), 세션당 페이지뷰(PPV), 평균 페이지 체류시간(AT), 시리즈별 재방문율, 소셜 유입 전환율 측정 + C) 공공기관 Do/Don't: Do—명확한 문의경로·연락처 표기, 개인정보 처리·면책 고지 명시, 접근성 준수; Don't—중복·모호한 레이블 사용 금지 및 연락경로 숨김 금지 + D) 오늘의 한 줄: 콘텐츠 중심 블로그는 CTA를 다각화하면 전환 효율을 개선할 수 있습니다."
+      ],
+      "notion_url": "https://app.notion.com/p/answer-3b469790c14381ec9430ebeea7109fa9",
+      "source": "notion",
+      "agency": "뉴타입 이미지웍스",
+      "methods": [
+        "콘텐츠"
+      ],
+      "concepts": [
+        "재미있는"
+      ],
+      "colors": [
+        "WHITE"
+      ],
+      "evidence": [
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "React: HTML에서 '_next/static' 확인",
+        "Next.js: HTML에서 '/_next/' 확인",
+        "응답 헤더 x-powered-by=Next.js"
+      ],
+      "website_reachable": true
+    },
+    {
+      "str_no": "27352",
+      "site_name": "언플러",
+      "registered_date": "2026-08-06",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27352",
+      "live_url": "https://www.onflou.com/",
+      "domain": "onflou.com",
+      "targets": [
+        "기업"
+      ],
+      "technologies": [
+        "Google Analytics",
+        "jQuery",
+        "GSAP",
+        "Express"
+      ],
+      "lines": [
+        "1) 언플러 / 2026-08-06 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27352 / 실사이트: https://www.onflou.com/",
+        "2) 목적/대상/IA: 기업 대상 웹에이전시 서비스 홍보 및 제작 의뢰 유도(사이트 메타·설명으로 확인); 상세 정보구조(메뉴·CTA)는 제공 자료에 없어 확인 불가.",
+        "3) UX 패턴: 콘텐츠 중심의 깔끔한 화이트톤 디자인이 확인되며(GSAP로 확인된 동적 연출, jQuery 사용), 구체적 내비게이션 흐름·모바일 반응성 등은 제공 자료로 확인 불가.",
+        "4) 강점: Google Analytics 연동(트래픽 분석 가능), GSAP·jQuery로 인터랙티브 연출 구현 가능, Express 표기로 서버 구성 확인, 기업 대상·콘텐츠 중심 포지셔닝 및 수상(WINNER PRIZE) 이력 보유.",
+        "5) 개선점: 메뉴·CTA 라벨이 제공되지 않아 전환 경로 불명(상세 구조 확인 불가)→명시적 CTA·문의 경로 우선 배치 권장, GA 이벤트·목표 설정으로 전환 데이터 보강, 애니메이션 사용 시 접근성 영향 점검 권고(구체적 접근성 상태는 확인 불가).",
+        "6) 기술/플러그인 키워드: Google Analytics, jQuery, GSAP, Express + A) 메인 IA 퀵액션 재배치: 메인 네비·헤더 우측 또는 상단 고정 영역에 '서비스(서비스 상세)/포트폴리오/문의(견적·연락)' 퀵액션을 우선 배치하여 직관적 전환 경로를 확보하십시오(현재 메뉴 라벨 제공 자료에 없어 위치 확인 불가) + B) 전환/체류/탐색 KPI: 전환율(문의·견적 제출), CTA 클릭(이벤트), 평균 세션 지속시간, 페이지/세션, 이탈률 및 목표완료를 Google Analytics로 설정·모니터링하십시오 + C) 공공기관 Do/Don't: Do—명확한 정보구조·명시적 연락/민원 경로 표기 및 접근성 준수(대체텍스트·키보드 네비 등) ; Don't—과도한 애니메이션으로 접근성·가독성 저해 금지 + D) 오늘의 한 줄: 깔끔한 화이트톤 디자인에 명확한 CTA와 데이터 기반 측정을 결합해 기업 고객 유입을 명확히 하십시오."
+      ],
+      "notion_url": "https://app.notion.com/p/3b469790c1438148b32dfa6916dccc1a",
+      "source": "notion",
+      "agency": "언플러",
+      "methods": [
+        "콘텐츠"
+      ],
+      "concepts": [
+        "깔끔한"
+      ],
+      "colors": [
+        "WHITE"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "jQuery: HTML에서 'jquery-' 확인",
+        "GSAP: HTML에서 'gsap.min.js' 확인",
+        "응답 헤더 x-powered-by=Express"
+      ],
+      "website_reachable": true
+    },
     {
       "str_no": "27359",
       "site_name": "이화여자대학교",
@@ -2636,6 +2720,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-08-06",
     "2026-08-05",
     "2026-08-04",
     "2026-08-03",
@@ -2671,6 +2756,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-08-06T20:40:51.926215+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 2,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-08-05T20:37:49.538816+09:00",
       "mode": "live",
