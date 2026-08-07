@@ -1,11 +1,54 @@
 {
-  "generated_at": "2026-08-06T20:40:51.926215+09:00",
+  "generated_at": "2026-08-07T19:25:30.958362+09:00",
   "mode": "live",
   "status": "success",
-  "new_count": 2,
+  "new_count": 1,
   "failure_count": 0,
-  "total_count": 78,
+  "total_count": 79,
   "items": [
+    {
+      "str_no": "27336",
+      "site_name": "one grove",
+      "registered_date": "2026-08-07",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27336",
+      "live_url": "https://www.onegrove.kr/",
+      "domain": "onegrove.kr",
+      "targets": [
+        "30-40대",
+        "40대 이후"
+      ],
+      "technologies": [
+        "Google Analytics",
+        "Google Tag Manager",
+        "React",
+        "Next.js"
+      ],
+      "lines": [
+        "1) one grove / 2026-08-07 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27336 / 실사이트: https://www.onegrove.kr/",
+        "2) 목적/대상/IA: 사이트 목적은 '당신의 가능성이 자라나는 숲…'라는 라이프스타일 경험 제공(제공된 설명 기반), 주요 타깃은 30–40대 및 40대 이후로 표기되어 있으며 정보구조는 'What's On/Event & Promotion/Stories/Neighborhood/Leasing/About' 등 카테고리형 메뉴와 '- Meeting Room 예약/- Relax Room 예약/- Executive Room 예약' 등 예약 중심 CTA가 메뉴에 포함된 구조로 확인됨.",
+        "3) UX 패턴: 카테고리형 상단 네비게이션(메뉴 라벨 다수)과 메뉴 내 반복된 예약 CTA 배치, 다국어 경로('/ko') 존재 및 React·Next.js 기반 모던 프론트엔드 사용이 확인되며(응답 헤더·정적 경로 근거), 기타 상세 사용자 흐름 및 반응성은 확인 불가.",
+        "4) 강점: 명확한 브랜드 태그라인(라이프스타일 포지셔닝)과 예약 중심 CTA의 가시성, Google Analytics·Google Tag Manager로 기본 행동 추적 가능함, React·Next.js 채택으로 기술적 유지보수·성능 최적화 가능성이 있는 것으로 확인됨.",
+        "5) 개선점: 제공된 메뉴 항목이 다수로 IA 단순화(카테고리 통합)와 예약 CTA 우선순위 재배치 권장(세부 실행안은 tech_actions A 참조), GTM을 통한 예약 이벤트 계측 강화 권장; 접근성·모바일 성능 등은 제공 근거로는 확인 불가.",
+        "6) 기술/플러그인 키워드: Google Analytics, Google Tag Manager, React, Next.js + A) 메인 IA 퀵액션 재배치: 상단 네비게이션과 고정 퀵액션 바(또는 우측 고정 버튼)에 '- Meeting Room 예약/Relax Room 예약/Executive Room 예약'을 통합 배치하여 예약 CTA의 일관성·가시성 확보 권장 + B) 전환/체류/탐색 KPI: 예약 완료 수(Booking completions), 예약 버튼 클릭률(CTR), 세션 당 페이지 수(Pages/Session), 평균 세션 지속시간, 이탈률(Bounce rate), 주요 메뉴(What's On, Leasing) 유입 비율 및 CTA별 전환율 + C) 공공기관 Do/Don't: Do: 명확한 이용안내·개인정보 처리 고지 및 동의 절차, 접근성(대체텍스트·키보드 네비게이션) 준수, GTM 기반 이벤트 계측 적용; Don't: 복잡한 메뉴 구조·중복 CTA 배치, 개인정보 동의 없이 데이터 수집·불투명한 쿠키 사용 금지 + D) 오늘의 한 줄: 예약 중심 IA 정렬로 방문자 여정을 단축하면 체류와 전환이 동시에 개선됩니다."
+      ],
+      "notion_url": "https://app.notion.com/p/one-grove-3b569790c1438155b421c843bf687ada",
+      "source": "notion",
+      "agency": "이모션",
+      "methods": [
+        "사진"
+      ],
+      "concepts": [
+        "고급스러운"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "React: HTML에서 '_next/static' 확인",
+        "Next.js: HTML에서 '/_next/' 확인",
+        "응답 헤더 x-powered-by=Next.js"
+      ],
+      "website_reachable": true
+    },
     {
       "str_no": "27361",
       "site_name": "카카오뱅크 answer",
@@ -2720,6 +2763,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-08-07",
     "2026-08-06",
     "2026-08-05",
     "2026-08-04",
@@ -2756,6 +2800,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-08-07T19:25:30.958362+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 1,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-08-06T20:40:51.926215+09:00",
       "mode": "live",
