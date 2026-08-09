@@ -17,6 +17,7 @@ TRACKER_HOST_PARTS = (
     "hotjar.com",
     "clarity.ms",
 )
+CAPTURE_STABILIZE_MS = 3_000
 
 
 def _item_key(item: dict[str, object]) -> str:
@@ -95,7 +96,7 @@ def _thumbnail_name(item: dict[str, object]) -> str:
 def _route_request(route: Any) -> None:
     request = route.request
     url = request.url.lower()
-    if request.resource_type == "media" or any(part in url for part in TRACKER_HOST_PARTS):
+    if any(part in url for part in TRACKER_HOST_PARTS):
         route.abort()
         return
     route.continue_()
@@ -137,7 +138,8 @@ def _capture_page(page: Any, url: str, output_path: Path) -> str:
         }
         """
     )
-    page.wait_for_timeout(1_500)
+    # Give lazy hero images, fonts, and client-rendered content time to settle.
+    page.wait_for_timeout(CAPTURE_STABILIZE_MS)
     page.evaluate(
         """
         () => {

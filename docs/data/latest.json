@@ -51,7 +51,7 @@
       "thumbnail_url": "thumbnails/27336.jpg",
       "thumbnail_status": "success",
       "thumbnail_error": "",
-      "thumbnail_attempted_at": "2026-08-09T16:29:05.831234+09:00"
+      "thumbnail_attempted_at": "2026-08-09T16:43:28.661559+09:00"
     },
     {
       "str_no": "27361",
@@ -94,7 +94,7 @@
       "website_reachable": true,
       "thumbnail_status": "failed",
       "thumbnail_error": "first viewport is visually empty",
-      "thumbnail_attempted_at": "2026-08-09T16:29:05.831234+09:00"
+      "thumbnail_attempted_at": "2026-08-09T16:43:28.661559+09:00"
     },
     {
       "str_no": "27352",
@@ -142,7 +142,7 @@
       "thumbnail_url": "thumbnails/27352.jpg",
       "thumbnail_status": "success",
       "thumbnail_error": "",
-      "thumbnail_attempted_at": "2026-08-09T16:29:05.831234+09:00"
+      "thumbnail_attempted_at": "2026-08-09T16:43:28.661559+09:00"
     },
     {
       "str_no": "27359",
@@ -209,7 +209,7 @@
       "thumbnail_url": "thumbnails/27359.jpg",
       "thumbnail_status": "success",
       "thumbnail_error": "",
-      "thumbnail_attempted_at": "2026-08-09T16:29:05.831234+09:00"
+      "thumbnail_attempted_at": "2026-08-09T16:43:28.661559+09:00"
     },
     {
       "str_no": "27355",
@@ -257,7 +257,7 @@
       "thumbnail_url": "thumbnails/27355.jpg",
       "thumbnail_status": "success",
       "thumbnail_error": "",
-      "thumbnail_attempted_at": "2026-08-09T16:29:05.831234+09:00"
+      "thumbnail_attempted_at": "2026-08-09T16:43:28.661559+09:00"
     },
     {
       "str_no": "27344",
@@ -320,7 +320,7 @@
       "thumbnail_url": "thumbnails/27344.jpg",
       "thumbnail_status": "success",
       "thumbnail_error": "",
-      "thumbnail_attempted_at": "2026-08-09T16:29:05.831234+09:00"
+      "thumbnail_attempted_at": "2026-08-09T16:43:28.661559+09:00"
     },
     {
       "str_no": "27370",
@@ -367,7 +367,7 @@
       "thumbnail_url": "thumbnails/27370.jpg",
       "thumbnail_status": "success",
       "thumbnail_error": "",
-      "thumbnail_attempted_at": "2026-08-09T16:29:05.831234+09:00"
+      "thumbnail_attempted_at": "2026-08-09T16:43:28.661559+09:00"
     },
     {
       "str_no": "27345",
@@ -424,7 +424,7 @@
       "thumbnail_url": "thumbnails/27345.jpg",
       "thumbnail_status": "success",
       "thumbnail_error": "",
-      "thumbnail_attempted_at": "2026-08-09T16:29:05.831234+09:00"
+      "thumbnail_attempted_at": "2026-08-09T16:43:28.661559+09:00"
     },
     {
       "str_no": "27367",
@@ -471,7 +471,7 @@
       "thumbnail_url": "thumbnails/27367.jpg",
       "thumbnail_status": "success",
       "thumbnail_error": "",
-      "thumbnail_attempted_at": "2026-08-09T16:29:05.831234+09:00"
+      "thumbnail_attempted_at": "2026-08-09T16:43:28.661559+09:00"
     },
     {
       "str_no": "27362",
@@ -512,7 +512,7 @@
       "website_reachable": true,
       "thumbnail_status": "failed",
       "thumbnail_error": "HTTP 403",
-      "thumbnail_attempted_at": "2026-08-09T16:29:05.831234+09:00"
+      "thumbnail_attempted_at": "2026-08-09T16:43:28.661559+09:00"
     },
     {
       "str_no": "27351",

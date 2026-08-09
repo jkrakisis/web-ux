@@ -163,7 +163,10 @@ function createCard(item) {
     image.width = 96;
     image.height = 64;
     image.addEventListener("error", () => thumbnail.remove(), { once: true });
-    image.src = item.thumbnail_url;
+    const thumbnailVersion = item.thumbnail_attempted_at
+      ? `?v=${encodeURIComponent(item.thumbnail_attempted_at)}`
+      : "";
+    image.src = `${item.thumbnail_url}${thumbnailVersion}`;
     thumbnail.append(image);
     identity.append(thumbnail);
   }
