@@ -127,19 +127,29 @@ def _capture_page(page: Any, url: str, output_path: Path) -> str:
             raise
         navigation_warning = "navigation timeout"
 
-    page.add_style_tag(
-        content="""
-        html { scroll-behavior: auto !important; }
-        *, *::before, *::after {
-          animation-duration: 0.01s !important;
-          animation-delay: 0s !important;
-          transition: none !important;
-          caret-color: transparent !important;
-        }
-        """
-    )
     # Give lazy hero images, fonts, and client-rendered content time to settle.
     page.wait_for_timeout(CAPTURE_STABILIZE_MS)
+    try:
+        page.wait_for_function(
+            """
+            () => [...document.images]
+              .filter((image) => {
+                const rect = image.getBoundingClientRect();
+                const style = getComputedStyle(image);
+                return style.display !== 'none'
+                  && style.visibility !== 'hidden'
+                  && rect.width > 0
+                  && rect.height > 0
+                  && rect.bottom > 0
+                  && rect.top < window.innerHeight;
+              })
+              .every((image) => image.complete && image.naturalWidth > 0)
+            """,
+            timeout=5_000,
+        )
+    except Exception:
+        # Some sites keep non-critical first-viewport images pending indefinitely.
+        pass
     page.evaluate(
         """
         () => {
@@ -151,6 +161,15 @@ def _capture_page(page: Any, url: str, output_path: Path) -> str:
     page.wait_for_timeout(500)
     page.evaluate("() => window.scrollTo(0, 0)")
     page.wait_for_timeout(500)
+
+    page.add_style_tag(
+        content="""
+        html { scroll-behavior: auto !important; }
+        *, *::before, *::after {
+          caret-color: transparent !important;
+        }
+        """
+    )
 
     body_signal = page.evaluate(
         """
@@ -170,7 +189,7 @@ def _capture_page(page: Any, url: str, output_path: Path) -> str:
         type="jpeg",
         quality=74,
         full_page=False,
-        animations="disabled",
+        animations="allow",
     )
     if not temp_path.exists() or temp_path.stat().st_size < 5_000:
         temp_path.unlink(missing_ok=True)

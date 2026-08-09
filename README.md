@@ -102,7 +102,7 @@ $env:THUMBNAIL_BROWSER_CHANNEL = "msedge"
 .\.venv\Scripts\python -m gdweb_daily.thumbnails --limit 10
 ```
 
-GitHub Actions에서는 설치된 Chrome으로 같은 작업을 수행합니다. 사이트별 제한시간과 실패를 격리하고, 추적·분석 요청은 차단하되 첫 화면 영상은 허용하며 페이지 진입 후 3초 동안 안정화를 기다린 뒤 JPEG로 저장합니다. 실패 정보는 `thumbnail_status`와 `thumbnail_error`에 남고 수집 및 Notion 등록 결과에는 영향을 주지 않습니다.
+GitHub Actions에서는 설치된 Chrome으로 같은 작업을 수행합니다. 사이트별 제한시간과 실패를 격리하고, 추적·분석 요청은 차단하되 첫 화면 영상은 허용합니다. 페이지 진입 후 최소 3초를 기다리고 첫 화면 이미지의 준비 상태를 최대 5초 더 확인한 뒤 JPEG로 저장합니다. 실패 정보는 `thumbnail_status`와 `thumbnail_error`에 남고 수집 및 Notion 등록 결과에는 영향을 주지 않습니다.
 
 ## 최근 업데이트 — 2026-08-09
 
