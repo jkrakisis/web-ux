@@ -346,8 +346,8 @@ main {
 }
 
 .card-thumbnail {
-  width: 96px;
-  height: 64px;
+  width: 192px;
+  height: 128px;
   flex: none;
   overflow: hidden;
   border: 1px solid var(--line);
@@ -708,8 +708,8 @@ footer a {
   }
 
   .card-thumbnail {
-    width: 72px;
-    height: 48px;
+    width: 144px;
+    height: 96px;
     border-radius: 8px;
   }
 

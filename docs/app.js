@@ -160,8 +160,8 @@ function createCard(item) {
     image.alt = "";
     image.loading = "lazy";
     image.decoding = "async";
-    image.width = 96;
-    image.height = 64;
+    image.width = 192;
+    image.height = 128;
     image.addEventListener("error", () => thumbnail.remove(), { once: true });
     const thumbnailVersion = item.thumbnail_attempted_at
       ? `?v=${encodeURIComponent(item.thumbnail_attempted_at)}`
