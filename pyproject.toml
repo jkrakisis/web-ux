@@ -14,9 +14,11 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["pytest>=8,<9"]
+thumbnail = ["Pillow>=11,<13", "playwright>=1.51,<2"]
 
 [project.scripts]
 gdweb-daily = "gdweb_daily.runner:main"
+gdweb-thumbnails = "gdweb_daily.thumbnails:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
@@ -24,4 +26,3 @@ where = ["src"]
 [tool.pytest.ini_options]
 pythonpath = ["src"]
 testpaths = ["tests"]
-

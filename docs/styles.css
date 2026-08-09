@@ -334,9 +334,39 @@ main {
   border-bottom: 1px solid var(--line);
 }
 
+.card-identity {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 16px;
+}
+
+.card-heading {
+  min-width: 0;
+}
+
+.card-thumbnail {
+  width: 96px;
+  height: 64px;
+  flex: none;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--soft);
+}
+
+.card-thumbnail img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+
 .card-title-row {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 12px;
 }
 
@@ -344,6 +374,7 @@ main {
   margin: 0;
   font-size: 27px;
   letter-spacing: -0.035em;
+  overflow-wrap: anywhere;
 }
 
 .date-chip {
@@ -670,6 +701,16 @@ footer a {
 
   .card-actions {
     width: 100%;
+  }
+
+  .card-identity {
+    gap: 12px;
+  }
+
+  .card-thumbnail {
+    width: 72px;
+    height: 48px;
+    border-radius: 8px;
   }
 
   .button-link {

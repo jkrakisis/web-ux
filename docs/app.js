@@ -25,7 +25,7 @@ function allItems() {
   const unique = new Map();
   items.forEach((item) => {
     const key = item.str_no || `${item.domain || ""}:${item.registered_date || ""}`;
-    unique.set(key, item);
+    unique.set(key, { ...(unique.get(key) || {}), ...item });
   });
   return [...unique.values()].sort((a, b) => {
     const byDate = String(b.registered_date || "").localeCompare(String(a.registered_date || ""));
@@ -147,18 +147,34 @@ function createCard(item) {
   ].join(" ").toLocaleLowerCase("ko-KR");
 
   const header = el("div", "card-header");
-  const headingGroup = el("div");
+  const identity = el("div", "card-identity");
+  const headingGroup = el("div", "card-heading");
   const titleRow = el("div", "card-title-row");
   titleRow.append(el("h3", "", item.site_name), el("span", "date-chip", item.registered_date));
   const meta = [item.domain, item.agency].filter(Boolean).join(" · ");
   headingGroup.append(titleRow, el("p", "site-meta", meta || "메타 정보 확인 불가"));
+
+  if (item.thumbnail_url && item.thumbnail_status === "success") {
+    const thumbnail = el("div", "card-thumbnail");
+    const image = el("img");
+    image.alt = "";
+    image.loading = "lazy";
+    image.decoding = "async";
+    image.width = 96;
+    image.height = 64;
+    image.addEventListener("error", () => thumbnail.remove(), { once: true });
+    image.src = item.thumbnail_url;
+    thumbnail.append(image);
+    identity.append(thumbnail);
+  }
+  identity.append(headingGroup);
 
   const actions = el("div", "card-actions");
   actions.append(
     createLink("GDWEB 상세", item.detail_url),
     createLink("실사이트", item.live_url, true),
   );
-  header.append(headingGroup, actions);
+  header.append(identity, actions);
   article.append(header);
 
   const tags = [...(item.technologies || []), ...(item.concepts || [])].slice(0, 8);

@@ -88,8 +88,30 @@ $env:NOTION_PROPERTY_MAP = '{"site_name":"프로젝트명","str_no":"고유 번�
 - 1–5번 분석은 목적·타겟·IA, UX 패턴, 강점과 개선점 순서로 표시합니다.
 - 6번은 `기술·플러그인`, `A · IA 퀵액션`, `B · 핵심 KPI`, `C · 공공기관 Do/Don’t`, `D · 오늘의 한 줄`로 분리합니다.
 - 기술 키워드는 개별 칩으로 표시합니다.
+- 최근 10건은 실사이트 첫 화면 캡처에 성공한 경우에만 제목 옆에 작은 썸네일을 표시합니다.
+- 캡처 실패 또는 이미지 로드 오류 시 이미지 요소 전체를 제거해 빈 공간을 남기지 않습니다.
 - 데스크톱에서 A와 B는 2열, C와 D는 각각 전체 너비를 사용합니다.
 - 모바일에서는 모든 하위 영역을 1열로 표시합니다.
+
+썸네일 시험 실행:
+
+```powershell
+cd D:\codex\gdweb-daily
+.\.venv\Scripts\python -m pip install -e ".[thumbnail,dev]"
+$env:THUMBNAIL_BROWSER_CHANNEL = "msedge"
+.\.venv\Scripts\python -m gdweb_daily.thumbnails --limit 10
+```
+
+GitHub Actions에서는 설치된 Chrome으로 같은 작업을 수행합니다. 사이트별 제한시간과 실패를 격리하고, 영상·분석 요청을 차단하며 첫 화면만 JPEG로 저장합니다. 실패 정보는 `thumbnail_status`와 `thumbnail_error`에 남고 수집 및 Notion 등록 결과에는 영향을 주지 않습니다.
+
+## 최근 업데이트 — 2026-08-09
+
+- 최신 사이트 10건을 대상으로 제목 옆 썸네일 시험 적용
+- 8건 캡처 성공, 1건 시각적 빈 화면 감지, 1건 HTTP 403 차단 확인
+- 빈 화면·작은 파일 검증과 사이트별 실패 격리 추가
+- 캡처 실패 시 이미지와 레이아웃 공간을 모두 제거
+- GitHub Actions에서 신규 실행마다 최근 10건의 미생성 썸네일을 보충하도록 구성
+- 실행 안내 문구를 평일 18:30 KST로 수정
 
 ## 최근 업데이트 — 2026-07-29
 
