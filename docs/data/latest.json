@@ -1,11 +1,148 @@
 {
-  "generated_at": "2026-08-07T19:25:30.958362+09:00",
+  "generated_at": "2026-08-10T19:43:38.523018+09:00",
   "mode": "live",
   "status": "success",
-  "new_count": 1,
+  "new_count": 3,
   "failure_count": 0,
-  "total_count": 79,
+  "total_count": 82,
   "items": [
+    {
+      "str_no": "27386",
+      "site_name": "도아 DOA",
+      "registered_date": "2026-08-10",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27386",
+      "live_url": "https://e-doa.co.kr/",
+      "domain": "e-doa.co.kr",
+      "targets": [
+        "기업"
+      ],
+      "technologies": [
+        "Cafe24"
+      ],
+      "lines": [
+        "1) 도아 DOA / 2026-08-10 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27386 / 실사이트: https://e-doa.co.kr/",
+        "2) 목적·대상·IA: 기업 대상(타깃) 홍보·서비스 제공용으로 추정되나 세부 목적과 정보구조는 제공 자료로 확인 불가.",
+        "3) UX 패턴: 사진·영상·타이포 중심의 심플·모던·단색(BLACK·WHITE) 비주얼 우선 배열이 콘셉트로 제시됨; 구체적 레이아웃·네비게이션 흐름은 확인 불가.",
+        "4) 강점: 심플·모던·신뢰적 콘셉트와 사진·영상·타이포 조합으로 시각적 일관성 확보 가능성, 기술스택으로 Cafe24 사용 확인(HTML 내 'cafe24.com' 근거).",
+        "5) 개선점: 페이지 타이틀·메타 설명·메뉴 라벨·CTA 라벨이 제공되지 않아(공란) SEO·내비게이션·전환 요소 보완 필요; 접근성 및 명확한 CTA 노출 권장.",
+        "6) 기술/플러그인 키워드: Cafe24, HTML (확인 근거: HTML 내 'cafe24.com') + A) 메인 IA 퀵액션 재배치: 기업 우선순위로 상단 고정 네비게이션에 '서비스·포트폴리오·영상·문의(견적)' 순서로 구성 제안(현재 메뉴 라벨 확인 불가로 제안임, 확인 불가) + B) 전환/체류/탐색 KPI: 전환(문의 클릭률/양식 제출률), 체류(평균 세션시간), 탐색(페이지/세션) 중심 측정 권장 — 현재 분석·측정 도구 정보는 확인 불가 + C) 공공기관 Do/Don't: Do: 명확한 메타데이터·접근성 표준 준수·직관적 상단 네비게이션 제공; Don't: 메타정보·CTA 누락 방치 및 비표준 네비게이션 사용(사이트 상세 상태 일부는 확인 불가) + D) 오늘의 한 줄: 심플한 비주얼을 명확한 CTA와 메타데이터로 전환으로 연결하라."
+      ],
+      "notion_url": "https://app.notion.com/p/DOA-3b869790c1438176a0bbf1b594d1d2a3",
+      "source": "notion",
+      "agency": "도아 DOA",
+      "methods": [
+        "사진",
+        "영상",
+        "타이포"
+      ],
+      "concepts": [
+        "심플한",
+        "모던한",
+        "깔끔한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "BLACK",
+        "WHITE"
+      ],
+      "evidence": [
+        "Cafe24: HTML에서 'cafe24.com' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27386.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-08-10T10:43:38.618185+00:00"
+    },
+    {
+      "str_no": "27368",
+      "site_name": "NHN클라우드",
+      "registered_date": "2026-08-10",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27368",
+      "live_url": "https://www.nhncloud.com/kr",
+      "domain": "nhncloud.com",
+      "targets": [
+        "기업"
+      ],
+      "technologies": [
+        "Vue",
+        "Nuxt"
+      ],
+      "lines": [
+        "1) NHN클라우드 / 2026-08-10 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27368 / 실사이트: https://www.nhncloud.com/kr",
+        "2) 목적/대상/IA: 기업 대상의 통합 클라우드 서비스 홍보 및 문의/시작 유도; IA는 제품별 서비스(Instance, Private DNS, Push, SMS 등) 카탈로그 중심으로 구성되어 있음; 내부 사용자 행태 데이터는 제공 근거로 확인 불가.",
+        "3) 탐색 패턴: 상단 네비게이션에 서비스별 카테고리와 고객 사례·보안·요금 섹션을 배치하고 다수의 CTA(문의하기·시작하기·전문가에게 문의)가 반복되어 있어 문의 유도 중심의 플로우로 설계된 것으로 보임; 정량적 흐름 데이터는 확인 불가.",
+        "4) 강점: 제품·서비스를 세분화한 명확한 메뉴 구성과 다중 CTA로 전환 경로를 분명히 하고, '첨단적인' 콘셉트와 청색 계열의 시각 아이덴티티, Vue/Nuxt 기반의 현대적 프론트엔드 기술 사용이 확인됨.",
+        "5) 개선점: 웹사이트 메타 설명이 비어 있어 SEO·공유 카드 보완 필요(website.description 공란), 핵심 퀵액션(시작하기·요금 계산기·문의하기·고객 사례)을 상단에 우선 배치해 전환 동선 단축 권장, 메뉴 라벨 길이·가독성·접근성 개선 검토; 서버 성능·사용자 행동 등 정량 데이터는 제공 근거로 확인 불가.",
+        "6) 기술/플러그인 키워드: Vue, Nuxt + A) 메인 IA 퀵액션 재배치: 헤더 우측 및 모바일 플로팅에 우선순위로 '시작하기 → 요금 계산기 → 문의하기 → 전문가에게 문의하기' 순으로 고정하여 진입 후 1클릭 전환 경로 확보 + B) 전환/체류/탐색 KPI: CTA 클릭률(문의/시작 전환율), 요금 계산기 사용률, 평균 페이지 체류시간 및 제품별 탐색 이탈률을 핵심 지표로 설정하여 A/B 테스팅 적용 + C) 공공기관 Do/Don't: Do - 보안·인증(보안 센터) 및 연락 채널 명확 표기, 접근성(ARIA) 준수, 명확한 요금 정보 제공; Don't - 과장된 문구·비표준 용어 사용 및 핵심 정보(요금·문의경로) 숨기기 금지 + D) 오늘의 한 줄: 제품 카탈로그와 CTA를 재정렬해 기업 전환 동선을 단축하세요."
+      ],
+      "notion_url": "https://app.notion.com/p/NHN-3b869790c14381d59175e9f30eaf0989",
+      "source": "notion",
+      "agency": "미등록",
+      "methods": [
+        "모션그래픽",
+        "그래픽디자인"
+      ],
+      "concepts": [
+        "첨단적인"
+      ],
+      "colors": [
+        "BLUE"
+      ],
+      "evidence": [
+        "Vue: HTML에서 'data-v-' 확인",
+        "Nuxt: HTML에서 '/_nuxt/' 확인",
+        "응답 헤더 x-powered-by=Nuxt"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27368.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-08-10T10:43:38.618185+00:00"
+    },
+    {
+      "str_no": "27348",
+      "site_name": "빨간펜",
+      "registered_date": "2026-08-10",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27348",
+      "live_url": "https://www.kyowonedu.com/",
+      "domain": "kyowonedu.com",
+      "targets": [
+        "초등학생",
+        "학부모"
+      ],
+      "technologies": [
+        "Google Analytics",
+        "Google Tag Manager"
+      ],
+      "lines": [
+        "1) 빨간펜 / 2026-08-10 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27348 / 실사이트: https://www.kyowonedu.com/",
+        "2) 목적: 초등학생·학부모 대상 교육 서비스(브랜드 '교원 빨간펜')로 자기주도성과 창의융합 사고력 강화를 메시지로 하나, 상세 IA 구조는 제공 정보에 없어 확인 불가.",
+        "3) 일러스트와 콘텐츠 중심의 '재미있는' 콘셉트를 표방하며 아동 친화적 표현을 우선한 경험일 가능성이 있으나 메뉴·CTA 구조는 제공 데이터에 없어 세부 패턴은 확인 불가.",
+        "4) 명확한 브랜드 메시지(사이트 설명 문구)와 타깃(초등학생·학부모) 설정, 사이트 접근 가능 및 Google Analytics·Google Tag Manager 스크립트가 HTML에서 확인되어 기초 데이터 수집 기반이 마련됨.",
+        "5) 메뉴·CTA 라벨이 제공되지 않아(빈 배열) 주요 내비게이션과 전환용 퀵액션 부재가 의심되므로 명확한 메뉴·CTA 배치, 전환 이벤트(체험신청·회원가입) 태깅 및 퍼포먼스 KPI 정의가 필요하며 개인정보·동의 관리 상태는 제공 정보로 확인 불가.",
+        "6) 기술/플러그인 키워드: Google Analytics, Google Tag Manager + A) 메인 IA 퀵액션 재배치: 상단 우선순위 버튼 1) 체험신청 2) 커리큘럼/프로그램 3) 학부모 가이드 4) 회원가입(또는 로그인)로 재배치해 모바일 상단에서 바로 접근 가능하게 구성할 것. + B) 전환/체류/탐색 KPI: 1) 체험신청 클릭률(CTA CTR) 2) 회원가입 전환율 3) 페이지별 평균 체류시간 4) 유입경로별 이탈률 및 세션수로 네비게이션 병목 파악. + C) 공공기관 Do/Don't: Do - 개인정보 수집·이용·동의(쿠키/추적 포함)를 명확히 고지하고 접근성(대체텍스트·명확한 라벨) 준수; Don't - 동의 없는 추적·팝업 과다 노출 금지(동의 상태 확인 불가 항목은 즉시 점검). + D) 오늘의 한 줄: 브랜드 메시지와 분석 툴은 준비되어 있으나 명확한 IA·CTA와 전환 태깅 정비가 우선 필요하다."
+      ],
+      "notion_url": "https://app.notion.com/p/3b869790c14381a88b5ce58cd3694bc5",
+      "source": "notion",
+      "agency": "미등록",
+      "methods": [
+        "일러스트",
+        "콘텐츠"
+      ],
+      "concepts": [
+        "재미있는"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27348.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-08-10T10:43:38.618185+00:00"
+    },
     {
       "str_no": "27336",
       "site_name": "one grove",
@@ -50,7 +187,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27336.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-08-09T16:54:31.736318+09:00"
     },
     {
@@ -92,9 +228,10 @@
         "응답 헤더 x-powered-by=Next.js"
       ],
       "website_reachable": true,
-      "thumbnail_status": "failed",
-      "thumbnail_error": "first viewport is visually empty",
-      "thumbnail_attempted_at": "2026-08-09T16:43:28.661559+09:00"
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-08-10T10:43:38.618185+00:00",
+      "thumbnail_url": "thumbnails/27361.jpg"
     },
     {
       "str_no": "27352",
@@ -141,7 +278,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27352.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-08-09T16:43:28.661559+09:00"
     },
     {
@@ -208,7 +344,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27359.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-08-09T16:43:28.661559+09:00"
     },
     {
@@ -256,7 +391,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27355.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-08-09T16:43:28.661559+09:00"
     },
     {
@@ -319,7 +453,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27344.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-08-09T16:43:28.661559+09:00"
     },
     {
@@ -366,7 +499,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27370.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-08-09T16:43:28.661559+09:00"
     },
     {
@@ -423,7 +555,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27345.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-08-09T16:43:28.661559+09:00"
     },
     {
@@ -470,7 +601,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27367.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-08-09T16:43:28.661559+09:00"
     },
     {
@@ -2801,6 +2931,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-08-10",
     "2026-08-07",
     "2026-08-06",
     "2026-08-05",
@@ -2838,6 +2969,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-08-10T19:43:38.523018+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 3,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-08-07T19:25:30.958362+09:00",
       "mode": "live",
