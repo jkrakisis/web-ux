@@ -1,11 +1,116 @@
 {
-  "generated_at": "2026-08-11T19:25:28.831627+09:00",
+  "generated_at": "2026-08-12T19:35:30.978944+09:00",
   "mode": "live",
   "status": "success",
   "new_count": 2,
   "failure_count": 0,
-  "total_count": 84,
+  "total_count": 86,
   "items": [
+    {
+      "str_no": "27404",
+      "site_name": "포스코플로우",
+      "registered_date": "2026-08-12",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27404",
+      "live_url": "https://www.poscoflow.com/",
+      "domain": "poscoflow.com",
+      "targets": [
+        "여성",
+        "남성",
+        "40대 이후",
+        "기업"
+      ],
+      "technologies": [
+        "Google Analytics",
+        "jQuery",
+        "GSAP",
+        "Swiper"
+      ],
+      "lines": [
+        "1) 포스코플로우 / 2026-08-12 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27404 / 실사이트: https://www.poscoflow.com/",
+        "2) 목적: 글로벌 종합물류기업으로서 신뢰성과 전문성 전달; 대상: 여성·남성·40대 이후·기업; IA: 회사소개·사업소개·ESG·투자정보·미디어·인재채용·상담·신고센터·언어선택 등 핵심 카테고리 중심 구조로 설계됨.",
+        "3) 히어로 중심의 고품질 비주얼(3D·모션·영상·그래픽합성) 기반, GSAP로 제어되는 모션 애니메이션과 Swiper 기반 슬라이더/카루셀 구성, jQuery 기반 DOM 조작과 Google Analytics 연동, KR/EN 다국어 토글 및 그룹사 방문예약 CTA 확인(구성 요소는 제공 근거에서 확인됨).",
+        "4) 강점: 명확한 기업 포지셔닝(글로벌 종합물류), 고급스러운 시각 콘셉트(3D·모션·영상 사용), 다국어 지원(KR/EN), 현대적 프론트엔드 라이브러리(GSAP·Swiper)와 Google Analytics 연동으로 데이터 수집 기반 확보.",
+        "5) 개선점: 핵심 전환행동(그룹사방문예약·상담·신고) 노출성 강화(상단 고정 CTA/퀵액션 우선순위 조정), 애니메이션 성능·접근성(감각과잉·키보드·스크린리더 대응) 점검, 슬라이더/애니메이션 이벤트에 대한 측정기준 설정 필요(현재 구체적 수치·사용자행동은 확인 불가).",
+        "6) 기술/플러그인 키워드: Google Analytics(gtag), jQuery(jquery-), GSAP(gsap.min.js), Swiper(swiper-bundle) + A) 메인 IA 퀵액션 재배치: 상단 우측 고정영역에 Primary CTA '그룹사방문예약'·Secondary '상담·신고센터'·퀵링크 '브로슈어·Network·사업별 문의' 순으로 배치해 접근성 및 전환성 강화 + B) 전환/체류/탐색 KPI: (1) 방문예약 전환율(CTA 클릭→완료), (2) 페이지당 평균 체류시간 및 세션당 페이지수, (3) 히어로·슬라이더 CTA 클릭률 및 슬라이드 상호작용 이벤트, (4) 이탈률/유입별 전환 비교(GA 이벤트 기반) + C) 공공기관 Do/Don't: Do: 명확한 연락·제출 경로·다국어 안내와 접근성 준수(키보드/스크린리더) 적용; Don't: 시각·동작 효과로 주요 기능(문의·신청) 접근을 방해하거나 정보 탐색을 숨기지 말 것 + D) 오늘의 한 줄: 상단 고정 CTA와 슬라이더 이벤트 추적을 우선 적용해 방문예약 전환을 빠르게 측정하세요."
+      ],
+      "notion_url": "https://app.notion.com/p/3ba69790c14381c6b256ed370cb6d071",
+      "source": "notion",
+      "agency": "더위버크리에이티브",
+      "methods": [
+        "3D",
+        "모션그래픽",
+        "사진",
+        "영상",
+        "그래픽합성",
+        "그래픽디자인"
+      ],
+      "concepts": [
+        "고급스러운",
+        "안정적",
+        "역동적인",
+        "첨단적인",
+        "모던한",
+        "깔끔한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "BLUE"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "jQuery: HTML에서 'jquery-' 확인",
+        "GSAP: HTML에서 'gsap.min.js' 확인",
+        "Swiper: HTML에서 'swiper-bundle' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_status": "failed",
+      "thumbnail_error": "Page.add_style_tag: Applying inline style violates the following Content Security Policy directive 'style-src 'self' 'nonce-IbCRoW2KRcB4rM_6CE7IOg''. Either the 'unsafe-inline' keyword, a hash ('sha256-3bPbbS3tVpRk7pk0l3U2MntWqzQImF5c2MKMwg",
+      "thumbnail_attempted_at": "2026-08-12T10:35:31.060611+00:00"
+    },
+    {
+      "str_no": "27391",
+      "site_name": "스튜디오 엑스랩",
+      "registered_date": "2026-08-12",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27391",
+      "live_url": "https://www.studioxlab.co.kr/",
+      "domain": "studioxlab.co.kr",
+      "targets": [
+        "기업"
+      ],
+      "lines": [
+        "1) 스튜디오 엑스랩 / 2026-08-12 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27391 / 실사이트: https://www.studioxlab.co.kr/",
+        "2) 목적: 기업 대상 브랜딩·웹·모션·3D 포트폴리오 전시 및 문의(리드) 유도; 주요 IA 타깃: 기업 담당자.",
+        "3) 네비게이션 중심 구조(ABOUT/WORKS/NEWS/CONTACT)와 소셜 링크 집약; 메뉴·CTA 라벨의 중복 표기로 정보 구조 혼선 가능.",
+        "4) 강점: 3D·모션·타이포 등 다양한 시각 매체 역량과 '역동적·첨단적·실험적' 콘셉트, 강렬한 컬러 팔레트(BLACK/RED/WHITE).",
+        "5) 개선점: 메뉴·CTA 라벨 중복 제거로 IA·내비게이션 명료화, CTA 통합 및 우선순위 부여, 기술 스택 및 분석 도구 미기재로 구현·성과 확인 불가(현재는 확인 불가).",
+        "6) 기술/플러그인 키워드: 확인 불가 + A) 메인 IA 퀵액션 재배치: 네비게이션을 HOME·WORKS·ABOUT·NEWS·CONTACT 순으로 단순화하고 소셜은 별도 'SOCIAL' 그룹으로 묶어 헤더·푸터에 일관되게 배치하며 최우선 CTA로 CONTACT 고정 노출 + B) 전환/체류/탐색 KPI: 추천 KPI—문의(컨택) 전환율, WORKS 평균 페이지 체류시간, 페이지/세션, CTA 클릭률(현황 수치는 확인 불가) + C) 공공기관 Do/Don't: Do—명확한 메뉴·CTA 라벨링, 이미지 대체텍스트 제공, 외부 소셜 링크는 새창 표기·개인정보·접근성 준수; Don't—중복 라벨 방치, 색상만으로 정보 전달 및 혼선 유발 + D) 오늘의 한 줄: 강렬한 비주얼을 IA 정리로 기업 문의 전환으로 연결하세요."
+      ],
+      "notion_url": "https://app.notion.com/p/3ba69790c14381debd73ff89de143f1c",
+      "source": "notion",
+      "agency": "나인원랩스",
+      "methods": [
+        "3D",
+        "사진",
+        "영상",
+        "타이포",
+        "콘텐츠"
+      ],
+      "concepts": [
+        "역동적인",
+        "첨단적인",
+        "실험적인"
+      ],
+      "colors": [
+        "BLACK",
+        "RED",
+        "WHITE"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27391.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-08-12T10:35:31.060611+00:00"
+    },
     {
       "str_no": "27394",
       "site_name": "사담재",
@@ -41,7 +146,7 @@
       "website_reachable": false,
       "thumbnail_status": "failed",
       "thumbnail_error": "HTTP 403",
-      "thumbnail_attempted_at": "2026-08-11T10:25:28.919251+00:00"
+      "thumbnail_attempted_at": "2026-08-12T10:35:31.060611+00:00"
     },
     {
       "str_no": "27380",
@@ -91,7 +196,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27380.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-08-11T10:25:28.919251+00:00"
     },
     {
@@ -3015,6 +3119,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-08-12",
     "2026-08-11",
     "2026-08-10",
     "2026-08-07",
@@ -3054,6 +3159,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-08-12T19:35:30.978944+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 2,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-08-11T19:25:28.831627+09:00",
       "mode": "live",
