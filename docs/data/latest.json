@@ -1,11 +1,54 @@
 {
-  "generated_at": "2026-08-13T19:35:33.035026+09:00",
+  "generated_at": "2026-08-14T19:32:39.011581+09:00",
   "mode": "live",
   "status": "success",
   "new_count": 1,
   "failure_count": 0,
-  "total_count": 87,
+  "total_count": 88,
   "items": [
+    {
+      "str_no": "27349",
+      "site_name": "교보 라이프를래닛생명",
+      "registered_date": "2026-08-14",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27349",
+      "live_url": "https://www.lifeplanet.co.kr/",
+      "domain": "lifeplanet.co.kr",
+      "targets": [
+        "30-40대",
+        "40대 이후"
+      ],
+      "technologies": [
+        "jQuery"
+      ],
+      "lines": [
+        "1) 교보 라이프를래닛생명 / 2026-08-14 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27349 / 실사이트: https://www.lifeplanet.co.kr/",
+        "2) 다이렉트 생명보험의 온라인 비교·설계·가입(상품안내/가입)이 목적이며 30–40대 및 40대 이후를 주요 타깃으로 정보·거래 중심 IA로 구성되어 있음.",
+        "3) 콘텐츠 중심 네비게이션과 상단·퀵 CTA(상품안내/가입, 사고보험금 신청APP, 상담 예약) 노출·공시실 중심의 규제·투명성 메뉴(상품공시실·가격공시실·경영공시실 등)로 구성되어 있으며 색상은 GREEN/WHITE로 신뢰성 강조.",
+        "4) ‘신뢰적인’ 콘셉트·녹색 계열과 흰 배경의 명료한 브랜드 톤, 가입·지급(사고보험금) 관련 전용 APP CTA 노출 및 공시실 메뉴 구성이 규제·투명성 요소로 작동함.",
+        "5) 메뉴 라벨 중 이벤트·공시 관련 중복(이벤트/이벤트안내/당첨자발표, 공시실/상품공시실/가격공시실 등)을 통합해 IA를 단순화하고 주요 전환 CTA(상품안내/가입, 사고보험금 신청 앱, 상담 예약)를 상단 고정·퀵액션으로 우선 배치하며 기술 스택(jQuery) 관련 현대화 검토를 권고함; 사용자 디바이스별 레이아웃·퍼포먼스 상태는 제공 정보로 확인 불가함.",
+        "6) 기술/플러그인 키워드: jQuery + A) 메인 IA 퀵액션 재배치: 1) 상품안내/가입 2) 사고보험금 신청 APP / 지급금 신청 APP 3) 상담 예약 4) 로그인/장바구니 5) 공시실(통합) + B) 전환/체류/탐색 KPI: 상품가입 전환율(가입완료/상품안내 클릭 대비), 사고보험금 신청 전환율, 페이지당 평균 체류시간, 퀵액션 클릭률(상단 CTA CTR), 이탈률(견적/가입 흐름 중) + C) 공공기관 Do/Don't: Do - 공시·가격·지배구조 자료를 상단 또는 퀵메뉴로 노출하고 장애인·장기기증자 관련 차별신고 채널을 명확히 안내할 것; Don't - 공시·약관·민원접수 경로를 메뉴 하위에 숨기지 말 것 + D) 오늘의 한 줄이다: 주요 전환 CTA를 상단 고정하고 공시 메뉴를 통합하면 신뢰성과 가입 전환이 동시에 개선됩니다."
+      ],
+      "notion_url": "https://app.notion.com/p/3bc69790c1438174afbac98f127dfe15",
+      "source": "notion",
+      "agency": "미등록",
+      "methods": [
+        "콘텐츠"
+      ],
+      "concepts": [
+        "신뢰적인"
+      ],
+      "colors": [
+        "GREEN",
+        "WHITE"
+      ],
+      "evidence": [
+        "jQuery: HTML에서 'jquery-' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_status": "failed",
+      "thumbnail_error": "first viewport is visually empty",
+      "thumbnail_attempted_at": "2026-08-14T10:32:39.102918+00:00"
+    },
     {
       "str_no": "27413",
       "site_name": "뷰전",
@@ -57,7 +100,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27413.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-08-13T10:35:33.124851+00:00"
     },
     {
@@ -118,8 +160,8 @@
       ],
       "website_reachable": true,
       "thumbnail_status": "failed",
-      "thumbnail_error": "Page.add_style_tag: Applying inline style violates the following Content Security Policy directive 'style-src 'self' 'nonce-pcFsVAMmnX0JZCCxq1g-CQ''. Either the 'unsafe-inline' keyword, a hash ('sha256-3bPbbS3tVpRk7pk0l3U2MntWqzQImF5c2MKMwg",
-      "thumbnail_attempted_at": "2026-08-13T10:35:33.124851+00:00"
+      "thumbnail_error": "Page.add_style_tag: Applying inline style violates the following Content Security Policy directive 'style-src 'self' 'nonce-IINeyHCV8203boeBcbZ4Fw''. Either the 'unsafe-inline' keyword, a hash ('sha256-3bPbbS3tVpRk7pk0l3U2MntWqzQImF5c2MKMwg",
+      "thumbnail_attempted_at": "2026-08-14T10:32:39.102918+00:00"
     },
     {
       "str_no": "27391",
@@ -199,7 +241,7 @@
       "website_reachable": false,
       "thumbnail_status": "failed",
       "thumbnail_error": "HTTP 403",
-      "thumbnail_attempted_at": "2026-08-13T10:35:33.124851+00:00"
+      "thumbnail_attempted_at": "2026-08-14T10:32:39.102918+00:00"
     },
     {
       "str_no": "27380",
@@ -3172,6 +3214,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-08-14",
     "2026-08-13",
     "2026-08-12",
     "2026-08-11",
@@ -3213,6 +3256,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-08-14T19:32:39.011581+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 1,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-08-13T19:35:33.035026+09:00",
       "mode": "live",
