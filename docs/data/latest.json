@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-14T19:32:39.011581+09:00",
+  "generated_at": "2026-08-17T19:04:46.262420+09:00",
   "mode": "live",
-  "status": "success",
-  "new_count": 1,
+  "status": "no_new",
+  "new_count": 0,
   "failure_count": 0,
   "total_count": 88,
   "items": [
@@ -47,7 +47,7 @@
       "website_reachable": true,
       "thumbnail_status": "failed",
       "thumbnail_error": "first viewport is visually empty",
-      "thumbnail_attempted_at": "2026-08-14T10:32:39.102918+00:00"
+      "thumbnail_attempted_at": "2026-08-17T10:04:46.346370+00:00"
     },
     {
       "str_no": "27413",
@@ -160,8 +160,8 @@
       ],
       "website_reachable": true,
       "thumbnail_status": "failed",
-      "thumbnail_error": "Page.add_style_tag: Applying inline style violates the following Content Security Policy directive 'style-src 'self' 'nonce-IINeyHCV8203boeBcbZ4Fw''. Either the 'unsafe-inline' keyword, a hash ('sha256-3bPbbS3tVpRk7pk0l3U2MntWqzQImF5c2MKMwg",
-      "thumbnail_attempted_at": "2026-08-14T10:32:39.102918+00:00"
+      "thumbnail_error": "Page.add_style_tag: Applying inline style violates the following Content Security Policy directive 'style-src 'self' 'nonce-i4qBcHOiewbmqsh_KtyM-g''. Either the 'unsafe-inline' keyword, a hash ('sha256-3bPbbS3tVpRk7pk0l3U2MntWqzQImF5c2MKMwg",
+      "thumbnail_attempted_at": "2026-08-17T10:04:46.346370+00:00"
     },
     {
       "str_no": "27391",
@@ -241,7 +241,7 @@
       "website_reachable": false,
       "thumbnail_status": "failed",
       "thumbnail_error": "HTTP 403",
-      "thumbnail_attempted_at": "2026-08-14T10:32:39.102918+00:00"
+      "thumbnail_attempted_at": "2026-08-17T10:04:46.346370+00:00"
     },
     {
       "str_no": "27380",
@@ -3256,6 +3256,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-08-17T19:04:46.262420+09:00",
+      "mode": "live",
+      "status": "no_new",
+      "new_count": 0,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-08-14T19:32:39.011581+09:00",
       "mode": "live",
