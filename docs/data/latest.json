@@ -1,11 +1,94 @@
 {
-  "generated_at": "2026-08-17T19:04:46.262420+09:00",
+  "generated_at": "2026-08-18T18:59:13.307445+09:00",
   "mode": "live",
-  "status": "no_new",
-  "new_count": 0,
+  "status": "success",
+  "new_count": 2,
   "failure_count": 0,
-  "total_count": 88,
+  "total_count": 90,
   "items": [
+    {
+      "str_no": "27392",
+      "site_name": "AI최적화랩",
+      "registered_date": "2026-08-18",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27392",
+      "live_url": "https://masstige.io/index.html",
+      "domain": "masstige.io",
+      "targets": [
+        "여성",
+        "남성",
+        "기업"
+      ],
+      "lines": [
+        "1) AI최적화랩 / 2026-08-18 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27392 / 실사이트: https://masstige.io/index.html",
+        "2) 목적/대상 IA: AI최적화랩은 콘텐츠 중심 사이트로서 주요 타깃이 여성·남성·기업으로 명시되어 있고(제공 근거: targets, methods), 콘셉트는 '모던한·깔끔한'으로 규정되어 있음.",
+        "3) UX 패턴: 콘텐츠 허브 기반 정보구조를 지향(제공 근거: methods: 콘텐츠·concepts: 모던한·깔끔한); 메뉴 라벨·CTA·기술 스택 등 상세 네비게이션 요소는 제공 데이터에 없어 확인 불가.",
+        "4) 강점: 다양한 타깃(여성·남성·기업) 설정과 콘텐츠 중심 전략, 모던·깔끔 콘셉트의 일관성 표기 및 수상 이력(WINNER PRIZE)과 증서번호 존재(증거: award_name, certificate_no).",
+        "5) 개선점: 페이지 title/description·메뉴 라벨·CTA·기술 스택 미기재로 UX·전환 최적화 불가(확인 불가) — 권장: 메타데이터 등록, 명확한 네비게이션 라벨·타깃별 진입로·핵심 CTA 배치 및 접근성 점검을 우선 적용.",
+        "6) 기술/플러그인 키워드: 확인 불가 + A) 메인 IA 퀵액션 재배치: 상단 영역에 타깃별(여성/남성/기업) 진입 버튼을 고정하고 콘텐츠 허브(사례·블로그)로 즉시 연결해 사용 경로를 단축할 것. + B) 전환/체류/탐색 KPI: 세션당 페이지수(PPV), 평균 세션 시간, 핵심 CTA 클릭률(CTR), 문의·가입 전환율(Conversion Rate)을 우선 측정할 것. + C) 공공기관 Do/Don't: Do - 명확한 네비게이션 라벨링·메타데이터 등록·접근성(대체텍스트·명확한 색 대비) 준수; Don't - 비표준 네비게이션 구조·메타 누락으로 인한 검색 및 접근성 저해. + D) 오늘의 한 줄: 메뉴·CTA·메타 정보가 확인되지 않아 먼저 정보구조 가시화와 핵심 CTA 배치를 우선하세요."
+      ],
+      "notion_url": "https://app.notion.com/p/AI-3c069790c143811ea64dccc72dc6d30d",
+      "source": "notion",
+      "agency": "매스티지",
+      "methods": [
+        "콘텐츠"
+      ],
+      "concepts": [
+        "모던한",
+        "깔끔한"
+      ],
+      "colors": [
+        "기타"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27392.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-08-18T09:59:13.393648+00:00"
+    },
+    {
+      "str_no": "27358",
+      "site_name": "정원e샵",
+      "registered_date": "2026-08-18",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27358",
+      "live_url": "https://www.jungoneshop.com/",
+      "domain": "jungoneshop.com",
+      "technologies": [
+        "Google Analytics",
+        "Google Tag Manager",
+        "jQuery"
+      ],
+      "lines": [
+        "1) 정원e샵 / 2026-08-18 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27358 / 실사이트: https://www.jungoneshop.com/",
+        "2) 목적: 대상그룹 공식몰(정원e샵)으로 브랜드 및 상품 판매·홍보에 초점, 타깃: 확인 불가(자료에 명시 없음), IA: 상단 프로모션·카테고리 중심 내비게이션(카테고리·종가위크·신제품·베스트·이벤트·대용량·상품권)과 로그인·고객센터 메뉴 중심 구성.",
+        "3) 헤더 프로모션 배너와 카테고리 기반 메뉴, 고객지원·로그인·CT A('대량견적문의','카카오채널 1:1 문의하기') 노출이 확인되며 Google Analytics·Google Tag Manager·jQuery가 적용되어 있음.",
+        "4) 공식몰 표기 및 브랜드·제품 설명 명확, 메뉴 분류와 CTA 노출로 전형적 이커머스 구조 확보, 사이트 접근 가능 확인 및 GA/GTM 적용으로 분석 기반 존재, 색상 콘셉트는 BLUE/WHITE로 '안정적' 표기.",
+        "5) 메뉴 라벨 중 '0' 및 '+ 더보기' 등의 모호한 항목 정비 필요, 주요 CTA('대량견적문의','카카오채널 1:1 문의하기')의 시각적 우선순위·위치 개선 권고, 태그(GA/GTM) 설정·데이터 수집항목 점검 및 개인정보 처리 관련 설정은 확인 불가로 검증 권장.",
+        "6) 기술/플러그인 키워드: Google Analytics, Google Tag Manager, jQuery + A) 메인 IA 퀵액션 재배치: 상단 우측에 '대량견적문의'·'카카오채널 1:1 문의하기' 고정 퀵액션으로 배치(효과·세부위치는 확인 불가) + B) 전환/체류/탐색 KPI: 구매전환율, 장바구니 전환율, 평균 세션시간, 페이지/세션, 카카오채널(문의→구매) 전환율, 캠페인별 클릭률(종가위크·신제품) + C) 공공기관 Do/Don't: Do — 메뉴 라벨 명확화·태그(GTM) 매핑 문서화·개인정보 최소수집 원칙 적용; Don't — 모호한 네비게이션 라벨('0') 유지 및 태그 설정 미검증(접근성·구체 준수사항은 확인 불가) + D) 오늘의 한 줄: 공식몰에 GA·GTM이 적용되어 데이터 기반 개선 여지가 있으나 구체 설정은 확인 불가."
+      ],
+      "notion_url": "https://app.notion.com/p/e-3c069790c14381a3a305c64970b1ba67",
+      "source": "notion",
+      "agency": "미등록",
+      "methods": [
+        "콘텐츠"
+      ],
+      "concepts": [
+        "안정적"
+      ],
+      "colors": [
+        "BLUE",
+        "WHITE"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "jQuery: HTML에서 'jquery.min.js' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27358.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-08-18T09:59:13.393648+00:00"
+    },
     {
       "str_no": "27349",
       "site_name": "교보 라이프를래닛생명",
@@ -47,7 +130,7 @@
       "website_reachable": true,
       "thumbnail_status": "failed",
       "thumbnail_error": "first viewport is visually empty",
-      "thumbnail_attempted_at": "2026-08-17T10:04:46.346370+00:00"
+      "thumbnail_attempted_at": "2026-08-18T09:59:13.393648+00:00"
     },
     {
       "str_no": "27413",
@@ -160,8 +243,8 @@
       ],
       "website_reachable": true,
       "thumbnail_status": "failed",
-      "thumbnail_error": "Page.add_style_tag: Applying inline style violates the following Content Security Policy directive 'style-src 'self' 'nonce-i4qBcHOiewbmqsh_KtyM-g''. Either the 'unsafe-inline' keyword, a hash ('sha256-3bPbbS3tVpRk7pk0l3U2MntWqzQImF5c2MKMwg",
-      "thumbnail_attempted_at": "2026-08-17T10:04:46.346370+00:00"
+      "thumbnail_error": "Page.add_style_tag: Applying inline style violates the following Content Security Policy directive 'style-src 'self' 'nonce-lm9cdu3cX7fOdLLfD5xuTA''. Either the 'unsafe-inline' keyword, a hash ('sha256-3bPbbS3tVpRk7pk0l3U2MntWqzQImF5c2MKMwg",
+      "thumbnail_attempted_at": "2026-08-18T09:59:13.393648+00:00"
     },
     {
       "str_no": "27391",
@@ -241,7 +324,7 @@
       "website_reachable": false,
       "thumbnail_status": "failed",
       "thumbnail_error": "HTTP 403",
-      "thumbnail_attempted_at": "2026-08-17T10:04:46.346370+00:00"
+      "thumbnail_attempted_at": "2026-08-18T09:59:13.393648+00:00"
     },
     {
       "str_no": "27380",
@@ -3214,6 +3297,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-08-18",
     "2026-08-14",
     "2026-08-13",
     "2026-08-12",
@@ -3256,6 +3340,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-08-18T18:59:13.307445+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 2,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-08-17T19:04:46.262420+09:00",
       "mode": "live",
