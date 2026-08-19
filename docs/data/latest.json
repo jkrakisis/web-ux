@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-18T18:59:13.307445+09:00",
+  "generated_at": "2026-08-19T18:58:17.282970+09:00",
   "mode": "live",
-  "status": "success",
-  "new_count": 2,
+  "status": "no_new",
+  "new_count": 0,
   "failure_count": 0,
   "total_count": 90,
   "items": [
@@ -42,7 +42,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27392.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-08-18T09:59:13.393648+00:00"
     },
     {
@@ -86,7 +85,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27358.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-08-18T09:59:13.393648+00:00"
     },
     {
@@ -130,7 +128,7 @@
       "website_reachable": true,
       "thumbnail_status": "failed",
       "thumbnail_error": "first viewport is visually empty",
-      "thumbnail_attempted_at": "2026-08-18T09:59:13.393648+00:00"
+      "thumbnail_attempted_at": "2026-08-19T09:58:17.354625+00:00"
     },
     {
       "str_no": "27413",
@@ -243,8 +241,8 @@
       ],
       "website_reachable": true,
       "thumbnail_status": "failed",
-      "thumbnail_error": "Page.add_style_tag: Applying inline style violates the following Content Security Policy directive 'style-src 'self' 'nonce-lm9cdu3cX7fOdLLfD5xuTA''. Either the 'unsafe-inline' keyword, a hash ('sha256-3bPbbS3tVpRk7pk0l3U2MntWqzQImF5c2MKMwg",
-      "thumbnail_attempted_at": "2026-08-18T09:59:13.393648+00:00"
+      "thumbnail_error": "Page.add_style_tag: Applying inline style violates the following Content Security Policy directive 'style-src 'self' 'nonce-4ciDI-Km93PHwkQkZFe4nA''. Either the 'unsafe-inline' keyword, a hash ('sha256-3bPbbS3tVpRk7pk0l3U2MntWqzQImF5c2MKMwg",
+      "thumbnail_attempted_at": "2026-08-19T09:58:17.354625+00:00"
     },
     {
       "str_no": "27391",
@@ -324,7 +322,7 @@
       "website_reachable": false,
       "thumbnail_status": "failed",
       "thumbnail_error": "HTTP 403",
-      "thumbnail_attempted_at": "2026-08-18T09:59:13.393648+00:00"
+      "thumbnail_attempted_at": "2026-08-19T09:58:17.354625+00:00"
     },
     {
       "str_no": "27380",
@@ -3340,6 +3338,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-08-19T18:58:17.282970+09:00",
+      "mode": "live",
+      "status": "no_new",
+      "new_count": 0,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-08-18T18:59:13.307445+09:00",
       "mode": "live",
