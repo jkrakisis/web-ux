@@ -1,11 +1,56 @@
 {
-  "generated_at": "2026-08-19T18:58:17.282970+09:00",
+  "generated_at": "2026-08-20T19:00:04.202483+09:00",
   "mode": "live",
-  "status": "no_new",
-  "new_count": 0,
+  "status": "success",
+  "new_count": 1,
   "failure_count": 0,
-  "total_count": 90,
+  "total_count": 91,
   "items": [
+    {
+      "str_no": "27337",
+      "site_name": "CUCKOO",
+      "registered_date": "2026-08-20",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27337",
+      "live_url": "https://www.cuckoo.co.kr/",
+      "domain": "cuckoo.co.kr",
+      "targets": [
+        "20-30대",
+        "30-40대",
+        "40대 이후"
+      ],
+      "technologies": [
+        "Google Analytics",
+        "Google Tag Manager",
+        "jQuery"
+      ],
+      "lines": [
+        "1) CUCKOO / 2026-08-20 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27337 / 실사이트: https://www.cuckoo.co.kr/",
+        "2) 목적: 제품(구매·렌탈) 정보 제공과 고객지원·B2B 문의 전환; 주요 타깃: 20-30대, 30-40대, 40대 이후; IA 주축은 제품·렌탈·고객지원·브랜드·회사정보 중심으로 구성되어 있음.",
+        "3) 관찰된 패턴: 상단 유틸리티(로그인/마이페이지/비회원 주문조회)와 제품·렌탈 중심의 메인 네비게이션, 다수의 전환용 CTA(렌탈 상담·서비스 예약·B2B 문의)와 라이브/영상 섹션(쿠쿠티비) 병행; 메인 서술문(설명)은 비어 있어 콘텐츠 톤은 확인 불가.",
+        "4) 강점: 제품·렌탈·고객지원·B2B로 명확히 분류된 메뉴 구조, 다양한 전환용 CTA 보유, Google Analytics·Google Tag Manager로 분석 인프라 구현, 그래픽디자인 기반의 '안정적' 콘셉트 및 수상(WINNER PRIZE) 이력 보유.",
+        "5) 개선점(근거 기반): CTA 분산을 통합해 전환 동선 단축(헤더에 핵심 CTA 고정), '쿠쿠티비/기획전' 노출 우선순위 상향, 메타/페이지 설명이 비어 있어 SEO·콘텐츠 서술 추가 필요(설명 필드 비어 있음), 기타 UX 세부(반응형·접근성 등)는 확인 불가.",
+        "6) 기술/플러그인 키워드: Google Analytics, Google Tag Manager, jQuery + A) 헤더 IA 퀵액션 재배치: 우상단에 로그인/마이페이지/비회원주문조회 고정, 헤더 중앙/우측에 '상품보러 가기'→'렌탈 상담 신청'→'서비스 예약' 순으로 주 CTA 3종 고정 및 모바일에서 고정바로 노출 + B) 전환·체류·탐색 KPI: 렌탈 상담 신청 전환율, 서비스 예약 건수, 제품 상세페이지 전환률(상품뷰→렌탈/구매), 쿠쿠티비 시청 전환율·시청 유지시간, 페이지당 평균 세션 지속시간 + C) 공공기관 Do/Don't: Do—헤더에 고객지원·예약 CTA를 명확히 배치하고 분석(dimension/event)을 GTM으로 표준화; Don't—동일 성격의 CTA를 분산 배치해 사용자를 혼란에 빠뜨리지 말 것 + D) 오늘의 한 줄: 핵심 전환 CTA를 헤더에 모아 방문자가 1클릭 내 원하는 행동을 할 수 있도록 단축하세요."
+      ],
+      "notion_url": "https://app.notion.com/p/CUCKOO-3c269790c143811793acce9ee5847c88",
+      "source": "notion",
+      "agency": "미등록",
+      "methods": [
+        "그래픽디자인"
+      ],
+      "concepts": [
+        "안정적"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "jQuery: HTML에서 'jquery-' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27337.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-08-20T10:00:04.279571+00:00"
+    },
     {
       "str_no": "27392",
       "site_name": "AI최적화랩",
@@ -128,7 +173,7 @@
       "website_reachable": true,
       "thumbnail_status": "failed",
       "thumbnail_error": "first viewport is visually empty",
-      "thumbnail_attempted_at": "2026-08-19T09:58:17.354625+00:00"
+      "thumbnail_attempted_at": "2026-08-20T10:00:04.279571+00:00"
     },
     {
       "str_no": "27413",
@@ -241,8 +286,8 @@
       ],
       "website_reachable": true,
       "thumbnail_status": "failed",
-      "thumbnail_error": "Page.add_style_tag: Applying inline style violates the following Content Security Policy directive 'style-src 'self' 'nonce-4ciDI-Km93PHwkQkZFe4nA''. Either the 'unsafe-inline' keyword, a hash ('sha256-3bPbbS3tVpRk7pk0l3U2MntWqzQImF5c2MKMwg",
-      "thumbnail_attempted_at": "2026-08-19T09:58:17.354625+00:00"
+      "thumbnail_error": "Page.add_style_tag: Applying inline style violates the following Content Security Policy directive 'style-src 'self' 'nonce-SEdjTws7SS9Xxyutdtsjcw''. Either the 'unsafe-inline' keyword, a hash ('sha256-3bPbbS3tVpRk7pk0l3U2MntWqzQImF5c2MKMwg",
+      "thumbnail_attempted_at": "2026-08-20T10:00:04.279571+00:00"
     },
     {
       "str_no": "27391",
@@ -322,7 +367,7 @@
       "website_reachable": false,
       "thumbnail_status": "failed",
       "thumbnail_error": "HTTP 403",
-      "thumbnail_attempted_at": "2026-08-19T09:58:17.354625+00:00"
+      "thumbnail_attempted_at": "2026-08-20T10:00:04.279571+00:00"
     },
     {
       "str_no": "27380",
@@ -3295,6 +3340,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-08-20",
     "2026-08-18",
     "2026-08-14",
     "2026-08-13",
@@ -3338,6 +3384,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-08-20T19:00:04.202483+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 1,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-08-19T18:58:17.282970+09:00",
       "mode": "live",
