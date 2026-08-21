@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-20T19:00:04.202483+09:00",
+  "generated_at": "2026-08-21T18:59:44.232879+09:00",
   "mode": "live",
-  "status": "success",
-  "new_count": 1,
+  "status": "no_new",
+  "new_count": 0,
   "failure_count": 0,
   "total_count": 91,
   "items": [
@@ -48,7 +48,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27337.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-08-20T10:00:04.279571+00:00"
     },
     {
@@ -173,7 +172,7 @@
       "website_reachable": true,
       "thumbnail_status": "failed",
       "thumbnail_error": "first viewport is visually empty",
-      "thumbnail_attempted_at": "2026-08-20T10:00:04.279571+00:00"
+      "thumbnail_attempted_at": "2026-08-21T09:59:44.324433+00:00"
     },
     {
       "str_no": "27413",
@@ -286,8 +285,8 @@
       ],
       "website_reachable": true,
       "thumbnail_status": "failed",
-      "thumbnail_error": "Page.add_style_tag: Applying inline style violates the following Content Security Policy directive 'style-src 'self' 'nonce-SEdjTws7SS9Xxyutdtsjcw''. Either the 'unsafe-inline' keyword, a hash ('sha256-3bPbbS3tVpRk7pk0l3U2MntWqzQImF5c2MKMwg",
-      "thumbnail_attempted_at": "2026-08-20T10:00:04.279571+00:00"
+      "thumbnail_error": "Page.add_style_tag: Applying inline style violates the following Content Security Policy directive 'style-src 'self' 'nonce-iQon5kHmm5KbN_r7sNSldw''. Either the 'unsafe-inline' keyword, a hash ('sha256-3bPbbS3tVpRk7pk0l3U2MntWqzQImF5c2MKMwg",
+      "thumbnail_attempted_at": "2026-08-21T09:59:44.324433+00:00"
     },
     {
       "str_no": "27391",
@@ -367,7 +366,7 @@
       "website_reachable": false,
       "thumbnail_status": "failed",
       "thumbnail_error": "HTTP 403",
-      "thumbnail_attempted_at": "2026-08-20T10:00:04.279571+00:00"
+      "thumbnail_attempted_at": "2026-08-21T09:59:44.324433+00:00"
     },
     {
       "str_no": "27380",
@@ -3384,6 +3383,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-08-21T18:59:44.232879+09:00",
+      "mode": "live",
+      "status": "no_new",
+      "new_count": 0,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-08-20T19:00:04.202483+09:00",
       "mode": "live",
