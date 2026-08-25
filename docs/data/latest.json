@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-24T19:12:06.998767+09:00",
+  "generated_at": "2026-08-25T19:00:54.037016+09:00",
   "mode": "live",
   "status": "success",
-  "new_count": 4,
+  "new_count": 2,
   "failure_count": 0,
-  "total_count": 95,
+  "total_count": 97,
   "items": [
     {
       "str_no": "27460",
@@ -47,7 +47,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27460.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-08-24T10:12:07.072306+00:00"
     },
     {
@@ -82,7 +81,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27459.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-08-24T10:12:07.072306+00:00"
     },
     {
@@ -124,7 +122,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27458.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-08-24T10:12:07.072306+00:00"
     },
     {
@@ -167,8 +164,114 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27457.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-08-24T10:12:07.072306+00:00"
+    },
+    {
+      "str_no": "27346",
+      "site_name": "케이웨딩",
+      "registered_date": "2026-08-21",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27346",
+      "live_url": "https://k-wedding.co.kr/",
+      "domain": "k-wedding.co.kr",
+      "targets": [
+        "여성",
+        "남성",
+        "20-30대",
+        "30-40대",
+        "40대 이후"
+      ],
+      "technologies": [
+        "Google Analytics",
+        "jQuery",
+        "GSAP",
+        "Swiper"
+      ],
+      "lines": [
+        "1) 케이웨딩 / 2026-08-21 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27346 / 실사이트: https://k-wedding.co.kr/",
+        "2) 목적: 예비 신혼부부 대상 프리웨딩·드레스·한복·포토 서비스 홍보로 전환 유도; 타깃: 제공된 연령·성별(여성·남성, 20-30대·30-40대·40대 이후); IA 관찰: 이미지 중심 구조와 Swiper 기반 슬라이더·GSAP 애니메이션 사용 확인, 메뉴·CTA 라벨 중복으로 네비게이션 혼선 우려; 전환 퍼널 세부는 확인 불가.",
+        "3) 주요 UX 패턴: 대형 사진(인물/풍경) 중심의 비주얼 퍼스트 레이아웃, 슬라이더/캐러셀(Swiper)과 애니메이션(GSAP)으로 시각적 몰입 강조, 미니멀 컬러(BROWN·WHITE) 기반의 고급·심플 콘셉트, 메뉴·CTA 라벨 중복으로 일관성 저하 가능; 접근성·세부 UI 상태는 확인 불가.",
+        "4) 강점: 브랜드 콘셉트(고급·심플·한국적)와 고해상도 사진 중심 표현 일관성, 명시된 연령·성별 타깃, 연락(CTA) 요소 존재 및 Google Analytics 설치로 기본 트래킹 가능; 내부 콘텐츠 메타·접근성 상태는 확인 불가.",
+        "5) 개선점: 상단 메뉴·CTA 라벨 중복 통합으로 IA 단순화, CONTACT 버튼 상시 고정·가시성 향상, 메타 설명(SEO) 추가, 이미지 대체텍스트 및 접근성 검증 우선 적용; 일부 세부 구현 여부는 확인 불가.",
+        "6) 기술/플러그인 키워드: Google Analytics, jQuery, GSAP, Swiper + A) 메인 IA 퀵액션 재배치: 상단 메뉴 통합(ABOUT·OFFER·CONTACT 단일 표기), 서비스 항목(Pre-Wedding / Seoul & Jeju / Dress Tour / Hanbok 등)으로 그룹화하고 'CONTACT' 고정 CTA 배치 + B) 전환/체류/탐색 KPI: 문의(CTA 클릭) 전환율, 예약 전환율, 랜딩 페이지 이탈률, 평균 세션 지속시간, 주요 메뉴 클릭률(내비게이션 유입) + C) 공공기관 Do/Don't: Do - 명확한 연락처·서비스 안내·개인정보 처리 고지 표기; Don't - 중복 메뉴·중복 CTA로 이용자 혼동 유발 금지 + D) 오늘의 한 줄: 메뉴 중복 제거가 곧 예약 증가의 지름길입니다."
+      ],
+      "notion_url": "https://app.notion.com/p/3c769790c14381958f0ef2d8081091dc",
+      "source": "notion",
+      "agency": "(주)비쥬얼스토리",
+      "methods": [
+        "사진",
+        "풍경",
+        "인물/사람"
+      ],
+      "concepts": [
+        "고급스러운",
+        "심플한",
+        "한국적,동양적인",
+        "깔끔한"
+      ],
+      "colors": [
+        "BROWN",
+        "WHITE"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "jQuery: HTML에서 'jquery.min.js' 확인",
+        "GSAP: HTML에서 'gsap.min.js' 확인",
+        "Swiper: HTML에서 'swiper-bundle' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27346.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-08-25T10:00:54.132953+00:00"
+    },
+    {
+      "str_no": "27387",
+      "site_name": "국립한국교통대학교 K-철도 교육",
+      "registered_date": "2026-08-20",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27387",
+      "live_url": "https://ktiec.ut.ac.kr/",
+      "domain": "ktiec.ut.ac.kr",
+      "targets": [
+        "대학생"
+      ],
+      "technologies": [
+        "jQuery",
+        "GSAP"
+      ],
+      "lines": [
+        "1) 국립한국교통대학교 K-철도 교육 / 2026-08-20 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27387 / 실사이트: https://ktiec.ut.ac.kr/",
+        "2) 목적: 국립한국교통대학교 K-철도 교육의 소개·인증·교육콘텐츠 홍보가 주목적이며 주요 대상은 '대학생'로 확인되며 IA는 소개·센터·사업·인증·교육콘텐츠 중심으로 구성되어 있음; 추가 세부 의도는 확인 불가.",
+        "3) 콘셉트는 '심플·모던·역동적·깔끔'이며 VIOLET·WHITE 컬러와 사진·영상 활용, jQuery·GSAP 기반 스크롤/애니메이션 패턴, 다수의 심층 메뉴와 CTA가 혼재된 정보형·전환형 UX 패턴이 관찰됨.",
+        "4) 브랜딩 콘셉트(컬러·비주얼·텍스트 문구)와 대상 설정(대학생)이 명확하고 사진·영상 사용 계획 및 jQuery·GSAP 기술 보유로 동적 표현이 가능하며 인증·교육 관련 핵심 메뉴와 CTA가 확보되어 있음.",
+        "5) 메뉴·CTA 레이블에 중복(예: 문의·지원/문의하기, 인증절차 관련 다수 항목)으로 탐색 비용 증가 가능성이 있어 인증 관련 항목과 센터 정보를 논리적 그룹으로 통합하고 CTA를 표준화해 주요 전환경로를 단순화할 것을 권고하며 기타 성능·접근성 세부는 확인 불가.",
+        "6) 기술/플러그인 키워드: jQuery, GSAP + A) 메인 IA 퀵액션 재배치: 상단 우측 및 고정 하단 버튼에 '인증신청 / 교육신청(신청하기) / 문의(문의하기)'로 통합·우선순위화하고 인증절차는 캠페인형 단일 랜딩으로 묶음 + B) 전환/체류/탐색 KPI: 인증신청 클릭률(CTA CTR), 문의 전환율(문의완료/폼제출), 평균 페이지 체류시간, 인증절차 페이지 이탈률, 페이지당 탐색 깊이(페이지뷰/세션) + C) 공공기관 Do/Don't: Do - 명확한 인증절차 가이드·단계별 CTA 배치, 일관된 레이블·메뉴 네이밍, 접근성 표준(명시 권장), 개인정보 처리 안내 강화; Don't - 중복 메뉴·혼선 유발 레이블, 과도한 애니메이션으로 정보 가림 + D) 오늘의 한 줄: 주요 전환(인증신청)을 중앙에 둔 단순화된 IA가 성과 개선의 핵심이다."
+      ],
+      "notion_url": "https://app.notion.com/p/K-3c769790c14381318a96ddcebefc015c",
+      "source": "notion",
+      "agency": "오픈필드",
+      "methods": [
+        "사진",
+        "영상"
+      ],
+      "concepts": [
+        "심플한",
+        "역동적인",
+        "모던한",
+        "깔끔한"
+      ],
+      "colors": [
+        "VIOLET",
+        "WHITE"
+      ],
+      "evidence": [
+        "jQuery: HTML에서 'jquery-' 확인",
+        "GSAP: HTML에서 'scrolltrigger' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27387.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-08-25T10:00:54.132953+00:00"
     },
     {
       "str_no": "27337",
@@ -336,7 +439,7 @@
       "website_reachable": true,
       "thumbnail_status": "failed",
       "thumbnail_error": "first viewport is visually empty",
-      "thumbnail_attempted_at": "2026-08-24T10:12:07.072306+00:00"
+      "thumbnail_attempted_at": "2026-08-25T10:00:54.132953+00:00"
     },
     {
       "str_no": "27413",
@@ -3504,6 +3607,7 @@
   "preview_items": [],
   "available_dates": [
     "2026-08-24",
+    "2026-08-21",
     "2026-08-20",
     "2026-08-18",
     "2026-08-14",
@@ -3548,6 +3652,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-08-25T19:00:54.037016+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 2,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-08-24T19:12:06.998767+09:00",
       "mode": "live",
