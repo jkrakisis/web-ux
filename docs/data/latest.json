@@ -1,11 +1,93 @@
 {
-  "generated_at": "2026-08-26T19:06:29.543859+09:00",
+  "generated_at": "2026-08-28T04:56:04.328934+09:00",
   "mode": "live",
   "status": "success",
   "new_count": 2,
   "failure_count": 0,
-  "total_count": 99,
+  "total_count": 101,
   "items": [
+    {
+      "str_no": "27477",
+      "site_name": "삼성생명 다이렉트",
+      "registered_date": "2026-08-27",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27477",
+      "live_url": "https://direct.samsunglife.com/",
+      "domain": "direct.samsunglife.com",
+      "technologies": [
+        "Google Tag Manager",
+        "jQuery"
+      ],
+      "lines": [
+        "1) 삼성생명 다이렉트 / 2026-08-27 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27477 / 실사이트: https://direct.samsunglife.com/",
+        "2) 목적: 확인 불가, 대상(타깃): 확인 불가, 정보구조(IA): 확인 불가.",
+        "3) 일러스트 기반의 '깔끔한'·'신뢰적인' 콘셉트 적용이 확인되며(제공: methods·concepts), 상세 메뉴·CTA 구조는 자료상 확인 불가.",
+        "4) 사이트 접속 가능(https://direct.samsunglife.com/), 일러스트·깔끔·신뢰적 콘셉트와 수상(WINNER PRIZE) 표기 확인, Google Tag Manager·jQuery 사용 확인.",
+        "5) 설명(description) 및 메뉴·CTA 라벨 정보 부재로 내비게이션·전환 가시성 낮음(자료상 미표기) — 명확한 CTA·메뉴 라벨링, GTM 기반 이벤트 계측 보강, 접근성·모바일 반응성 점검 권고.",
+        "6) 기술/플러그인 키워드: Google Tag Manager, jQuery + A) 메인 IA 퀵액션 재배치: 가입·계약조회·상품비교·고객센터를 홈 상단 및 고정 퀵바에 노출하여 주요 전환경로 단축 권장 + B) 전환/체류/탐색 KPI: 가입 전환율(Conversion Rate), 상담/견적 클릭률(CTA Click-Through Rate), 평균 페이지 체류시간(Average Session Duration), 이탈률(Bounce/Exit Rate) 측정 권장 + C) 공공기관 Do/Don't: Do - 명확한 라벨·접근성(대체텍스트·키보드 네비게이션) 준수 및 개인정보·약관 고지 명확화; Don't - 모호한 CTA·과도한 팝업/광고 사용 금지 + D) 오늘의 한 줄: 메뉴·CTA 가시성 강화로 사용자의 전환 경로를 단축하세요."
+      ],
+      "notion_url": "https://app.notion.com/p/3c969790c14381c0a4d2ecc402854201",
+      "source": "notion",
+      "agency": "미등록",
+      "methods": [
+        "일러스트"
+      ],
+      "concepts": [
+        "깔끔한",
+        "신뢰적인"
+      ],
+      "evidence": [
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "jQuery: HTML에서 'jquery-' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27477.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-08-27T19:56:04.419790+00:00"
+    },
+    {
+      "str_no": "27476",
+      "site_name": "파르나스호텔",
+      "registered_date": "2026-08-27",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27476",
+      "live_url": "https://www.parnashotel.com/",
+      "domain": "parnashotel.com",
+      "targets": [
+        "30-40대",
+        "40대 이후"
+      ],
+      "technologies": [
+        "React",
+        "Next.js"
+      ],
+      "lines": [
+        "1) 파르나스호텔 / 2026-08-27 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27476 / 실사이트: https://www.parnashotel.com/",
+        "2) 목적: 파르나스 리워즈(멤버십) 가입 유도 및 예약/구매 전환; 대상: 30-40대·40대 이상; IA 핵심: 회원가입·예약·E‑Shop 액션을 상단 우선 배치.",
+        "3) 고급스러운 사진·풍경 기반 비주얼 중심(제공: 사진, 풍경), 멤버십 중심 카피(타이틀·설명), 주요 메뉴·CTA 구조(E-Shop, 회원가입, 로그인, 예약 조회 / 예약하기, 회원가입, 예약 조회, 구매하기).",
+        "4) 멤버십 혜택을 전면에 둔 명확한 메시지(타이틀·설명), 예약·회원 관련 메뉴·CTA의 가시성, React·Next.js 기반 현대적 스택(HTML에서 '/_next/'·'_next/static' 확인), 라이브 사이트 접근 가능(URL 정상).",
+        "5) IA 개선 권장: 메뉴 및 퀵액션을 예약하기→회원가입(멤버십)→예약조회→E‑Shop 순으로 우선순위화해 모바일·데스크톱에서 일관되게 노출하고, 중복된 CTA 레이블(예약조회 vs 예약하기 vs 구매하기)을 통합해 혼란 최소화; 그 외 세부 접근성·성능 권고는 근거 부족으로 확인 불가.",
+        "6) 기술/플러그인 키워드: React, Next.js + A) 메인 IA 퀵액션 재배치: 상단 내비·모바일 하단 고정바에 '예약하기 > 회원가입(파르나스 리워즈) > 예약 조회 > E‑Shop' 순으로 배치하여 1클릭 접근성 확보 + B) 전환/체류/탐색 KPI: 예약 전환율(예약 시작→완료), 회원가입 전환율, 예약조회→예약 전환경로, 페이지당 체류시간·이탈률, 이샵 구매전환율(장바구니→결제) + C) 공공기관 Do/Don't: Do - 명확한 메뉴·CTA 라벨(회원가입·예약조회 등)과 개인정보 처리 고지 표준화, 접근성 준수; Don't - 중복·모호한 CTA 라벨 및 불필요한 팝업으로 이용 흐름 방해; (세부 권고 일부는 사이트 근거로 확인 불가) + D) 오늘의 한 줄: 멤버십을 전면에 두고 예약 버튼을 1차 액션으로 고정해 전환 경로를 단순화하세요."
+      ],
+      "notion_url": "https://app.notion.com/p/3c969790c14381488d4cc74135f1fb77",
+      "source": "notion",
+      "agency": "리플렉션",
+      "methods": [
+        "사진",
+        "풍경"
+      ],
+      "concepts": [
+        "고급스러운"
+      ],
+      "evidence": [
+        "React: HTML에서 '_next/static' 확인",
+        "Next.js: HTML에서 '/_next/' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27476.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-08-27T19:56:04.419790+00:00"
+    },
     {
       "str_no": "27470",
       "site_name": "토스임팩트",
@@ -47,7 +129,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27470.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-08-26T10:06:29.638248+00:00"
     },
     {
@@ -103,7 +184,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27463.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-08-26T10:06:29.638248+00:00"
     },
     {
@@ -3704,6 +3784,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-08-27",
     "2026-08-26",
     "2026-08-24",
     "2026-08-21",
@@ -3751,6 +3832,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-08-28T04:56:04.328934+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 2,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-08-26T19:06:29.543859+09:00",
       "mode": "live",
