@@ -1,11 +1,109 @@
 {
-  "generated_at": "2026-08-29T05:59:39.022918+09:00",
+  "generated_at": "2026-09-01T02:11:37.839109+09:00",
   "mode": "live",
   "status": "success",
-  "new_count": 3,
+  "new_count": 2,
   "failure_count": 0,
-  "total_count": 104,
+  "total_count": 106,
   "items": [
+    {
+      "str_no": "27478",
+      "site_name": "한진칼",
+      "registered_date": "2026-08-31",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27478",
+      "live_url": "https://www.hanjinkal.com/",
+      "domain": "hanjinkal.com",
+      "targets": [
+        "기업"
+      ],
+      "lines": [
+        "1) 한진칼 / 2026-08-31 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27478 / 실사이트: https://www.hanjinkal.com/",
+        "2) 목적·타깃·IA 요약: 기업 대상(기업)으로 심플·안정적·역동적·신뢰적 브랜드 이미지를 사진·영상 중심으로 전달하는 사이트를 지향함(실사이트 접근 실패로 상세 IA 구조는 확인 불가).",
+        "3) UX 패턴 요약: 사진·영상 기반 히어로 비주얼과 깔끔한 블록형 레이아웃, 블루·화이트 톤을 통한 신뢰형 디자인이 주요 패턴으로 보임(세부 UI·컴포넌트는 실사이트 접근 실패로 확인 불가).",
+        "4) 강점: 명확한 브랜드 콘셉트(심플·안정적·역동적), 사진·영상 등 비주얼 자산 활용 의도, 청백색 계열의 신뢰성 있는 색상 팔레트, 수상 이력(WINNER PRIZE) 표기로 신뢰요소 보유(구현 상태는 확인 불가).",
+        "5) 개선점: 메인 네비게이션에 핵심 퀵액션(예: 투자/IR·뉴스·채용·문의) 상시 노출, CTA 가시성·접근성 강화, 대용량 이미지·영상 최적화와 대체텍스트 보강, 메타데이터·구조화데이터 및 모바일 퍼포먼스 점검 권장(현황은 실사이트 미접속으로 확인 불가).",
+        "6) 기술/플러그인 키워드: responsive images, lazyload, video CDN/호스팅(예: Vimeo/Cloudinary), GA4/GTM, ARIA·접근성 도구, sitemap·robots·JSON-LD + A) 메인 IA 퀵액션 재배치: 상단 우측 및 모바일 하단 고정 공간에 아이콘형 퀵액션으로 '투자/IR', '뉴스/보도', '채용', '고객문의' 우선 배치 + B) 전환/체류/탐색 KPI: 전환(문의 제출·IR 자료 다운로드), 체류(평균 세션시간·비디오 재생 완료율), 탐색(페이지/세션·2페이지 이상 탐색 비율) + C) 공공기관 Do/Don't: Do: 명확한 연락처·공시·접근성 개선(ARIA·대체텍스트), 구조화데이터·열람성 높은 공지 제공; Don't: 중요한 정보의 숨김(복잡한 네비게이션)·과도한 자동 재생 비디오 + D) 오늘의 한 줄: 사진·영상 중심의 신뢰형 기업 사이트로 퀵액션 가시성 및 접근성 개선이 최우선이며 실사이트 상태는 접근 실패로 상세 확인 불가."
+      ],
+      "notion_url": "https://app.notion.com/p/3cd69790c14381b59cbff7ad11694cdc",
+      "source": "notion",
+      "agency": "콘센트릭스서비스코리아",
+      "methods": [
+        "사진",
+        "영상",
+        "풍경",
+        "인물/사람",
+        "건물/빌딩"
+      ],
+      "concepts": [
+        "심플한",
+        "안정적",
+        "역동적인",
+        "깔끔한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "BLUE",
+        "WHITE"
+      ],
+      "website_reachable": false,
+      "thumbnail_status": "failed",
+      "thumbnail_error": "HTTP 403",
+      "thumbnail_attempted_at": "2026-08-31T17:11:37.934685+00:00"
+    },
+    {
+      "str_no": "27475",
+      "site_name": "움버거앤윙스",
+      "registered_date": "2026-08-31",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27475",
+      "live_url": "https://umburger.co.kr",
+      "domain": "umburger.co.kr",
+      "targets": [
+        "중고등학생",
+        "20-30대",
+        "30-40대"
+      ],
+      "technologies": [
+        "jQuery"
+      ],
+      "lines": [
+        "1) 움버거앤윙스 / 2026-08-31 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27475 / 실사이트: https://umburger.co.kr",
+        "2) 목적: 치킨 버거·윙 브랜드 및 제품 소개(브랜딩 중심), 주요 타깃: 중고등학생·20–30대·30–40대, IA(정보구조) 상세는 확인 불가.",
+        "3) UX 패턴: 사진·영상·타이포 중심의 비주얼 콘텐츠 위주 구성(제공된 methods·concepts 근거), CTA는 '더보기' 단일 표기 확인, 전체 내비게이션 구조는 확인 불가.",
+        "4) 강점: 역동적·재미·화려한 비주얼 콘셉트(독특한 레이아웃·BLUE·WHITE·YELLOW 색상 구성)과 브랜드 설명으로 목적이 명확하며 jQuery 사용 확인으로 인터랙션 구현 여지 존재.",
+        "5) 개선사항: 메뉴 레이블 부재 및 CTA 단일화로 탐색·전환 경로 불명확하므로 '주문/메뉴/매장/프로모션' 등 명시적 내비게이션과 직관적 CTA 추가 권장; 성능·접근성·모바일 최적화 여부는 확인 불가.",
+        "6) 기술/플러그인 키워드: jQuery + A) 메인 IA 퀵액션 재배치: 헤더·푸터(또는 모바일 하단 고정 바)에 '주문하기·메뉴·매장찾기·프로모션' 퀵액션을 배치해 즉시 전환 경로 확보 + B) 전환/체류/탐색 KPI: CTA 클릭률(주문 클릭률), 주문 전환율, 페이지 평균 체류시간·스크롤 깊이, 세션당 페이지수·메뉴 클릭률 및 이탈률 모니터링 + C) 공공기관 Do/Don't: Do-명확한 내비게이션 라벨링·모바일 최적화·접근성(대체텍스트·명확한 버튼) 준수; Don't-자동재생 오디오·비표준 네비게이션·중복 CTA 지양 + D) 오늘의 한 줄: 메뉴 레이블과 주문 CTA를 상·하단에 고정해 즉시 전환 경로를 제공하라."
+      ],
+      "notion_url": "https://app.notion.com/p/3cd69790c14381d3adb1f46d50c63244",
+      "source": "notion",
+      "agency": "픽셀아트공작소",
+      "methods": [
+        "사진",
+        "영상",
+        "타이포",
+        "인물/사람",
+        "제품",
+        "콘텐츠"
+      ],
+      "concepts": [
+        "역동적인",
+        "재미있는",
+        "화려한",
+        "독특한 레이아웃"
+      ],
+      "colors": [
+        "BLUE",
+        "WHITE",
+        "YELLOW"
+      ],
+      "evidence": [
+        "jQuery: HTML에서 'jquery-' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27475.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-08-31T17:11:37.934685+00:00"
+    },
     {
       "str_no": "27489",
       "site_name": "신세계V",
@@ -31,9 +129,10 @@
         "안정적"
       ],
       "website_reachable": true,
-      "thumbnail_status": "failed",
-      "thumbnail_error": "Page.goto: net::ERR_CONNECTION_RESET at https://www.shinsegaev.com/\nCall log:\n  - navigating to \"https://www.shinsegaev.com/\", waiting until \"domcontentloaded\"\n",
-      "thumbnail_attempted_at": "2026-08-28T20:59:39.111656+00:00"
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-08-31T17:11:37.934685+00:00",
+      "thumbnail_url": "thumbnails/27489.jpg"
     },
     {
       "str_no": "27467",
@@ -74,7 +173,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27467.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-08-28T20:59:39.111656+00:00"
     },
     {
@@ -123,7 +221,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27462.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-08-28T20:59:39.111656+00:00"
     },
     {
@@ -3902,6 +3999,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-08-31",
     "2026-08-28",
     "2026-08-27",
     "2026-08-26",
@@ -3951,6 +4049,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-09-01T02:11:37.839109+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 2,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-08-29T05:59:39.022918+09:00",
       "mode": "live",
