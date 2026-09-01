@@ -1,11 +1,101 @@
 {
-  "generated_at": "2026-09-01T02:11:37.839109+09:00",
+  "generated_at": "2026-09-01T23:15:13.860141+09:00",
   "mode": "live",
   "status": "success",
   "new_count": 2,
   "failure_count": 0,
-  "total_count": 106,
+  "total_count": 108,
   "items": [
+    {
+      "str_no": "27510",
+      "site_name": "비에이티",
+      "registered_date": "2026-09-01",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27510",
+      "live_url": "https://batcrew.co.kr/",
+      "domain": "batcrew.co.kr",
+      "targets": [
+        "기업"
+      ],
+      "technologies": [
+        "Google Tag Manager",
+        "jQuery",
+        "GSAP",
+        "Swiper",
+        "WordPress"
+      ],
+      "lines": [
+        "1) 비에이티 / 2026-09-01 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27510 / 실사이트: https://batcrew.co.kr/",
+        "2) 목적/타깃 IA: 사이트 설명('브랜드 스케일업 컴퍼니')과 제공 메뉴(Work, About, Career, News, Blog, Contact, KOR/ENG)를 통해 기업 고객 대상 포트폴리오·회사정보·문의 전환 흐름을 구성하는 것이 목적임.",
+        "3) UX 패턴: 워드프레스 기반 콘텐츠 구조와 상단 글로벌 네비게이션, 다국어 토글(KOR/ENG) 및 GSAP·Swiper를 활용한 모션·슬라이더 중심의 인터랙티브 UI 패턴이 관찰됨.",
+        "4) 강점: 명확한 메뉴 라벨과 별도 CTA('Contact', '프로젝트 의뢰 및 문의') 존재로 전환 경로가 분명하고, GTM·jQuery·GSAP·Swiper 등 분석·애니메이션·슬라이더 기술 도입으로 리치 표현과 추적 기반 개선 여지가 있음(HTML 근거 확인).",
+        "5) 개선점: Contact CTA를 시각적으로 우선 노출·고정하고(메인 퀵액션), 모션(GSAP/Swiper) 성능 최적화 및 모바일 검증, GTM으로 전환 이벤트(문의 제출 등) 정의·측정, 다국어 접근성(언어 토글 노출 위치) 점검을 권장함; 그 외 구체적 사용성 문제는 추가 데이터 없이는 확인 불가.",
+        "6) 기술/플러그인 키워드: Google Tag Manager, jQuery, GSAP, Swiper, WordPress + A) 메인 IA 퀵액션 재배치: 네비게이션 앞부분에 Contact/프로젝트 의뢰를 최상단 퀵액션으로 배치하고 Work(포트폴리오)를 바로 옆에 배치해 문의 전환 경로를 단축하세요. + B) 전환/체류/탐색 KPI: GTM으로 설정할 KPI — 전환(문의폼 제출 수), CTA 클릭률(Contact 버튼 클릭), 평균 체류시간(Time on page), 페이지/세션 및 Work 상세 클릭률(케이스 뷰). + C) 공공기관 Do/Don't: Do—명확한 문의 경로·다국어 레이블 노출, 성능·접근성 준수 및 전환 이벤트 투명한 측정; Don't—자동 재생 모션으로 접근성·성능을 저해하거나 문의 경로를 숨기는 행위 금지. + D) 오늘의 한 줄: Contact 버튼을 최상단 퀵액션으로 고정해 문의 전환을 즉시 유도하세요."
+      ],
+      "notion_url": "https://app.notion.com/p/3ce69790c1438142b868c9aedd97c293",
+      "source": "notion",
+      "agency": "비에이티",
+      "methods": [
+        "모션그래픽"
+      ],
+      "concepts": [
+        "신비적인"
+      ],
+      "colors": [
+        "BLACK"
+      ],
+      "evidence": [
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "jQuery: HTML에서 'jquery.min.js' 확인",
+        "GSAP: HTML에서 'gsap.min.js' 확인",
+        "Swiper: HTML에서 'swiper-bundle' 확인",
+        "WordPress: HTML에서 '/wp-content/' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_status": "failed",
+      "thumbnail_error": "Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://batcrew.co.kr/\nCall log:\n  - navigating to \"https://batcrew.co.kr/\", waiting until \"domcontentloaded\"\n",
+      "thumbnail_attempted_at": "2026-09-01T14:15:13.931056+00:00"
+    },
+    {
+      "str_no": "27508",
+      "site_name": "think thing thank",
+      "registered_date": "2026-09-01",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27508",
+      "live_url": "https://thinkthingthank.com/",
+      "domain": "thinkthingthank.com",
+      "targets": [
+        "기업"
+      ],
+      "technologies": [
+        "Google Analytics",
+        "Google Tag Manager"
+      ],
+      "lines": [
+        "1) think thing thank / 2026-09-01 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27508 / 실사이트: https://thinkthingthank.com/",
+        "2) 목적/대상: 기업을 대상으로 한 New Experience Design 크리에이터 그룹의 브랜딩·서비스·포트폴리오 소개(근거: 사이트 설명·targets에 '기업').",
+        "3) UX 패턴: '모던한' 콘셉트·화이트 기반의 미니멀 브랜딩형 레이아웃으로 추정되나, 메뉴·CTA 라벨이 미제공되어 내비게이션 세부 구조는 확인 불가(근거: concepts '모던한', colors 'WHITE', menu_labels 빈값).",
+        "4) 강점: 사이트 타이틀·설명으로 명확한 브랜딩 메시지 제시, 모던·화이트 콘셉트 일관성, Google Analytics·Google Tag Manager로 태깅 구현 확인, 수상(WINNER PRIZE) 정보 보유(근거: title/description, concepts, colors, technologies, award_name).",
+        "5) 개선점: 메뉴·CTA 라벨 부재로 주요 전환경로·퀵액션 불명확하므로(근거: menu_labels·cta_labels 빈값) 상단 고정 CTA·포트폴리오·문의 흐름 명시 및 CTA별 이벤트 태깅 설계 필요; 반응성·접근성·세부 UX 요소는 제공 자료로 확인 불가.",
+        "6) 기술/플러그인 키워드: Google Analytics, Google Tag Manager + A) 메인 IA 퀵액션 재배치: 상단 헤더에 '포트폴리오'·'문의' CTA 고정 배치·히어로 영역에 핵심 서비스 3개 퀵링크 우선 배치하여 진입 경로 단축 + B) 전환/체류/탐색 KPI: CTA 클릭률(클릭당 전환), 문의폼 제출 전환율, 페이지당 평균 체류시간, 이탈률/세션당 페이지수로 탐색 효율 측정 + C) 공공기관 Do/Don't: Do—명확한 네비게이션·접근성 준수·수집동의 및 개인정보 처리 고지, Don't—자동재생·팝업 과다 사용 및 불명확한 데이터수집 표시 금지 + D) 오늘의 한 줄: '분명한 CTA와 정확한 태깅으로 디자인을 성과로 연결하세요.'"
+      ],
+      "notion_url": "https://app.notion.com/p/think-thing-thank-3ce69790c14381b78cb2d6f0960bdec5",
+      "source": "notion",
+      "agency": "think thing thank",
+      "concepts": [
+        "모던한"
+      ],
+      "colors": [
+        "WHITE"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27508.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-09-01T14:15:13.931056+00:00"
+    },
     {
       "str_no": "27478",
       "site_name": "한진칼",
@@ -48,7 +138,7 @@
       "website_reachable": false,
       "thumbnail_status": "failed",
       "thumbnail_error": "HTTP 403",
-      "thumbnail_attempted_at": "2026-08-31T17:11:37.934685+00:00"
+      "thumbnail_attempted_at": "2026-09-01T14:15:13.931056+00:00"
     },
     {
       "str_no": "27475",
@@ -101,7 +191,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27475.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-08-31T17:11:37.934685+00:00"
     },
     {
@@ -130,7 +219,6 @@
       ],
       "website_reachable": true,
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-08-31T17:11:37.934685+00:00",
       "thumbnail_url": "thumbnails/27489.jpg"
     },
@@ -3999,6 +4087,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-09-01",
     "2026-08-31",
     "2026-08-28",
     "2026-08-27",
@@ -4049,6 +4138,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-09-01T23:15:13.860141+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 2,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-09-01T02:11:37.839109+09:00",
       "mode": "live",
