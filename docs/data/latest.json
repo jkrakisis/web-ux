@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-01T23:15:13.860141+09:00",
+  "generated_at": "2026-09-02T22:46:12.495842+09:00",
   "mode": "live",
-  "status": "success",
-  "new_count": 2,
+  "status": "no_new",
+  "new_count": 0,
   "failure_count": 0,
   "total_count": 108,
   "items": [
@@ -53,7 +53,7 @@
       "website_reachable": true,
       "thumbnail_status": "failed",
       "thumbnail_error": "Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://batcrew.co.kr/\nCall log:\n  - navigating to \"https://batcrew.co.kr/\", waiting until \"domcontentloaded\"\n",
-      "thumbnail_attempted_at": "2026-09-01T14:15:13.931056+00:00"
+      "thumbnail_attempted_at": "2026-09-02T13:46:12.595298+00:00"
     },
     {
       "str_no": "27508",
@@ -93,7 +93,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27508.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-09-01T14:15:13.931056+00:00"
     },
     {
@@ -138,7 +137,7 @@
       "website_reachable": false,
       "thumbnail_status": "failed",
       "thumbnail_error": "HTTP 403",
-      "thumbnail_attempted_at": "2026-09-01T14:15:13.931056+00:00"
+      "thumbnail_attempted_at": "2026-09-02T13:46:12.595298+00:00"
     },
     {
       "str_no": "27475",
@@ -4138,6 +4137,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-09-02T22:46:12.495842+09:00",
+      "mode": "live",
+      "status": "no_new",
+      "new_count": 0,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-09-01T23:15:13.860141+09:00",
       "mode": "live",
