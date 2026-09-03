@@ -1,11 +1,122 @@
 {
-  "generated_at": "2026-09-02T22:46:12.495842+09:00",
+  "generated_at": "2026-09-03T22:46:01.263372+09:00",
   "mode": "live",
-  "status": "no_new",
-  "new_count": 0,
+  "status": "success",
+  "new_count": 2,
   "failure_count": 0,
-  "total_count": 108,
+  "total_count": 110,
   "items": [
+    {
+      "str_no": "27515",
+      "site_name": "나인원랩스",
+      "registered_date": "2026-09-03",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27515",
+      "live_url": "https://www.nineonelabs.co.kr/",
+      "domain": "nineonelabs.co.kr",
+      "targets": [
+        "여성",
+        "남성",
+        "대학생",
+        "20-30대",
+        "30-40대"
+      ],
+      "lines": [
+        "1) 나인원랩스 / 2026-09-03 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27515 / 실사이트: https://www.nineonelabs.co.kr/",
+        "2) 목적/타깃/주요 IA: 인터랙티브 및 브랜드 웹 에이전시 홍보와 프로젝트 문의 유도(타깃: 여성·남성·대학생·20–30대·30–40대), 주요 IA는 언어(EN/KO) 토글·ABOUT·COMPANY·CREATIVE LAB·WORKS·CAREERS·INSIDE·NEWS·INSIGHT·AWARD·CONTACT 등으로 구성되어 있어 포트폴리오 중심의 정보 탐색과 컨택트 유도를 목표로 함.",
+        "3) 주요 UX 패턴: 3D·모션그래픽·영상·타이포·사진 중심의 비주얼·인터랙티브 중심 레이아웃(독특하고 강렬한 구성, 실험적/화려한 연출)로 브랜드·작품 중심 탐색을 유도함.",
+        "4) 강점: 브랜드 에이전시 정체성이 명확하고(인터랙티브/브랜딩/SEO 등 서비스 명시), 흑백의 강한 콘트라스트와 신비·역동성·독특한 레이아웃으로 기억성 높은 비주얼 경험을 제공함.",
+        "5) 개선점: 주요 CTA(문의/START)·컨택트 동선을 상단과 모바일에 더 가시적으로 고정하고 접근성(대체텍스트, 애니메이션 제어), 로드/퍼포먼스·SEO 메타 구조 최적화 및 메뉴 우선순위(Works·Contact 우선) 재정렬이 필요함.",
+        "6) 기술/플러그인 키워드: 확인 불가 (사이트에 사용 기술 비기재) / 권장: WebGL(three.js), Lottie, GSAP, 반응형 미디어·i18n + A) 메인 IA 퀵액션 재배치: 상단 우측에 CONTACT/프로젝트 문의·START 버튼을 고정(언어 토글 옆), 메뉴는 WORKS→CREATIVE LAB→ABOUT→CONTACT 순으로 단순화하여 포트폴리오→서비스→회사→문의 흐름으로 재정렬 + B) 전환/체류/탐색 KPI: 전환(프로젝트 문의 클릭률), 체류(평균 세션 시간/페이지당 평균 체류), 탐색(Works 섹션 뷰율·포트폴리오 심층 뷰 비율), 퍼포먼스(첫 콘텐츠 표시시간·LCP) 추적 + C) 공공기관 Do/Don't: Do — 접근성(alt·키보드·명도 대비) 및 명확한 문의 채널·개인정보 고지 제공, Don't — 자동재생 소리/제어 불가능한 과도한 애니메이션 또는 언어전환 미지원 금지 + D) 오늘의 한 줄: 강렬한 비주얼 포트폴리오이지만 핵심 컨택트 동선을 더 눈에 띄게 만들어 전환을 확보해야 함."
+      ],
+      "notion_url": "https://app.notion.com/p/3d069790c1438169b65adf2aa5090741",
+      "source": "notion",
+      "agency": "나인원랩스",
+      "methods": [
+        "3D",
+        "모션그래픽",
+        "사진",
+        "영상",
+        "타이포",
+        "풍경",
+        "콘텐츠"
+      ],
+      "concepts": [
+        "신비적인",
+        "역동적인",
+        "재미있는",
+        "첨단적인",
+        "실험적인",
+        "화려한",
+        "독특한 레이아웃",
+        "강렬한"
+      ],
+      "colors": [
+        "BLACK",
+        "WHITE"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27515.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-09-03T13:46:01.355444+00:00"
+    },
+    {
+      "str_no": "27483",
+      "site_name": "셀파크피부과의",
+      "registered_date": "2026-09-03",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27483",
+      "live_url": "https://www.cellparkclinic.com/",
+      "domain": "cellparkclinic.com",
+      "targets": [
+        "여성",
+        "20-30대",
+        "30-40대",
+        "40대 이후"
+      ],
+      "technologies": [
+        "jQuery",
+        "GSAP",
+        "Swiper"
+      ],
+      "lines": [
+        "1) 셀파크피부과의 / 2026-09-03 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27483 / 실사이트: https://www.cellparkclinic.com/",
+        "2) 목적·타깃·IA 요약: 보건복지부 지정 첨단재생의료·피부과 전문 시술 홍보 및 환자 유치(주요 타깃: 여성 20–40대 및 40대 이상); IA는 시술 카테고리·브랜드 히스토리·진료안내·오시는길 중심으로 구성된 것으로 보임; 세부 동선 유무는 확인 불가",
+        "3) UX 패턴: 사진·인물 중심의 비주얼 퍼스트 레이아웃, 시술별(줄기세포·이뮤좀·레이저 등) 카테고리 메뉴, 언어 전환(KR/EN) 표기, 슬라이더·애니메이션 활용(Swiper·GSAP); CTA 레이블이 캡처되지 않아 실제 CTA 구조는 확인 불가",
+        "4) 강점: 보건복지부 지정 첨단재생의료실시기관 명시로 신뢰 요소 보유, 시술 전문성 중심의 명확한 메뉴 구성, 고급·심플·모던 컬러 팔레트(BLACK·BROWN·IVORY)와 사진 중심 콘텐츠, GSAP·Swiper로 표현 가능한 인터랙션 보유",
+        "5) 개선 우선순위(권장): 1) 상단 및 모바일 플로팅에 명확한 1차 CTA(예약·상담·진료안내·오시는길) 배치 2) 주요 시술별(줄기세포·이뮤좀·레이저) 랜딩페이지로 진입경로 단축 3) 인증·수상·증서(증명번호·WINNER PRIZE) 시각화로 신뢰·투명성 강화 4) GSAP/Swiper 사용 시 모바일·접근성·로드속도 최적화; 내부 구현·존재 여부는 확인 불가",
+        "6) 기술/플러그인 키워드: jQuery, GSAP, Swiper + A) 메인 IA 퀵액션 재배치: 헤더 우측 또는 헤더 하단에 고정형 ‘예약·상담·진료안내·오시는길’ 버튼 배치(모바일은 하단 플로팅 버튼) + B) 전환/체류/탐색 KPI: 전환(예약 클릭률·온라인 예약 완료율), 체류(페이지당 평균 체류시간), 탐색(클릭투목표·페이지 깊이) + C) 공공기관 Do/Don't: Do: 인증·의료기관 표기 및 증빙(증서번호) 명시, 비용·개인정보 처리·의료법 준수 표기; Don't: 과장된 효능·허위광고·모호한 문구 사용 금지 + D) 오늘의 한 줄: 인증과 명확한 예약 동선이 신뢰와 전환을 만든다."
+      ],
+      "notion_url": "https://app.notion.com/p/3d069790c143815cad5cd54014aba8f8",
+      "source": "notion",
+      "agency": "파인애플피티엘",
+      "methods": [
+        "사진",
+        "인물/사람",
+        "콘텐츠"
+      ],
+      "concepts": [
+        "고급스러운",
+        "심플한",
+        "안정적",
+        "모던한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "BLACK",
+        "BROWN",
+        "IVORY"
+      ],
+      "evidence": [
+        "jQuery: HTML에서 'jquery-' 확인",
+        "GSAP: HTML에서 'gsap.min.js' 확인",
+        "Swiper: HTML에서 'swiper-bundle' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27483.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-09-03T13:46:01.355444+00:00"
+    },
     {
       "str_no": "27510",
       "site_name": "비에이티",
@@ -53,7 +164,7 @@
       "website_reachable": true,
       "thumbnail_status": "failed",
       "thumbnail_error": "Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://batcrew.co.kr/\nCall log:\n  - navigating to \"https://batcrew.co.kr/\", waiting until \"domcontentloaded\"\n",
-      "thumbnail_attempted_at": "2026-09-02T13:46:12.595298+00:00"
+      "thumbnail_attempted_at": "2026-09-03T13:46:01.355444+00:00"
     },
     {
       "str_no": "27508",
@@ -137,7 +248,7 @@
       "website_reachable": false,
       "thumbnail_status": "failed",
       "thumbnail_error": "HTTP 403",
-      "thumbnail_attempted_at": "2026-09-02T13:46:12.595298+00:00"
+      "thumbnail_attempted_at": "2026-09-03T13:46:01.355444+00:00"
     },
     {
       "str_no": "27475",
@@ -4086,6 +4197,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-09-03",
     "2026-09-01",
     "2026-08-31",
     "2026-08-28",
@@ -4137,6 +4249,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-09-03T22:46:01.263372+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 2,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-09-02T22:46:12.495842+09:00",
       "mode": "live",
