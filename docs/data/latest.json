@@ -1,11 +1,51 @@
 {
-  "generated_at": "2026-09-03T22:46:01.263372+09:00",
+  "generated_at": "2026-09-04T22:40:39.339337+09:00",
   "mode": "live",
   "status": "success",
-  "new_count": 2,
+  "new_count": 1,
   "failure_count": 0,
-  "total_count": 110,
+  "total_count": 111,
   "items": [
+    {
+      "str_no": "27516",
+      "site_name": "나인트리 바이 파르나스",
+      "registered_date": "2026-09-04",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27516",
+      "live_url": "https://www.ninetreehotels.com/ko/hub",
+      "domain": "ninetreehotels.com",
+      "technologies": [
+        "Google Tag Manager",
+        "React",
+        "Next.js"
+      ],
+      "lines": [
+        "1) 나인트리 바이 파르나스 / 2026-09-04 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27516 / 실사이트: https://www.ninetreehotels.com/ko/hub",
+        "2) 목적: 다국어 고객 대상의 호텔 예약·브랜드 안내 제공을 목표로 하며 주요 IA 목표는 예약 접근성·호텔 찾기·프로모션 노출·문의 유도; 타깃 세부 정보: 확인 불가.",
+        "3) 글로벌 네비게이션에 다수 호텔·언어 선택·소셜 링크가 노출되고 상단 CTA(문의하기·예약하기)를 강조하는 패턴, 풍경 중심의 고급스러운 비주얼 스토리텔링 사용; 사용자 흐름 상세: 확인 불가.",
+        "4) 장점: '예약하기/문의하기' 명확한 CTA와 다국어 메뉴 구성, React·Next.js 기반 정적·동적 렌더링 가능성 및 Google Tag Manager 연동으로 분석 준비가 되어 있음, 고급스러운 풍경 비주얼로 브랜드 이미지 강화; 세부 사용자 수치: 확인 불가.",
+        "5) 권장 개선: 메인 내비게이션 과다 항목 정리로 핵심 행동(예약·호텔찾기·프로모션) 우선 노출, CTA 대비·위치 최적화로 전환 가시성 강화, GTM을 통한 예약 이벤트·유입 채널 트래킹 표준화; 구체적 현재 상태·수치: 확인 불가.",
+        "6) 기술/플러그인 키워드: Google Tag Manager, React, Next.js + A) 메인 IA 퀵액션 재배치: 상단 우선순위는 1) 예약하기 2) 호텔찾기(지점 선택) 3) 패키지 & 프로모션 4) 문의하기 및 언어선택은 우상단으로 통합 + B) 전환/체류/탐색 KPI: 예약 전환율(CTA 클릭→완료), 페이지별 체류시간, 세션당 페이지뷰(탐색 깊이), 예약 유입 채널별 전환률 + C) 공공기관 Do/Don't: Do) 접근성(키보드·대체텍스트)·다국어 명시·명확한 예약 경로 보장, Don't) 복잡한 메뉴 구조 유지·자동재생 미디어 사용·분명치 않은 CTA 레이블 사용 금지 + D) 오늘의 한 줄: 다국어·고급 비주얼 기반 호텔 브랜드로 예약 동선과 분석 이벤트를 우선 정비하세요."
+      ],
+      "notion_url": "https://app.notion.com/p/3d169790c143810aad19dbca3fdbdbdb",
+      "source": "notion",
+      "agency": "리플렉션",
+      "methods": [
+        "풍경"
+      ],
+      "concepts": [
+        "고급스러운"
+      ],
+      "evidence": [
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "React: HTML에서 '_next/static' 확인",
+        "Next.js: HTML에서 '/_next/' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27516.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-09-04T13:40:39.411423+00:00"
+    },
     {
       "str_no": "27515",
       "site_name": "나인원랩스",
@@ -57,7 +97,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27515.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-09-03T13:46:01.355444+00:00"
     },
     {
@@ -114,7 +153,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27483.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-09-03T13:46:01.355444+00:00"
     },
     {
@@ -164,7 +202,7 @@
       "website_reachable": true,
       "thumbnail_status": "failed",
       "thumbnail_error": "Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://batcrew.co.kr/\nCall log:\n  - navigating to \"https://batcrew.co.kr/\", waiting until \"domcontentloaded\"\n",
-      "thumbnail_attempted_at": "2026-09-03T13:46:01.355444+00:00"
+      "thumbnail_attempted_at": "2026-09-04T13:40:39.411423+00:00"
     },
     {
       "str_no": "27508",
@@ -248,7 +286,7 @@
       "website_reachable": false,
       "thumbnail_status": "failed",
       "thumbnail_error": "HTTP 403",
-      "thumbnail_attempted_at": "2026-09-03T13:46:01.355444+00:00"
+      "thumbnail_attempted_at": "2026-09-04T13:40:39.411423+00:00"
     },
     {
       "str_no": "27475",
@@ -4197,6 +4235,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-09-04",
     "2026-09-03",
     "2026-09-01",
     "2026-08-31",
@@ -4249,6 +4288,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-09-04T22:40:39.339337+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 1,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-09-03T22:46:01.263372+09:00",
       "mode": "live",
