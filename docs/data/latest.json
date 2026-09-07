@@ -1,11 +1,142 @@
 {
-  "generated_at": "2026-09-04T22:40:39.339337+09:00",
+  "generated_at": "2026-09-08T00:09:45.409103+09:00",
   "mode": "live",
   "status": "success",
-  "new_count": 1,
+  "new_count": 3,
   "failure_count": 0,
-  "total_count": 111,
+  "total_count": 114,
   "items": [
+    {
+      "str_no": "27544",
+      "site_name": "웍스피어",
+      "registered_date": "2026-09-07",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27544",
+      "live_url": "https://www.worxphere.ai/",
+      "domain": "worxphere.ai",
+      "lines": [
+        "1) 웍스피어 / 2026-09-07 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27544 / 실사이트: https://www.worxphere.ai/",
+        "2) 목적/타깃/IA: 사이트 목적은 '일의 경험 전체 재설계'를 표방하는 채용·일 경험 플랫폼으로 기술되나 구체적 타깃(사용자 세그먼트) 및 메뉴 구조(IA) 정보는 제공된 자료에 없어 확인 불가.",
+        "3) UX 패턴: 블루 기반의 첨단 비주얼과 모션그래픽 활용, 상시 노출된 CTA('광고 문의','제휴 문의')가 확인되며 메뉴 라벨이 제공되지 않아 전체 내비게이션 패턴은 확인 불가.",
+        "4) 강점: 명확한 브랜드 메시지(타이틀·설명)로 재브랜딩 의도가 분명하고 첨단 콘셉트·모션그래픽 적용, 문의 전환을 유도하는 CTA가 존재하며 수상 이력(WINNER PRIZE)이 신뢰 요소로 작용함.",
+        "5) 개선사항: 메뉴 라벨·내비게이션 구조가 부재해 IA 재설계 필요(서비스·사례·채용·고객센터 등 핵심 섹션 명시 권장), 분석 태깅과 접근성 표준 준수 및 목표 타깃 정의는 제공자료에 없어 확인 불가.",
+        "6) 기술/플러그인 키워드: 기술 스택/플러그인 상세는 확인 불가(권장 키워드: analytics·A/B 테스트·모션 라이브러리·접근성 검사) + A) 메인 IA 퀵액션 재배치: 상단 헤더 우측에 '광고 문의·제휴 문의'를 유지하되 메인 네비게이션에 '서비스 소개·사례·채용·고객센터'를 추가하며 모바일에서는 햄버거 내 퀵액션 고정으로 재배치(세부 항목은 메뉴 라벨 미제공으로 확인 불가) + B) 전환/체류/탐색 KPI: 문의 CTA 클릭률(CTR), 섹션별 유입률, 페이지별 평균 체류시간을 기본 KPI로 설정하고 목표값은 현행 데이터 부재로 확인 불가 + C) 공공기관 Do/Don't: Do: 명확한 메뉴 구조·접근성(ARIA·대체텍스트)·직관적 연락경로 제공, Don't: 불명확한 개인정보 수집·복잡한 동선 제공(세부 절차는 확인 불가) + D) 오늘의 한 줄: 브랜드 재포지셔닝은 분명하니, 명확한 IA와 접근성으로 그 가치를 연결하십시오."
+      ],
+      "notion_url": "https://app.notion.com/p/3d469790c14381a09fede143d03dfb4c",
+      "source": "notion",
+      "agency": "미등록",
+      "methods": [
+        "모션그래픽"
+      ],
+      "concepts": [
+        "첨단적인"
+      ],
+      "colors": [
+        "BLUE"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27544.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-09-07T15:09:45.504205+00:00"
+    },
+    {
+      "str_no": "27535",
+      "site_name": "롯데렌터카 G car",
+      "registered_date": "2026-09-07",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27535",
+      "live_url": "https://www.greencar-gcar.co.kr/",
+      "domain": "greencar-gcar.co.kr",
+      "technologies": [
+        "Google Analytics",
+        "jQuery",
+        "GSAP",
+        "Swiper"
+      ],
+      "lines": [
+        "1) 롯데렌터카 G car / 2026-09-07 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27535 / 실사이트: https://www.greencar-gcar.co.kr/",
+        "2) 목적: 롯데렌터카 기반의 카셰어링·차량 구독 모바일 예약 플랫폼(10분 단위 예약·편도 반납·모바일 예약·결제·전국서비스·안전차량관리) / 타깃: 확인 불가 / IA 요약: 메뉴는 약관·정책 중심으로 구성되어 있고 전환용 CTA(제휴문의, G car zone 신청, 매거진·이벤트)는 별도 배치되어 있음.",
+        "3) 애니메이션·슬라이더 기반 인터랙션 패턴이 관찰됨(GSAP, Swiper), jQuery로 DOM 조작 가능성, 영상 콘텐츠 활용(제공 메소드 '영상'), Google Analytics로 사용자 행태 수집이 확인됨.",
+        "4) 모바일 원스톱 예약·결제 워크플로우, 10분 단위 예약 및 편도 반납 등 사용성 중심 서비스 약속·전국 커버리지 및 차량 관리 시스템을 내세운 점이 강점으로 확인됨.",
+        "5) 상단/주요 IA가 정책 중심으로 구성되어 있어 예약·차량검색·마이페이지 등 핵심 전환 경로가 가시적으로 부족해 보임(메뉴_labels 근거), 예약 CTA의 상단·하단 고정 노출과 영상 튜토리얼·간편 검색 위주로 재배치 권장, 그 외 세부 데이터는 확인 불가.",
+        "6) 기술/플러그인 키워드: Google Analytics, jQuery, GSAP, Swiper + A) 메인 IA 퀵액션 재배치: 모바일 우선순위로 '예약(단기예약) / 차량검색 / 마이페이지(예약내역) / 고객센터(긴급문의)'를 상단 및 하단 고정 퀵바로 노출하여 CTA 접근성 확보 + B) 전환/체류/탐색 KPI: 예약 전환율(모바일·데스크탑 분리), 세션당 페이지뷰, 평균 세션 지속시간, 예약완료 퍼널 이탈률, CTA 클릭률, 영상 재생률 + C) 공공기관 Do/Don't: Do - 접근성·개인정보처리·약관 고지는 명확히 노출하고 로그·분석은 최소수집 원칙 적용; Don't - 법적·정책 문서만 전면 배치해 이용 흐름을 방해하지 말 것 + D) 오늘의 한 줄: 예약 CTA를 모바일 하단에 고정해 즉시 전환 경로를 단축하라."
+      ],
+      "notion_url": "https://app.notion.com/p/G-car-3d469790c14381ccbfaafaa9f85d1f60",
+      "source": "notion",
+      "agency": "펜타브리드",
+      "methods": [
+        "영상"
+      ],
+      "concepts": [
+        "인간적인"
+      ],
+      "colors": [
+        "RED"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "jQuery: HTML에서 'jquery-' 확인",
+        "GSAP: HTML에서 'gsap.min.js' 확인",
+        "Swiper: HTML에서 'swiper-bundle' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27535.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-09-07T15:09:45.504205+00:00"
+    },
+    {
+      "str_no": "27527",
+      "site_name": "풍산자 브랜드사이트",
+      "registered_date": "2026-09-07",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27527",
+      "live_url": "https://pungsanja.com/",
+      "domain": "pungsanja.com",
+      "targets": [
+        "20-30대",
+        "30-40대"
+      ],
+      "technologies": [
+        "Google Analytics",
+        "Google Tag Manager",
+        "React",
+        "Next.js"
+      ],
+      "lines": [
+        "1) 풍산자 브랜드사이트 / 2026-09-07 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27527 / 실사이트: https://pungsanja.com/",
+        "2) 목적: (주)지학사 풍산자 브랜드사이트로 20–40대(20-30대, 30-40대)를 대상으로 영상·콘텐츠 중심의 교재 정보 제공 및 견본 신청 유도, IA는 상단 메뉴(초등·중학·고등·교재 가이드·풍산자 케어센터)와 '견본 신청' CTA 중심 구조로 확인됨.",
+        "3) 탑 네비게이션 중심 카테고리 분류(초등/중학/고등/교재 가이드/케어센터), 주요 행동 유도 버튼('견본 신청'), 영상·콘텐츠 노출을 통한 정보제공 방식, 기술 스택으로 React·Next.js와 Google Analytics·Google Tag Manager 연동 확인.",
+        "4) 강점: 모던·깔끔·신뢰적 콘셉트와 일치하는 명확한 메뉴 구조, 눈에 띄는 핵심 CTA('견본 신청'), 최신 웹스택(React·Next.js) 및 GA·GTM 연동으로 데이터 기반 개선 가능성이 확인됨.",
+        "5) 개선점: '견본 신청'·'교재 가이드' 우선 노출로 전환 경로 단축, 영상 콘텐츠(미리보기·재생 유도) 전면 배치, Google Analytics에서 견본신청·동영상 재생 이벤트 및 전환 퍼널 설정, 모바일 네비게이션 및 접근성 강화.",
+        "6) 기술/플러그인 키워드: Google Analytics, Google Tag Manager, React, Next.js + A) 메인 IA 퀵액션 재배치: 퀵액션 우선순위 1) 견본 신청 2) 교재 가이드 3) 초등/중학/고등 바로가기 4) 풍산자 케어센터(헤더·모바일 하단 고정) + B) 전환/체류/탐색 KPI: 견본신청 전환률, 영상 재생률(Play rate), 세션당 페이지수, 평균 세션 지속시간, 이탈률(바운스율) 추적 + C) 공공기관 Do/Don't: Do — 웹 접근성(대체텍스트·명확한 색 대비·키보드 네비게이션) 준수, 개인정보 최소수집·명확 고지, 연락처/지원 정보 명시; Don't — 과장광고·불필요한 데이터 수집 금지, 복잡한 가입 프로세스 강요 금지 + D) 오늘의 한 줄: 명확한 CTA와 영상 중심 콘텐츠로 견본신청 전환을 빠르게 개선해야 함."
+      ],
+      "notion_url": "https://app.notion.com/p/3d469790c14381238fcbec604335f345",
+      "source": "notion",
+      "agency": "지학사",
+      "methods": [
+        "영상",
+        "콘텐츠"
+      ],
+      "concepts": [
+        "모던한",
+        "깔끔한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "BLUE"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "React: HTML에서 '_next/static' 확인",
+        "Next.js: HTML에서 '/_next/' 확인",
+        "응답 헤더 x-powered-by=Next.js"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27527.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-09-07T15:09:45.504205+00:00"
+    },
     {
       "str_no": "27516",
       "site_name": "나인트리 바이 파르나스",
@@ -43,7 +174,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27516.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-09-04T13:40:39.411423+00:00"
     },
     {
@@ -202,7 +332,7 @@
       "website_reachable": true,
       "thumbnail_status": "failed",
       "thumbnail_error": "Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://batcrew.co.kr/\nCall log:\n  - navigating to \"https://batcrew.co.kr/\", waiting until \"domcontentloaded\"\n",
-      "thumbnail_attempted_at": "2026-09-04T13:40:39.411423+00:00"
+      "thumbnail_attempted_at": "2026-09-07T15:09:45.504205+00:00"
     },
     {
       "str_no": "27508",
@@ -286,7 +416,7 @@
       "website_reachable": false,
       "thumbnail_status": "failed",
       "thumbnail_error": "HTTP 403",
-      "thumbnail_attempted_at": "2026-09-04T13:40:39.411423+00:00"
+      "thumbnail_attempted_at": "2026-09-07T15:09:45.504205+00:00"
     },
     {
       "str_no": "27475",
@@ -4235,6 +4365,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-09-07",
     "2026-09-04",
     "2026-09-03",
     "2026-09-01",
@@ -4288,6 +4419,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-09-08T00:09:45.409103+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 3,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-09-04T22:40:39.339337+09:00",
       "mode": "live",
