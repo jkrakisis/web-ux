@@ -1,11 +1,110 @@
 {
-  "generated_at": "2026-09-08T00:09:45.409103+09:00",
+  "generated_at": "2026-09-08T22:46:31.993764+09:00",
   "mode": "live",
   "status": "success",
-  "new_count": 3,
+  "new_count": 2,
   "failure_count": 0,
-  "total_count": 114,
+  "total_count": 116,
   "items": [
+    {
+      "str_no": "27536",
+      "site_name": "소이정",
+      "registered_date": "2026-09-08",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27536",
+      "live_url": "https://soijeong.com/",
+      "domain": "soijeong.com",
+      "targets": [
+        "20-30대",
+        "30-40대"
+      ],
+      "technologies": [
+        "Google Tag Manager",
+        "jQuery",
+        "GSAP",
+        "Swiper"
+      ],
+      "lines": [
+        "1) 소이정 / 2026-09-08 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27536 / 실사이트: https://soijeong.com/",
+        "2) 목적: 기업·병원 홈페이지 제작·AI·3D 인터랙티브·SEO/GEO 서비스 홍보 및 견적 유도; 타깃: 20-30대, 30-40대.",
+        "3) 메뉴에 'GEO 무료진단', '견적문의', '3D Lab', '포트폴리오' 등 진입점 다수 및 CTA(견적문의·예약·구독) 중복 존재; GSAP·Swiper로 모션·슬라이더 기반의 동적 UI 구현 확인.",
+        "4) 강점: 홈페이지 제작, AI 적용, 3D 인터랙티브, SEO/GEO 원스톱 서비스를 명시해 서비스 포지셔닝이 명확하고 GSAP·Swiper·GTM 등 동적·분석 기술 스택이 확인됨.",
+        "5) 개선: '견적문의' 라벨 중복 통합 및 CTA 우선순위(견적/예약/구독) 재정의 권장, 3D·모션 사용으로 인한 접근성·로딩 영향은 현재 확인 불가하므로 별도 성능·접근성 평가 필요.",
+        "6) 기술/플러그인 키워드: Google Tag Manager, jQuery, GSAP(scrolltrigger), Swiper + A) 메인 IA 퀵액션 재배치: 상단 우측에 '견적문의(통합)'과 'GEO 무료진단'을 우선 배치하고 '견적 문의' 중복 라벨을 통합해 CTA 수를 줄일 것 + B) 전환/체류/탐색 KPI: 견적문의 전환률(신청/완료), 예약 완료율, 포트폴리오 체류시간(평균 세션 지속시간), 페이지당 탐색깊이(페이지/세션) 추적 설정 권장 + C) 공공기관 Do/Don't: Do - 명확하고 중복 없는 CTA·진단/견적 경로 제공, Do - 데이터 수집(GTM) 및 사용자 흐름 분석 의무화, Don't - 과도한 모션으로 접근성 저해 금지(모션 차단 옵션 제공 권장) + D) 오늘의 한 줄: '견적문의' 라벨을 통합하고 주요 CTA를 상단에 일원화하여 전환 경로를 단순화하라."
+      ],
+      "notion_url": "https://app.notion.com/p/3d569790c1438137bea9d27f94091cce",
+      "source": "notion",
+      "agency": "소이정",
+      "methods": [
+        "3D",
+        "모션그래픽",
+        "그래픽디자인",
+        "콘텐츠"
+      ],
+      "concepts": [
+        "귀여운",
+        "역동적인",
+        "첨단적인",
+        "실험적인"
+      ],
+      "colors": [
+        "BLACK",
+        "ORANGE"
+      ],
+      "evidence": [
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "jQuery: HTML에서 'jquery-' 확인",
+        "GSAP: HTML에서 'scrolltrigger' 확인",
+        "Swiper: HTML에서 'swiper-bundle' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27536.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-09-08T13:46:32.069258+00:00"
+    },
+    {
+      "str_no": "27526",
+      "site_name": "지학사 2022개정 교과서 홍보",
+      "registered_date": "2026-09-08",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27526",
+      "live_url": "https://textbook.jihak.co.kr/main_ele2025.php",
+      "domain": "textbook.jihak.co.kr",
+      "targets": [
+        "30-40대"
+      ],
+      "technologies": [
+        "PHP/7.4.33"
+      ],
+      "lines": [
+        "1) 지학사 2022개정 교과서 홍보 / 2026-09-08 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27526 / 실사이트: https://textbook.jihak.co.kr/main_ele2025.php",
+        "2) 지학사 2022개정 초등 교과서 홍보용 랜딩(교과서·티솔루션 통합 안내)으로 30–40대 교사·학부모를 주 대상으로 하며 상단 메뉴(초등/중학/고등/AI 디지털 교육자료/티솔루션/이벤트)가 주된 IA임; 세부 IA 흐름은 확인 불가",
+        "3) 프로모션 중심 랜딩+플랫폼 소개 패턴, 상단 글로벌 내비게이션으로 카테고리 구분(초등/중학/고등/AI 자료/티솔루션/이벤트), 모션그래픽·그래픽 비주얼(‘귀여운’, YELLOW) 적용 의도 확인되며 명시적 CTA 라벨 부재가 관찰됨",
+        "4) 명확한 타이틀·설명으로 제품·플랫폼 통합 메시지 전달이 명료하고 30–40대 친화적 콘셉트('귀여운', 노란색) 및 모션·그래픽 기반 비주얼 적용 의도가 강함",
+        "5) 헤더·랜딩 영역에 명확한 CTA(데모 보기·자료다운·문의)와 교사용 퀵액션 배치, 티솔루션 체험 유도 강화, 색 대비·접근성 점검 권고, 서버 PHP 버전 관리 검토; 사용자 행동·분석 도입 여부는 확인 불가",
+        "6) 기술/플러그인 키워드: Lottie, AOS(scroll animation), Google Analytics(GA4), PHP + A) 메인 IA 퀵액션 재배치: 헤더 우측 또는 헤로 바로 아래에 '티솔루션 데모 → 교사용 자료(다운로드) → 학생 체험(샘플) → 이벤트/공지 → 문의' 순으로 배치해 주요 액션 접근성 우선화 + B) 전환/체류/탐색 KPI: CTA 클릭률(데모/다운로드), 이벤트 참가 수, 평균 세션 시간, 페이지 뎁스(페이지당 조회수), 이탈률(bounce)을 우선 측정 + C) 공공기관 Do/Don't: Do: 명확한 개인정보·이용안내 고지 및 접근성(WCAG) 준수, 경량 애니메이션·모바일 최적화; Don't: 자동소리 재생·모호한 CTA·과도한 폼 요구 + D) 오늘의 한 줄: 헤더 최상단에 티솔루션 체험형 CTA를 배치하면 방문자 행동과 전환 성과가 빠르게 개선됩니다"
+      ],
+      "notion_url": "https://app.notion.com/p/2022-3d569790c14381128153e071c37a3c00",
+      "source": "notion",
+      "agency": "지학사",
+      "methods": [
+        "모션그래픽",
+        "그래픽디자인"
+      ],
+      "concepts": [
+        "귀여운"
+      ],
+      "colors": [
+        "YELLOW"
+      ],
+      "evidence": [
+        "응답 헤더 x-powered-by=PHP/7.4.33"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27526.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-09-08T13:46:32.069258+00:00"
+    },
     {
       "str_no": "27544",
       "site_name": "웍스피어",
@@ -36,7 +135,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27544.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-09-07T15:09:45.504205+00:00"
     },
     {
@@ -81,7 +179,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27535.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-09-07T15:09:45.504205+00:00"
     },
     {
@@ -134,7 +231,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27527.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-09-07T15:09:45.504205+00:00"
     },
     {
@@ -332,7 +428,7 @@
       "website_reachable": true,
       "thumbnail_status": "failed",
       "thumbnail_error": "Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://batcrew.co.kr/\nCall log:\n  - navigating to \"https://batcrew.co.kr/\", waiting until \"domcontentloaded\"\n",
-      "thumbnail_attempted_at": "2026-09-07T15:09:45.504205+00:00"
+      "thumbnail_attempted_at": "2026-09-08T13:46:32.069258+00:00"
     },
     {
       "str_no": "27508",
@@ -4365,6 +4461,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-09-08",
     "2026-09-07",
     "2026-09-04",
     "2026-09-03",
@@ -4419,6 +4516,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-09-08T22:46:31.993764+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 2,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-09-08T00:09:45.409103+09:00",
       "mode": "live",
