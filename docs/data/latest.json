@@ -1,11 +1,117 @@
 {
-  "generated_at": "2026-09-09T22:50:11.539331+09:00",
+  "generated_at": "2026-09-10T22:45:22.874534+09:00",
   "mode": "live",
   "status": "success",
   "new_count": 2,
   "failure_count": 0,
-  "total_count": 118,
+  "total_count": 120,
   "items": [
+    {
+      "str_no": "27560",
+      "site_name": "솔트룩스",
+      "registered_date": "2026-09-10",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27560",
+      "live_url": "https://www.saltlux.com/",
+      "domain": "saltlux.com",
+      "targets": [
+        "여성",
+        "남성"
+      ],
+      "technologies": [
+        "Google Analytics",
+        "Google Tag Manager",
+        "jQuery",
+        "GSAP",
+        "Swiper"
+      ],
+      "lines": [
+        "1) 솔트룩스 / 2026-09-10 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27560 / 실사이트: https://www.saltlux.com/",
+        "2) 목적: 기관·기업 대상 풀스택 AI 솔루션(에이전트·온톨로지·생성형 AI) 홍보 및 문의 유도(사이트 설명 근거); 대상: 여성·남성(제공 데이터) 및 기관·기업 담당자(설명 근거) — 세부 타깃 분포와 우선순위는 확인 불가; IA: 플랫폼·스튜디오·솔루션 중심의 다계층 상단 메뉴 구조(메뉴 라벨 근거).",
+        "3) 대형 상단 네비게이션으로 서비스·스튜디오별 카테고리화, 이미지·영상 중심 콘텐츠, Swiper/GSAP 기반 인터랙션과 문의 CTA(문의하기/솔트룩스에 문의하기) 집중 패턴이 확인됨; 사용자 흐름 세부(예: 모바일 전환 동선)는 확인 불가.",
+        "4) 브랜드 톤(깔끔·신뢰적)과 색상(BLUE/GREEN/WHITE) 일관성, 서비스별 상세 메뉴로 탐색 가능성 확보, Google Analytics·GTM 연동으로 성과 측정 준비와 GSAP·Swiper로 모션·슬라이드 UX 구현 확인.",
+        "5) 메뉴 라벨 수가 많아 우선순위·중복 정리가 필요하며(탐색 최소화), 상단 CTA 통합(고정 문의 버튼)으로 전환 최적화 권고, 이미지·영상의 로딩·접근성(대체텍스트) 점검 권고; 타깃·세분화 관련 추가 근거는 확인 불가.",
+        "6) 기술/플러그인 키워드: Google Analytics, Google Tag Manager, jQuery, GSAP, Swiper + A) 메인 IA 퀵액션 재배치: 상단 글로벌 내비게이션에 '문의하기' 고정 CTA 추가 및 플랫폼·솔루션·AI서비스를 1차 탑레벨로 재배치해 주요 전환 경로 단축 + B) 전환/체류/탐색 KPI: 문의(CTA) 전환률, 페이지별 이탈률, 평균 세션 지속시간, 스크롤 깊이(Heatmap), CTA 클릭률을 GTM→GA로 트래킹 설정 + C) 공공기관 Do/Don't: Do - 명확한 상단·푸터 연락처·서비스 분류 제공, 접근성(대체텍스트·키보드 네비) 준수, 개인정보·이용약관 명료화; Don't - 과도한 메뉴 중복·불명확한 CTA 배치, 추적·수집 고지 미비는 피함 + D) 오늘의 한 줄: 복잡한 메뉴를 단순화하고 '문의'를 한 번에 연결하면 전환은 오른다."
+      ],
+      "notion_url": "https://app.notion.com/p/3d769790c14381a285f6cec091e7b810",
+      "source": "notion",
+      "agency": "서로커뮤니케이션",
+      "methods": [
+        "사진",
+        "영상",
+        "콘텐츠"
+      ],
+      "concepts": [
+        "깔끔한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "BLUE",
+        "GREEN",
+        "WHITE"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "jQuery: HTML에서 'jquery-' 확인",
+        "GSAP: HTML에서 'gsap.min.js' 확인",
+        "Swiper: HTML에서 'swiper-bundle' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27560.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-09-10T13:45:22.950032+00:00"
+    },
+    {
+      "str_no": "27554",
+      "site_name": "리엣의원",
+      "registered_date": "2026-09-10",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27554",
+      "live_url": "https://www.liet.co.kr/",
+      "domain": "liet.co.kr",
+      "targets": [
+        "여성",
+        "20-30대",
+        "30-40대",
+        "40대 이후"
+      ],
+      "technologies": [
+        "jQuery",
+        "Swiper"
+      ],
+      "lines": [
+        "1) 리엣의원 / 2026-09-10 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27554 / 실사이트: https://www.liet.co.kr/",
+        "2) 목적: 청담 리엣의원(온다리프팅·스킨부스터·지방분해주사·체형관리) 맞춤 상담·시술 제공, 주요 대상: 여성(20–30대·30–40대·40대 이후), 주요 IA 요소: 상단 메뉴(의원 소개·원장 소개·시설 소개·오시는길·ONDA 30·지방분해주사 등) 및 CTA(예약하기·네이버 예약하기·전화문의·CONTACT).",
+        "3) 사진·인물 중심의 심플·모던·깔끔한 비주얼 디자인 패턴과 Swiper 기반 슬라이더 활용 가능성이 확인되며(파일명 근거), 반응형/접근성 등은 제공 근거로 확인 불가합니다.",
+        "4) 강점: 메타설명으로 시술·상담 핵심 메시지 명확, 예약 관련 다중 CTA(전화·네이버·웹) 배치, 필수 안내 메뉴(비급여 진료비용·개인정보처리방침) 포함, Swiper·jQuery 도입으로 시각적 표현과 상호작용 구현 가능, 2026 WINNER PRIZE 수상으로 신뢰 요소 보유(증빙 제공).",
+        "5) 개선권고: 예약 CTA(특히 네이버 예약)를 최우선 노출해 전환 경로 단축, '비급여 진료비용'을 서비스 상세 페이지와 근접 배치해 비용 접근성 강화, 주요 시술별 랜딩(온다·지방분해 등)에서 명확한 행동유도(예약/문의) 버튼 추가, 이미지·인물 중심 콘텐츠에 대한 캡션·진술 근거 표기로 정보 신뢰성 보완; 반응형·접근성 여부는 제공 근거로 확인 불가하므로 점검 권장.",
+        "6) 기술/플러그인 키워드: jQuery, Swiper, 네이버예약 연동 + A) 메인 IA 퀵액션 재배치: 상단 우측에 1) 예약하기(웹)·네이버 예약하기(동등 우선) 2) 전화문의(클릭투콜) 3) CONTACT(문의폼) 순으로 고정 노출하고 '비급여 진료비용'을 서비스 메뉴 바로 아래로 이동 + B) 전환/체류/탐색 KPI: 예약 전환율(CTA 클릭→예약 완료비율), 전화 클릭률(모바일), 네이버 예약 전환율, 시술 페이지별 평균 체류시간 및 이탈률, CTA 노출 대비 클릭률(CTR) 설정 권장 + C) 공공기관 Do/Don't: Do: 비급여 진료비용·개인정보처리방침 상시노출·명확표기, 예약·연락 경로 명확화, 시술 정보의 사실기반 제공; Don't: 과장광고·비확인 주장 표기, 개인정보 수집거부 시 불이익 유도 금지 + D) 오늘의 한 줄: 예약 버튼을 최상단에 고정하면 문의 전환은 즉시 개선됩니다."
+      ],
+      "notion_url": "https://app.notion.com/p/3d769790c143812a8e0bf82d8a9d7dc3",
+      "source": "notion",
+      "agency": "나인원랩스",
+      "methods": [
+        "사진",
+        "인물/사람"
+      ],
+      "concepts": [
+        "심플한",
+        "모던한",
+        "깔끔한"
+      ],
+      "colors": [
+        "BROWN"
+      ],
+      "evidence": [
+        "jQuery: HTML에서 'jquery.min.js' 확인",
+        "Swiper: HTML에서 'swiper-bundle' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27554.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-09-10T13:45:22.950032+00:00"
+    },
     {
       "str_no": "27559",
       "site_name": "현대산업개발",
@@ -47,7 +153,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27559.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-09-09T13:50:11.632463+00:00"
     },
     {
@@ -104,7 +209,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27540.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-09-09T13:50:11.632463+00:00"
     },
     {
@@ -4560,6 +4664,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-09-10",
     "2026-09-09",
     "2026-09-08",
     "2026-09-07",
@@ -4616,6 +4721,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-09-10T22:45:22.874534+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 2,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-09-09T22:50:11.539331+09:00",
       "mode": "live",
