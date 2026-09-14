@@ -1,11 +1,133 @@
 {
-  "generated_at": "2026-09-11T22:44:19.213039+09:00",
+  "generated_at": "2026-09-15T00:58:38.706025+09:00",
   "mode": "live",
   "status": "success",
   "new_count": 2,
   "failure_count": 0,
-  "total_count": 122,
+  "total_count": 124,
   "items": [
+    {
+      "str_no": "27582",
+      "site_name": "소이정 메디랩",
+      "registered_date": "2026-09-14",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27582",
+      "live_url": "https://medi.soijeong.com/",
+      "domain": "medi.soijeong.com",
+      "targets": [
+        "여성",
+        "남성",
+        "20-30대",
+        "30-40대",
+        "40대 이후",
+        "기업"
+      ],
+      "technologies": [
+        "Google Tag Manager",
+        "jQuery",
+        "GSAP",
+        "Swiper"
+      ],
+      "lines": [
+        "1) 소이정 메디랩 / 2026-09-14 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27582 / 실사이트: https://medi.soijeong.com/",
+        "2) 목적: 하이엔드 병원 홈페이지 제작 서비스 제공, 주요 타깃: 제공된 연령·성별·기업(20–30대, 30–40대, 40대 이후, 여성·남성·기업), IA 관찰: 상단 메뉴(SOIJEONG, Specialist, Portfolio, News, FAQ, GEO 무료진단, 견적문의)와 다수 CTA(견적문의, 프로젝트 문의하기, GEO 무료진단)가 내비게이션 중심으로 배치되어 있음.",
+        "3) 확인된 기술(GSAP·Swiper·jQuery) 기반으로 스크롤 모션 및 슬라이더 중심의 인터랙티브 UI 패턴이 사용되고 있으며(GTM 존재로 트래킹 준비됨), 메뉴·CTA 중심의 직접적 경로설계가 보임.",
+        "4) 명확한 서비스 포지셔닝(타이틀·설명에서 10년 경력·CMS·SEO·GEO 명시), 포트폴리오·FAQ·GEO 진단 등 정보 흐름과 견적 문의로의 전환 동선이 구성된 점, GTM으로 추적 가능 준비가 되어 있음.",
+        "5) 메인 퀵액션(견적문의·GEO 무료진단·프로젝트 문의하기) 우선순위 및 가시성 재배치 권장, 외부 예약/CRM·EMR 연동 여부는 CTA 문구만 확인되어 실제 연동 가능성은 '확인 불가'하므로 명확한 연동 정보 표기 필요, GSAP/Swiper 사용으로 인한 로딩·성능 최적화 점검 권장.",
+        "6) 기술/플러그인 키워드: Google Tag Manager, jQuery, GSAP, Swiper, CMS, SEO, GEO + A) 메인 IA 퀵액션 재배치: 1) '견적문의'를 대표 CTA 최상단 고정, 2) 'GEO 무료진단'을 2차 CTA로 가시화(입력폼 또는 팝업), 3) '프로젝트 문의하기'는 상세 문의 흐름으로 배치, 4) FAQ·Portfolio는 보조 내비게이션으로 유지 + B) 전환/체류/탐색 KPI: 견적문의 제출률(전환), 폼 이탈률 및 완료율(전환), 세션당 평균 체류시간·페이지당 체류시간(체류), 스크롤 심도·포트폴리오 클릭률·CTA 클릭률(탐색) + C) 공공기관 Do/Don't: Do: 명확한 개인정보 처리·연동 고지 및 접근성(ARIA·명도 대비) 준수, external 연동 시 연동 범위와 책임 주체 명시; Don't: 지나친 모션으로 정보 접근성 저해 금지·외부연동을 암시만 하고 실제 미제공 상태로 혼동 주지 않기 + D) 오늘의 한 줄: 견적 중심의 직관적 CTA 배치로 방문→문의 전환 경로를 단축하라."
+      ],
+      "notion_url": "https://app.notion.com/p/3db69790c143814bb437e3421bd75683",
+      "source": "notion",
+      "agency": "소이정",
+      "methods": [
+        "3D",
+        "모션그래픽",
+        "사진",
+        "영상",
+        "일러스트",
+        "그래픽합성",
+        "그래픽디자인",
+        "콘텐츠"
+      ],
+      "concepts": [
+        "귀여운",
+        "안정적",
+        "역동적인",
+        "첨단적인",
+        "실험적인",
+        "화려한",
+        "독특한 레이아웃",
+        "깔끔한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "BLUE",
+        "WHITE"
+      ],
+      "evidence": [
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "jQuery: HTML에서 'jquery-' 확인",
+        "GSAP: HTML에서 'scrolltrigger' 확인",
+        "Swiper: HTML에서 'swiper-bundle' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27582.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-09-14T15:58:38.786439+00:00"
+    },
+    {
+      "str_no": "27578",
+      "site_name": "기가비스 주식회사",
+      "registered_date": "2026-09-14",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27578",
+      "live_url": "https://www.gigavis.com/kr/main",
+      "domain": "gigavis.com",
+      "targets": [
+        "기업"
+      ],
+      "technologies": [
+        "Google Analytics",
+        "jQuery",
+        "GSAP",
+        "Swiper"
+      ],
+      "lines": [
+        "1) 기가비스 주식회사 / 2026-09-14 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27578 / 실사이트: https://www.gigavis.com/kr/main",
+        "2) 목적·대상·IA: 기업 대상 반도체 자동 광학 검사·수리 솔루션(AOI/AOR/VRS/FA/S/W) 및 투자·ESG 정보 제공을 목적하며 주요 IA는 '기업정보', '제품라인업', '투자정보', '인증/수상', '고객지원' 등으로 구성되어 있음.",
+        "3) UX 패턴: 영상·인물 중심의 비주얼 퍼스트 레이아웃(콘셉트: 신비적·첨단·강렬·모던), BLACK·BLUE 팔레트, GSAP 기반 스크롤 애니메이션과 Swiper 슬라이더 등 인터랙션 기술 사용이 확인됨.",
+        "4) 강점: 제품 라인업(AOI/AOR/VRS 등)·인증·투자정보 등 B2B 의사결정에 필요한 정보가 메뉴로 명확히 분류되어 있고 Google Analytics로 트래킹되는 점이 확인됨.",
+        "5) 개선점: 제공된 CTA 문장(cta_labels)이 길어 즉시 행동 유도를 약화할 가능성이 있으므로 CTA를 간결하게 재작성하고 제품·카탈로그·문의 접근을 IA 상단 퀵액션으로 배치해 전환 동선을 단축할 것을 권장함(세부 현황 일부는 확인 불가).",
+        "6) 기술/플러그인 키워드: Google Analytics, jQuery, GSAP, Swiper + A) 메인 IA 퀵액션 재배치: 우선순위로 1) 제품라인업(세부: AOI/AOR/VRS/FA/S/W) 2) 카탈로그 다운로드(명확한 CTA) 3) 고객지원/기술문의(빠른 문의 폼) 4) 투자정보/공시(원클릭 접근) + B) 전환/체류/탐색 KPI: 카탈로그 다운로드 수, 기술문의 클릭률(CTA CTR), 제품 페이지 전환율, 평균 세션 시간, 페이지별 이탈률 + C) 공공기관 Do/Don't: Do - 인증·재무·지속가능경영 자료는 별도 구조화 페이지로 원클릭 제공; Don't - 인증·공시 정보를 숨기거나 전문용어만 나열해 접근성을 떨어뜨리지 말 것 + D) 오늘의 한 줄: B2B 솔루션 성격을 고려해 '제품 → 카탈로그 → 문의'로 이어지는 즉각적 전환 동선을 최우선으로 단순화하세요."
+      ],
+      "notion_url": "https://app.notion.com/p/3db69790c14381318c66e0b192812e7c",
+      "source": "notion",
+      "agency": "이지미디어",
+      "methods": [
+        "영상",
+        "인물/사람"
+      ],
+      "concepts": [
+        "신비적인",
+        "첨단적인",
+        "강렬한",
+        "모던한"
+      ],
+      "colors": [
+        "BLACK",
+        "BLUE"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "jQuery: HTML에서 'jquery-' 확인",
+        "GSAP: HTML에서 'scrolltrigger' 확인",
+        "Swiper: HTML에서 'swiper-bundle' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27578.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-09-14T15:58:38.786439+00:00"
+    },
     {
       "str_no": "27571",
       "site_name": "디앤아이 한라 에피",
@@ -63,7 +185,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27571.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-09-11T13:44:19.270639+00:00"
     },
     {
@@ -103,7 +224,7 @@
       "website_reachable": false,
       "thumbnail_status": "failed",
       "thumbnail_error": "HTTP 403",
-      "thumbnail_attempted_at": "2026-09-11T13:44:19.270639+00:00"
+      "thumbnail_attempted_at": "2026-09-14T15:58:38.786439+00:00"
     },
     {
       "str_no": "27560",
@@ -4761,6 +4882,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-09-14",
     "2026-09-11",
     "2026-09-10",
     "2026-09-09",
@@ -4819,6 +4941,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-09-15T00:58:38.706025+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 2,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-09-11T22:44:19.213039+09:00",
       "mode": "live",
