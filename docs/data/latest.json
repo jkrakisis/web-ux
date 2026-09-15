@@ -1,11 +1,56 @@
 {
-  "generated_at": "2026-09-15T00:58:38.706025+09:00",
+  "generated_at": "2026-09-15T23:24:33.554191+09:00",
   "mode": "live",
   "status": "success",
-  "new_count": 2,
+  "new_count": 1,
   "failure_count": 0,
-  "total_count": 124,
+  "total_count": 125,
   "items": [
+    {
+      "str_no": "27570",
+      "site_name": "리커너스",
+      "registered_date": "2026-09-15",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27570",
+      "live_url": "https://www.reconers.com",
+      "domain": "reconers.com",
+      "agency": "리커너스",
+      "targets": [
+        "기업"
+      ],
+      "methods": [
+        "3D",
+        "모션그래픽",
+        "타이포"
+      ],
+      "concepts": [
+        "역동적인",
+        "재미있는"
+      ],
+      "colors": [
+        "BLUE"
+      ],
+      "technologies": [
+        "React",
+        "Next.js"
+      ],
+      "evidence": [
+        "React: HTML에서 '_next/static' 확인",
+        "Next.js: HTML에서 '/_next/' 확인"
+      ],
+      "website_reachable": true,
+      "lines": [
+        "1) 리커너스 / 2026-09-15 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27570 / 실사이트: https://www.reconers.com",
+        "2) 목적: 기업 대상의 반응형 웹·앱 개발 서비스 홍보 및 프로젝트 문의 유도; 주요 대상: 기업; IA상 확인된 주요 네비/CTA는 '프로젝트 문의하기'로 단일화되어 있으며 기타 IA 구성은 확인 불가.",
+        "3) 단일 주요 CTA 반복(메뉴·CTA 모두 '프로젝트 문의하기')로 문의 유도 중심의 간결한 IA가 확인되며 3D·모션·타이포 등 시각적 기법의 실제 적용 여부는 페이지 내 구현 확인 불가.",
+        "4) 확인된 강점: 기업 대상 전문 서비스(반응형 홈페이지·기업 웹사이트·웹 솔루션·하이브리드 앱) 명시, 최신 스택 사용(React·Next.js 확인), 콘셉트('역동적인', '재미있는')·컬러(BLUE)로 브랜딩 일관성 확보 및 수상 이력(WINNER PRIZE) 보유.",
+        "5) 개선권고: 탐색이 '프로젝트 문의하기'에 집중되어 정보 접근 경로가 제한적이므로 포트폴리오·서비스 소개·회사소개·기술 스택 등 Quick Action을 추가해 가시성 및 탐색성을 높일 것(해당 콘텐츠의 현재 노출 상태는 확인 불가).",
+        "6) 기술/플러그인 키워드: React, Next.js + A) 메인 IA 퀵액션 재배치: 상단 네비와 모바일 하단 고정에 '프로젝트 문의하기' 유지하되 추가 Quick Action으로 '포트폴리오', '서비스 소개', '기술 스택', '회사 소개' 배치하여 탐색 경로 분산 + B) 전환/체류/탐색 KPI: 전환—문의 폼 제출 수(주당/월별), 체류—평균 세션 지속시간, 탐색—페이지/세션 및 포트폴리오 클릭률 측정 + C) 공공기관 Do/Don't: Do—명확한 연락경로·접근성(ARIA·반응형)·개인정보 처리 안내 표기 권장, Don't—자동재생 오디오·비접근성 애니메이션·모호한 CTA 사용 금지 + D) 오늘의 한 줄: 기업 대상 서비스임을 명확히 하는 단일 CTA 중심 구조는 강점이나 정보 접근성 강화를 위한 Quick Action 확대가 필요함."
+      ],
+      "thumbnail_url": "thumbnails/27570.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-09-15T14:24:33.663924+00:00"
+    },
     {
       "str_no": "27582",
       "site_name": "소이정 메디랩",
@@ -72,7 +117,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27582.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-09-14T15:58:38.786439+00:00"
     },
     {
@@ -125,7 +169,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27578.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-09-14T15:58:38.786439+00:00"
     },
     {
@@ -224,7 +267,7 @@
       "website_reachable": false,
       "thumbnail_status": "failed",
       "thumbnail_error": "HTTP 403",
-      "thumbnail_attempted_at": "2026-09-14T15:58:38.786439+00:00"
+      "thumbnail_attempted_at": "2026-09-15T14:24:33.663924+00:00"
     },
     {
       "str_no": "27560",
@@ -4882,6 +4925,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-09-15",
     "2026-09-14",
     "2026-09-11",
     "2026-09-10",
@@ -4941,6 +4985,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-09-15T23:24:33.554191+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 1,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-09-15T00:58:38.706025+09:00",
       "mode": "live",
