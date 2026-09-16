@@ -1,11 +1,168 @@
 {
-  "generated_at": "2026-09-15T23:24:33.554191+09:00",
+  "generated_at": "2026-09-16T23:18:08.198123+09:00",
   "mode": "live",
   "status": "success",
-  "new_count": 1,
+  "new_count": 3,
   "failure_count": 0,
-  "total_count": 125,
+  "total_count": 128,
   "items": [
+    {
+      "str_no": "27604",
+      "site_name": "인스턴트펑크",
+      "registered_date": "2026-09-16",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27604",
+      "live_url": "https://instantfunk.kr/",
+      "domain": "instantfunk.kr",
+      "targets": [
+        "대학생",
+        "20-30대"
+      ],
+      "technologies": [
+        "Google Tag Manager",
+        "Cafe24"
+      ],
+      "lines": [
+        "1) 인스턴트펑크 / 2026-09-16 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27604 / 실사이트: https://instantfunk.kr/",
+        "2) 목적·타깃·IA: 브랜드·제품 홍보와 신규회원 유도(신규회원 10% 쿠폰), 주요 타깃은 대학생·20–30대이며 IA는 SHOP·LOOKBOOK·Membership 중심 구조로 구성됨(세부 구조는 확인 불가).",
+        "3) UX 패턴: 룩북(LOOK BOOK) 중심의 비주얼 호출과 쇼핑 중심 네비게이션(Shop/Lookbook/Membership/Notice/FAQ 등), CTA 라벨 중복·불일치(LOOK BOOK/Lookbook/26FALL LOOKBOOK) 관찰됨.",
+        "4) 강점: 신규회원 10% 쿠폰 표기로 가입 유도 명확, 룩북·비주얼(영상) 콘텐츠 중심 구성 표기, Google Tag Manager로 태깅 가능성 확인 및 Cafe24 기반 전자상거래 플랫폼 사용 확인.",
+        "5) 개선점: 메뉴 라벨 중복·대소문자 불일치 정리, CTA 통합 및 문구 일관화, 메인 IA 퀵액션(Shop·쿠폰·Lookbook·Login) 재배치와 이벤트 태깅 보강 필요; 추가적 세부 흐름은 확인 불가.",
+        "6) 기술/플러그인 키워드: Google Tag Manager, Cafe24 + A) 메인 IA 퀵액션 재배치: 상단 우선순위를 Shop > 26FW/신상품·쿠폰(신규회원) > Lookbook > Membership/Login > Notice/FAQ/Review/Q&A로 단순화·고정하여 접근성 향상 + B) 전환/체류/탐색 KPI: 신규가입 전환율(쿠폰 사용률), 룩북 페이지 체류시간 및 비디오 재생률, Shop 클릭률·장바구니 진입률, 네비게이션 클릭 유입 비율 측정 + C) 공공기관 Do/Don't: Do—명확한 메뉴 라벨 표기·접근성(키보드/스크린리더)·이용약관·개인정보처리방침 접근성 확보, Don't—메뉴 라벨 중복·대소문자 혼용·혼동 유발 네비게이션 지속 금지 + D) 오늘의 한 줄: 룩북 중심 비주얼 커머스에 가입 쿠폰 유도는 명확하나 메뉴 라벨 중복과 CTA 일관성 부족이 관찰됨."
+      ],
+      "notion_url": "https://app.notion.com/p/3dd69790c143812dbfa8f4420dea745a",
+      "source": "notion",
+      "agency": "디파이 (DFY®)",
+      "methods": [
+        "영상"
+      ],
+      "concepts": [
+        "모던한"
+      ],
+      "evidence": [
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "Cafe24: HTML에서 'cafe24.com' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27604.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-09-16T14:18:08.285662+00:00"
+    },
+    {
+      "str_no": "27594",
+      "site_name": "매쓰플랫",
+      "registered_date": "2026-09-16",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27594",
+      "live_url": "https://www.mathflat.com/",
+      "domain": "mathflat.com",
+      "targets": [
+        "여성",
+        "남성",
+        "중고등학생",
+        "학부모",
+        "30-40대",
+        "40대 이후",
+        "기업",
+        "주부"
+      ],
+      "technologies": [
+        "Google Analytics",
+        "Google Tag Manager",
+        "GSAP",
+        "Swiper",
+        "WordPress"
+      ],
+      "lines": [
+        "1) 매쓰플랫 / 2026-09-16 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27594 / 실사이트: https://www.mathflat.com/",
+        "2) 목적: 수학문제은행·오답관리 제공(서비스형 SaaS)·대상: 교사·중고등학생·학부모·30‑40대 등 복수 페르소나, IA 주요 항목: 서비스 소개·문제은행·오답관리·요금안내·설명회·사용후기·뉴스·FAQ·로그인·무료로 시작하기 (근거: 제공된 메뉴·설명 문구).",
+        "3) 다수의 전환형 CTA(무료로 시작하기·무료체험·설명회)와 서비스 중심 콘텐츠 항목(문제은행·오답관리)을 상단에 배치한 구조, 인터랙티브 요소는 GSAP·Swiper, CMS는 WordPress로 구현된 패턴(근거: menu_labels 및 technologies).",
+        "4) 명확한 가치제안(업계 최다 콘텐츠·맞춤형 오답관리)과 다양한 대상 설정, 전환 지향 CTA가 분명하며 Google Analytics·GTM 적용으로 트래킹 인프라가 마련되어 있음(근거: description·targets·cta_labels·technologies·evidence).",
+        "5) 중복·장황한 메뉴 라벨 정리(예: 업데이트 소식·뉴스룸·Blog 통합), 주요 전환경로 우선순위화(‘무료로 시작하기’ 상시 노출), GTM 기반 이벤트 트래킹 설계 권장(무료체험·설명회 신청·로그인 전환), 디자인 개념(모던·깔끔·신뢰) 유지하되 IA 간소화 필요; 그 외 세부 사용자 흐름·모바일 최적화 여부는 제공된 근거로 확인 불가.",
+        "6) 기술/플러그인 키워드: Google Analytics, Google Tag Manager, GSAP, Swiper, WordPress + A) 메인 IA 퀵액션 재배치: 상단 우선순위로 '무료로 시작하기' 고정 → 서비스(문제은행/오답관리) → 요금안내/설명회 → 사용후기/뉴스 순으로 그룹화 + B) 전환/체류/탐색 KPI: 무료체험 전환율(신규 가입 대비), 설명회 신청 전환율, 세션당 페이지수, 평균 세션 지속시간, 이탈률(페이지별) + C) 공공기관 Do/Don't: Do - 개인정보·이용조건·콘텐츠 출처 명확 표시, 접근성(웹접근성 지침) 준수, 가격·체험조건 투명 표기; Don't - 과장광고·불명확한 체험기간/요금 표기 금지 + D) 오늘의 한 줄: 주요 CTA를 최상단 고정해 즉시 전환 경로를 단축하세요."
+      ],
+      "notion_url": "https://app.notion.com/p/3dd69790c14381d090ebe98ac6eaac1a",
+      "source": "notion",
+      "agency": "스튜디오 제이티",
+      "methods": [
+        "사진",
+        "영상",
+        "그래픽디자인",
+        "콘텐츠"
+      ],
+      "concepts": [
+        "모던한",
+        "깔끔한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "BLUE"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "GSAP: HTML에서 'gsap.min.js' 확인",
+        "Swiper: HTML에서 'swiper-bundle' 확인",
+        "WordPress: HTML에서 '/wp-content/' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27594.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-09-16T14:18:08.285662+00:00"
+    },
+    {
+      "str_no": "27589",
+      "site_name": "힐로웨이브",
+      "registered_date": "2026-09-16",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27589",
+      "live_url": "https://www.hilowave.co.kr/",
+      "domain": "hilowave.co.kr",
+      "targets": [
+        "여성"
+      ],
+      "technologies": [
+        "Google Analytics",
+        "Google Tag Manager",
+        "React",
+        "Next.js"
+      ],
+      "lines": [
+        "1) 힐로웨이브 / 2026-09-16 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27589 / 실사이트: https://www.hilowave.co.kr/",
+        "2) 목적·대상·IA: 브랜드·제품 홍보 및 신청 유도(CTA 'Go to apply')를 중심으로 한 여성 대상 사이트로 보이며 주 네비게이션은 'DEMO' 단일 메뉴와 전환 중심 CTA로 단순화되어 있음.",
+        "3) UX 패턴: 3D·모션그래픽·타이포 중심의 시각적·역동적 표현을 지향하는 디자인 콘셉트(고급스러운·신비적인·심플한·역동적)과 블루 계열 컬러 사용 evidencia 있음; 상세 레이아웃(히어로 중심 등)은 제공 근거에 따라 추정 불가(확인 불가).",
+        "4) 강점: React·Next.js 기반으로 현대적 프론트엔드 구조를 활용 가능하고 Google Analytics·GTM 적용으로 데이터 추적 인프라가 갖춰져 있으며 비주얼 콘셉트와 컬러가 브랜드 일관성에 기여함.",
+        "5) 개선 권장: 메뉴 'DEMO'만 존재하는 구조는 IA 확장이 필요하고 영어 CTA('Go to apply')는 한국어 라벨로 변경해 전환률을 높이며 GTM을 통한 CTA 클릭 이벤트·폼 전환 트래킹 적용 권장(설정 여부는 확인 불가).",
+        "6) 기술/플러그인 키워드: React, Next.js, Google Analytics, Google Tag Manager + A) 메인 IA 퀵액션 재배치: 상단에 한국어 '신청하기' 고정 CTA 배치(데스크탑 우상단·모바일 하단 고정) 및 메뉴를 '제품·효능·사용법·문의'로 분기해 전환 경로 명확화 + B) 전환/체류/탐색 KPI: CTA 클릭률(Click-through rate), 신청폼 전환율(Conversion rate), 평균 체류시간(Average session duration), 이탈률(Bounce rate), 세션당 페이지수(Pageviews per session) + C) 공공기관 Do/Don't: Do - 명확한 한국어 라벨링·접근성(대체텍스트·키보드 네비게이션)·명시적 개인정보 고지 적용, Don't - 영어 CTA 유지·강한 자동 재생 애니메이션으로 접근성 저해 금지 + D) 오늘의 한 줄: 시각적 완성도가 높은 만큼 IA와 한국어 CTA로 전환 경로를 즉시 명확히 하라."
+      ],
+      "notion_url": "https://app.notion.com/p/3dd69790c143814eb49ee9eb20661127",
+      "source": "notion",
+      "agency": "레이레이랩",
+      "methods": [
+        "3D",
+        "모션그래픽",
+        "타이포"
+      ],
+      "concepts": [
+        "고급스러운",
+        "신비적인",
+        "심플한",
+        "역동적인"
+      ],
+      "colors": [
+        "BLUE"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "React: HTML에서 '_next/static' 확인",
+        "Next.js: HTML에서 '/_next/' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27589.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-09-16T14:18:08.285662+00:00"
+    },
     {
       "str_no": "27570",
       "site_name": "리커너스",
@@ -48,8 +205,9 @@
       ],
       "thumbnail_url": "thumbnails/27570.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
-      "thumbnail_attempted_at": "2026-09-15T14:24:33.663924+00:00"
+      "thumbnail_attempted_at": "2026-09-15T14:24:33.663924+00:00",
+      "notion_url": "https://app.notion.com/p/3dc69790c14381c7a3c0c60076430e42",
+      "source": "notion"
     },
     {
       "str_no": "27582",
@@ -267,7 +425,7 @@
       "website_reachable": false,
       "thumbnail_status": "failed",
       "thumbnail_error": "HTTP 403",
-      "thumbnail_attempted_at": "2026-09-15T14:24:33.663924+00:00"
+      "thumbnail_attempted_at": "2026-09-16T14:18:08.285662+00:00"
     },
     {
       "str_no": "27560",
@@ -4925,6 +5083,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-09-16",
     "2026-09-15",
     "2026-09-14",
     "2026-09-11",
@@ -4985,6 +5144,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-09-16T23:18:08.198123+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 3,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-09-15T23:24:33.554191+09:00",
       "mode": "live",
