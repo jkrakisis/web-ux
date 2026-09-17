@@ -1,11 +1,105 @@
 {
-  "generated_at": "2026-09-16T23:18:08.198123+09:00",
+  "generated_at": "2026-09-17T23:24:24.538173+09:00",
   "mode": "live",
   "status": "success",
-  "new_count": 3,
+  "new_count": 2,
   "failure_count": 0,
-  "total_count": 128,
+  "total_count": 130,
   "items": [
+    {
+      "str_no": "27591",
+      "site_name": "봄결성형외과",
+      "registered_date": "2026-09-17",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27591",
+      "live_url": "https://www.bomgyeol.co.kr/",
+      "domain": "bomgyeol.co.kr",
+      "targets": [
+        "여성",
+        "남성"
+      ],
+      "technologies": [
+        "jQuery",
+        "GSAP",
+        "Swiper",
+        "Cafe24"
+      ],
+      "lines": [
+        "1) 봄결성형외과 / 2026-09-17 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27591 / 실사이트: https://www.bomgyeol.co.kr/",
+        "2) 목적: 눈성형 중심 예약 전환 및 브랜딩; 타깃: 여성·남성; 주요 IA(메뉴): 01 첫눈성형, 02 눈재수술, 03 병원소개, 04 후기, 05 봄결의 생각.",
+        "3) 인물/사람 중심 비주얼과 고급스럽고 여성적인(BROWN·IVORY) 색채, 독특한 레이아웃, 애니메이션·슬라이더 기반 인터랙션(gsap·swiper) 및 상담·예약 CTA 집중 배치.",
+        "4) 명확한 예약 CTA(전화 예약·카톡 상담/예약·네이버 예약·상담 예약) 구성, 진료·후기·병원소개로 분류된 메뉴 구조, GSAP·Swiper·jQuery 등 인터랙션 기술 보유 및 Cafe24 플랫폼 사용.",
+        "5) 우선 개선 제안: CTA 우선순위·일관성 확보(중복 채널 정렬) 및 예약경로 단축, 모바일·접근성·속도 최적화 권장; 구체 성과 수치·현황은 제공자료에 없어 확인 불가.",
+        "6) 기술/플러그인 키워드: jQuery, GSAP, Swiper, Cafe24 + A) 메인 IA 퀵액션 재배치: 상단/플로팅 CTA 순서 권장 1) 전화 예약 2) 카톡 상담/예약 3) 네이버 예약 4) 상담 예약(상시 노출·단일액션로직 적용) + B) 전환/체류/탐색 KPI: 전화클릭 전환율, 카카오 상담 전환율, 네이버 예약 전환율, 예약 완료율, 평균 세션 지속시간·이탈률(기준값은 제공자료에 없어 확인 불가) + C) 공공기관 Do/Don't: Do - 진료과목·의사정보·연락수단·개인정보·예약안내 명확 표기; Don't - 과장광고·비의학적 표현·효과 과장(의료광고 관련 규정 준수) + D) 오늘의 한 줄: 예약 CTA를 단순화해 즉시 행동으로 연결하라."
+      ],
+      "notion_url": "https://app.notion.com/p/3de69790c14381478224f31c8abc9d95",
+      "source": "notion",
+      "agency": "플랜에이제트",
+      "methods": [
+        "인물/사람"
+      ],
+      "concepts": [
+        "고급스러운",
+        "여성적인",
+        "독특한 레이아웃"
+      ],
+      "colors": [
+        "BROWN",
+        "IVORY"
+      ],
+      "evidence": [
+        "jQuery: HTML에서 'jquery-' 확인",
+        "GSAP: HTML에서 'gsap.min.js' 확인",
+        "Swiper: HTML에서 'swiper-bundle' 확인",
+        "Cafe24: HTML에서 'cafe24.com' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27591.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-09-17T14:24:24.613231+00:00"
+    },
+    {
+      "str_no": "27590",
+      "site_name": "아트파이",
+      "registered_date": "2026-09-17",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27590",
+      "live_url": "https://artpieent.com/",
+      "domain": "artpieent.com",
+      "targets": [
+        "20-30대",
+        "30-40대",
+        "40대 이후",
+        "기업"
+      ],
+      "lines": [
+        "1) 아트파이 / 2026-09-17 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27590 / 실사이트: https://artpieent.com/",
+        "2) 목적: 예술 제작자와 관객을 연결하고 라이브하우스·스튜디오·이벤트·아티스트·매거진·공간·기획 정보를 제공하는 서비스로, 주요 대상은 20–30대·30–40대·40대 이후·기업이며 IA는 상단 메뉴에 ARTPIE 라이브하우스·스튜디오·무대의 주인공 되기·함께 즐기기·새로운 재미 만들기 등 서비스 중심 분류로 구성되어 있음.",
+        "3) 톱 네비게이션 기반 서비스 카테고리 배치, 외부 링크 표기(↗) 다수, CTA(문의·회원가입·카카오톡 채널)가 눈에 띄게 배치되어 있고 브랜드 콘셉트(재미있는·실험적인)와 색상(GREEN·ORANGE)이 적용되어 있으며 사진·영상 중심 콘텐츠 기법이 명시됨; 세부 레이아웃·접근성 상태는 확인 불가.",
+        "4) 명확한 사이트 타이틀·태그라인과 대상 설정, 서비스별 세분화된 메뉴 구성, 다양한 문의 채널(카카오톡 포함)과 회원가입 CTA 존재, 브랜드 콘셉트·컬러 일관성 및 수상 기록(WINNER PRIZE) 표기.",
+        "5) 주요 개선점으로 IA 우선순위 재정렬(주요 서비스·문의·회원가입 우선 노출), CTA 통일 및 모바일 채널(카카오톡) 가시성 강화, 핵심 KPI(문의/회원가입/카카오톡 클릭/페이지 체류) 측정 체계 도입을 권장하며 구체적 사용성·접근성 결함 여부는 확인 불가.",
+        "6) 기술/플러그인 키워드: Google Analytics(GA4), Heatmap(Hotjar/FullStory), 카카오톡 채널 연동, 접근성(ARIA) 체크리스트, CDN + A) 메인 IA 퀵액션 재배치: 헤더에 '문의·회원가입·카카오톡 채널'을 고정된(Sticky) CTA로 상시 노출하고 서비스 메뉴는 '이용·서비스(라이브하우스·스튜디오·공간·기획)'와 '참여·콘텐츠(무대의 주인공·함께 즐기기·새로운 재미)'로 재그룹화하여 2단계로 단순화할 것 + B) 전환/체류/탐색 KPI: 문의 클릭→문의 완료 전환율, 회원가입 전환율, 카카오톡 채널 클릭→대화 시작 전환율, 페이지별 평균 체류시간·이탈률, 메뉴 항목별 클릭률(CTRs) 측정 + C) 공공기관 Do/Don't: Do - 이용약관·개인정보처리방침 상시 노출 및 명확한 동의 절차, 접근성 표준(예: ARIA) 준수, 모바일 채널 안내 명확화; Don't - 개인정보 동의 절차를 불명확하게 구성하지 말 것, 외부 링크로 인해 핵심 전환 동선을 방해하지 말 것 + D) 오늘의 한 줄: 문의·회원가입·카카오톡을 헤더 최상단에 고정해 즉시 전환 동선을 확보하세요."
+      ],
+      "notion_url": "https://app.notion.com/p/3de69790c14381cf9599d736680e4502",
+      "source": "notion",
+      "agency": "아트파이",
+      "methods": [
+        "사진",
+        "영상"
+      ],
+      "concepts": [
+        "재미있는",
+        "실험적인"
+      ],
+      "colors": [
+        "GREEN",
+        "ORANGE"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27590.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-09-17T14:24:24.613231+00:00"
+    },
     {
       "str_no": "27604",
       "site_name": "인스턴트펑크",
@@ -45,7 +139,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27604.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-09-16T14:18:08.285662+00:00"
     },
     {
@@ -107,7 +200,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27594.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-09-16T14:18:08.285662+00:00"
     },
     {
@@ -160,7 +252,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27589.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-09-16T14:18:08.285662+00:00"
     },
     {
@@ -425,7 +516,7 @@
       "website_reachable": false,
       "thumbnail_status": "failed",
       "thumbnail_error": "HTTP 403",
-      "thumbnail_attempted_at": "2026-09-16T14:18:08.285662+00:00"
+      "thumbnail_attempted_at": "2026-09-17T14:24:24.613231+00:00"
     },
     {
       "str_no": "27560",
@@ -5083,6 +5174,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-09-17",
     "2026-09-16",
     "2026-09-15",
     "2026-09-14",
@@ -5144,6 +5236,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-09-17T23:24:24.538173+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 2,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-09-16T23:18:08.198123+09:00",
       "mode": "live",
