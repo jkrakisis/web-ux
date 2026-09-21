@@ -1,11 +1,157 @@
 {
-  "generated_at": "2026-09-18T22:43:52.777562+09:00",
+  "generated_at": "2026-09-22T00:59:39.110643+09:00",
   "mode": "live",
   "status": "success",
-  "new_count": 1,
+  "new_count": 3,
   "failure_count": 0,
-  "total_count": 131,
+  "total_count": 134,
   "items": [
+    {
+      "str_no": "27638",
+      "site_name": "동남기업",
+      "registered_date": "2026-09-21",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27638",
+      "live_url": "http://www.dongnamad.co.kr/DONGNAM/",
+      "domain": "dongnamad.co.kr",
+      "targets": [
+        "30-40대",
+        "40대 이후"
+      ],
+      "technologies": [
+        "jQuery",
+        "GSAP",
+        "Swiper"
+      ],
+      "lines": [
+        "1) 동남기업 / 2026-09-21 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27638 / 실사이트: http://www.dongnamad.co.kr/DONGNAM/",
+        "2) 목적: 콘크리트 혼화제·건설화학 제품 홍보 및 기업정보 제공; 타깃: 30~40대·40대 이후(제공 데이터); IA 요약: 회사소개, 제품소개, 연구개발, 주요실적, 고객지원 중심의 상단 다계층 메뉴 구조(메뉴 라벨 근거).",
+        "3) 탐색 패턴: 상단 다계층 메뉴(회사소개 하위 항목 다수), 제품·연구개발·실적 중심 구조, '문의하기' 단일 CTA, 영상·콘텐츠 노출 의도(제공 방법 근거), GSAP·Swiper 기반 애니메이션/슬라이더 사용 확인.",
+        "4) 강점: 기업·제품·실적 관련 콘텐츠 범위가 명확(메뉴 라벨 근거), 심플·안정적·깔끔한 콘셉트와 BLUE/WHITE 컬러 활용, jQuery·GSAP·Swiper로 인터랙션 표현 가능(기술 근거).",
+        "5) 개선: '회사소개' 내 중복 세부항목을 통합해 IA 간결화, '제품소개'·'고객지원'을 퀵액션으로 노출해 문의 경로 단축, 영상·콘텐츠 전용 랜딩 페이지 및 접근성(자동재생·자막) 검토 필요; 모바일·접근성·성능 상태는 제공 근거 없어 확인 불가.",
+        "6) 기술/플러그인 키워드: jQuery, GSAP, Swiper + A) 메인 IA 퀵액션 재배치: '제품소개'와 '고객지원(문의하기)'을 상단 고정 퀵버튼 또는 우측 고정 액션으로 이동해 접근성 강화 + B) 전환/체류/탐색 KPI: 문의(CTA) 전환률, 페이지별 평균 체류시간(동영상 포함), 주요 메뉴 클릭 흐름(세션당 페이지수) 모니터링 + C) 공공기관 Do/Don't: Do: 명확한 메뉴명·중복 제거, 키보드·스크린리더 호환성·자막 제공; Don't: 과도한 자동재생·중복 메뉴 노출 금지 + D) 오늘의 한 줄: 제품과 고객지원으로 직관적으로 연결되는 IA가 핵심."
+      ],
+      "notion_url": "https://app.notion.com/p/3e269790c143812f8ccfc1155fe16f9d",
+      "source": "notion",
+      "agency": "미등록",
+      "methods": [
+        "영상",
+        "콘텐츠"
+      ],
+      "concepts": [
+        "심플한",
+        "안정적",
+        "깔끔한"
+      ],
+      "colors": [
+        "BLUE",
+        "WHITE"
+      ],
+      "evidence": [
+        "jQuery: HTML에서 'jquery-' 확인",
+        "GSAP: HTML에서 'gsap.min.js' 확인",
+        "Swiper: HTML에서 'swiper-bundle' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27638.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-09-21T15:59:39.192366+00:00"
+    },
+    {
+      "str_no": "27636",
+      "site_name": "LG CNS PhysicalWorks",
+      "registered_date": "2026-09-21",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27636",
+      "live_url": "https://physicalworks.ai/",
+      "domain": "physicalworks.ai",
+      "targets": [
+        "20-30대",
+        "30-40대",
+        "40대 이후",
+        "기업"
+      ],
+      "technologies": [
+        "React",
+        "Next.js"
+      ],
+      "lines": [
+        "1) LG CNS PhysicalWorks / 2026-09-21 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27636 / 실사이트: https://physicalworks.ai/",
+        "2) 목적: PhysicalWorks는 'Software‑Defined Operations' 기반으로 로봇 학습 가속·로봇 워크포스 오케스트레이션·현장 운영 최적화를 제공하며 대상은 20‑30대, 30‑40대, 40대 이후 및 기업; 상세 IA 구조는 메뉴·CTA 레이블 부재로 확인 불가.",
+        "3) 비주얼·콘텐츠 패턴: 3D·일러스트·그래픽 중심의 심플·안정·첨단·모던 스타일(색상 VIOLET·WHITE) 적용 흔적 확인, React·Next.js 사용 근거로 SSR/SSG·프론트 최적화 패턴 가능성 존재; 메뉴·CTA 레이블은 비어 있음 확인.",
+        "4) 강점: 제품 메시지(타이틀·설명)가 명확하고 도메인 라이브(https://physicalworks.ai), React·Next.js 사용 근거 및 수상(WINNER PRIZE)으로 기술·신뢰성 포인트 확보; 세부 IA·내비게이션 흐름은 확인 불가.",
+        "5) 개선권장: 상단 네비게이션과 명확한 CTA(솔루션/제품/사례/문의) 추가로 문의 전환 경로 단축, 3D·미디어 사용 시 성능·접근성 점검 및 모바일 최적화 우선 적용; 상세 콘텐츠 맵·페이지 구조는 현재 확인 불가.",
+        "6) 기술/플러그인 키워드: React, Next.js + A) 메인 IA 퀵액션 재배치: 상단 네비게이션에 '솔루션/제품/사례/문의' 고정 CTA 추가(현재 menu·cta 레이블 없음 확인) + B) 전환/체류/탐색 KPI: CTA 클릭률(%)·문의 전환율·페이지당 체류시간·이탈률 모니터링 설정 + C) 공공기관 Do/Don't: Do - 명확한 메뉴·노출된 CTA·접근성(ARIA)·모바일 최적화 적용, Don't - 핵심 CTA 미노출·과도한 자동 재생 미디어로 사용자 혼란 유발 + D) 오늘의 한 줄: 간결한 IA와 노출된 CTA로 기업 고객의 문의 경로를 단축하세요."
+      ],
+      "notion_url": "https://app.notion.com/p/LG-CNS-PhysicalWorks-3e269790c1438107a42dc6cdbbc554f7",
+      "source": "notion",
+      "agency": "샘서울",
+      "methods": [
+        "3D",
+        "일러스트",
+        "그래픽디자인"
+      ],
+      "concepts": [
+        "심플한",
+        "안정적",
+        "첨단적인",
+        "모던한"
+      ],
+      "colors": [
+        "VIOLET",
+        "WHITE"
+      ],
+      "evidence": [
+        "React: HTML에서 '_next/static' 확인",
+        "Next.js: HTML에서 '/_next/' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27636.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-09-21T15:59:39.192366+00:00"
+    },
+    {
+      "str_no": "27597",
+      "site_name": "신유외과",
+      "registered_date": "2026-09-21",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27597",
+      "live_url": "https://shinyuclinic.com/index.html",
+      "domain": "shinyuclinic.com",
+      "targets": [
+        "여성"
+      ],
+      "lines": [
+        "1) 신유외과 / 2026-09-21 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27597 / 실사이트: https://shinyuclinic.com/index.html",
+        "2) 목적: 여성 대상에게 신비·화려·신뢰를 전달하는 브랜딩 중심(제공된 콘셉트 기반), 타깃: 여성, IA 현황: 메뉴·CTA 레이블 미등록으로 상세 구조 확인 불가(제공 데이터 기준).",
+        "3) 모션그래픽 중심의 비주얼 히어로와 인물·손/행위 사진, 타이포 강조로 감성적·신뢰적 톤을 연출(제공된 메소드·콘셉트·색상 기반).",
+        "4) 콘셉트(신비·화려·신뢰)와 비주얼 방법론이 일관되며 타깃(여성) 명시·VIOLET 색상 사용과 WINNER PRIZE 수상 기록이 강점(제공 데이터 기반).",
+        "5) 개선 필요: 페이지 title·description·메뉴·CTA·기술 스택 정보가 미기재되어 SEO·접근성·전환 최적화 불가(세부 현황·퍼포먼스 수치는 확인 불가).",
+        "6) 기술/플러그인 키워드: CMS, GA4/애널리틱스, A/B테스트(Optimizely/Google Optimize), 접근성 검사(axe), 예약 위젯/캘린더 통합 + A) 메인 IA 퀵액션 재배치: 현재 메뉴·CTA 데이터 미제공으로 현황은 확인 불가(확인 불가); 권장 배치 — 1) 히어로 영역 우측에 '상담/예약' CTA 우선 배치, 2) 두번째 섹션에 '시술 소개/비포애프터', 3) 하단에 이용안내·연락처 순으로 재정렬. + B) 전환/체류/탐색 KPI: 예약 클릭률(CTA CTR)·예약완료 전환율, 평균 페이지 체류시간·이탈률, 세션당 페이지수·페이지 플로우(유입→상세→예약 경로 비율). + C) 공공기관 Do/Don't: Do — 명확한 서비스명·연락처 표기, 대체텍스트·명확한 버튼 레이블로 접근성 준수, 개인정보·이용안내 명시; Don't — 과장된 의료효능 표기·불명확한 네비게이션 제공 금지. + D) 오늘의 한 줄: 비주얼 콘셉트는 명확하나 메타·네비·CTA 부재로 전환 측정과 최적화가 불가능함."
+      ],
+      "notion_url": "https://app.notion.com/p/3e269790c143813cb250deb9f7b5a796",
+      "source": "notion",
+      "agency": "매스티지",
+      "methods": [
+        "모션그래픽",
+        "사진",
+        "타이포",
+        "인물/사람",
+        "손/행위"
+      ],
+      "concepts": [
+        "신비적인",
+        "화려한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "VIOLET"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27597.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-09-21T15:59:39.192366+00:00"
+    },
     {
       "str_no": "27634",
       "site_name": "트리니티항공",
@@ -44,7 +190,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27634.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-09-18T13:43:52.886057+00:00"
     },
     {
@@ -5213,6 +5358,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-09-21",
     "2026-09-18",
     "2026-09-17",
     "2026-09-16",
@@ -5276,6 +5422,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-09-22T00:59:39.110643+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 3,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-09-18T22:43:52.777562+09:00",
       "mode": "live",
