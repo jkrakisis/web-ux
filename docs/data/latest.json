@@ -1,11 +1,153 @@
 {
-  "generated_at": "2026-09-22T00:59:39.110643+09:00",
+  "generated_at": "2026-09-22T23:08:13.948369+09:00",
   "mode": "live",
   "status": "success",
   "new_count": 3,
   "failure_count": 0,
-  "total_count": 134,
+  "total_count": 137,
   "items": [
+    {
+      "str_no": "27644",
+      "site_name": "인스플래닛",
+      "registered_date": "2026-09-22",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27644",
+      "live_url": "https://www.insplanet.co.kr/",
+      "domain": "insplanet.co.kr",
+      "targets": [
+        "기업"
+      ],
+      "technologies": [
+        "React",
+        "Next.js"
+      ],
+      "lines": [
+        "1) 인스플래닛 / 2026-09-22 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27644 / 실사이트: https://www.insplanet.co.kr/",
+        "2) 목적: 금융·모빌리티·공공 분야의 웹·앱 UI/UX 설계와 프론트엔드 구축을 제공하는 디지털 프로덕트 전문 기업(대상: 기업), IA는 상단 메뉴 Projects 38·About·Contact로 간결하게 구성되어 있음.",
+        "3) 시각 콘셉트는 '신비적인'·'깔끔한'·화이트 중심 색상으로 포트폴리오형·프로젝트 중심 탐색을 채택하고 있으며 주요 CTA는 'Contact'로 단일화되어 있고 기술 스택은 React·Next.js임.",
+        "4) 강점: 회사 포지셔닝과 대상 산업(금융·모빌리티·공공)을 명확히 제시(사이트 설명), 프로젝트 수 표기로 포트폴리오 중심임(Projects 38), 최신 프레임워크(React·Next.js) 사용이 확인됨(증거: HTML 경로·응답 헤더).",
+        "5) 개선 제안: 프로젝트 탐색성 강화(프로젝트 필터·카테고리 노출) 및 CTA 다변화로 컨택 전환을 높이고, Next.js의 SSR/SSG·이미지 최적화 등 빌트인 성능 기능을 활용 권장; 구체적 트래픽·접속성·성능 수치 등은 제공 근거로 '확인 불가'.",
+        "6) 기술/플러그인 키워드: React, Next.js, Lighthouse, Google Analytics + A) 메인 IA 퀵액션 재배치: 헤더에 Contact 고정 CTA와 Projects를 드롭다운으로 확장하여 주요 카테고리(산업·유형) 필터를 바로 노출 + B) 전환/체류/탐색 KPI: 컨택 폼 전환율(Conversion rate), 세션 지속시간(Average session duration), 페이지당 조회수(Pages per session) + C) 공공기관 Do/Don't: Do—접근성(ARIA·명확한 라벨), 개인정보보호 고지 및 데이터 처리 안내 명시; Don't—모호한 네비게이션·비동기 로딩으로 정보 접근을 방해하지 말 것 + D) 오늘의 한 줄: 프로젝트 중심의 심플한 구조를 Contact CTA로 연결해 문의 전환을 극대화하세요."
+      ],
+      "notion_url": "https://app.notion.com/p/3e369790c143819ca938f722e92227b7",
+      "source": "notion",
+      "agency": "인스플래닛 (주)",
+      "methods": [
+        "그래픽디자인"
+      ],
+      "concepts": [
+        "신비적인",
+        "깔끔한"
+      ],
+      "colors": [
+        "WHITE"
+      ],
+      "evidence": [
+        "React: HTML에서 '_next/static' 확인",
+        "Next.js: HTML에서 '/_next/' 확인",
+        "응답 헤더 x-powered-by=Next.js"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27644.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-09-22T14:08:14.038841+00:00"
+    },
+    {
+      "str_no": "27642",
+      "site_name": "서울아트굿즈페스티벌",
+      "registered_date": "2026-09-22",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27642",
+      "live_url": "https://www.sejongpac.or.kr/goods/goods2026/goodsMain.jsp",
+      "domain": "sejongpac.or.kr",
+      "targets": [
+        "여성",
+        "대학생",
+        "20-30대"
+      ],
+      "technologies": [
+        "jQuery"
+      ],
+      "lines": [
+        "1) 서울아트굿즈페스티벌 / 2026-09-22 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27642 / 실사이트: https://www.sejongpac.or.kr/goods/goods2026/goodsMain.jsp",
+        "2) 목적·대상·IA: '서울아트굿즈페스티벌 2026' 공식 행사·굿즈 정보 제공 및 참여·관람 유도 목적으로 보이며 주요 대상은 여성·대학생·20–30대이고 IA는 상단 메뉴(ABOUT, EXHIBITORS, SPONSOR, EVENTS, MAP, FAQ)로 구성됨.",
+        "3) UX 패턴: 상단 네비게이션 기반 정보 제공형 구조(ABOUT·EXHIBITORS·SPONSOR·EVENTS·MAP·FAQ)로 탐색 중심이나 명시적 CTA 부재(CTA 라벨 없음)와 메타 설명 미기재로 전환 유도 패턴은 확인 불가.",
+        "4) 강점: 행사명·타깃(여성·대학생·20–30대)·콘셉트(재미있는·실험적인)·컬러(블루·옐로우)가 명시되어 브랜드 정체성 수립에 유리하고 jQuery 사용으로 구현 호환성 확보가 확인됨.",
+        "5) 개선점: 상단에 명확한 CTA(티켓/참가신청/전시자 보기) 배치 및 메타 description 보강, 이벤트·전시자·지도 상호작용 측정용 분석 이벤트 추가와 모바일·접근성 점검을 권고하나 티켓 판매·결제 흐름 등 세부 기능은 확인 불가.",
+        "6) 기술/플러그인 키워드: jQuery, GA4/분석이벤트, sticky header, ARIA, JSON-LD + A) 메인 IA 퀵액션 재배치: 우선순위로 EVENTS → EXHIBITORS → 티켓/참가신청(존재 여부 확인 불가) → MAP → ABOUT → FAQ → SPONSOR로 재정렬해 주요 행동경로를 단축할 것 + B) 전환/체류/탐색 KPI: Events 클릭률(CTR), 전시자 페이지뷰, MAP 상호작용률, 티켓구매 전환율(확인 불가), 평균 세션 시간 및 이탈률 측정 설정 권장 + C) 공공기관 Do/Don't: Do—웹 접근성(ARIA·명도 대비), 개인정보·이용약관 명시, 공지·운영시간·비용 명확 표기; Don't—강제 팝업·유료광고 혼동·비표준 개인정보 수집 금지 + D) 오늘의 한 줄: 상단 메뉴 기반 정보구조를 CTA 중심으로 재배치하고 분석 이벤트를 도입하면 20–30대 참여 유도에 효과적이나 티켓 기능 존재 여부는 확인 불가."
+      ],
+      "notion_url": "https://app.notion.com/p/3e369790c14381429706eeadeb5f7e44",
+      "source": "notion",
+      "agency": "세종문화회관,네오그라프",
+      "methods": [
+        "모션그래픽",
+        "그래픽디자인"
+      ],
+      "concepts": [
+        "재미있는",
+        "실험적인"
+      ],
+      "colors": [
+        "BLUE",
+        "YELLOW"
+      ],
+      "evidence": [
+        "jQuery: HTML에서 'jquery-' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27642.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-09-22T14:08:14.038841+00:00"
+    },
+    {
+      "str_no": "27600",
+      "site_name": "에브리봇",
+      "registered_date": "2026-09-22",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27600",
+      "live_url": "https://everybot.co.kr/",
+      "domain": "everybot.co.kr",
+      "targets": [
+        "기업"
+      ],
+      "technologies": [
+        "jQuery",
+        "GSAP",
+        "Swiper"
+      ],
+      "lines": [
+        "1) 에브리봇 / 2026-09-22 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27600 / 실사이트: https://everybot.co.kr/",
+        "2) 목적/대상/IA: 기업 대상의 기업홍보·사업영역·R&D·IR·채용·문의 중심 정보구조(주요 메뉴 근거: Technology, 사업영역, R&D, Company, IR일정, IR뉴스, 인재 채용, Contact).",
+        "3) UX 패턴: GSAP·Swiper 기반의 애니메이션 히어로 및 슬라이더, jQuery로 구현된 인터랙티브 요소, 다계층 메뉴(Company/기업소개/IR/공시)와 다국어 선택 및 명시적 CTA(Contact/문의하기/회원가입) 확인.",
+        "4) 강점: GSAP·Swiper·jQuery 적용으로 동적 연출 가능, IR·전자공고·공시·채용 등 신뢰형 기업정보 메뉴 구성, Contact/문의하기 등 전환 지점 명시 및 브랜드 컬러 GREEN·수상(WINNER PRIZE) 표기 확인.",
+        "5) 개선사항: 메뉴 라벨 중복(Company vs 기업소개, Contact vs 문의하기, KOR/한국어 표기 등) 정리로 IA 단순화 및 퀵액션 통합 권장; 상단 고정(스티키) CTA로 문의 전환 강화; 접근성·성능 평가는 제공 근거 없어 '확인 불가'.",
+        "6) 기술/플러그인 키워드: jQuery, GSAP, Swiper + A) 메인 IA 퀵액션 재배치: 상단 우측에 단일 '문의/Contact' 스티키 버튼과 IR·제품·채용 바로가기 아이콘으로 통합하여 퀵액션 가시성 확보 + B) 전환/체류/탐색 KPI: 전환=문의폼 제출률·CTA 클릭률, 체류=페이지당 평균 체류시간·세션길이, 탐색=메뉴 클릭률·1차 메뉴 이탈률 측정 + C) 공공기관 Do/Don't: Do=전자공고·공시·개인정보처리방침 상시노출 및 명확한 언어전환 제공, Don't=중복 메뉴·혼란스러운 언어 표기로 이용자 혼선 유발 금지 + D) 오늘의 한 줄: 메뉴 중복을 제거하고 핵심 CTA를 상단에 고정해 문의 전환 동선을 단순화하세요."
+      ],
+      "notion_url": "https://app.notion.com/p/3e369790c14381dcae13f4d1731fa521",
+      "source": "notion",
+      "agency": "파이브프로",
+      "methods": [
+        "영상",
+        "그래픽디자인",
+        "제품"
+      ],
+      "concepts": [
+        "첨단적인",
+        "신뢰적인"
+      ],
+      "colors": [
+        "GREEN"
+      ],
+      "evidence": [
+        "jQuery: HTML에서 'jquery-' 확인",
+        "GSAP: HTML에서 'gsap.min.js' 확인",
+        "Swiper: HTML에서 'swiper-bundle' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27600.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-09-22T14:08:14.038841+00:00"
+    },
     {
       "str_no": "27638",
       "site_name": "동남기업",
@@ -54,7 +196,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27638.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-09-21T15:59:39.192366+00:00"
     },
     {
@@ -107,7 +248,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27636.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-09-21T15:59:39.192366+00:00"
     },
     {
@@ -149,7 +289,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27597.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-09-21T15:59:39.192366+00:00"
     },
     {
@@ -5358,6 +5497,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-09-22",
     "2026-09-21",
     "2026-09-18",
     "2026-09-17",
@@ -5422,6 +5562,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-09-22T23:08:13.948369+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 3,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-09-22T00:59:39.110643+09:00",
       "mode": "live",
