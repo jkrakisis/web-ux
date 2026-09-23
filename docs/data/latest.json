@@ -1,11 +1,169 @@
 {
-  "generated_at": "2026-09-22T23:08:13.948369+09:00",
+  "generated_at": "2026-09-23T23:20:50.033841+09:00",
   "mode": "live",
   "status": "success",
   "new_count": 3,
   "failure_count": 0,
-  "total_count": 137,
+  "total_count": 140,
   "items": [
+    {
+      "str_no": "27659",
+      "site_name": "더현대서울",
+      "registered_date": "2026-09-23",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27659",
+      "live_url": "https://thehyundaiseoul.ehyundai.com/",
+      "domain": "thehyundaiseoul.ehyundai.com",
+      "technologies": [
+        "Google Analytics",
+        "React",
+        "Next.js"
+      ],
+      "lines": [
+        "1) 더현대서울 / 2026-09-23 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27659 / 실사이트: https://thehyundaiseoul.ehyundai.com/",
+        "2) 목적(근거: 타이틀·설명): 프리미엄 쇼핑 경험 제공(여의도 랜드마크·자연·예술 콘셉트), 대상 타깃: 확인 불가, IA(근거: 제공된 메뉴 라벨): Home, About, Store, Event, Iconic, Culture, Edit dept, 사이트맵, 현대백화점카드, CH1985.",
+        "3) React/Next.js 기반 구성(HTML '/_next/'·응답 헤더 증거) 및 Google Analytics 연동(gtag 확인)으로 컴포넌트형 내비게이션과 분석 가능성 확인, 메뉴 기반 글로벌 내비게이션 관찰(제공된 menu_labels), CTA 존재 여부는 확인 불가(근거: cta_labels 빈 배열).",
+        "4) 브랜드 포지셔닝이 명확(타이틀·설명: 프리미엄·자연·예술), ‘재미있는’ 콘셉트와 BLACK 색상 적용 근거 존재, React/Next.js 및 Google Analytics 사용으로 퍼포먼스·분석 토대 확보(근거: 기술 스택 확인).",
+        "5) 근거 기반 권고: CTA 레이블 부재(근거: cta_labels 빈 배열)로 전환경로 불명확 → 주요 행동유도 버튼 추가, IA 우선순위(스토어·이벤트·컬처) 재정렬 권장, Google Analytics 이벤트 트래킹 확장으로 전환 퍼널 캡처, 접근성·모바일 내비게이션 검증 권장; 세부 사용자 페르소나는 확인 불가.",
+        "6) 기술/플러그인 키워드: Google Analytics, React, Next.js + A) 메인 IA 퀵액션 재배치: 상단 네비게이션 우선순위를 'Store > Event > Culture'로 조정하고 '현대백화점카드'·'Edit dept'는 유틸리티 메뉴로 이동하여 주요 행동경로 단축 + B) 전환/체류/탐색 KPI: 전환율(멤버십 가입/구매/이벤트 예약), 평균 세션 시간(체류), 주요 메뉴 클릭률(네비게이션 성공률), 페이지별 이탈률·페이지뷰 + C) 공공기관 Do/Don't: Do) 정보 접근성 표준(명확한 레이블·사이트맵·문의경로) 준수 및 개인정보·이용약관 고지 강화; Don't) 디자인 요소로 핵심 정보·기능을 숨기지 말 것 + D) 오늘의 한 줄: 프리미엄 경험을 명확한 CTA와 측정 가능한 KPI로 연결하라."
+      ],
+      "notion_url": "https://app.notion.com/p/3e469790c143819480edf4ae5961a9b4",
+      "source": "notion",
+      "agency": "미등록",
+      "concepts": [
+        "재미있는"
+      ],
+      "colors": [
+        "BLACK"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "React: HTML에서 '_next/static' 확인",
+        "Next.js: HTML에서 '/_next/' 확인",
+        "응답 헤더 x-powered-by=Next.js"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27659.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-09-23T14:20:50.139832+00:00"
+    },
+    {
+      "str_no": "27643",
+      "site_name": "삼성드림이비인후과",
+      "registered_date": "2026-09-23",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27643",
+      "live_url": "https://www.ssdream.co.kr/",
+      "domain": "ssdream.co.kr",
+      "targets": [
+        "여성",
+        "남성",
+        "대학생",
+        "20-30대",
+        "30-40대",
+        "주부"
+      ],
+      "technologies": [
+        "Google Tag Manager",
+        "jQuery",
+        "GSAP",
+        "Swiper"
+      ],
+      "lines": [
+        "1) 삼성드림이비인후과 / 2026-09-23 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27643 / 실사이트: https://www.ssdream.co.kr/",
+        "2) 목적: 코 질환 중심 전문 진료(비중격만곡증·비염·축농증 등)와 6개 지점 예약 전환을 지원하는 정보구조, 주요 대상: 20-30대·30-40대·대학생·주부 등 남녀(제공된 targets 기반).",
+        "3) 구성 패턴: 질환별 상세 네비게이션(다수 질환·수술 항목), 지점소개·의료진·브랜드스토리 섹션, 다중 CTA(리얼모델 신청·예약/상담·네이버 예약), 시각 자산(3D·사진·영상·인물)과 모던·심플한 블루·화이트 콘셉트 반영.",
+        "4) 강점: 코 집중 전문성 메시지와 지점 네트워크(6개 지점) 명시, 풍부한 질환별 콘텐츠와 다수 CTA로 전환 포인트 확보, GSAP/Swiper 등 상호작용 기술 도입으로 모던한 시각 연출 가능(증거 기반).",
+        "5) 개선점: 메뉴 항목 과다로 주요 전환경로(예약/상담·네이버 예약·리얼모델 신청) 우선순위 불명확, IA에서 지점·진료예약 접근성(퀵액션) 강화 필요, 내 코 자가진단 등 핵심 유입 경로 가시성 제고 권장.",
+        "6) 기술/플러그인 키워드: Google Tag Manager, jQuery, GSAP, Swiper + A) 메인 IA 퀵액션 재배치: 헤더 상단 우측에 우선 CTA 그룹(예약/상담, 네이버 예약, 리얼모델 신청)을 고정하고 푸터·지점 소개 카드에도 동일 퀵액션 배치하여 지점별 예약 접근성 일원화 + B) 전환/체류/탐색 KPI: 예약 클릭률(CTA CTR), 네이버 예약 전환률, 페이지당 체류시간(질환·자가진단 페이지), 지점별 전화·예약 전환률 + C) 공공기관 Do/Don't: DO: 지점·진료과·진료시간·연락처 등의 정확하고 쉽게 찾을 수 있는 배치, 의료정보 출처·수술 리스크 고지 명시; DON'T: 치료효과 과장 문구 또는 예약 유도 시 필수 정보 미노출(투명성 저해) + D) 오늘의 한 줄: 주요 CTA를 헤더·지점 카드에 고정해 예약 동선을 단축하십시오."
+      ],
+      "notion_url": "https://app.notion.com/p/3e469790c1438188b6bfdb36cb4e17ba",
+      "source": "notion",
+      "agency": "소이정",
+      "methods": [
+        "3D",
+        "사진",
+        "영상",
+        "그래픽디자인",
+        "인물/사람"
+      ],
+      "concepts": [
+        "심플한",
+        "첨단적인",
+        "모던한",
+        "깔끔한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "BLUE",
+        "WHITE"
+      ],
+      "evidence": [
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "jQuery: HTML에서 'jquery-' 확인",
+        "GSAP: HTML에서 'scrolltrigger' 확인",
+        "Swiper: HTML에서 'swiper-bundle' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27643.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-09-23T14:20:50.139832+00:00"
+    },
+    {
+      "str_no": "27593",
+      "site_name": "코어플랫폼",
+      "registered_date": "2026-09-23",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27593",
+      "live_url": "https://www.coreplatform.co.kr/",
+      "domain": "coreplatform.co.kr",
+      "targets": [
+        "여성",
+        "남성",
+        "기업"
+      ],
+      "technologies": [
+        "React",
+        "Next.js"
+      ],
+      "lines": [
+        "1) 코어플랫폼 / 2026-09-23 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27593 / 실사이트: https://www.coreplatform.co.kr/",
+        "2) 목적: 기업 대상 맞춤형 프로그램 개발·홈페이지·앱 제작 및 홍보영상 제공; 주요 대상: 여성·남성·기업; IA 핵심 항목: 회사소개·서비스·솔루션·프로젝트·인사이트·프로젝트 문의.",
+        "3) UX 패턴: 3D·타이포·그래픽디자인 기반의 고급스럽고 역동적·첨단적 콘셉트(색상: BLACK·RED), 독특한 레이아웃과 강조된 CTA('프로젝트 문의 →') 사용; 기술 스택으로 React·Next.js 확인.",
+        "4) 강점: 명확한 타이틀·설명으로 핵심 서비스를 전달하고 프로젝트·서비스 중심의 메뉴 구조와 눈에 띄는 CTA 레이블을 보유하며 React·Next.js 기반 최신 스택 사용이 확인됨.",
+        "5) 개선: 메뉴 레이블(한국어·영문 중복)과 CTA(‘프로젝트 문의 →’ vs ‘제작 문의’)를 통일해 IA·내비게이션 일관성 확보 권장; 접근성·모바일 최적화 상태는 제공 근거 없으므로 확인 불가.",
+        "6) 기술/플러그인 키워드: React, Next.js + A) 메인 IA 퀵액션 재배치: 메인 상단 우측에 '프로젝트 문의' 고정 CTA 우선 배치하고 메뉴순서를 프로젝트·서비스·솔루션·인사이트·회사소개로 단순화하여 중복 라벨 제거 + B) 전환/체류/탐색 KPI: 문의 전환 건수(주간), 평균 세션시간, 페이지/세션, 각 CTA 클릭률(프로젝트 문의/제작 문의) 모니터링 + C) 공공기관 Do/Don't: Do: 메뉴·CTA 라벨 일관성 유지 및 명확한 네비게이션 제공; Don't: 중복 레이블·혼동 유발 CTA 유지 금지 + D) 오늘의 한 줄: 기업의 디지털 코어를 고급스럽게 제시하되 CTA 일관성으로 전환을 강화하세요."
+      ],
+      "notion_url": "https://app.notion.com/p/3e469790c14381edb660d9feb0d8f839",
+      "source": "notion",
+      "agency": "코어플랫폼",
+      "methods": [
+        "3D",
+        "타이포",
+        "그래픽디자인"
+      ],
+      "concepts": [
+        "고급스러운",
+        "역동적인",
+        "재미있는",
+        "첨단적인",
+        "화려한",
+        "독특한 레이아웃",
+        "모던한"
+      ],
+      "colors": [
+        "BLACK",
+        "RED"
+      ],
+      "evidence": [
+        "React: HTML에서 '_next/static' 확인",
+        "Next.js: HTML에서 '/_next/' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27593.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-09-23T14:20:50.139832+00:00"
+    },
     {
       "str_no": "27644",
       "site_name": "인스플래닛",
@@ -49,7 +207,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27644.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-09-22T14:08:14.038841+00:00"
     },
     {
@@ -96,7 +253,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27642.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-09-22T14:08:14.038841+00:00"
     },
     {
@@ -145,7 +301,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27600.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-09-22T14:08:14.038841+00:00"
     },
     {
@@ -5497,6 +5652,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-09-23",
     "2026-09-22",
     "2026-09-21",
     "2026-09-18",
@@ -5562,6 +5718,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-09-23T23:20:50.033841+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 3,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-09-22T23:08:13.948369+09:00",
       "mode": "live",
