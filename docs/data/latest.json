@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-23T23:20:50.033841+09:00",
+  "generated_at": "2026-09-24T23:17:50.777063+09:00",
   "mode": "live",
-  "status": "success",
-  "new_count": 3,
+  "status": "no_new",
+  "new_count": 0,
   "failure_count": 0,
   "total_count": 140,
   "items": [
@@ -44,7 +44,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27659.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-09-23T14:20:50.139832+00:00"
     },
     {
@@ -106,7 +105,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27643.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-09-23T14:20:50.139832+00:00"
     },
     {
@@ -161,7 +159,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27593.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-09-23T14:20:50.139832+00:00"
     },
     {
@@ -5718,6 +5715,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-09-24T23:17:50.777063+09:00",
+      "mode": "live",
+      "status": "no_new",
+      "new_count": 0,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-09-23T23:20:50.033841+09:00",
       "mode": "live",
