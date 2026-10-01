@@ -1,11 +1,97 @@
 {
-  "generated_at": "2026-10-01T01:02:38.505368+09:00",
+  "generated_at": "2026-10-02T01:37:39.893484+09:00",
   "mode": "live",
   "status": "success",
-  "new_count": 3,
+  "new_count": 2,
   "failure_count": 0,
-  "total_count": 148,
+  "total_count": 150,
   "items": [
+    {
+      "str_no": "27678",
+      "site_name": "이퓨전아이",
+      "registered_date": "2026-10-01",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27678",
+      "live_url": "https://www.efusioni.com/",
+      "domain": "efusioni.com",
+      "targets": [
+        "기업"
+      ],
+      "technologies": [
+        "React",
+        "Next.js"
+      ],
+      "lines": [
+        "1) 이퓨전아이 / 2026-10-01 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27678 / 실사이트: https://www.efusioni.com/",
+        "2) 목적·대상: 기업 대상 웹에이전시 홍보·영업(포트폴리오·기업 홈페이지 구축·운영 안내) — 근거: 사이트 타이틀·설명 및 targets='기업' 명시.",
+        "3) 정보구조(증거): 상단 메뉴 ['Creative','Maintenance','About','Contact','Recruit','Our LAB','Home'], CTA 라벨은 'Contact' 단일, 기술스택은 React·Next.js(HTML과 응답헤더 근거).",
+        "4) 강점: React·Next.js 기반의 모던 스택 적용(증거), 2004년 설립·다수 고객사 및 수상 이력 표기로 신뢰성 확보(사이트 설명·타이틀 근거), 포트폴리오(=Creative)와 운영(=Maintenance)을 분리해 서비스 포지셔닝 명확.",
+        "5) 개선권고(증거근거 기반): 현재 CTA가 'Contact' 단일화되어 전환경로가 제한됨(증거: cta_labels) → 상단에 포트폴리오·견적문의 등 퀵액션을 추가해 전환경로 다변화 권장; 메뉴 재배치로 핵심 서비스 우선 노출 권장; 페이지 성능·접근성·모바일 적합성 관련 정보는 제공 근거가 없어 확인 불가.",
+        "6) 기술/플러그인 키워드: React, Next.js, contact-form, analytics + A) 메인 IA 퀵액션 재배치: 헤더 우측에 Contact 외에 'Creative(포트폴리오)', 'Maintenance/서비스', '견적문의'를 상시 노출 퀵액션으로 배치(근거: 메뉴·CTA 상태) + B) 전환/체류/탐색 KPI: 문의 전환수(Contact/견적 제출), 포트폴리오 페이지 평균 체류시간, 핵심 흐름(홈→Creative→Contact)의 완료율 측정 권장 + C) 공공기관 Do/Don't: Do—핵심 서비스(포트폴리오·유지보수)와 연락경로를 명확히 분리·노출; Don't—전환CTA를 단일화하여 숨기지 말 것(근거: cta_labels) + D) 오늘의 한 줄: '포트폴리오(보여주는 콘텐츠)와 문의(끌어오는 CTA)를 동시에 가시화하면 문의 전환이 개선됩니다.'"
+      ],
+      "notion_url": "https://app.notion.com/p/3ec69790c14381c384dbcd119b841046",
+      "source": "notion",
+      "agency": "이퓨전아이",
+      "concepts": [
+        "모던한"
+      ],
+      "colors": [
+        "SILVER"
+      ],
+      "evidence": [
+        "React: HTML에서 '_next/static' 확인",
+        "Next.js: HTML에서 '/_next/' 확인",
+        "응답 헤더 x-powered-by=Next.js"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27678.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-10-01T16:37:40.004784+00:00"
+    },
+    {
+      "str_no": "27676",
+      "site_name": "KINORIA",
+      "registered_date": "2026-10-01",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27676",
+      "live_url": "https://kinoria.studio/",
+      "domain": "kinoria.studio",
+      "targets": [
+        "20-30대",
+        "30-40대"
+      ],
+      "lines": [
+        "1) KINORIA / 2026-10-01 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27676 / 실사이트: https://kinoria.studio/",
+        "2) 목적: 35mm 완전 기계식 카메라(KINORIA)의 브랜드·제품 감성 및 스펙을 전달하는 사이트로, 대상 IA는 제공된 타깃 20-30대·30-40대.",
+        "3) 비주얼 중심(3D·사진·영상) 몰입형 경험으로 '고급스러운·안정적·실험적인·깔끔한' 콘셉트를 반영하는 패턴이 예상되며 구체적 내비게이션·CTA 구조는 자료에 없어 확인 불가.",
+        "4) 명확한 제품 메시지(“35mm, fully mechanical, no battery”)와 일관된 콘셉트·컬러 팔레트(BLACK·BROWN·IVORY·ORANGE) 및 3D·사진·영상 표현 수단 보유.",
+        "5) 메뉴 레이블·CTA·기술 스택·증거(evidence)가 비어 있어 명확한 네비게이션, 행동유도(CTA), 기술표기 및 증빙 노출(수상·증서)을 추가할 필요가 있으며 구체적 구현안은 확인 불가.",
+        "6) 기술/플러그인 키워드: 3D·이미지·비디오 최적화·성능(구체명 확인 불가) + A) 메인 IA 퀵액션 재배치: Hero(핵심 문구·시각) → 제품 특징(기계식 스펙) → 갤러리(사진·영상·3D 체험) → 인증·수상·증서(award_name·certificate_no) → 문의/구매 CTA + B) 전환/체류/탐색 KPI: 문의·구매 전환율, 평균 세션 시간(체류), 페이지/상호작용당 이벤트 수(탐색), 주요 CTA 클릭률, 이탈률 모니터링 + C) 공공기관 Do/Don't: Do—수상·증서(202609300006) 명시·웹접근성 준수·명확한 개인정보·이용정책 표기 및 성능 최적화; Don't—핵심정보를 비주얼에만 의존해 은닉하지 말 것·기술·연락처 미기재로 신뢰 저하 초래 금지 + D) 오늘의 한 줄: 35mm 아날로그의 본질을 웹 비주얼로 정교하게 전달하라."
+      ],
+      "notion_url": "https://app.notion.com/p/KINORIA-3ec69790c1438173a48df70e63dcdce2",
+      "source": "notion",
+      "agency": "김승혁",
+      "methods": [
+        "3D",
+        "사진",
+        "영상"
+      ],
+      "concepts": [
+        "고급스러운",
+        "안정적",
+        "실험적인",
+        "깔끔한"
+      ],
+      "colors": [
+        "BLACK",
+        "BROWN",
+        "IVORY",
+        "ORANGE"
+      ],
+      "website_reachable": true,
+      "thumbnail_status": "failed",
+      "thumbnail_error": "Page.screenshot: Timeout 30000ms exceeded.\nCall log:\n  - taking page screenshot\n  - waiting for fonts to load...\n",
+      "thumbnail_attempted_at": "2026-10-01T16:37:40.004784+00:00"
+    },
     {
       "str_no": "27673",
       "site_name": "로보트리에듀",
@@ -52,7 +138,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27673.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-09-30T16:02:38.605260+00:00"
     },
     {
@@ -93,7 +178,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27672.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-09-30T16:02:38.605260+00:00"
     },
     {
@@ -127,7 +211,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27671.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-09-30T16:02:38.605260+00:00"
     },
     {
@@ -266,7 +349,7 @@
       "website_reachable": true,
       "thumbnail_status": "failed",
       "thumbnail_error": "first viewport is visually empty",
-      "thumbnail_attempted_at": "2026-09-30T16:02:38.605260+00:00"
+      "thumbnail_attempted_at": "2026-10-01T16:37:40.004784+00:00"
     },
     {
       "str_no": "27664",
@@ -6002,6 +6085,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-10-01",
     "2026-09-30",
     "2026-09-29",
     "2026-09-28",
@@ -6071,6 +6155,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-10-02T01:37:39.893484+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 2,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-10-01T01:02:38.505368+09:00",
       "mode": "live",
