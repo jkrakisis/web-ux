@@ -1,11 +1,53 @@
 {
-  "generated_at": "2026-10-06T03:42:53.147259+09:00",
+  "generated_at": "2026-10-07T01:06:56.750580+09:00",
   "mode": "live",
-  "status": "no_new",
-  "new_count": 0,
+  "status": "success",
+  "new_count": 1,
   "failure_count": 0,
-  "total_count": 150,
+  "total_count": 151,
   "items": [
+    {
+      "str_no": "27716",
+      "site_name": "루아소프트",
+      "registered_date": "2026-10-06",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27716",
+      "live_url": "https://luasoft.kr/",
+      "domain": "luasoft.kr",
+      "targets": [
+        "기업"
+      ],
+      "technologies": [
+        "PHP/7.4.33"
+      ],
+      "lines": [
+        "1) 루아소프트 / 2026-10-06 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27716 / 실사이트: https://luasoft.kr/",
+        "2) 목적·대상·IA: 기업(B2B) 대상의 웹·플랫폼·AI 개발 파트너 홍보 및 문의 유도 목적으로, 메뉴(LUA SOFT, ABOUT, PROJECT, CONTACT)와 '문의 보내기 →' CTA로 서비스 소개→포트폴리오→문의 흐름을 의도한 IA로 보임; 사용자 행동·분석 데이터 존재 여부는 확인 불가.",
+        "3) UX 패턴: 상단 단순 내비게이션과 명확 CTA, 귀여운 일러스트(일러스트·귀여운·BLUE) 기반의 친근한 브랜드 비주얼, 포트폴리오 중심 탐색 흐름이 관찰됨; 세부 인터랙션·모바일 적응성은 확인 불가.",
+        "4) 강점: 타깃(기업)용 핵심 메시지(웹·플랫폼·AI 개발 파트너)를 페이지 타이틀·설명으로 명확히 제시하고 메뉴가 단순해 진입장벽이 낮으며 뚜렷한 CTA로 문의 유도를 명확화함.",
+        "5) 개선 제안: 메인 IA에서 PROJECT→CONTACT로의 전환 경로를 단축(주요 사례 노출·퀵액션화), CTA 라벨과 시각 우선순위 통일, ABOUT에 핵심 성과·서비스 요약 배치로 신뢰성 즉시 전달; 사이트 성능·접근성·분석 탑재 여부는 확인 불가.",
+        "6) 기술/플러그인 키워드: PHP/7.4.33, CDN, Analytics, A/B테스트 + A) 메인 IA 퀵액션 재배치: 상단 우측 CTA 그룹에 '문의 보내기 →'와 'CONTACT'를 최우선으로 배치하고 PROJECT 항목 내에 '주요 사례 3선 바로가기' 버튼을 추가해 포트폴리오→문의 경로를 2클릭 이내로 단축 + B) 전환/체류/탐색 KPI: 문의 전환율(문의 실행/방문수), 클릭투콘택트(CTA 클릭율), PROJECT 페이지 평균 체류시간, 랜딩 페이지 이탈률 + C) 공공기관 Do/Don't: Do—명확한 연락처·개인정보 처리 안내 표기, 접근성(대체텍스트·명암 대비) 준수, 주요 성과 근거 제시; Don't—모호한 연락처 표기·불필요한 스크롤 유도, 근거 없는 수치 제시(검증 불가 정보 표기 금지) + D) 오늘의 한 줄: 핵심 포트폴리오를 2클릭 내로 연결하면 문의 전환이 증가합니다."
+      ],
+      "notion_url": "https://app.notion.com/p/3f169790c143817688a5db1d3b44f4da",
+      "source": "notion",
+      "agency": "루아소프트",
+      "methods": [
+        "일러스트"
+      ],
+      "concepts": [
+        "귀여운"
+      ],
+      "colors": [
+        "BLUE"
+      ],
+      "evidence": [
+        "응답 헤더 x-powered-by=PHP/7.4.33"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27716.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-10-06T16:06:56.866788+00:00"
+    },
     {
       "str_no": "27678",
       "site_name": "이퓨전아이",
@@ -89,7 +131,7 @@
       "website_reachable": true,
       "thumbnail_status": "failed",
       "thumbnail_error": "Page.screenshot: Timeout 30000ms exceeded.\nCall log:\n  - taking page screenshot\n  - waiting for fonts to load...\n  - fonts loaded\n",
-      "thumbnail_attempted_at": "2026-10-05T18:42:53.250475+00:00"
+      "thumbnail_attempted_at": "2026-10-06T16:06:56.866788+00:00"
     },
     {
       "str_no": "27673",
@@ -348,7 +390,7 @@
       "website_reachable": true,
       "thumbnail_status": "failed",
       "thumbnail_error": "first viewport is visually empty",
-      "thumbnail_attempted_at": "2026-10-05T18:42:53.250475+00:00"
+      "thumbnail_attempted_at": "2026-10-06T16:06:56.866788+00:00"
     },
     {
       "str_no": "27664",
@@ -6084,6 +6126,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-10-06",
     "2026-10-01",
     "2026-09-30",
     "2026-09-29",
@@ -6154,6 +6197,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-10-07T01:06:56.750580+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 1,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-10-06T03:42:53.147259+09:00",
       "mode": "live",
