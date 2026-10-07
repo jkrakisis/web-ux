@@ -1,11 +1,81 @@
 {
-  "generated_at": "2026-10-07T01:06:56.750580+09:00",
+  "generated_at": "2026-10-08T01:46:42.543967+09:00",
   "mode": "live",
   "status": "success",
-  "new_count": 1,
+  "new_count": 2,
   "failure_count": 0,
-  "total_count": 151,
+  "total_count": 153,
   "items": [
+    {
+      "str_no": "27785",
+      "site_name": "씨마크 호텔",
+      "registered_date": "2026-10-07",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27785",
+      "live_url": "https://www.seamarqhotel.com/",
+      "domain": "seamarqhotel.com",
+      "targets": [
+        "30-40대",
+        "40대 이후"
+      ],
+      "lines": [
+        "1) 씨마크 호텔 / 2026-10-07 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27785 / 실사이트: https://www.seamarqhotel.com/",
+        "2) 목적: 사진 중심의 고급스러운 브랜드 이미지 전달과 30-40대·40대 이후 고객의 예약 유도용 정보구조 필요; 실사이트 IA 구성은 실접속 실패로 확인 불가.",
+        "3) 제공 근거: '사진' 방식과 '고급스러운' 콘셉트 명시로 비주얼 우선 UX(히어로 이미지, 갤러리 중심)가 예상되나 실제 레이아웃·네비게이션은 실사이트 접근 실패로 확인 불가.",
+        "4) 명시된 콘셉트('고급스러운')와 사진 중심 방식, 수상 이력(WINNER PRIZE)·전담 에이전시(엑스티) 표기로 고급 브랜드 포지셔닝 가능; 상세 구현은 확인 불가.",
+        "5) 권장 개선점(근거 기반): 사진 품질·포맷 최적화, 명확한 예약 CTA·퀵액션 중심 IA 설계, 접근성·로딩 최적화 필요하나 세부 우선순위 및 현상은 실사이트 접근 실패로 확인 불가.",
+        "6) 기술/플러그인 키워드: LazyLoad, CDN, WebP, Google Analytics 4, A/B testing, 예약엔진 연동 + A) 메인 IA 퀵액션 재배치: 상단 우측 고정 예약 CTA·객실·오시는길 등 3개 핵심 퀵액션을 우선 배치(실사이트 구조는 확인 불가) + B) 전환/체류/탐색 KPI: 예약 전환율(Conversion Rate), 평균 체류시간(Session Duration), 페이지별 이탈률(Bounce/Exit Rate) 중심 측정 권장(실측값 확인 불가) + C) 공공기관 Do/Don't: Do: 명확한 정보 제공·개인정보 처리 투명화·WCAG 접근성 준수, Don't: 팝업 과다·핵심 정보 가림 및 비표준 네비게이션 사용 금지 + D) 오늘의 한 줄: 사진 기반 고급 호텔은 '빠른 예약 동선 + 고해상도 이미지 최적화'를 최우선으로 점검하십시오."
+      ],
+      "notion_url": "https://app.notion.com/p/3f269790c143818cb4d1eb210eda2583",
+      "source": "notion",
+      "agency": "엑스티",
+      "methods": [
+        "사진"
+      ],
+      "concepts": [
+        "고급스러운"
+      ],
+      "website_reachable": false,
+      "thumbnail_url": "thumbnails/27785.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-10-07T16:46:42.632540+00:00"
+    },
+    {
+      "str_no": "27784",
+      "site_name": "더 플라자 다이닝",
+      "registered_date": "2026-10-07",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27784",
+      "live_url": "https://www.theplazadining.com/",
+      "domain": "theplazadining.com",
+      "targets": [
+        "30-40대",
+        "40대 이후"
+      ],
+      "lines": [
+        "1) 더 플라자 다이닝 / 2026-10-07 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27784 / 실사이트: https://www.theplazadining.com/",
+        "2) 목적: 더 플라자 다이닝의 고급 다이닝 홍보 및 예약 유도, 대상: 30–40대 및 40대 이상, 정보구조(메뉴·CTA 등)는 실사이트 접속 실패로 상세 확인 불가.",
+        "3) 사진 중심의 비주얼 우선 배치와 IVORY 기반의 고급스러운 톤을 채택한 것으로 기재되어 있으나, 내비게이션 구조·예약 흐름·모바일 대응 등 세부 UX 패턴은 접속 실패로 확인 불가.",
+        "4) 장점: ‘고급스러운’ 콘셉트와 사진 활용 명시, IVORY 색상으로 일관된 톤 기대, 목표 연령대 표기(30–40대·40대 이상) 및 수상(WINNER PRIZE·증빙번호)과 전문 대행사(엑스티) 표기로 신뢰성 요소 확보; 구체적 UI/접근성은 확인 불가.",
+        "5) 개선권고: 실사이트 ConnectTimeout 오류 우선 해결 및 공개된 메타(타이틀·설명)·메뉴·CTA 레이블 보완, 예약 유도용 명확한 상단 CTA·접근성·모바일 최적화 적용 권장; 현재 상세 요소는 접속 실패로 확인 불가.",
+        "6) 기술/플러그인 키워드: Google Analytics, Google Tag Manager, A/B 테스트 툴, 예약 위젯(예: OpenTable/ResDiary) + A) 메인 IA 퀵액션 재배치: ‘예약’ 상단 고정 CTA 우선 배치 및 시각적 강조(현재 위치 및 레이블은 접속 실패로 확인 불가) + B) 전환/체류/탐색 KPI: 예약 전환율, 페이지당 평균 체류시간, 메뉴·예약 클릭률을 우선 측정 설정 + C) 공공기관 Do/Don't: Do: 접근성·명확한 메타·수상·인증 노출, 모바일·로딩 최적화; Don't: 비표준 내비게이션·과도한 장식으로 정보 은닉 금지 + D) 오늘의 한 줄: 실사이트 접속 불가(ConnectTimeout) 문제 해결을 최우선으로 진행하십시오."
+      ],
+      "notion_url": "https://app.notion.com/p/3f269790c143816b87c1f6e35f49e1b2",
+      "source": "notion",
+      "agency": "엑스티",
+      "methods": [
+        "사진"
+      ],
+      "concepts": [
+        "고급스러운"
+      ],
+      "colors": [
+        "IVORY"
+      ],
+      "website_reachable": false,
+      "thumbnail_status": "failed",
+      "thumbnail_error": "Page.evaluate: Execution context was destroyed, most likely because of a navigation",
+      "thumbnail_attempted_at": "2026-10-07T16:46:42.632540+00:00"
+    },
     {
       "str_no": "27716",
       "site_name": "루아소프트",
@@ -45,7 +115,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27716.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-10-06T16:06:56.866788+00:00"
     },
     {
@@ -131,7 +200,7 @@
       "website_reachable": true,
       "thumbnail_status": "failed",
       "thumbnail_error": "Page.screenshot: Timeout 30000ms exceeded.\nCall log:\n  - taking page screenshot\n  - waiting for fonts to load...\n  - fonts loaded\n",
-      "thumbnail_attempted_at": "2026-10-06T16:06:56.866788+00:00"
+      "thumbnail_attempted_at": "2026-10-07T16:46:42.632540+00:00"
     },
     {
       "str_no": "27673",
@@ -6126,6 +6195,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-10-07",
     "2026-10-06",
     "2026-10-01",
     "2026-09-30",
@@ -6197,6 +6267,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-10-08T01:46:42.543967+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 2,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-10-07T01:06:56.750580+09:00",
       "mode": "live",
