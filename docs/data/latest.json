@@ -1,11 +1,164 @@
 {
-  "generated_at": "2026-10-08T01:46:42.543967+09:00",
+  "generated_at": "2026-10-09T01:46:23.370232+09:00",
   "mode": "live",
   "status": "success",
-  "new_count": 2,
+  "new_count": 3,
   "failure_count": 0,
-  "total_count": 153,
+  "total_count": 156,
   "items": [
+    {
+      "str_no": "27798",
+      "site_name": "삼성전자 사회공헌 글로벌",
+      "registered_date": "2026-10-08",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27798",
+      "live_url": "https://csr.samsung.com/en/",
+      "domain": "csr.samsung.com",
+      "technologies": [
+        "Google Analytics",
+        "jQuery",
+        "GSAP",
+        "Swiper"
+      ],
+      "lines": [
+        "1) 삼성전자 사회공헌 글로벌 / 2026-10-08 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27798 / 실사이트: https://csr.samsung.com/en/",
+        "2) 목적: 삼성전자 글로벌 사회공헌 활동 홍보 및 프로그램·임팩트·뉴스 제공; 주요 IA 구성은 Our Vision/Our Approach/Global Impact/Program/Newsroom/Employee Volunteering 등으로 확인되며 구체적 사용자 타깃(페르소나)은 제공자료에서 확인 불가.",
+        "3) 시각·UX 패턴: 사진 중심의 깔끔한(콘셉트: '깔끔한', 색상: WHITE) 레이아웃, 스크롤 애니메이션(GSAP·ScrollTrigger 확인)과 슬라이더 기반 섹션(Swiper 확인)을 활용한 인터렉티브 구성; CTAs는 명시적 레이블이 제공되지 않음(확인된 cta_labels 없음).",
+        "4) 강점: 라이브 사이트 접근 가능(https://csr.samsung.com/en/ 확인), 명확한 타이틀·설명으로 목적 표현, 포괄적 메뉴 구조로 프로그램·스토리·뉴스 분류, Google Analytics·jQuery·GSAP·Swiper 등 검증된 기술 스택 확인.",
+        "5) 개선점: CTAs 레이블 부재(확인된 cta_labels 빈 배열)로 전환 유도 약화 가능성, 메인 퀵액션(빠른 접근) 재배치 필요, 접근성·세부 성능·추적 설정 등은 제공자료만으로는 추가 검증 불가.",
+        "6) 기술/플러그인 키워드: Google Analytics, jQuery, GSAP(ScrollTrigger), Swiper + A) 메인 IA 퀵액션 재배치: 헤더 또는 고정 퀵바에 'Global Impact / Program / Newsroom / 한국어' 순으로 빠른링크 배치해 주요 사용 흐름 단축 + B) 전환/체류/탐색 KPI: Program 클릭률(프로그램 참여 유입 추적), 페이지 평균 체류시간, 페이지당 탐색수(페이지뷰/세션), 뉴스룸 기사별 조회·공유수 추적 + C) 공공기관 Do/Don't: Do: 명확한 CTA 레이블 제공·접근성(키보드·대체텍스트) 준수·다국어 전환 명시; Don't: 불분명한 네비게이션·과도한 자동 애니메이션으로 사용성 저해 금지 + D) 오늘의 한 줄: 사진 중심의 깔끔한 글로벌 CSR 사이트이나 CTA·퀵액션 개선으로 탐색성과 전환을 강화해야 함."
+      ],
+      "notion_url": "https://app.notion.com/p/3f369790c143814e82dac61d13b29094",
+      "source": "notion",
+      "agency": "미등록",
+      "methods": [
+        "사진"
+      ],
+      "concepts": [
+        "깔끔한"
+      ],
+      "colors": [
+        "WHITE"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "jQuery: HTML에서 'jquery-' 확인",
+        "GSAP: HTML에서 'scrolltrigger' 확인",
+        "Swiper: HTML에서 'swiper-bundle' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27798.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-10-08T16:46:23.473890+00:00"
+    },
+    {
+      "str_no": "27746",
+      "site_name": "Andre Font",
+      "registered_date": "2026-10-08",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27746",
+      "live_url": "https://andrefont.com/",
+      "domain": "andrefont.com",
+      "targets": [
+        "20-30대",
+        "30-40대"
+      ],
+      "lines": [
+        "1) Andre Font / 2026-10-08 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27746 / 실사이트: https://andrefont.com/",
+        "2) 목적/타깃/IA: 제품·포트폴리오 소개용 사이트로 앙드레폰트 홍보가 목적이며 제공된 타깃은 20–30대·30–40대이고 IA는 메뉴 'About'와 'Andre Font'로 구성되어 전환용 CTA 부재는 확인 가능하며 구매·다운로드 플로우 존재 여부는 확인 불가.",
+        "3) UX 패턴: 콘셉트(귀여운·재미있는·실험적·독특한 레이아웃), 모션그래픽·일러스트·타이포 중심의 시각언어와 BLACK·PINK·WHITE·YELLOW 색상 조합을 활용한 플레이풀·비주얼 중심 레이아웃이 감지됨, 메뉴는 'About'·'Andre Font'로 단순 구성.",
+        "4) 강점: 영어·한국어 혼용 타이틀과 설명(Andre Font 앙드레폰트 — Hand-drawn display font / 한글 설명)로 글로벌·로컬 메시지 동시 전달이 가능하고, 명확한 콘셉트와 색상·비주얼 수단으로 타깃에게 시각적 매력 제공.",
+        "5) 개선점: CTA 레이블이 비어 있어(사이트 메타데이터 기준 cta_labels 없음) 구매·라이선스 전환 경로가 드러나지 않음, 내비게이션 확장(예: Preview/Buy/License/Contact)과 접근성·대비 체크 필요하며 모바일·성능 관련 상태는 확인 불가.",
+        "6) 기술/플러그인 키워드: 웹폰트, Lottie, GSAP(ScrollTrigger), Web Analytics, 전자결제/라이선스 모듈 (제공 기술 목록은 없음, 권장 사항은 확인 불가) + A) 메인 IA 퀵액션 재배치: 1. Preview(실시간 폰트 시연) 2. Buy/License(구매·라이선스) 3. Specimen/Usage(글리프·활용 예시) 4. About 5. Contact/Support + B) 전환/체류/탐색 KPI: 전환율(구매·라이선스), 샘플 재생 수(Preview 클릭), 세션 지속시간, 페이지당뷰수(스펙트럼·포트폴리오 뷰), 이탈률 + C) 공공기관 Do/Don't: Do: 명확한 CTA·라이선스 표기, 접근성(색 대비·대체텍스트), 개인정보·결제정보 보호 준수; Don't: 자동재생 소리·복잡한 네비게이션으로 접근성 저해, 라이선스 정보 불명확 처리 금지 + D) 오늘의 한 줄: 말랑말랑한 손글씨 디스플레이, '앙드레폰트'는 시각적으로 즉각 인지되는 감성형 폰트입니다."
+      ],
+      "notion_url": "https://app.notion.com/p/Andre-Font-3f369790c143812db029f33fdf9695cf",
+      "source": "notion",
+      "agency": "스튜디오 제이티",
+      "methods": [
+        "모션그래픽",
+        "일러스트",
+        "타이포"
+      ],
+      "concepts": [
+        "귀여운",
+        "재미있는",
+        "실험적인",
+        "독특한 레이아웃"
+      ],
+      "colors": [
+        "BLACK",
+        "PINK",
+        "WHITE",
+        "YELLOW"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27746.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-10-08T16:46:23.473890+00:00"
+    },
+    {
+      "str_no": "27742",
+      "site_name": "부산국제영화제",
+      "registered_date": "2026-10-08",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27742",
+      "live_url": "https://www.biff.kr",
+      "domain": "biff.kr",
+      "targets": [
+        "여성",
+        "남성",
+        "중고등학생",
+        "학부모",
+        "대학생",
+        "20-30대",
+        "30-40대",
+        "40대 이후"
+      ],
+      "technologies": [
+        "Google Analytics",
+        "jQuery",
+        "Swiper",
+        "ASP.NET"
+      ],
+      "lines": [
+        "1) 부산국제영화제 / 2026-10-08 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27742 / 실사이트: https://www.biff.kr",
+        "2) 목적: 부산국제영화제의 행사정보·홍보 및 예매 지원; 주요 타깃: 제공된 연령·집단(여성, 남성, 중고등학생, 학부모, 대학생, 20-30대, 30-40대, 40대 이후); IA 근거는 보고된 상단 메뉴(menu_labels) 중심(세부 내부 구조는 확인 불가).",
+        "3) 이미지·영상 중심 콘텐츠 전략(제공: 사진·영상·콘텐츠)과 슬라이더 사용(제공: Swiper), 명확한 메뉴 네비게이션(menu_labels), 브랜드 톤은 고급·역동·한국적·깔끔·신뢰(제공: concepts)·색상 팔레트 BLACK/RED/WHITE(제공: colors).",
+        "4) 행사명·기간이 명확히 표기됨(타이틀·설명: '6-15 October, 2026'), 메뉴가 다양해 정보 범위가 넓고, Google Analytics·jQuery·Swiper·ASP.NET 사용이 확인되어 트래픽·인터랙션·슬라이더 구현 관측 가능(제공: technologies, evidence).",
+        "5) 티켓 예매와 같은 핵심 전환 CTA를 상단 가시영역에 일관되게 배치하고(현재 CTA 레이블 탐지: 'JOIN'만 확인), Swiper 기반 슬라이더의 키보드 접근성·대체 텍스트·모바일 반응성 점검 권장; 개인정보·분석 동의 상태와 페이지 성능 지표는 제공자료에 없어 확인 불가.",
+        "6) 기술/플러그인 키워드: Google Analytics, jQuery, Swiper, ASP.NET + A) 메인 IA 퀵액션 재배치: 상단 우측 Primary 버튼에 '티켓 예매'를 명확히 배치하고 Secondary에 'JOIN' 배치·모바일에서는 고정 하단 CTA로 표시하여 예매 전환 동선 단축 + B) 전환/체류/탐색 KPI: 티켓 클릭→구매 전환율, CTA 클릭률(티켓/ JOIN), 세션당 페이지수, 평균 세션시간, 이탈률, 영상 재생률(멀티미디어 활용 지표) + C) 공공기관 Do/Don't: Do—웹접근성(WCAG) 준수, 개인정보·분석 동의(명시적 고지) 및 연락처/운영정보 명확 표기; Don't—주요 CTA 숨김·과도한 팝업 방치, 비표준 네비게이션 사용 + D) 오늘의 한 줄: 시각적 브랜드 자산을 티켓 중심 전환 흐름으로 단순화하면 가시적 성과가 개선됩니다."
+      ],
+      "notion_url": "https://app.notion.com/p/3f369790c14381709b62f52b146cdbdb",
+      "source": "notion",
+      "agency": "미등록",
+      "methods": [
+        "사진",
+        "영상",
+        "콘텐츠"
+      ],
+      "concepts": [
+        "고급스러운",
+        "역동적인",
+        "한국적,동양적인",
+        "깔끔한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "BLACK",
+        "RED",
+        "WHITE"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "jQuery: HTML에서 'jquery-' 확인",
+        "Swiper: HTML에서 'swiper.min' 확인",
+        "응답 헤더 x-powered-by=ASP.NET"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27742.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-10-08T16:46:23.473890+00:00"
+    },
     {
       "str_no": "27785",
       "site_name": "씨마크 호텔",
@@ -37,7 +190,6 @@
       "website_reachable": false,
       "thumbnail_url": "thumbnails/27785.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-10-07T16:46:42.632540+00:00"
     },
     {
@@ -74,7 +226,7 @@
       "website_reachable": false,
       "thumbnail_status": "failed",
       "thumbnail_error": "Page.evaluate: Execution context was destroyed, most likely because of a navigation",
-      "thumbnail_attempted_at": "2026-10-07T16:46:42.632540+00:00"
+      "thumbnail_attempted_at": "2026-10-08T16:46:23.473890+00:00"
     },
     {
       "str_no": "27716",
@@ -200,7 +352,7 @@
       "website_reachable": true,
       "thumbnail_status": "failed",
       "thumbnail_error": "Page.screenshot: Timeout 30000ms exceeded.\nCall log:\n  - taking page screenshot\n  - waiting for fonts to load...\n  - fonts loaded\n",
-      "thumbnail_attempted_at": "2026-10-07T16:46:42.632540+00:00"
+      "thumbnail_attempted_at": "2026-10-08T16:46:23.473890+00:00"
     },
     {
       "str_no": "27673",
@@ -6195,6 +6347,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-10-08",
     "2026-10-07",
     "2026-10-06",
     "2026-10-01",
@@ -6267,6 +6420,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-10-09T01:46:23.370232+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 3,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-10-08T01:46:42.543967+09:00",
       "mode": "live",
