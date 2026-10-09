@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-09T01:46:23.370232+09:00",
+  "generated_at": "2026-10-10T01:25:38.725725+09:00",
   "mode": "live",
-  "status": "success",
-  "new_count": 3,
+  "status": "no_new",
+  "new_count": 0,
   "failure_count": 0,
   "total_count": 156,
   "items": [
@@ -48,7 +48,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27798.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-10-08T16:46:23.473890+00:00"
     },
     {
@@ -93,7 +92,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27746.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-10-08T16:46:23.473890+00:00"
     },
     {
@@ -156,7 +154,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27742.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-10-08T16:46:23.473890+00:00"
     },
     {
@@ -226,7 +223,7 @@
       "website_reachable": false,
       "thumbnail_status": "failed",
       "thumbnail_error": "Page.evaluate: Execution context was destroyed, most likely because of a navigation",
-      "thumbnail_attempted_at": "2026-10-08T16:46:23.473890+00:00"
+      "thumbnail_attempted_at": "2026-10-09T16:25:38.809062+00:00"
     },
     {
       "str_no": "27716",
@@ -352,7 +349,7 @@
       "website_reachable": true,
       "thumbnail_status": "failed",
       "thumbnail_error": "Page.screenshot: Timeout 30000ms exceeded.\nCall log:\n  - taking page screenshot\n  - waiting for fonts to load...\n  - fonts loaded\n",
-      "thumbnail_attempted_at": "2026-10-08T16:46:23.473890+00:00"
+      "thumbnail_attempted_at": "2026-10-09T16:25:38.809062+00:00"
     },
     {
       "str_no": "27673",
@@ -6420,6 +6417,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-10-10T01:25:38.725725+09:00",
+      "mode": "live",
+      "status": "no_new",
+      "new_count": 0,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-10-09T01:46:23.370232+09:00",
       "mode": "live",
