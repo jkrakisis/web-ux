@@ -1,11 +1,325 @@
 {
-  "generated_at": "2026-10-10T01:25:38.725725+09:00",
+  "generated_at": "2026-10-13T04:14:25.871739+09:00",
   "mode": "live",
-  "status": "no_new",
-  "new_count": 0,
+  "status": "success",
+  "new_count": 6,
   "failure_count": 0,
-  "total_count": 156,
+  "total_count": 162,
   "items": [
+    {
+      "str_no": "27828",
+      "site_name": "새마을금고보험 홈페이지",
+      "registered_date": "2026-10-13",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27828",
+      "live_url": "https://insure.kfcc.co.kr",
+      "domain": "insure.kfcc.co.kr",
+      "targets": [
+        "여성",
+        "남성",
+        "20-30대",
+        "30-40대",
+        "40대 이후",
+        "기업"
+      ],
+      "lines": [
+        "1) 새마을금고보험 홈페이지 / 2026-10-13 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27828 / 실사이트: https://insure.kfcc.co.kr",
+        "2) 목적: 확인 불가; 주요 타깃: 여성·남성·20–30대·30–40대·40대 이후·기업; 권장 IA 방향: 심플하고 신뢰감 있는 메인 랜딩→상품비교→간편 가입 흐름으로 퀵액션 우선 배치.",
+        "3) UX 패턴: 3D·일러스트 기반의 콘텐츠형 소개 페이지, 심플·모던·안정적 비주얼 톤과 블루 계열 컬러 사용; 세부 메뉴·CTA 구성은 확인 불가.",
+        "4) 강점: 블루 컬러와 ‘심플·안정적·모던’ 콘셉트의 일관성, 3D·일러스트로 시각적 차별화 가능, 수상(WINNER PRIZE) 표기가 신뢰 요소로 활용 가능.",
+        "5) 개선점: 현재 메인 IA·CTA 구성과 전환 흐름은 확인 불가—권장사항으로 상단 및 모바일 하단에 퀵액션 고정(가입·상품비교·문의), CTA 라벨 통일·명확화, 접근성(대체텍스트·명도 대비) 및 모바일 네비게이션 단순화 적용.",
+        "6) 기술/플러그인 키워드: GA4, A/B 테스트(Optimizely·대체 솔루션), Microsoft Clarity, Lighthouse·axe(접근성 검사), 정적 사이트 호스팅/CMS, 쿠키 동의 플러그인 + A) 메인 IA 퀵액션 재배치: 상단 헤더 우측 및 모바일 하단 고정 플로팅 버튼으로 가입·상품비교·문의 퀵액션 배치해 첫 클릭 경로 단축 + B) 전환/체류/탐색 KPI: 가입 전환율(CTA 클릭→가입 완료), 퀵액션 클릭률(CTA CTR), 페이지별 이탈률, 평균 체류 시간, 세션당 페이지 수 + C) 공공기관 Do/Don't: Do—명확한 정보구조·접근성 준수(대체텍스트·ARIA·명도비), 개인정보 처리·약관 명확히 고지; Don't—과장·오해 소지 문구 사용 금지 및 불필요한 개인정보 요구 금지 + D) 오늘의 한 줄: 심플한 IA와 선명한 퀵액션이 신뢰와 전환을 동시에 끌어올립니다."
+      ],
+      "notion_url": "https://app.notion.com/p/3f769790c143817faf3fea4e62b96715",
+      "source": "notion",
+      "agency": "플립커뮤니케이션즈",
+      "methods": [
+        "3D",
+        "일러스트",
+        "콘텐츠"
+      ],
+      "concepts": [
+        "심플한",
+        "안정적",
+        "모던한",
+        "깔끔한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "BLUE"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27828.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-10-12T19:14:25.959603+00:00"
+    },
+    {
+      "str_no": "27809",
+      "site_name": "옥정중앙역 디에트르 Ⅱ",
+      "registered_date": "2026-10-13",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27809",
+      "live_url": "https://detre-ojop.co.kr/",
+      "domain": "detre-ojop.co.kr",
+      "targets": [
+        "20-30대",
+        "30-40대",
+        "40대 이후"
+      ],
+      "technologies": [
+        "Google Analytics",
+        "jQuery",
+        "PHP/5.4.16"
+      ],
+      "lines": [
+        "1) 옥정중앙역 디에트르 Ⅱ / 2026-10-13 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27809 / 실사이트: https://detre-ojop.co.kr/",
+        "2) 목적(확인 방식): 사이트명·설명으로 보이는 '옥정중앙역 디에트르 Ⅱ' 홍보/정보 제공 목적으로 추정되나 세부 목적(분양/상업/브랜딩)은 제공 근거로 확인 불가; 타깃은 제공 근거에 따라 20-30대, 30-40대, 40대 이후로 명시됨; 현재 IA(메뉴·주요 CTA)는 메뉴·CTA 레이블이 비어 있어 구성은 확인 불가.",
+        "3) 제공 근거 기반: 사진·영상 중심의 비주얼 표현 의도, 모던·깔끔 콘셉트와 브라운 계열 컬러 사용(디자인 톤은 명시됨); 실제 레이아웃·스크롤·모바일 동작 등 상세 패턴은 HTML/메뉴 근거로 확인 불가.",
+        "4) 접속 가능(final_url 확인), 사이트 타이틀·설명이 도메인과 일치함, Google Analytics 스크립트(googletagmanager/gtag) 존재로 기본 트래킹 도입 확인, jQuery 사용 확인, 서버 응답헤더로 PHP/5.4.16 구동 확인, 콘셉트·타깃·수단(사진·영상)과 수상내역(WINNER PRIZE) 명시로 브랜딩 의도 확인 가능.",
+        "5) 확인된 공백 기반 권고: 메뉴_labels·cta_labels가 비어 있어 주요 네비게이션·CTA를 명확히 정의하고(예: 문의/모델하우스/갤러리/단지정보/오시는길) 상단에 배치할 것, GA 이벤트·목표 설정으로 문의·예약 전환 추적 강화, PHP 5.4.16은 보안·호환성 측면에서 업데이트 권장, jQuery·외부스크립트 버전 점검·최적화 및 접근성(대체텍스트·명암·키보드 네비게이션) 검증 필요; 현재 쿠키동의/개인정보 처리 상태는 제공 근거로 확인 불가.",
+        "6) 기술/플러그인 키워드: Google Analytics, jQuery, PHP/5.4.16 + A) 메인 IA 퀵액션 재배치: 상단 우선순위 버튼(1. 문의/예약 2. 모델하우스 예약 3. 갤러리(사진·영상) 4. 단지정보/평면 5. 오시는길)으로 재배치해 모바일 상호작용 최소화 + B) 전환/체류/탐색 KPI: 문의(예약) 전환율, 페이지당 평균 체류시간(미디어 소비 중심), 세션당 페이지뷰(탐색 깊이)로 목표·알람 설정 + C) 공공기관 Do/Don't: Do—명확한 네비게이션·접근성 준수(대체텍스트·명확색대비), 개인정보·트래킹 고지 및 동의 수집; Don't—필요없는 자동 재생 비디오·팝업으로 사용자 방해 금지 + D) 오늘의 한 줄: 메뉴·주요 CTA가 비어 있으니 우선 '문의/모델하우스 예약/갤러리' 3버튼을 상단 고정해 전환경로를 즉시 확보하라."
+      ],
+      "notion_url": "https://app.notion.com/p/3f769790c14381a892bffc10926bcba5",
+      "source": "notion",
+      "agency": "코코아웍스",
+      "methods": [
+        "사진",
+        "영상"
+      ],
+      "concepts": [
+        "모던한",
+        "깔끔한"
+      ],
+      "colors": [
+        "BROWN"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "jQuery: HTML에서 'jquery-' 확인",
+        "응답 헤더 x-powered-by=PHP/5.4.16"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27809.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-10-12T19:14:25.959603+00:00"
+    },
+    {
+      "str_no": "27794",
+      "site_name": "서진시스템",
+      "registered_date": "2026-10-13",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27794",
+      "live_url": "https://www.seojinsystem.net/",
+      "domain": "seojinsystem.net",
+      "targets": [
+        "여성",
+        "남성",
+        "기업"
+      ],
+      "technologies": [
+        "jQuery",
+        "GSAP",
+        "Swiper"
+      ],
+      "lines": [
+        "1) 서진시스템 / 2026-10-13 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27794 / 실사이트: https://www.seojinsystem.net/",
+        "2) 목적·대상·IA: ESS·SOFC·반도체장비 등 EMS 전문기업(사이트 설명) 홍보·정보제공을 목적으로 하며 대상은 '여성, 남성, 기업'으로 명시되어 있고 정보구조는 상단 메뉴(COMPANY, BUSINESS, SUSTAINABILITY, CAREERS, INVESTORS 등) 중심으로 구성되어 있음.",
+        "3) UX 패턴: 사진·영상 중심의 시각 표현(제공: 사진, 영상), '역동적·모던·신뢰적' 콘셉트와 BLACK/BLUE/WHITE 계열 색상 사용, 인터랙션·슬라이더에 jQuery·GSAP·Swiper 적용되어 동적 애니메이션·슬라이드 방식의 연출이 확인됨.",
+        "4) 강점: 사이트 접근 가능(접근성 확인됨), 회사·사업영역을 요약한 설명으로 전문성 전달(메타 설명), 조직적 메뉴 구조와 인증·자료실 등 전문 정보 카테고리 존재, GSAP·Swiper 기반의 동적 UI로 모던한 표현이 가능함.",
+        "5) 개선사항: 주요 CTA 라벨 부재(CTA 라벨 없음 확인)로 문의·견적·채용 등 퀵액션 추가 필요, 애니메이션 접근성·성능 검토 및 키보드·스크린리더 대응 강화 권장(모바일 반응성 여부는 확인 불가).",
+        "6) 기술/플러그인 키워드: jQuery, GSAP, Swiper + A) 메인 IA 퀵액션 재배치: 상단 우측 및 고정 플로팅 바에 주요 퀵액션(문의/제품문의/견적요청/자료실/채용) 배치하고 각 버튼은 명시적 라벨·아이콘·포커스 순서 부여, + B) 전환/체류/탐색 KPI: CTA 클릭률(문의/견적 클릭률), 문의 전환율(폼 제출 대비 문의 수), 평균 세션 시간 및 페이지당 체류시간, 이탈률(랜딩 페이지별), 자료 다운로드 수 및 채용지원 클릭수, + C) 공공기관 Do/Don't: Do - 명확한 연락창구·인증표시 제공, 색 대비 및 키보드/스크린리더 접근성 준수(ARIA 포함), 문서·인증 자료의 다운로드·검색 용이성 확보; Don't - 자동 재생 영상으로 정보 은폐하거나 과도한 애니메이션으로 네비게이션을 방해하지 않음, + D) 오늘의 한 줄: 주요 CTA를 시각적·구조적으로 강화해 문의 경로를 단축하세요."
+      ],
+      "notion_url": "https://app.notion.com/p/3f769790c14381118a55db229eebbf5c",
+      "source": "notion",
+      "agency": "서로커뮤니케이션",
+      "methods": [
+        "사진",
+        "영상"
+      ],
+      "concepts": [
+        "역동적인",
+        "모던한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "기타",
+        "BLACK",
+        "BLUE",
+        "WHITE"
+      ],
+      "evidence": [
+        "jQuery: HTML에서 'jquery-' 확인",
+        "GSAP: HTML에서 'gsap.min.js' 확인",
+        "Swiper: HTML에서 'swiper-bundle' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27794.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-10-12T19:14:25.959603+00:00"
+    },
+    {
+      "str_no": "27796",
+      "site_name": "카누 바리스타 챔피언십 한정판 신제품 마이크로사이트",
+      "registered_date": "2026-10-12",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27796",
+      "live_url": "https://www.kanu.co.kr/limited-edition-2026kanubc",
+      "domain": "kanu.co.kr",
+      "targets": [
+        "여성",
+        "남성",
+        "중고등학생",
+        "학부모",
+        "대학생",
+        "20-30대",
+        "30-40대",
+        "40대 이후",
+        "기업",
+        "주부"
+      ],
+      "technologies": [
+        "Google Tag Manager",
+        "React",
+        "Next.js"
+      ],
+      "lines": [
+        "1) 카누 바리스타 챔피언십 한정판 신제품 마이크로사이트 / 2026-10-12 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27796 / 실사이트: https://www.kanu.co.kr/limited-edition-2026kanubc",
+        "2) 목적/타깃/IA: 목적은 '카누 바리스타 챔피언십 한정판 신제품' 홍보용 마이크로사이트로 판단(사이트 제목·설명 근거), 타깃은 제공된 전체 대상(여성·남성·중고등학생·학부모·대학생·20-30대·30-40대·40대 이후·기업·주부)으로 명시되어 있고, IA 관련해 menu_labels·cta_labels가 비어 있어 기본 네비게이션·전환경로 정보가 누락된 것이 확인되며 상세 IA 구조는 확인 불가.",
+        "3) 디자인·UX 패턴: '역동적인·재미있는·독특한 레이아웃·강렬한·모던한·깔끔한' 콘셉트와 모션그래픽·사진·일러스트·타이포·그래픽합성 등 시각 중심 표현 수단이 명시되어 시각·브랜딩 중심의 제품홍보 UX 의도가 확인되며, 실제 인터랙션·애니메이션 구현 상세는 확인 불가.",
+        "4) 강점: 사이트가 라이브(최종 URL 확인)이며 React/Next.js 기반으로 빌드된 점('_next' 경로·응답헤더 증거)과 Google Tag Manager 스크립트 적용이 확인되어 분석 도입 준비가 되어 있고 비주얼 중심 콘텐츠 활용 컨셉은 제품 홍보에 적합하다는 점이 확인됨; 전환 흐름·CTA 텍스트·접근성 구현상태는 확인 불가.",
+        "5) 개선점: 제공 데이터상 menu_labels·cta_labels가 비어 있어 주요 CTA·네비게이션 배치가 불명확하므로(확인된 사실) 즉시 '주요 CTA(구매/구독/이벤트 참여) 가시화·상단 네비게이션·스크롤 기반 섹션 링크' 추가를 권장하며 퍼포먼스·SEO·접근성 세부는 확인 불가.",
+        "6) 기술/플러그인 키워드: Google Tag Manager, React, Next.js + A) 메인 IA 퀵액션 재배치: 상단 고정 네비게이션과 화면 내 우선 CTA(예: 구매／이벤트 참가 버튼)를 명확히 배치해 전환 경로를 단일화(권장안, 상세 구현은 확인 불가) + B) 전환/체류/탐색 KPI: 주요 KPI로 CTA 클릭률(CTR), 세션 지속시간, 페이지 뷰(페이지깊이) 및 이탈률을 설정해 모니터링 권장(권장 지표이며 현재 계측 상태는 확인 불가) + C) 공공기관 Do/Don't: Do—명확한 정보표시·접근성(대체텍스트·명확한 네비게이션)·개인정보 수집·이용 고지 준수; Don't—오해의 소지가 있는 과장·비표준 접근성 구현 및 동의 없는 개인정보 수집 금지(일반적 준수 규범) + D) 오늘의 한 줄: menu_labels·cta_labels가 비어 있어 주요 전환경로가 즉시 식별되지 않으니 우선 CTA 가시화가 필요함."
+      ],
+      "notion_url": "https://app.notion.com/p/3f769790c1438145bd9fed173c901400",
+      "source": "notion",
+      "agency": "스탬프",
+      "methods": [
+        "모션그래픽",
+        "사진",
+        "일러스트",
+        "타이포",
+        "그래픽합성",
+        "그래픽디자인",
+        "제품",
+        "콘텐츠"
+      ],
+      "concepts": [
+        "역동적인",
+        "재미있는",
+        "독특한 레이아웃",
+        "강렬한",
+        "모던한",
+        "깔끔한"
+      ],
+      "colors": [
+        "BLACK",
+        "BROWN",
+        "GREEN"
+      ],
+      "evidence": [
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "React: HTML에서 '_next/static' 확인",
+        "Next.js: HTML에서 '/_next/' 확인",
+        "응답 헤더 x-powered-by=Next.js"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27796.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-10-12T19:14:25.959603+00:00"
+    },
+    {
+      "str_no": "27795",
+      "site_name": "무신사 기업웹사이트",
+      "registered_date": "2026-10-12",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27795",
+      "live_url": "https://corp.musinsa.com/",
+      "domain": "corp.musinsa.com",
+      "targets": [
+        "여성",
+        "남성",
+        "기업"
+      ],
+      "lines": [
+        "1) 무신사 기업웹사이트 / 2026-10-12 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27795 / 실사이트: https://corp.musinsa.com/",
+        "2) 목적·타깃: 무신사 기업 웹사이트로서 주요 타깃은 제공된 바와 같이 여성·남성·기업(브랜드/파트너)이며 브랜드·비즈니스 정보 제공이 핵심 목적이나 실사이트의 현재 IA 구성은 접근 실패로 확인 불가.",
+        "3) 사용된 UX 패턴(근거 기반): 사진 중심 비주얼과 타이포 강조, 제품·콘텐츠 병행으로 심플·모던·깔끔한 표현 지향 — 세부 레이아웃·메뉴 구조 및 실제 네비게이션 흐름은 확인 불가.",
+        "4) 강점(근거 기반): BLACK/WHITE의 미니멀 팔레트와 사진·타이포·제품 중심 접근이 콘셉트(심플·안정적·모던·깔끔·신뢰적)와 일치해 시각적 일관성과 브랜드 신뢰성에 유리함.",
+        "5) 개선권장(근거 기반): 메인 IA에서 여성/남성/기업 대상의 퀵액션 우선화·명료화, CTA 라벨 우선순위 정비, 접근성(명도대비·ARIA) 및 퍼포먼스 최적화, 모바일 우선 검증; 실사이트 상태는 확인 불가.",
+        "6) 기술/플러그인 키워드: Headless CMS, CDN, 이미지 최적화(WebP/AVIF), 분석(GA4), A/B테스트, Lighthouse, ARIA + A) 메인 IA 퀵액션 재배치: 상단 고정 네비게이션에 '여성 / 남성 / 기업(B2B)'을 우선 노출하고 서브메뉴로 채용·IR·파트너 카테고리 분리하여 빠른 이동경로 제공 + B) 전환/체류/탐색 KPI: 전환율(문의·제휴 클릭), 평균 체류시간, 페이지/세션, 이탈률(바운스) 감소 목표 설정 및 A/B 테스트로 개선 + C) 공공기관 Do/Don't: Do: 접근성 표준 준수(명도 대비·키보드 네비·ARIA), 명확한 개인정보/이용약관 고지; Don't: 모호한 CTA·과도한 팝업·비표준 인터랙션 사용 금지 + D) 오늘의 한 줄: 심플한 비주얼은 유지하되 사용자가 한 번의 클릭으로 목적지에 도달하도록 IA의 ‘빠른 이동성’에 우선 투자하라."
+      ],
+      "notion_url": "https://app.notion.com/p/3f769790c14381a9ade1c1de09a3794a",
+      "source": "notion",
+      "agency": "스탬프",
+      "methods": [
+        "사진",
+        "타이포",
+        "제품",
+        "콘텐츠"
+      ],
+      "concepts": [
+        "심플한",
+        "안정적",
+        "모던한",
+        "깔끔한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "BLACK",
+        "WHITE"
+      ],
+      "website_reachable": false,
+      "thumbnail_url": "thumbnails/27795.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-10-12T19:14:25.959603+00:00"
+    },
+    {
+      "str_no": "27792",
+      "site_name": "DR.A 하이엔드 오디오",
+      "registered_date": "2026-10-12",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27792",
+      "live_url": "https://dr-a.co.kr/",
+      "domain": "dr-a.co.kr",
+      "targets": [
+        "여성",
+        "남성",
+        "20-30대",
+        "30-40대",
+        "기업"
+      ],
+      "lines": [
+        "1) DR.A 하이엔드 오디오 / 2026-10-12 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27792 / 실사이트: https://dr-a.co.kr/",
+        "2) 목적/타깃·IA: ACOUSTIC LABS // DR.A의 브랜드 정체성(고요와 깊은 울림) 전달과 제품·전시 브랜딩·문의 유도가 목적이며 제공된 타깃은 여성·남성 20–40대 및 기업; 세부 IA 우선순위는 확인 불가.",
+        "3) UX 패턴: ORANGE·WHITE의 미니멀·모던 비주얼과 3D·사진·영상·타이포 기반의 시각적 서사 중심, 메뉴 라벨의 문자 간격/중복(예: 'DR.A'·'D R . A')로 독특한 레이아웃을 시도한 점이 관찰됨; 상호작용 흐름·CTA 구성은 확인 불가.",
+        "4) 강점: 타이틀·설명이 콘셉트를 명확히 전달하고(고급·심플·모던), 시각적 제작 방법(3D·사진·영상·타이포)이 콘셉트와 정합성을 갖추고 있음; 기술 스택·전환 성과 데이터는 확인 불가.",
+        "5) 개선점: cta_labels가 비어 있어 명확한 전환 경로가 부재하므로 CTA(예: Request) 상단 고정·시각 강조 필요, 메뉴 중복·공백 레이블 정리로 IA 간결화 필요하며 모바일·접근성·성능 상태는 확인 불가.",
+        "6) 기술/플러그인 키워드: WebGL(Three.js)·LazyLoad·CMS·A/B테스트 (추정, 확인 불가) + A) 메인 IA 퀵액션 재배치: 헤더·모바일 탑에 'Request' CTA 고정, 메뉴 통합(브랜드(DR.A)/Home/Gallery/Feature/Request) 및 불필요 중복 제거 + B) 전환/체류/탐색 KPI: Request 클릭률(CTA CTR), 문의 전환율(Submission Rate), 평균 세션 지속시간(Avg. Session Duration), 페이지 뷰·탐색 깊이(Page Depth), 이탈률(Bounce Rate) + C) 공공기관 Do/Don't: Do — 명확한 연락처·문의 경로·접근성·정책 표기, 간결한 표제와 쉬운 내비게이션; Don't — 장식 요소로 핵심 정보·문의 경로를 가리지 않기 + D) 오늘의 한 줄: 눈에 띄는 CTA 배치가 브랜드 경험과 문의 전환을 동시에 개선한다. (확인 불가)"
+      ],
+      "notion_url": "https://app.notion.com/p/DR-A-3f769790c143818cb58fef4f41bf0151",
+      "source": "notion",
+      "agency": "DRAFT.X",
+      "methods": [
+        "3D",
+        "사진",
+        "영상",
+        "타이포"
+      ],
+      "concepts": [
+        "고급스러운",
+        "심플한",
+        "독특한 레이아웃",
+        "모던한"
+      ],
+      "colors": [
+        "ORANGE",
+        "WHITE"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27792.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-10-12T19:14:25.959603+00:00"
+    },
     {
       "str_no": "27798",
       "site_name": "삼성전자 사회공헌 글로벌",
@@ -6344,6 +6658,8 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-10-13",
+    "2026-10-12",
     "2026-10-08",
     "2026-10-07",
     "2026-10-06",
@@ -6417,6 +6733,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-10-13T04:14:25.871739+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 6,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-10-10T01:25:38.725725+09:00",
       "mode": "live",
