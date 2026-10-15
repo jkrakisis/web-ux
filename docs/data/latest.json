@@ -1,11 +1,158 @@
 {
-  "generated_at": "2026-10-14T23:36:11.113388+09:00",
+  "generated_at": "2026-10-15T23:18:48.927796+09:00",
   "mode": "live",
-  "status": "no_new",
-  "new_count": 0,
+  "status": "success",
+  "new_count": 3,
   "failure_count": 0,
-  "total_count": 166,
+  "total_count": 169,
   "items": [
+    {
+      "str_no": "27872",
+      "site_name": "이스틸포유",
+      "registered_date": "2026-10-15",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27872",
+      "live_url": "https://home.esteel4u.com/",
+      "domain": "home.esteel4u.com",
+      "targets": [
+        "여성",
+        "남성",
+        "30-40대",
+        "40대 이후",
+        "기업"
+      ],
+      "lines": [
+        "1) 이스틸포유 / 2026-10-15 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27872 / 실사이트: https://home.esteel4u.com/",
+        "2) 목적/대상/IA: '이스틸포유'는 브랜드·제품 홍보와 B2C·B2B(여성·남성·30-40대·40대 이후·기업)를 타깃으로 하는 웹사이트로 보이나, 실사이트 접근 실패로 메인 IA의 정확한 구조는 확인 불가.",
+        "3) 예상 UX 패턴: 심플·모던·깔끔한 비주얼 중심사이트(모션그래픽·제품 사진·타이포 강조), 히어로 영역·제품 갤러리 중심 레이아웃을 사용할 가능성이 높으나 상세 네비게이션과 상호작용은 실사이트 접근 실패로 확인 불가.",
+        "4) 강점: '심플·안정적·모던·신뢰적' 콘셉트와 BLUE 컬러 사용, 모션·사진·타이포·제품 표현을 통한 비주얼 일관성 및 WINNER PRIZE 수상 이력으로 신뢰성 확보(상세 근거: 제공 데이터).",
+        "5) 개선점: 메인 IA에 핵심 퀵액션(제품조회·문의·카탈로그) 명확 노출, CTA 가독성·접근성 강화, 로딩·모바일 최적화 및 전환 경로 단순화 필요하며 세부 요소는 실사이트 접근 실패로 확인 불가.",
+        "6) 기술/플러그인 키워드: CDN, 웹접근성 ARIA, 애널리틱스, A/B테스트 플러그인 + A) 메인 IA 퀵액션 재배치: 상단 우측·히어로 내에 '제품 보기 / 문의하기 / 카탈로그 다운로드 / 기업납품(견적요청)' 4개 버튼을 고정 배치하여 즉시 접근 유도 권장. + B) 전환/체류/탐색 KPI: 문의 전환율(폼/문의톡), CTA 클릭률, 평균 세션시간, 페이지/세션, 이탈률을 기본 KPI로 설정해 정기 모니터링 권장. + C) 공공기관 Do/Don't: Do: 웹접근성(대체텍스트·키보드 네비게이션), 명확한 사업자·연락처 표기, HTTPS 보안 및 개인정보 처리 고지; Don't: 접근성 저해하는 과도한 모션·비표준 폼 구성. (세부 구현은 실사이트 접근 실패로 확인 불가). + D) 오늘의 한 줄: 블루 톤의 심플·신뢰성 메시지를 핵심 CTA로 즉시 연결하라."
+      ],
+      "notion_url": "https://app.notion.com/p/3fa69790c1438174b434c4fb6349640f",
+      "source": "notion",
+      "agency": "더위버크리에이티브",
+      "methods": [
+        "모션그래픽",
+        "사진",
+        "타이포",
+        "제품"
+      ],
+      "concepts": [
+        "심플한",
+        "안정적",
+        "모던한",
+        "깔끔한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "BLUE"
+      ],
+      "website_reachable": false,
+      "thumbnail_url": "thumbnails/27872.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-10-15T14:18:49.031181+00:00"
+    },
+    {
+      "str_no": "27799",
+      "site_name": "메이커빌",
+      "registered_date": "2026-10-15",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27799",
+      "live_url": "https://www.makervil.com/en",
+      "domain": "makervil.com",
+      "targets": [
+        "20-30대",
+        "30-40대",
+        "기업"
+      ],
+      "lines": [
+        "1) 메이커빌 / 2026-10-15 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27799 / 실사이트: https://www.makervil.com/en",
+        "2) 메이커빌은 20–30대·30–40대·기업을 주요 타깃으로 고급스럽고 역동적인 브랜드 경험을 제공하는 다국어(EN/KR/CN) 기업 사이트로, 주요 IA는 About·Brands·Ecosystem·Insights·Who We Look For·Our Values·Job Openings·Contact 및 상단 언어/홈/연락처 노출로 구성되어 있음.",
+        "3) 상단 글로벌 네비게이션(언어 전환·홈), 명시적 연락처(전화·이메일) 및 Contact CTA, 외부 소셜(YouTube) 링크 노출이 관찰되며 3D·모션그래픽·사진·타이포 기반 비주얼 사용은 메타데이터에 명시되어 있으나 실제 구현 세부는 확인 불가.",
+        "4) 콘셉트(고급·역동·실험·강렬·모던)와 단색 팔레트(BLACK/GRAY/WHITE)가 일관된 브랜드 톤을 제공하고 타깃이 명확하며 다국어 표기와 연락처 노출로 문의 경로가 직관적임.",
+        "5) 메뉴 중복(YouTube) 정리 및 Contact CTA 시각적·상시 접근성 강화(스티키), 언어 전환 우선순위 명확화, 포트폴리오·채용 경로 단순화 제안; 기술 스택·접근성·퍼포먼스 표기는 제공 데이터에 없어 확인 불가.",
+        "6) 기술/플러그인 키워드: CDN, GTM/GA4, i18n 라이브러리, WCAG 접근성 툴, Lighthouse 성능검사 + A) 메인 IA 퀵액션 재배치: 네비게이션 우측 최상단 퀵액션 순서를 Contact(대표 CTA) → Job Openings → Language(EN/KR/CN) → Home으로 배치하고 Contact을 버튼 스타일·스티키로 고정하여 직관적 문의 경로 확보 + B) 전환/체류/탐색 KPI: Contact 문의수(월간), Contact CTA 클릭률, 언어 전환율, 평균 세션시간, 페이지/세션, 이탈률, 채용 지원 전환율 + C) 공공기관 Do/Don't: Do: 명확한 연락처·언어·개인정보처리방침 표기, WCAG 접근성 준수, 모바일 최적화 및 투명한 데이터 수집 고지; Don't: 개인정보 무단수집·불명확한 문의경로·과도한 모달/자동재생(사용성 훼손) + D) 오늘의 한 줄: Contact과 언어 전환을 최상단에 고정해 방문자의 문의 경로를 즉시 단축하라."
+      ],
+      "notion_url": "https://app.notion.com/p/3fa69790c14381c2bf34fa5247467a65",
+      "source": "notion",
+      "agency": "나인원랩스",
+      "methods": [
+        "3D",
+        "모션그래픽",
+        "사진",
+        "타이포"
+      ],
+      "concepts": [
+        "고급스러운",
+        "역동적인",
+        "실험적인",
+        "강렬한",
+        "모던한"
+      ],
+      "colors": [
+        "BLACK",
+        "GRAY",
+        "WHITE"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27799.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-10-15T14:18:49.031181+00:00"
+    },
+    {
+      "str_no": "27779",
+      "site_name": "자연안에한의원",
+      "registered_date": "2026-10-15",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27779",
+      "live_url": "https://www.ithn.co.kr/",
+      "domain": "ithn.co.kr",
+      "targets": [
+        "여성",
+        "남성",
+        "20-30대",
+        "30-40대"
+      ],
+      "technologies": [
+        "jQuery",
+        "Swiper"
+      ],
+      "lines": [
+        "1) 자연안에한의원 / 2026-10-15 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27779 / 실사이트: https://www.ithn.co.kr/",
+        "2) 목적/대상/IA: 자연안에한의원 웹사이트의 주요 목적은 진료 예약 유도 및 다이어트·피부·리프팅 등 진료 항목 소개이며, 제공된 타깃은 여성·남성·20·30·40대이고 IA 핵심은 진료예약 CTA 및 클리닉별 진입로(세부 행태는 확인 불가).",
+        "3) UX 패턴: 사진·영상·타이포 기반 비주얼 중심, '여성적인·모던·깔끔' 콘셉트와 BROWN/GREEN/WHITE 팔레트 사용, 리프팅·피부·8체질 등 세부 메뉴 나열과 다수의 예약 CTA(진료 예약·네이버 예약) 및 jQuery·Swiper 기반 슬라이더 사용이 확인됨.",
+        "4) 강점: 콘셉트·컬러·매체(사진·영상·타이포) 일관성 확인, 서비스 항목이 구체적으로 표기되어 정보 접근 경로가 명료하며 예약 유도 라벨이 다수 존재함, jQuery·Swiper로 인터랙션·슬라이드 구현 가능.",
+        "5) 개선: 중복된 '네이버 예약' 라벨 단일화로 전환 경로 명확화, 메뉴를 리프팅·피부·통증·8체질 등 대표 카테고리로 그룹화해 IA 간결화, 메인 퀵액션(진료예약·통증클리닉·리프팅·피부) 우선 재배치 권장; 사이트 성능·접근성 현황은 제공되지 않아 확인 불가.",
+        "6) 기술/플러그인 키워드: jQuery, Swiper + A) 메인 IA 퀵액션 재배치: 상단 고정 또는 상단 우측에 '진료 예약(단일화)' 우선 고정하고 '통증클리닉 바로가기·리프팅·피부·8체질'을 4개 퀵액션으로 재배치할 것 + B) 전환/체류/탐색 KPI: 전환=진료예약(네이버예약) 클릭률, 체류=페이지별 평균 체류시간(현행 값 확인 불가), 탐색=메뉴 클릭흐름(페이지/세션당 클릭수) 측정 권장 + C) 공공기관 Do/Don't: Do=단일화된 명확한 예약 CTA 노출·메뉴 카테고리 간결화, Don't=중복된 '네이버 예약' 버튼 유지·장황한 메뉴 레이블 방치 + D) 오늘의 한 줄: 네이버 예약 라벨을 단일화해 상단 고정 CTA로 전환 흐름을 단축하십시오."
+      ],
+      "notion_url": "https://app.notion.com/p/3fa69790c1438156aaf6c05f8fa6eac4",
+      "source": "notion",
+      "agency": "나인원랩스",
+      "methods": [
+        "사진",
+        "영상",
+        "타이포"
+      ],
+      "concepts": [
+        "여성적인",
+        "모던한",
+        "깔끔한"
+      ],
+      "colors": [
+        "BROWN",
+        "GREEN",
+        "WHITE"
+      ],
+      "evidence": [
+        "jQuery: HTML에서 'jquery.min.js' 확인",
+        "Swiper: HTML에서 'swiper-bundle' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27779.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-10-15T14:18:49.031181+00:00"
+    },
     {
       "str_no": "27831",
       "site_name": "SOOFONTS",
@@ -6840,6 +6987,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-10-15",
     "2026-10-14",
     "2026-10-13",
     "2026-10-12",
@@ -6916,6 +7064,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-10-15T23:18:48.927796+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 3,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-10-14T23:36:11.113388+09:00",
       "mode": "live",
