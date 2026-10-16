@@ -49,7 +49,24 @@ jobs:
 
       - name: Collect and register
         id: collect
-        run: python -m gdweb_daily
+        shell: bash
+        run: |
+          set +e
+          python -m gdweb_daily
+          status=$?
+          set -e
+
+          if [ "$status" -eq 0 ]; then
+            exit 0
+          fi
+
+          if ! grep -Eq "GDWEB 목록 수집 실패: (ConnectTimeout|ReadTimeout|ConnectionError)" reports/latest.txt; then
+            exit "$status"
+          fi
+
+          echo "::warning::GDWEB 연결 실패로 5분 후 복구 수집을 한 번 실행합니다."
+          sleep 300
+          python -m gdweb_daily
 
       - name: Capture recent thumbnails
         if: always()

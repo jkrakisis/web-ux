@@ -24,7 +24,14 @@ class GdwebCollector:
             f"{self.base_url}/sub/list.asp?Page={page}&displayrow=60"
             "&Txt_fgbn=5&Txt_key=all"
         )
-        return parse_listing_html(self.http.get(url).text, self.base_url)
+        return parse_listing_html(
+            self.http.get(
+                url,
+                retry_attempts=3,
+                retry_backoff_seconds=(5, 15, 30),
+            ).text,
+            self.base_url,
+        )
 
     def fetch_recent(self, earliest_date: date, max_pages: int = 3) -> list[ListingItem]:
         found: dict[str, ListingItem] = {}
