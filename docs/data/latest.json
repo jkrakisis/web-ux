@@ -1,11 +1,74 @@
 {
-  "generated_at": "2026-10-17T00:41:28.795888+09:00",
+  "generated_at": "2026-10-20T01:35:10.755060+09:00",
   "mode": "live",
-  "status": "success",
-  "new_count": 2,
-  "failure_count": 0,
-  "total_count": 171,
+  "status": "partial",
+  "new_count": 1,
+  "failure_count": 1,
+  "total_count": 172,
   "items": [
+    {
+      "str_no": "27952",
+      "site_name": "일광 THE S (티저)",
+      "registered_date": "2026-10-19",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27952",
+      "live_url": "https://일광더에스.kr",
+      "domain": "일광더에스.kr",
+      "targets": [
+        "여성",
+        "남성",
+        "20-30대",
+        "30-40대",
+        "40대 이후",
+        "기업"
+      ],
+      "technologies": [
+        "Google Tag Manager",
+        "jQuery",
+        "GSAP",
+        "Swiper"
+      ],
+      "lines": [
+        "1) 일광 THE S (티저) / 2026-10-19 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27952 / 실사이트: https://일광더에스.kr",
+        "2) 목적: 일광 THE S 오션리조트 시티 브랜드 홍보 및 관심고객 등록; 타깃: 여성·남성·20–30대·30–40대·40대 이후·기업; IA: HISTORY·PREMIUM·BRAND STORY·OVERVIEW 중심의 메뉴 기반 구조.",
+        "3) UX 패턴: 사진·영상·풍경·건물 등 비주얼 중심의 고화질 히어로 구성과 모던·깔끔·서정적·신비적 콘셉트, 흑백(Black/White) 미니멀 팔레트와 상단 메뉴 기반 내비게이션, CONTACT·관심고객등록 CTA 노출.",
+        "4) 강점: '최초의 오션리조트 시티'라는 명확한 태그라인과 콘셉트 일관성, 관심고객등록·CONTACT 같은 전환 경로 노출, Google Tag Manager·GSAP·Swiper·jQuery 등 현대적 프론트엔드 툴 사용 근거.",
+        "5) 개선권고: 메뉴의 한글/영문 혼용(예: 'NEWS' vs '관심고객등록') 통일, 주요 CTA(관심고객등록·CONTACT·전화) 헤더 고정 및 시각적 강조, 접근성(명확 라벨·키보드 내비게이션)·모바일 최적화 점검 권장; 단 성능·접근성의 세부 상태는 제공근거에 없음→확인 불가.",
+        "6) 기술/플러그인 키워드: Google Tag Manager, jQuery, GSAP, Swiper + A) 메인 IA 퀵액션 재배치: 헤더 우측에 고정 CTA 그룹으로 '관심고객등록'·'CONTACT'·전화번호(051-746-1010)를 상시 노출하고 '11월 오픈예정'은 리본형 강조로 배치 + B) 전환/체류/탐색 KPI: 관심고객등록 전환율, CTA 클릭률, 전화 클릭(모바일), 페이지 체류시간, 페이지당 조회수·이탈률, 스크롤 깊이 및 슬라이더 상호작용(=Swiper 이벤트) 추적 + C) 공공기관 Do/Don't: Do – 개인정보 수집·동의 절차 명확화·접근성 준수·연락채널 명확 노출; Don't – 과도한 자동재생 애니메이션이나 혼용된 언어로 이용자 혼란 유발 금지 + D) 오늘의 한 줄: 비주얼은 유지하되 CTA 우선순위를 명확히 하십시오."
+      ],
+      "notion_url": "https://app.notion.com/p/THE-S-3fe69790c14381898696f508253ecffd",
+      "source": "notion",
+      "agency": "히어앤나우",
+      "methods": [
+        "사진",
+        "영상",
+        "풍경",
+        "건물/빌딩"
+      ],
+      "concepts": [
+        "고급스러운",
+        "서정적인",
+        "신비적인",
+        "안정적",
+        "모던한",
+        "깔끔한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "BLACK",
+        "WHITE"
+      ],
+      "evidence": [
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "jQuery: HTML에서 'jquery-' 확인",
+        "GSAP: HTML에서 'gsap.min.js' 확인",
+        "Swiper: HTML에서 'swiper-bundle' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27952.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-10-19T16:35:10.857533+00:00"
+    },
     {
       "str_no": "27945",
       "site_name": "핸섬피쉬",
@@ -30,7 +93,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27945.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-10-16T15:41:28.884188+00:00"
     },
     {
@@ -68,7 +130,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27942.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-10-16T15:41:28.884188+00:00"
     },
     {
@@ -7049,6 +7110,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-10-19",
     "2026-10-16",
     "2026-10-15",
     "2026-10-14",
@@ -7127,6 +7189,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-10-20T01:35:10.755060+09:00",
+      "mode": "live",
+      "status": "partial",
+      "new_count": 1,
+      "failure_count": 1
+    },
     {
       "generated_at": "2026-10-17T00:41:28.795888+09:00",
       "mode": "live",
@@ -7611,5 +7680,9 @@
       "failure_count": 0
     }
   ],
-  "failures": []
+  "failures": [
+    {
+      "text": "자동 등록 실패 — weekends\n사이트명: weekends\n등록일: 2026-10-19\nGDWEB str_no: 27943\nGDWEB URL: www.gdweb.co.kr/sub/view.asp?str_no=27943\n실사이트 URL: weekends.co.kr/\n제작사: 루아소프트\n표현방법: 모션그래픽, 사진, 그래픽디자인, 제품, 콘텐츠\n디자인 컨셉: 심플한, 역동적인, 재미있는, 신뢰적인\n주색상: BLACK, ORANGE, WHITE\n처리 상태: 자동 등록 실패\n실패 사유: 6줄 분석 실패: HTTPError"
+    }
+  ]
 }
