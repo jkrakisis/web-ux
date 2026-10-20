@@ -7,7 +7,12 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urlparse
 
-from .analysis import OpenAIAnalyzer, fallback_analysis, format_six_lines
+from .analysis import (
+    OpenAIAnalysisError,
+    OpenAIAnalyzer,
+    fallback_analysis,
+    format_six_lines,
+)
 from .config import AppConfig
 from .gdweb import GdwebCollector
 from .http import HttpClient
@@ -332,11 +337,14 @@ def run(config: AppConfig, since: str = "", no_ai: bool = False) -> tuple[int, s
             if config.dry_run:
                 analysis = fallback_analysis(detail, evidence)
             else:
+                error_summary = type(exc).__name__
+                if isinstance(exc, OpenAIAnalysisError):
+                    error_summary = str(exc)
                 failures.append(
                     "\n".join(
                         [
                             f"자동 등록 실패 — {detail.site_name}",
-                            *_failure_fields(detail, f"6줄 분석 실패: {type(exc).__name__}"),
+                            *_failure_fields(detail, f"6줄 분석 실패: {error_summary}"),
                         ]
                     )
                 )

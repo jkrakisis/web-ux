@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import json
+import time
+from collections.abc import Sequence
 from dataclasses import asdict
 
 import requests
@@ -28,11 +30,24 @@ ANALYSIS_SCHEMA = {
 }
 
 
+class OpenAIAnalysisError(RuntimeError):
+    """OpenAI 분석 요청 실패를 민감한 응답 본문 없이 설명한다."""
+
+
 class OpenAIAnalyzer:
-    def __init__(self, api_key: str, model: str, timeout_seconds: float = 60.0) -> None:
+    def __init__(
+        self,
+        api_key: str,
+        model: str,
+        timeout_seconds: float = 60.0,
+        retry_attempts: int = 3,
+        retry_backoff_seconds: Sequence[float] = (5.0, 15.0, 30.0),
+    ) -> None:
         self.api_key = api_key
         self.model = model
         self.timeout_seconds = timeout_seconds
+        self.retry_attempts = retry_attempts
+        self.retry_backoff_seconds = retry_backoff_seconds
 
     def analyze(self, detail: DetailItem, evidence: WebsiteEvidence) -> Analysis:
         if not self.api_key:
@@ -70,20 +85,58 @@ class OpenAIAnalyzer:
                 }
             },
         }
-        response = requests.post(
-            "https://api.openai.com/v1/responses",
-            headers={
-                "Authorization": f"Bearer {self.api_key}",
-                "Content-Type": "application/json",
-            },
-            json=payload,
-            timeout=self.timeout_seconds,
-        )
-        response.raise_for_status()
+        response = self._post_with_retry(payload)
         data = response.json()
         output_text = _response_text(data)
         parsed = json.loads(output_text)
         return Analysis(**parsed)
+
+    def _post_with_retry(self, payload: dict[str, object]) -> requests.Response:
+        for attempt in range(self.retry_attempts + 1):
+            try:
+                response = requests.post(
+                    "https://api.openai.com/v1/responses",
+                    headers={
+                        "Authorization": f"Bearer {self.api_key}",
+                        "Content-Type": "application/json",
+                    },
+                    json=payload,
+                    timeout=self.timeout_seconds,
+                )
+            except (requests.ConnectionError, requests.Timeout) as exc:
+                if attempt >= self.retry_attempts:
+                    raise OpenAIAnalysisError(
+                        f"OpenAI 연결 오류: {type(exc).__name__}"
+                    ) from exc
+                self._sleep_before_retry(attempt)
+                continue
+
+            is_transient = (
+                response.status_code in {408, 429} or response.status_code >= 500
+            )
+            if is_transient and attempt < self.retry_attempts:
+                response.close()
+                self._sleep_before_retry(attempt)
+                continue
+
+            try:
+                response.raise_for_status()
+            except requests.HTTPError as exc:
+                raise OpenAIAnalysisError(
+                    f"OpenAI HTTP {response.status_code}"
+                ) from exc
+            return response
+
+        raise RuntimeError("OpenAI retry loop exhausted unexpectedly")
+
+    def _sleep_before_retry(self, attempt: int) -> None:
+        if not self.retry_backoff_seconds:
+            return
+        delay = self.retry_backoff_seconds[
+            min(attempt, len(self.retry_backoff_seconds) - 1)
+        ]
+        if delay > 0:
+            time.sleep(delay)
 
 
 def _response_text(payload: dict[str, object]) -> str:
