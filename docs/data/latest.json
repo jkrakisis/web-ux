@@ -1,11 +1,53 @@
 {
-  "generated_at": "2026-10-20T01:35:10.755060+09:00",
+  "generated_at": "2026-10-20T21:15:51.119939+09:00",
   "mode": "live",
-  "status": "partial",
-  "new_count": 1,
-  "failure_count": 1,
-  "total_count": 172,
+  "status": "success",
+  "new_count": 2,
+  "failure_count": 0,
+  "total_count": 174,
   "items": [
+    {
+      "str_no": "27962",
+      "site_name": "플래닛",
+      "registered_date": "2026-10-20",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27962",
+      "live_url": "https://plan-et.kr/",
+      "domain": "plan-et.kr",
+      "targets": [
+        "기업"
+      ],
+      "technologies": [
+        "jQuery",
+        "GSAP"
+      ],
+      "lines": [
+        "1) 플래닛 / 2026-10-20 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27962 / 실사이트: https://plan-et.kr/",
+        "2) 기업 대상 템플릿 기반 홈페이지 제작·세팅·배포 서비스로, 사용자가 템플릿을 선택해 자료를 전달하면 제작·세팅·배포까지 진행하는 흐름으로 확인됨.",
+        "3) 템플릿 카테고리(TEMPLATE/TRENDY/TRUST/SENSORY) 기반 탐색과 디자인 미리보기 중심 UX, 상단 메뉴 기반 내비게이션과 단일 CTA('시작하기'), jQuery·GSAP 기반 인터랙션 사용 확인.",
+        "4) 모던·깔끔(WHITE) 비주얼 콘셉트, 템플릿 미리보기 중심의 직관적 흐름, 명확한 시작하기 CTA, jQuery·GSAP로 애니메이션·인터랙션 구현 가능, 수상(WINNER PRIZE) 표기로 신뢰성 요소 존재.",
+        "5) 메뉴 라벨 중복(자주묻는질문/FAQ) 통합 및 라벨 단순화 권장, '시작하기' CTA의 상시 고정(가시성 강화) 권장, 사이트의 반응성·접근성·분석 도입 여부는 제공 자료에 없음(확인 불가).",
+        "6) 기술/플러그인 키워드: jQuery, GSAP + A) 메인 IA 퀵액션 재배치: 상단 우측에 '시작하기' 스티키 버튼 고정 및 TEMPLATE·TRENDY·TRUST·SENSORY를 퀵필터(빠른 템플릿 접근)로 노출 + B) 전환/체류/탐색 KPI: 전환=CTA(시작하기) 클릭률(CTR), 체류=페이지당 평균 체류시간, 탐색=템플릿 상세뷰 진입률·카테고리별 클릭률 + C) 공공기관 Do/Don't: Do—이용약관·개인정보처리방침 명확 고지 및 접근성 준수(대체텍스트·키보드 네비게이션 문서화), Don't—과도한 애니메이션으로 정보 접근성 저해 금지 + D) 오늘의 한 줄: 템플릿 미리보기 UX를 '시작하기' CTA 가시성으로 완성하라"
+      ],
+      "notion_url": "https://app.notion.com/p/3ff69790c14381758752d3337371b995",
+      "source": "notion",
+      "agency": "플랜에이제트",
+      "concepts": [
+        "모던한",
+        "깔끔한"
+      ],
+      "colors": [
+        "WHITE"
+      ],
+      "evidence": [
+        "jQuery: HTML에서 'jquery-' 확인",
+        "GSAP: HTML에서 'gsap.min.js' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27962.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-10-20T12:15:51.217558+00:00"
+    },
     {
       "str_no": "27952",
       "site_name": "일광 THE S (티저)",
@@ -66,8 +108,52 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27952.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-10-19T16:35:10.857533+00:00"
+    },
+    {
+      "str_no": "27943",
+      "site_name": "weekends",
+      "registered_date": "2026-10-19",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27943",
+      "live_url": "https://weekends.co.kr/",
+      "domain": "weekends.co.kr",
+      "targets": [
+        "기업"
+      ],
+      "lines": [
+        "1) weekends / 2026-10-19 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27943 / 실사이트: https://weekends.co.kr/",
+        "2) 목적: 기업 대상(기업)에게 모션그래픽·사진·그래픽디자인·제품·콘텐츠 포트폴리오를 심플·역동·재미·신뢰 콘셉트로 제시하는 포트폴리오/브랜딩 사이트로 추정되나 실사이트 접근 실패로 IA 세부구성은 확인 불가.",
+        "3) 실사이트 접근 실패로 UX 패턴 및 메뉴·CTA 레이블 확인 불가.",
+        "4) 제공 근거상 강점: 다양한 제작방법(모션그래픽·사진·그래픽디자인·제품·콘텐츠) 보유, 명확한 콘셉트(심플·역동·재미·신뢰), 강렬한 브랜드 색상 팔레트(BLACK·ORANGE·WHITE), 수상 이력(WINNER PRIZE)으로 신뢰 요소 존재.",
+        "5) 실사이트 접근 실패로 구체적 UI/UX 개선 사항 확인 불가; 일반 권장사항(확인 불가 표기): 포트폴리오·서비스·문의 CTA 우선 배치, 접근성(명암 대비·대체텍스트), 로드 성능·SSL 점검을 우선 권고.",
+        "6) 기술/플러그인 키워드: 확인 불가(실사이트 미접근) + A) 확인 불가: 메인 IA 퀵액션 재배치 — 기업 타깃 우선순위 예시(권장): 1) 포트폴리오/케이스스터디 2) 서비스(제작 분야별) 3) 성과·수상 4) 고객사·문의(직관적 CTA) + B) 확인 불가: 전환/체류/탐색 KPI — 문의(컨택) 전환율, 평균 세션 지속시간, 페이지/세션, 이탈률(모바일/데스크톱 분리 측정) + C) 공공기관 Do/Don't — Do: 명확한 구조·접근성(대비·키보드 네비게이션), 직관적 문의흐름·신뢰표시(수상·레퍼런스), SSL·접근성 준수; Don't: 자동재생 음성/비디오로 방해, 혼란스러운 네비게이션·과도한 모션 + D) 오늘의 한 줄: 실사이트 SSL/접근 불가로 현황 확인 불가하니 우선 접근성·보안(SSL) 및 호스팅 상태부터 점검하세요."
+      ],
+      "notion_url": "https://app.notion.com/p/weekends-3ff69790c1438115b167cad3413ac7de",
+      "source": "notion",
+      "agency": "루아소프트",
+      "methods": [
+        "모션그래픽",
+        "사진",
+        "그래픽디자인",
+        "제품",
+        "콘텐츠"
+      ],
+      "concepts": [
+        "심플한",
+        "역동적인",
+        "재미있는",
+        "신뢰적인"
+      ],
+      "colors": [
+        "BLACK",
+        "ORANGE",
+        "WHITE"
+      ],
+      "website_reachable": false,
+      "thumbnail_url": "thumbnails/27943.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-10-20T12:15:51.217558+00:00"
     },
     {
       "str_no": "27945",
@@ -7110,6 +7196,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-10-20",
     "2026-10-19",
     "2026-10-16",
     "2026-10-15",
@@ -7189,6 +7276,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-10-20T21:15:51.119939+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 2,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-10-20T01:35:10.755060+09:00",
       "mode": "live",
@@ -7680,9 +7774,5 @@
       "failure_count": 0
     }
   ],
-  "failures": [
-    {
-      "text": "자동 등록 실패 — weekends\n사이트명: weekends\n등록일: 2026-10-19\nGDWEB str_no: 27943\nGDWEB URL: www.gdweb.co.kr/sub/view.asp?str_no=27943\n실사이트 URL: weekends.co.kr/\n제작사: 루아소프트\n표현방법: 모션그래픽, 사진, 그래픽디자인, 제품, 콘텐츠\n디자인 컨셉: 심플한, 역동적인, 재미있는, 신뢰적인\n주색상: BLACK, ORANGE, WHITE\n처리 상태: 자동 등록 실패\n실패 사유: 6줄 분석 실패: HTTPError"
-    }
-  ]
+  "failures": []
 }
