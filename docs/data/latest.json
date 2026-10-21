@@ -1,11 +1,94 @@
 {
-  "generated_at": "2026-10-20T23:24:47.165358+09:00",
+  "generated_at": "2026-10-21T23:35:13.359461+09:00",
   "mode": "live",
-  "status": "no_new",
-  "new_count": 0,
+  "status": "success",
+  "new_count": 2,
   "failure_count": 0,
-  "total_count": 174,
+  "total_count": 176,
   "items": [
+    {
+      "str_no": "27979",
+      "site_name": "신한은행 솔깃",
+      "registered_date": "2026-10-21",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27979",
+      "live_url": "https://solgit.shinhan.com/",
+      "domain": "solgit.shinhan.com",
+      "technologies": [
+        "React",
+        "Next.js"
+      ],
+      "lines": [
+        "1) 신한은행 솔깃 / 2026-10-21 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27979 / 실사이트: https://solgit.shinhan.com/",
+        "2) 목적: 금융·투자·생활 정보의 콘텐츠 허브로서 이용자에게 '쉽고 빠르게' 정보 제공; 대상(세그먼트): 제공 데이터에 없음 → 확인 불가.",
+        "3) 콘텐츠 허브형 IA로 주제별 메뉴(모으기·빌리기·쓰기 등)와 다수 CTA 중심 네비게이션 확인, React·Next.js 사용 확인; 사용자 세그먼트별 흐름은 제공 데이터로 확인 불가.",
+        "4) 강점: '신뢰적인' 콘셉트 표기, 광범위한 카테고리 기반 네비게이션(메뉴·CTA 다수) 구성, React·Next.js 기술 스택 사용 확인.",
+        "5) 개선: 메인 IA에서 핵심 작업(저축·투자·대출·카드) 퀵액션 상단 고정·단순화, 유사·중복 메뉴 라벨 통합, 모바일 네비게이션 간소화 및 내부 검색 강화; 우선순위 세부 결정은 사용자 데이터 미제공으로 확인 불가.",
+        "6) 기술/플러그인 키워드: React, Next.js, 검색엔진/검색 UI(확인 불가), 웹분석/AB테스트(확인 불가) + A) 메인 IA 퀵액션 재배치: 상단 글로벌 헬퍼바에 4개 퀵액션(저축 시작·투자 시작·대출 신청·카드/소비) 고정 + B) 전환/체류/탐색 KPI: 비대면 신청 클릭률·CTA 클릭률·세션당 페이지수·평균 세션시간·검색 성공률 모니터링 + C) 공공기관 Do/Don't: Do—명확한 카테고리·간결한 언어 사용 및 투명한 신청 절차 안내; Don't—중복 메뉴·모호한 CTA·전문용어 방치(확인 불가) + D) 오늘의 한 줄: 핵심 행동을 최상단에 고정해 '쉽고 빠른' 정보 접근을 보장하라."
+      ],
+      "notion_url": "https://app.notion.com/p/40069790c1438111bdb5eea7cd04bd37",
+      "source": "notion",
+      "agency": "미등록",
+      "methods": [
+        "콘텐츠"
+      ],
+      "concepts": [
+        "신뢰적인"
+      ],
+      "colors": [
+        "BLUE"
+      ],
+      "evidence": [
+        "React: HTML에서 '_next/static' 확인",
+        "Next.js: HTML에서 '/_next/' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27979.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-10-21T14:35:13.429780+00:00"
+    },
+    {
+      "str_no": "27966",
+      "site_name": "탑플러스영어",
+      "registered_date": "2026-10-21",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27966",
+      "live_url": "https://egone.co.kr/",
+      "domain": "egone.co.kr",
+      "targets": [
+        "초등학생",
+        "중고등학생",
+        "학부모"
+      ],
+      "lines": [
+        "1) 탑플러스영어 / 2026-10-21 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27966 / 실사이트: https://egone.co.kr/",
+        "2) 목적: '탑플러스영어'는 초등학생·중고등학생·학부모를 타겟으로 하는 영어 교육 서비스로 보이며, 상세 IA(메뉴·CTA 구성)는 실사이트 접근 실패로 확인 불가.",
+        "3) 귀여운·역동적 콘셉트와 사진 중심 콘텐츠, BLUE·GREEN·YELLOW의 밝은 팔레트로 아동·학부모 친화적 UI/비주얼 패턴을 지향하는 것으로 확인됨; 구체적 컴포넌트·인터랙션은 실사이트 접근 실패로 확인 불가.",
+        "4) 수상 이력(WINNER PRIZE)과 에이전시(서로커뮤니케이션) 표기로 기획·브랜딩 신뢰 요인이 존재함; 실제 구현 완성도 및 콘텐츠는 실사이트 접근 실패로 확인 불가.",
+        "5) 우선 SSL/접근성 오류(실사이트 SSLError) 해결을 권고하며, 그 후 학년별·학부모 분기 기반 명확한 메뉴·CTA(무료체험·신청) 재구성 필요; 상세 라벨·버튼은 실사이트 접근 실패로 확인 불가.",
+        "6) 기술/플러그인 키워드: SSL/HTTPS, CDN, Lighthouse, Google Analytics 4, Hotjar, 웹접근성(A11y) 검사 + A) 메인 IA 퀵액션 재배치: 학년별 진입(초등/중고) → 학부모 안내/혜택 → 무료체험/수강신청 CTA(눈에 띄는 색상) → 강좌소개 → FAQ/고객센터 순으로 우선 재배치 권장 + B) 전환/체류/탐색 KPI: 무료체험 신청율, 페이지당 평균뷰, 세션당 체류시간, 이탈률, 재방문율(주간·월간) 추적 권장 + C) 공공기관 Do/Don't: Do - 개인정보·아동보호·웹접근성·명확한 비용·연령 안내 준수; Don't - 과장광고·동의 없는 개인정보 수집 및 접근성 미비 + D) 오늘의 한 줄: 우선 'SSL/접근성 문제'를 해결해 사용자 접근성을 확보한 뒤 아동·학부모용 명확한 무료체험 CTA로 전환 흐름을 만들 것."
+      ],
+      "notion_url": "https://app.notion.com/p/40069790c1438185b238e627e1330993",
+      "source": "notion",
+      "agency": "서로커뮤니케이션",
+      "methods": [
+        "사진",
+        "콘텐츠"
+      ],
+      "concepts": [
+        "귀여운",
+        "역동적인"
+      ],
+      "colors": [
+        "BLUE",
+        "GREEN",
+        "YELLOW"
+      ],
+      "website_reachable": false,
+      "thumbnail_url": "thumbnails/27966.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-10-21T14:35:13.429780+00:00"
+    },
     {
       "str_no": "27962",
       "site_name": "플래닛",
@@ -7194,6 +7277,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-10-21",
     "2026-10-20",
     "2026-10-19",
     "2026-10-16",
@@ -7274,6 +7358,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-10-21T23:35:13.359461+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 2,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-10-20T23:24:47.165358+09:00",
       "mode": "live",
