@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-21T23:35:13.359461+09:00",
+  "generated_at": "2026-10-22T23:35:46.090619+09:00",
   "mode": "live",
-  "status": "success",
-  "new_count": 2,
+  "status": "no_new",
+  "new_count": 0,
   "failure_count": 0,
   "total_count": 176,
   "items": [
@@ -44,7 +44,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27979.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-10-21T14:35:13.429780+00:00"
     },
     {
@@ -86,7 +85,6 @@
       "website_reachable": false,
       "thumbnail_url": "thumbnails/27966.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-10-21T14:35:13.429780+00:00"
     },
     {
@@ -7358,6 +7356,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-10-22T23:35:46.090619+09:00",
+      "mode": "live",
+      "status": "no_new",
+      "new_count": 0,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-10-21T23:35:13.359461+09:00",
       "mode": "live",
