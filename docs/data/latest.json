@@ -1,11 +1,110 @@
 {
-  "generated_at": "2026-10-22T23:35:46.090619+09:00",
+  "generated_at": "2026-10-23T23:21:07.844159+09:00",
   "mode": "live",
-  "status": "no_new",
-  "new_count": 0,
+  "status": "success",
+  "new_count": 2,
   "failure_count": 0,
-  "total_count": 176,
+  "total_count": 178,
   "items": [
+    {
+      "str_no": "28009",
+      "site_name": "CJ온스타일 기업소개",
+      "registered_date": "2026-10-23",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28009",
+      "live_url": "https://corp.cjonstyle.com/",
+      "domain": "corp.cjonstyle.com",
+      "technologies": [
+        "Google Analytics",
+        "React",
+        "Next.js"
+      ],
+      "lines": [
+        "1) CJ온스타일 기업소개 / 2026-10-23 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28009 / 실사이트: https://corp.cjonstyle.com/",
+        "2) 목적: CJ ENM 커머스부문(CJ온스타일)의 기업 공식 홈페이지로 브랜딩·사업·채널·IR·뉴스·채용·입점 문의 정보 제공(근거: 사이트 타이틀·설명·메뉴 항목), 주요 대상: 입점희망자·투자자·구직자·파트너(근거: '입점문의','IR','Careers' 메뉴).",
+        "3) 모던·깔끔한 디자인 콘셉트와 영상 중심 콘텐츠 활용(근거: '모던한','깔끔한', 방법: '영상'), React/Next.js 기반 SPA/SSR 패턴과 메뉴 중심의 섹션 구조(근거: React·Next.js 및 상세 메뉴 목록).",
+        "4) 기술적 강점: React·Next.js 도입으로 성능·SEO 최적화 가능성과 Google Analytics로 기본 트래킹이 구성되어 있음(근거: HTML에서 '_next/static','/_next/' 확인, 'googletagmanager.com/gtag' 확인), 메뉴가 IR·뉴스·채용·사업 등으로 논리적 분류를 제공함(근거: 메뉴 항목).",
+        "5) 권장 개선: 1) 주요 CTA('입점문의')를 상시 노출 헤더/모바일 고정액션으로 배치, 2) 비디오 재생·CTA 클릭 등 이벤트 기반 GA 목표 설정 및 대시보드화, 3) Next.js 이미지/리소스 최적화(Next/Image, SSG/ISR)로 퍼포먼스 개선, 4) 새 창 링크 표기·rel=noopener 적용 및 접근성(ARIA/키보드) 점검(현재 해당 구현 상세는 확인 불가).",
+        "6) 기술/플러그인 키워드: Next.js, React, Google Analytics + A) 메인 IA 퀵액션 재배치: 헤더 우측 최상단에 '입점문의' 고정 CTA 배치 및 'Business / Channel / Careers'를 퀵링크 그룹으로 묶어 원클릭 경로 확보 + B) 전환/체류/탐색 KPI: '입점문의' CTA 클릭률/전환율, 비디오 재생률(시작·중간·완료)과 재생당 체류시간, 페이지별 체류시간·이탈률·내비게이션 깊이(페이지/세션) 추적 설정 + C) 공공기관 Do/Don't: Do - 명확한 연락·IR·윤리·동반성장 정보 노출과 접근성 준수, 새창 링크는 명시 및 rel=noopener 적용; Don't - 자동 재생 광고성 영상·모호한 메뉴명 사용 금지 + D) 오늘의 한 줄: '입점문의 CTA 고정과 비디오 이벤트 트래킹부터 설정하면 단기간 내 UX 개선 효과를 계량적으로 확인할 수 있습니다.'"
+      ],
+      "notion_url": "https://app.notion.com/p/CJ-40269790c14381fba2ddc68fd5c17d47",
+      "source": "notion",
+      "agency": "미등록",
+      "methods": [
+        "영상"
+      ],
+      "concepts": [
+        "모던한",
+        "깔끔한"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "React: HTML에서 '_next/static' 확인",
+        "Next.js: HTML에서 '/_next/' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/28009.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-10-23T14:21:07.913555+00:00"
+    },
+    {
+      "str_no": "27969",
+      "site_name": "연세힐치과",
+      "registered_date": "2026-10-23",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27969",
+      "live_url": "https://healdentalhospital.com/eng/",
+      "domain": "healdentalhospital.com",
+      "targets": [
+        "여성",
+        "남성",
+        "20-30대",
+        "30-40대",
+        "40대 이후"
+      ],
+      "technologies": [
+        "jQuery",
+        "GSAP",
+        "Swiper"
+      ],
+      "lines": [
+        "1) 연세힐치과 / 2026-10-23 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27969 / 실사이트: https://healdentalhospital.com/eng/",
+        "2) 목적/대상/IA: 연세힐치과 영문 사이트로서 Full‑Mouth Implant, Sedation Implants, Trinate Veneers, Wisdom Tooth Extraction 등 전문 진료를 안내하며 대상은 제공된 연령·성별(여성, 남성, 20–30대, 30–40대, 40대 이후)이고 주요 IA 항목은 About the Hospital·Meet the Chief Director·Our Medical Team·Heal Dental Promise·Location & Directions·Dental Implants 등으로 구성됨.",
+        "3) UX 패턴: 사진·타이포·그래픽·인물 중심의 고급·심플·모던·깔끔·신뢰적 비주얼 콘셉트(컬러: ORANGE, WHITE)와 jQuery/GSAP(ScrollTrigger)/Swiper 기반의 스크롤 애니메이션·슬라이더 사용이 확인됨.",
+        "4) 강점: 진료영역을 세분화한 상세 메뉴(임플란트·올온엑스·보철·일반치과 등)로 서비스 포지셔닝이 명확하고 영문 URL이 존재하며 비주얼 콘셉트와 애니메이션·슬라이더 기술 보유가 확인됨.",
+        "5) 개선점: CTA 레이블이 비어 있어(CTA 없음 확인) 예약·문의 전환 경로가 드러나지 않음; 그 외 전환 퍼널·접근성·성능 관련 세부 상태는 확인 불가.",
+        "6) 기술/플러그인 키워드: jQuery, GSAP(ScrollTrigger), Swiper + A) 메인 IA 퀵액션 재배치: 상단 또는 고정 하단에 '예약(Booking)/온라인상담(Contact)/오시는길(Location)/의료진(Team)' 버튼을 우선 고정 배치해 즉시 접근 가능하도록 재배치 권장 + B) 전환/체류/탐색 KPI: 예약 전환율(Booking conversion %), CTA 클릭률(CTR), 페이지당 평균 체류시간(Avg Time on Page), 이탈률(Bounce/Exit Rate) 지속 모니터링 + C) 공공기관 Do/Don't: Do: 개인정보 처리·진료비·영업시간 명확 고지 및 접근성 준수, 모바일·영문 콘텐츠 일관성 유지; Don't: 과장광고·진료결과 과대표기·동의 없는 개인정보 수집 금지 + D) 오늘의 한 줄: 영문 페이지에 눈에 띄는 예약/문의 CTA를 즉시 추가해 전환 동선을 확보하세요."
+      ],
+      "notion_url": "https://app.notion.com/p/40269790c14381ca9ea4ca878f92e608",
+      "source": "notion",
+      "agency": "소이정",
+      "methods": [
+        "사진",
+        "타이포",
+        "그래픽디자인",
+        "인물/사람"
+      ],
+      "concepts": [
+        "고급스러운",
+        "심플한",
+        "모던한",
+        "깔끔한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "ORANGE",
+        "WHITE"
+      ],
+      "evidence": [
+        "jQuery: HTML에서 'jquery-' 확인",
+        "GSAP: HTML에서 'scrolltrigger' 확인",
+        "Swiper: HTML에서 'swiper.min' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27969.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-10-23T14:21:07.913555+00:00"
+    },
     {
       "str_no": "27979",
       "site_name": "신한은행 솔깃",
@@ -7275,6 +7374,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-10-23",
     "2026-10-21",
     "2026-10-20",
     "2026-10-19",
@@ -7356,6 +7456,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-10-23T23:21:07.844159+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 2,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-10-22T23:35:46.090619+09:00",
       "mode": "live",
