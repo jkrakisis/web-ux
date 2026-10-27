@@ -1,11 +1,90 @@
 {
-  "generated_at": "2026-10-27T01:16:39.057104+09:00",
+  "generated_at": "2026-10-28T00:29:32.992757+09:00",
   "mode": "live",
   "status": "success",
-  "new_count": 4,
+  "new_count": 2,
   "failure_count": 0,
-  "total_count": 182,
+  "total_count": 184,
   "items": [
+    {
+      "str_no": "28033",
+      "site_name": "스튜디오 오케이고",
+      "registered_date": "2026-10-27",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28033",
+      "live_url": "https://www.okgocorp.com/",
+      "domain": "okgocorp.com",
+      "targets": [
+        "기업"
+      ],
+      "technologies": [
+        "React",
+        "Next.js"
+      ],
+      "lines": [
+        "1) 스튜디오 오케이고 / 2026-10-27 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28033 / 실사이트: https://www.okgocorp.com/",
+        "2) 목적: 통합 브랜드 아이덴티티·경험 설계, 대상: 기업; 정보구조(IA) 상세 구성: 확인 불가.",
+        "3) UX 패턴: '신비적인' 콘셉트·BLACK 중심 색상과 단일 이메일 CTA(CONTACT@OKGOCORP.COM) 확인; 네비게이션 레이블·세부 패턴: 확인 불가.",
+        "4) 강점: 사이트 설명으로 브랜드·경험 설계 전문성 강조, 최신 프론트엔드 스택(React·Next.js) 사용 확인, 단일 이메일 CTA로 직접 문의 유도, 'WINNER PRIZE' 표기로 신뢰성 보완.",
+        "5) 개선점: 명시적 메뉴 레이블·사이트맵 추가로 IA 가시성 확보, CTA 다양화(문의폼·전화·상담예약) 및 가시성 강화, 접근성·메타데이터(alt·title·구조화데이터) 점검 및 분석 추적 설정 권장.",
+        "6) 기술/플러그인 키워드: React, Next.js, Google Analytics(GA4), Sitemap, Lighthouse, accessibility-plugin + A) 메인 IA 퀵액션 재배치: 헤더 상단에 Work / Services / About / Contact(이메일+문의폼) 순으로 고정 퀵액션 배치하여 접근성 확보 + B) 전환/체류/탐색 KPI: 이메일 문의 전환율, CTA 클릭률, 세션당 페이지수, 평균 세션 지속시간, 이탈률 모니터링 + C) 공공기관 Do/Don't: Do—명확한 연락창구·개인정보처리 안내·접근성(WCAG) 준수; Don't—중요정보 숨김·과도한 애니메이션으로 접근성 저해하지 마라 + D) 오늘의 한 줄: 현대적 스택과 미니멀 콘셉트는 강점이지만 네비게이션과 CTA 확장으로 실사용 전환을 확보해야 한다."
+      ],
+      "notion_url": "https://app.notion.com/p/40669790c14381cf8588e3928280d3c8",
+      "source": "notion",
+      "agency": "스튜디오 오케이고",
+      "concepts": [
+        "신비적인"
+      ],
+      "colors": [
+        "BLACK"
+      ],
+      "evidence": [
+        "React: HTML에서 '_next/static' 확인",
+        "Next.js: HTML에서 '/_next/' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_status": "failed",
+      "thumbnail_error": "Page.screenshot: Timeout 30000ms exceeded.\nCall log:\n  - taking page screenshot\n  - waiting for fonts to load...\n  - fonts loaded\n",
+      "thumbnail_attempted_at": "2026-10-27T15:29:33.089159+00:00"
+    },
+    {
+      "str_no": "28012",
+      "site_name": "갤러리 이트리움",
+      "registered_date": "2026-10-27",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28012",
+      "live_url": "https://etrium.art/",
+      "domain": "etrium.art",
+      "technologies": [
+        "Google Tag Manager",
+        "jQuery"
+      ],
+      "lines": [
+        "1) 갤러리 이트리움 / 2026-10-27 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28012 / 실사이트: https://etrium.art/",
+        "2) 목적: 이트리움 공식 홈페이지(최신 전시·공간 정보·대관 안내) / 대상: 확인 불가 / IA 핵심: ABOUT, EXHIBITIONS(진행중·예정·과거), SPACE RENT(대관 신청·대관 신청 조회), NOTICE, 이트리움 이야기, 공간소개, 오시는 길",
+        "3) 네비게이션은 '컨텐츠 바로가기'·로고 중심 구조, 전시 카테고리 분류(진행중/예정/과거)와 대관 관련 CTA(대관 신청·대관 신청 조회·문의하기) 상시 노출, SNS 링크 포함; 사용기술로 Google Tag Manager·jQuery 확인",
+        "4) 전시(진행/예정/과거) 분류와 대관 관련 메뉴 및 CTA가 명확히 구분되어 정보 접근성과 행동 유도 구조가 갖춰져 있으며 Google Tag Manager로 분석 준비가 되어 있음",
+        "5) 메인 퀵액션 우선순위(예: '대관 신청'·'진행중인 전시'·'문의하기') 재배치로 전환 경로를 단축할 필요가 있으며, 그 외 개선점은 현재 제공된 정보로는 확인 불가",
+        "6) 기술/플러그인 키워드: Google Tag Manager, jQuery + A) 메인 IA 퀵액션 재배치: 헤더 또는 상단 고정 퀵액션으로 '대관 신청'·'진행중인 전시'·'문의하기' 우선 노출 및 모바일에서도 상시 접근 가능하게 배치 + B) 전환/체류/탐색 KPI: 전환(대관 신청 완료 수), 체류(평균 세션 시간·이탈률), 탐색(전시 상세페이지 조회수·세션당 페이지수)로 GTM 이벤트/목표 설정하여 측정 + C) 공공기관 Do/Don't: Do - 주요 서비스(대관) CTA를 명확히 노출하고 전시 일정 분류를 일관되게 제공할 것; Don't - 메인 CTA를 숨기거나 전시 정보를 분산시켜 사용자가 경로를 찾기 어렵게 하지 말 것 + D) 오늘의 한 줄: 대관과 전시 탐색을 즉시 연결하는 IA 우선순위 조정이 필요함."
+      ],
+      "notion_url": "https://app.notion.com/p/40669790c143814a8b1dc9023db0e0aa",
+      "source": "notion",
+      "agency": "이트라이브",
+      "methods": [
+        "그래픽디자인"
+      ],
+      "colors": [
+        "BLACK",
+        "RED"
+      ],
+      "evidence": [
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "jQuery: HTML에서 'jquery-' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/28012.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-10-27T15:29:33.089159+00:00"
+    },
     {
       "str_no": "28017",
       "site_name": "제네시스 스페이",
@@ -40,7 +119,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/28017.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-10-26T16:16:39.185243+00:00"
     },
     {
@@ -75,7 +153,7 @@
       "website_reachable": false,
       "thumbnail_status": "failed",
       "thumbnail_error": "HTTP 429",
-      "thumbnail_attempted_at": "2026-10-26T16:16:39.185243+00:00"
+      "thumbnail_attempted_at": "2026-10-27T15:29:33.089159+00:00"
     },
     {
       "str_no": "28011",
@@ -141,7 +219,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/28011.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-10-26T16:16:39.185243+00:00"
     },
     {
@@ -208,7 +285,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27996.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-10-26T16:16:39.185243+00:00"
     },
     {
@@ -7577,6 +7653,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-10-27",
     "2026-10-26",
     "2026-10-23",
     "2026-10-21",
@@ -7660,6 +7737,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-10-28T00:29:32.992757+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 2,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-10-27T01:16:39.057104+09:00",
       "mode": "live",
