@@ -1,11 +1,109 @@
 {
-  "generated_at": "2026-10-28T00:29:32.992757+09:00",
+  "generated_at": "2026-10-29T01:12:18.055686+09:00",
   "mode": "live",
   "status": "success",
   "new_count": 2,
   "failure_count": 0,
-  "total_count": 184,
+  "total_count": 186,
   "items": [
+    {
+      "str_no": "28031",
+      "site_name": "더웨스틴 서울 파르나스",
+      "registered_date": "2026-10-28",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28031",
+      "live_url": "https://www.thewestinseoulparnas.com/",
+      "domain": "thewestinseoulparnas.com",
+      "targets": [
+        "30-40대",
+        "40대 이후"
+      ],
+      "technologies": [
+        "Google Analytics",
+        "Google Tag Manager",
+        "Vue",
+        "Nuxt"
+      ],
+      "lines": [
+        "1) 더웨스틴 서울 파르나스 / 2026-10-28 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28031 / 실사이트: https://www.thewestinseoulparnas.com/",
+        "2) 목적: 호텔(숙박·다이닝·이벤트) 홍보 및 예약 유도; 타깃: 30-40대·40대 이후(제공된 targets 근거); IA 주요 항목: ROOMS, OFFERS, Dining, Wedding & Family Event Promotions, 멤버십, 고객지원, 공지, E-SHOP(메뉴 레이블 근거).",
+        "3) 관찰된 UX 패턴: 상단 메뉴 기반 네비게이션(메뉴 레이블에서 확인)과 '예약 조회/객실 예약/다이닝 예약' 중심 CTA 존재, SPA 프레임워크(Vue/Nuxt) 적용으로 클라이언트 사이드 내비게이션 및 태깅(GA/GTM) 연동 가능(HTML 증거 근거).",
+        "4) 강점: 브랜드·콘셉트(고급스러운)와 타깃 메시지(사이트 설명) 일관성·예약 중심 CTA 배치 확인, Google Analytics·Google Tag Manager 도입으로 데이터 추적 기반 확보, Vue/Nuxt 사용으로 현대적 프론트엔드 아키텍처 확인(제공된 증거 근거).",
+        "5) 개선점: 주요 행동(객실 예약·예약 조회·다이닝 예약)을 최상단·고정 CTA로 재배치해 가시성 및 전환 경로를 단순화할 것; 현재 버튼의 정확한 화면 노출 상태(시인성·모바일 최적화 등)는 제공된 근거로 '확인 불가'.",
+        "6) 기술/플러그인 키워드: Google Analytics, Google Tag Manager, Vue, Nuxt + A) 메인 IA 퀵액션 재배치: 1) 객실 예약, 2) 예약 조회, 3) 다이닝 예약, 4) OFFERS/프로모션, 5) 멤버십(파르나스 리워즈), 6) 고객지원(헤더 고정 CTA 우선순위로 이동) + B) 전환/체류/탐색 KPI: 예약(객실) 전환율, CTA 클릭률(예약/다이닝/예약조회), 객실·프로모션 페이지별 체류시간, 페이지 이탈률, 프로모션 클릭→예약 전환율, 멤버십 가입 전환율 + C) 공공기관 Do/Don't: Do - 명확한 예약 절차·요금·취소정책과 개인정보처리 방침 노출, 접근성 표준(대체텍스트·키보드 네비게이션) 적용; Don't - 복잡한 흐름으로 예약 단계를 분절하거나 약관·비용 정보를 숨기지 말 것 + D) 오늘의 한 줄: 예약 중심 네비게이션을 최상단에 고정하면 단기 전환 개선이 기대됨."
+      ],
+      "notion_url": "https://app.notion.com/p/40769790c143813d8ed3d26f9686a60a",
+      "source": "notion",
+      "agency": "펜타브리드",
+      "methods": [
+        "건물/빌딩"
+      ],
+      "concepts": [
+        "고급스러운"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "Vue: HTML에서 'data-v-' 확인",
+        "Nuxt: HTML에서 '/_nuxt/' 확인",
+        "응답 헤더 x-powered-by=Nuxt"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/28031.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-10-28T16:12:18.168067+00:00"
+    },
+    {
+      "str_no": "28010",
+      "site_name": "코리아 나까조",
+      "registered_date": "2026-10-28",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28010",
+      "live_url": "https://icevansnow.com/",
+      "domain": "icevansnow.com",
+      "targets": [
+        "여성",
+        "남성"
+      ],
+      "technologies": [
+        "jQuery",
+        "GSAP",
+        "Swiper"
+      ],
+      "lines": [
+        "1) 코리아 나까조 / 2026-10-28 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28010 / 실사이트: https://icevansnow.com/",
+        "2) 목적: '깨끗한 얼음을 만드는 기술'로 기업의 비즈니스 가치를 전달하는 제품·인증 중심 사이트이며 대상은 제공된 '여성, 남성' 및 영어(en) 페이지를 통한 글로벌 사용자로 추정되나 세부 연령·업종 타깃은 확인 불가.",
+        "3) 대형 메뉴 리스트(Company, Products, Support 등) 기반의 제품·인증 중심 IA와 Swiper/GSAP로 구현된 시각적 인터랙션 패턴이 사용되며 CTA 레이블이 중복('Contact','Contact Us','Contact us','Facebook')되어 일관성 저하가 확인됨.",
+        "4) 요구된 콘셉트(모던·깔끔·신뢰)를 반영한 제품·인증 중심 구조와 영어 페이지 제공으로 글로벌 접근성 기반이 마련되어 있으며 jQuery/GSAP/Swiper 기술로 시각·애니메이션 표현이 가능함.",
+        "5) 메뉴 항목 간 중복(Products·ICEVAN Series·Product Finder) 정리 및 CTA 레이블 통합 필요, 제품 파인더·매뉴얼 접근성 강화 권장하며 사용자 행동 데이터(전환·체류 등)는 제공되지 않아 상세 개선 우선순위는 확인 불가.",
+        "6) 기술/플러그인 키워드: jQuery, GSAP, Swiper + A) 메인 IA 퀵액션 재배치: Contact(중복 레이블 통합) → Product Finder → ICEVAN Series/Products → Certifications & Patents → Support/제품 매뉴얼 순으로 우선순위 재정렬 및 모바일 하단 퀵액션 고정 적용 + B) 전환/체류/탐색 KPI: Contact(문의) 전환율, CTA 클릭률, 제품 파인더 성공률(목표 제품 도달 비율), 평균 세션 지속시간, 페이지/세션을 핵심 지표로 설정 + C) 공공기관 Do/Don't: Do — 인증·품질·제조·위치 정보 명확 노출, 개인정보·접근성(웹접근성) 준수, 빠른 문의 채널 제공; Don't — 중복된 CTA 유지·모호한 연락처 표기·제품 분류 혼선 허용하지 말 것 + D) 오늘의 한 줄: 영어 기반 제품·인증 중심 구조로 B2B 신뢰성은 확보되어 있으나 IA 정리와 CTA 일관성 개선이 시급함."
+      ],
+      "notion_url": "https://app.notion.com/p/40769790c14381338e37e3bb117a959e",
+      "source": "notion",
+      "agency": "서로커뮤니케이션",
+      "methods": [
+        "사진",
+        "영상",
+        "제품"
+      ],
+      "concepts": [
+        "모던한",
+        "깔끔한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "BLUE"
+      ],
+      "evidence": [
+        "jQuery: HTML에서 'jquery-' 확인",
+        "GSAP: HTML에서 'gsap.min.js' 확인",
+        "Swiper: HTML에서 'swiper-bundle' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/28010.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-10-28T16:12:18.168067+00:00"
+    },
     {
       "str_no": "28033",
       "site_name": "스튜디오 오케이고",
@@ -44,7 +142,7 @@
       "website_reachable": true,
       "thumbnail_status": "failed",
       "thumbnail_error": "Page.screenshot: Timeout 30000ms exceeded.\nCall log:\n  - taking page screenshot\n  - waiting for fonts to load...\n  - fonts loaded\n",
-      "thumbnail_attempted_at": "2026-10-27T15:29:33.089159+00:00"
+      "thumbnail_attempted_at": "2026-10-28T16:12:18.168067+00:00"
     },
     {
       "str_no": "28012",
@@ -82,7 +180,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/28012.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-10-27T15:29:33.089159+00:00"
     },
     {
@@ -153,7 +250,7 @@
       "website_reachable": false,
       "thumbnail_status": "failed",
       "thumbnail_error": "HTTP 429",
-      "thumbnail_attempted_at": "2026-10-27T15:29:33.089159+00:00"
+      "thumbnail_attempted_at": "2026-10-28T16:12:18.168067+00:00"
     },
     {
       "str_no": "28011",
@@ -7653,6 +7750,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-10-28",
     "2026-10-27",
     "2026-10-26",
     "2026-10-23",
@@ -7737,6 +7835,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-10-29T01:12:18.055686+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 2,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-10-28T00:29:32.992757+09:00",
       "mode": "live",
