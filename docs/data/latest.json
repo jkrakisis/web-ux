@@ -1,11 +1,98 @@
 {
-  "generated_at": "2026-10-29T01:12:18.055686+09:00",
+  "generated_at": "2026-10-30T01:19:21.696137+09:00",
   "mode": "live",
   "status": "success",
   "new_count": 2,
   "failure_count": 0,
-  "total_count": 186,
+  "total_count": 188,
   "items": [
+    {
+      "str_no": "28018",
+      "site_name": "디자인삼성",
+      "registered_date": "2026-10-29",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28018",
+      "live_url": "https://www.design.samsung.com/",
+      "domain": "design.samsung.com",
+      "technologies": [
+        "ARR/3.0"
+      ],
+      "lines": [
+        "1) 디자인삼성 / 2026-10-29 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28018 / 실사이트: https://www.design.samsung.com/",
+        "2) 목적 및 주요 대상: 확인 불가(사이트 접근은 가능하나 제목·설명·타깃 메타데이터 부재로 확인 불가).",
+        "3) UI/UX 패턴: 제공된 콘셉트 '깔끔한' 및 WHITE 사용으로 미니멀·여백 중심 디자인 의도가 명시되어 있으나 네비게이션 구조 및 메뉴 라벨은 확인 불가.",
+        "4) 강점: 최종 URL 정상 접근 가능, '깔끔한' 콘셉트·WHITE 컬러 명시, 어워드(WINNER PRIZE) 등록 정보 및 서버 응답 헤더 x-powered-by=ARR/3.0 확인.",
+        "5) 개선권고: 페이지 타이틀·메타 설명·메뉴·CTA 레이블 부재로 정보구조·접근성·검색엔진 가시성 개선(메타·내비게이션·명확한 CTA 추가) 필요.",
+        "6) 기술/플러그인 키워드: ARR/3.0 + A) 메인 IA 퀵액션 재배치: 현재 메뉴·CTA 레이블 미기입으로 우선 전수 조사 후 상위 핵심 액션을 상단 고정(퀵링크 영역 도입) + B) 전환/체류/탐색 KPI: 전환(문의·회원가입·다운로드 비율), 체류(평균 세션 시간), 탐색(페이지/세션·이탈률) 우선 측정 설정 + C) 공공기관 Do/Don't: Do - 웹접근성 준수, 명확한 메타·콘텐츠 공개, 보안 헤더 적용; Don't - 핵심 정보 비공개·비표준 플러그인 의존으로 접근성 저해 금지 + D) 오늘의 한 줄: 먼저 메타데이터와 명확한 CTA를 채워 가독성과 전환을 확보하세요."
+      ],
+      "notion_url": "https://app.notion.com/p/40869790c14381378173e57f20a181d0",
+      "source": "notion",
+      "agency": "디자인피버",
+      "concepts": [
+        "깔끔한"
+      ],
+      "colors": [
+        "WHITE"
+      ],
+      "evidence": [
+        "응답 헤더 x-powered-by=ARR/3.0"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/28018.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-10-29T16:19:21.795926+00:00"
+    },
+    {
+      "str_no": "27972",
+      "site_name": "PLANET-ABOUT",
+      "registered_date": "2026-10-29",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27972",
+      "live_url": "https://plan-et.co.kr/",
+      "domain": "plan-et.co.kr",
+      "targets": [
+        "기업"
+      ],
+      "technologies": [
+        "jQuery",
+        "GSAP",
+        "Cafe24"
+      ],
+      "lines": [
+        "1) PLANET-ABOUT / 2026-10-29 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=27972 / 실사이트: https://plan-et.co.kr/",
+        "2) 목적/대상/IA 요약: 기업 대상의 'PLANET-ABOUT' 홍보·포트폴리오 성격으로 보이며 구체적 정보 구조와 세부 목적은 제공된 자료로는 확인 불가.",
+        "3) UX 패턴: 일러스트·타이포 중심 비주얼과 GSAP 기반 애니메이션 활용, 단일 메뉴 레이블('PLANET 보러가기') 중심 네비게이션이 관찰되며 상세 상호작용 흐름은 확인 불가.",
+        "4) 강점: '재미있는·깔끔·신뢰적인' 콘셉트와 BLACK/BLUE 색채 사용, GSAP·jQuery로 시각적 몰입 가능성 확보, Cafe24 기반 호스팅 및 WINNER PRIZE 수상 이력으로 신뢰 요소 보유.",
+        "5) 개선점: CTA 레이블 부재(비어있음)와 메뉴 항목의 단일성으로 탐색·전환 경로 약화, GSAP·jQuery 의존으로 자바스크립트 비활성 환경·접근성 대체 콘텐츠 필요하며 구체적 우선순위는 확인 불가.",
+        "6) 기술/플러그인 키워드: jQuery, GSAP, Cafe24, 일러스트, 타이포 + A) 메인 IA 퀵액션 재배치: 'PLANET 보러가기'를 시각적 Primary CTA로 고정하고 메뉴에 About·Project·Contact 등 주요 내비게이션을 추가해 탐색 흐름을 분화할 것 + B) 전환/체류/탐색 KPI: CTA 클릭률(CTR), 페이지당 평균 체류시간(초), 페이지뷰/방문수, 이탈률(%)을 계측해 전환 병목을 모니터링할 것 + C) 공공기관 Do/Don't: Do: 명확한 텍스트 CTA 제공·JS 비의존 대체 콘텐츠·키보드·스크린리더 접근성 보장; Don't: 애니메이션만으로 정보 전달하거나 네비게이션을 단일 버튼에 의존하지 말 것 + D) 오늘의 한 줄: CTA 강화와 JS 비의존 대체를 우선 적용해 접근성과 전환을 동시에 개선하세요."
+      ],
+      "notion_url": "https://app.notion.com/p/PLANET-ABOUT-40869790c1438155a2f7d1a7f3c8dacc",
+      "source": "notion",
+      "agency": "플랜에이제트",
+      "methods": [
+        "일러스트",
+        "타이포",
+        "콘텐츠"
+      ],
+      "concepts": [
+        "재미있는",
+        "깔끔한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "BLACK",
+        "BLUE"
+      ],
+      "evidence": [
+        "jQuery: HTML에서 'jquery-' 확인",
+        "GSAP: HTML에서 'gsap.min.js' 확인",
+        "Cafe24: HTML에서 'cafe24.com' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/27972.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-10-29T16:19:21.795926+00:00"
+    },
     {
       "str_no": "28031",
       "site_name": "더웨스틴 서울 파르나스",
@@ -50,7 +137,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/28031.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-10-28T16:12:18.168067+00:00"
     },
     {
@@ -101,7 +187,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/28010.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-10-28T16:12:18.168067+00:00"
     },
     {
@@ -142,7 +227,7 @@
       "website_reachable": true,
       "thumbnail_status": "failed",
       "thumbnail_error": "Page.screenshot: Timeout 30000ms exceeded.\nCall log:\n  - taking page screenshot\n  - waiting for fonts to load...\n  - fonts loaded\n",
-      "thumbnail_attempted_at": "2026-10-28T16:12:18.168067+00:00"
+      "thumbnail_attempted_at": "2026-10-29T16:19:21.795926+00:00"
     },
     {
       "str_no": "28012",
@@ -250,7 +335,7 @@
       "website_reachable": false,
       "thumbnail_status": "failed",
       "thumbnail_error": "HTTP 429",
-      "thumbnail_attempted_at": "2026-10-28T16:12:18.168067+00:00"
+      "thumbnail_attempted_at": "2026-10-29T16:19:21.795926+00:00"
     },
     {
       "str_no": "28011",
@@ -7750,6 +7835,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-10-29",
     "2026-10-28",
     "2026-10-27",
     "2026-10-26",
@@ -7835,6 +7921,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-10-30T01:19:21.696137+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 2,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-10-29T01:12:18.055686+09:00",
       "mode": "live",
