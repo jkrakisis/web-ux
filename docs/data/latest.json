@@ -1,11 +1,102 @@
 {
-  "generated_at": "2026-10-30T01:19:21.696137+09:00",
+  "generated_at": "2026-10-31T01:09:26.746858+09:00",
   "mode": "live",
   "status": "success",
   "new_count": 2,
   "failure_count": 0,
-  "total_count": 188,
+  "total_count": 190,
   "items": [
+    {
+      "str_no": "28076",
+      "site_name": "서울디자인페스티벌",
+      "registered_date": "2026-10-30",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28076",
+      "live_url": "https://seoul.designfestival.co.kr/",
+      "domain": "seoul.designfestival.co.kr",
+      "targets": [
+        "대학생",
+        "기업"
+      ],
+      "technologies": [
+        "Google Analytics",
+        "jQuery",
+        "WordPress"
+      ],
+      "lines": [
+        "1) 서울디자인페스티벌 / 2026-10-30 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28076 / 실사이트: https://seoul.designfestival.co.kr/",
+        "2) 목적: 월간 《디자인》 주관의 디자인 축제 홍보·정보 제공(사이트 설명 근거); 주요 대상: 대학생·기업(제공); 주요 IA(상단 메뉴 근거): Overview, Archive, Brand List, Curated & Special Exhibitions, DK × SDF International Conference, Biz-matching Program, Seoul Design Spot, Design Brand, Young Designer Promotion, Ticket, Travel & Stay, Notice, Download, Press, Contact, Q&A, Privacy.",
+        "3) 상단 글로벌 내비게이션 중심의 다계층 메뉴 구조(메뉴 라벨 근거), 단일 CTA 'Contact' 노출(CTA 라벨 근거), 외부 링크 'BDF'에 새 창 표기, WordPress 기반('/wp-content/' 근거)·jQuery 적용('jquery.min.js' 근거)·Google Analytics(gtag) 적용('googletagmanager.com/gtag' 근거).",
+        "4) 프로그램별 전용 메뉴(콘퍼런스·비즈매칭·청년지원·티켓·여행 안내 등)가 포괄적으로 구성되어 정보 구조가 명확하며(메뉴 근거), WordPress 기반으로 콘텐츠 관리 용이 및 GA로 기초 분석 가능하고 콘셉트에 '강렬한·모던한'이 명시되어 있음(제공 데이터 근거).",
+        "5) 주요 개선안: 티켓·Biz-matching·Young Designer Promotion 등 전환 목적 핵심 항목을 시각적 퀵액션으로 상단에 배치하고(현재 CTA는 'Contact'만 존재), 사이트 내 검색·직관적 티켓 구매 흐름과 전환 이벤트(구매·문의) 추적을 도입할 것; 사용자 행태·성능 수치는 제공 자료로는 확인 불가.",
+        "6) 기술/플러그인 키워드: WordPress, Google Analytics(gtag), jQuery, WooCommerce(또는 티켓 전용 플러그인), Relevanssi(검색) + A) 메인 IA 퀵액션 재배치: 헤더 우상단 고정 버튼 그룹에 Ticket / Biz‑matching Program / Young Designer Promotion / Contact 순으로 배치(Overview·Archive는 보조항목으로 이관) + B) 전환/체류/탐색 KPI: 티켓 CTA 클릭률(CTA CTR), 비즈매칭 문의 제출 수(폼 전환), 티켓 구매 완료율(구매 전환율), 평균 세션 지속시간, 페이지/세션 + C) 공공기관 Do/Don't: Do: 개인정보·프라이버시 정책·접근성 준수(alt·키보드 네비게이션) 및 이벤트 추적·요약 공개; Don't: 강제 팝업·광고성 인터럽트·불명확한 외부 새창 링크 남발 금지 + D) 오늘의 한 줄: 티켓과 비즈매칭을 즉시 상단 CTA로 배치해 참여 전환을 우선 확보하라."
+      ],
+      "notion_url": "https://app.notion.com/p/40969790c1438173b62cfcd508a18e45",
+      "source": "notion",
+      "agency": "미등록",
+      "methods": [
+        "모션그래픽",
+        "그래픽디자인"
+      ],
+      "concepts": [
+        "강렬한",
+        "모던한"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "jQuery: HTML에서 'jquery.min.js' 확인",
+        "WordPress: HTML에서 '/wp-content/' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/28076.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-10-30T16:09:26.839954+00:00"
+    },
+    {
+      "str_no": "28056",
+      "site_name": "유닉스",
+      "registered_date": "2026-10-30",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28056",
+      "live_url": "https://unixshop.co.kr/",
+      "domain": "unixshop.co.kr",
+      "targets": [
+        "여성"
+      ],
+      "technologies": [
+        "Google Analytics",
+        "Google Tag Manager",
+        "jQuery",
+        "Cafe24"
+      ],
+      "lines": [
+        "1) 유닉스 / 2026-10-30 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28056 / 실사이트: https://unixshop.co.kr/",
+        "2) 목적(추정): '건강한 아름다움' 브랜딩·판매 목적(확인 불가); 주요 대상: 여성(근거: targets), IA 현황: 메뉴 레이블 부재로 구조 확인 불가(근거: menu_labels 비어있음).",
+        "3) 디자인·UX 패턴(근거): '깔끔한'(concepts)·화이트 기반 색상(WHITE)·직접문의형 CTA('1:1문의') 존재, 기술스택: Cafe24·jQuery·Google Analytics·Google Tag Manager(technologies/evidence).",
+        "4) 강점(근거): Google Analytics·Google Tag Manager 도입으로 데이터 추적 가능성 확인, Cafe24 기반 전자상거래 플랫폼 사용 확인, 깔끔한 콘셉트와 화이트 기반 시각, 명시된 CTA('1:1문의'), 수상 표기(WINNER PRIZE, 증서번호 포함).",
+        "5) 개선권고: 메뉴 레이블 부재로 내비게이션·카테고리 확인 불가(근거) — 상단 메뉴·제품카테고리·검색·명확한 구매/문의 CTA 추가 권장(권고, 확인 불가).",
+        "6) 기술/플러그인 키워드: Google Analytics, Google Tag Manager, jQuery, Cafe24 + A) 메인 IA 퀵액션 재배치: 상단 우측 퀵액션 순서 '제품·카테고리·검색·1:1문의·고객센터'로 통합 배치 권장(권고, 확인 불가) + B) 전환/체류/탐색 KPI: 1:1문의 전환율, 평균 세션 지속시간, 페이지/세션, 이탈률, 주요 CTA 클릭률 추적 설정 + C) 공공기관 Do/Don't: Do - 개인정보처리방침·연락처·접근성 안내 명시, 명확한 동의수집 및 이벤트 트래킹 로그 보관; Don't - 개인정보수집 미고지·과장광고·비투명한 결제흐름 금지 + D) 오늘의 한 줄: 메뉴 구조가 비어 있어 IA 보강 시 탐색성과 전환 개선 여지가 큼(확인 불가)."
+      ],
+      "notion_url": "https://app.notion.com/p/40969790c143813c86e7cab1b61609dc",
+      "source": "notion",
+      "agency": "플러스엑스",
+      "concepts": [
+        "깔끔한"
+      ],
+      "colors": [
+        "WHITE"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "jQuery: HTML에서 'jquery-' 확인",
+        "Cafe24: HTML에서 'cafe24.com' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/28056.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-10-30T16:09:26.839954+00:00"
+    },
     {
       "str_no": "28018",
       "site_name": "디자인삼성",
@@ -39,7 +130,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/28018.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-10-29T16:19:21.795926+00:00"
     },
     {
@@ -90,7 +180,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/27972.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-10-29T16:19:21.795926+00:00"
     },
     {
@@ -227,7 +316,7 @@
       "website_reachable": true,
       "thumbnail_status": "failed",
       "thumbnail_error": "Page.screenshot: Timeout 30000ms exceeded.\nCall log:\n  - taking page screenshot\n  - waiting for fonts to load...\n  - fonts loaded\n",
-      "thumbnail_attempted_at": "2026-10-29T16:19:21.795926+00:00"
+      "thumbnail_attempted_at": "2026-10-30T16:09:26.839954+00:00"
     },
     {
       "str_no": "28012",
@@ -335,7 +424,7 @@
       "website_reachable": false,
       "thumbnail_status": "failed",
       "thumbnail_error": "HTTP 429",
-      "thumbnail_attempted_at": "2026-10-29T16:19:21.795926+00:00"
+      "thumbnail_attempted_at": "2026-10-30T16:09:26.839954+00:00"
     },
     {
       "str_no": "28011",
@@ -7835,6 +7924,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-10-30",
     "2026-10-29",
     "2026-10-28",
     "2026-10-27",
@@ -7921,6 +8011,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-10-31T01:09:26.746858+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 2,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-10-30T01:19:21.696137+09:00",
       "mode": "live",
