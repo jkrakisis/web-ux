@@ -1,11 +1,136 @@
 {
-  "generated_at": "2026-10-31T01:09:26.746858+09:00",
+  "generated_at": "2026-11-03T04:40:57.752693+09:00",
   "mode": "live",
   "status": "success",
-  "new_count": 2,
+  "new_count": 3,
   "failure_count": 0,
-  "total_count": 190,
+  "total_count": 193,
   "items": [
+    {
+      "str_no": "28081",
+      "site_name": "아이파트너즈",
+      "registered_date": "2026-11-02",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28081",
+      "live_url": "https://www.ipartners.co.kr/",
+      "domain": "ipartners.co.kr",
+      "targets": [
+        "기업"
+      ],
+      "technologies": [
+        "Google Analytics",
+        "Google Tag Manager",
+        "React",
+        "Next.js"
+      ],
+      "lines": [
+        "1) 아이파트너즈 / 2026-11-02 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28081 / 실사이트: https://www.ipartners.co.kr/",
+        "2) 목적: 기업 대상의 디지털 에이전시 소개·서비스·문의 유도에 초점, 대상: 기업(법인) 고객으로 설정되어 있음; 주요 IA는 'work/about/careers/contact' 중심으로 구성되어 있음, 세부 사용자 흐름은 확인 불가.",
+        "3) 타이포 기반의 깔끔한(WHITE) 비주얼 콘셉트와 단순한 네비게이션을 지향하는 것으로 보이며 메뉴 라벨의 중복('work work', 'about about' 등)과 CTA 중복('contact 문의하기','contact','contact us')이 확인됨; 실제 반응성·접근성 패턴은 확인 불가.",
+        "4) 기술적 근거: Next.js·React 사용('_next/'·'_next/static'·x-powered-by=Next.js 확인), Google Analytics와 Google Tag Manager 스크립트가 HTML에서 확인되어(googletagmanager.com/gtag, gtm.js) 분석·태깅 인프라가 구축되어 있음, 문의 유도를 위한 다수의 CTA 라벨이 존재함.",
+        "5) 메뉴 라벨 및 CTA 중복 정리로 IA 단순화(예: 'work','about' 등 단일 표기 유지), CTA 명명 규칙 통일과 상단 고정 문의버튼 도입 권장, GTM을 활용한 세부 이벤트(CTA 클릭·폼 전송) 설정 권장; 접근성·모바일 퍼포먼스 등은 확인 불가.",
+        "6) 기술/플러그인 키워드: Google Analytics, Google Tag Manager, React, Next.js + A) 메인 IA 퀵액션 재배치: 상단 네비게이션에서 중복 라벨('work work', 'about about' 등)을 단일 표기로 병합하고 'contact 문의하기'를 우측 상단 고정 CTA로 통합하며 'BROCHURE'·'NX AGENT'는 하위 메뉴 또는 푸터 CTA로 재배치 + B) 전환/체류/탐색 KPI: 문의폼 제출 수(전환수), CTA 클릭률, 랜딩→문의 전환율, 평균 세션 지속시간, 세션당 페이지뷰, 이탈률 추적 + C) 공공기관 Do/Don't: Do—명확한 연락처·서비스 정보 제공, 웹 접근성 및 개인정보 처리 고지 준수, 분석 이벤트 공개; Don't—중복된 메뉴·모호한 CTA 유지, 사용자 동의 없이 과도한 추적 스크립트 노출 + D) 오늘의 한 줄이다: 메뉴 중복을 정리하고 '문의하기' CTA를 상단에 고정해 즉시 문의 동선을 단순화하세요."
+      ],
+      "notion_url": "https://app.notion.com/p/40c69790c14381d0b87cc44205eede64",
+      "source": "notion",
+      "agency": "아이파트너즈",
+      "methods": [
+        "타이포"
+      ],
+      "concepts": [
+        "깔끔한"
+      ],
+      "colors": [
+        "WHITE"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "React: HTML에서 '_next/static' 확인",
+        "Next.js: HTML에서 '/_next/' 확인",
+        "응답 헤더 x-powered-by=Next.js"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/28081.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-11-02T19:40:57.845860+00:00"
+    },
+    {
+      "str_no": "28080",
+      "site_name": "소니스토어",
+      "registered_date": "2026-11-02",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28080",
+      "live_url": "https://store.sony.co.kr/",
+      "domain": "store.sony.co.kr",
+      "technologies": [
+        "Google Analytics",
+        "Google Tag Manager"
+      ],
+      "lines": [
+        "1) 소니스토어 / 2026-11-02 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28080 / 실사이트: https://store.sony.co.kr/",
+        "2) 목적: Sony 공식 제품 판매·정보 제공(사이트명 'SonyStore' 확인); 타깃 사용자: 확인 불가; 주 IA(메뉴·퀵액션) 구성: 확인 불가.",
+        "3) UX 패턴: '콘텐츠' 중심 전개로 분류됨(제공 메소드 기록), HTML에서 Google Analytics·Google Tag Manager 스니펫 확인으로 행동 추적 환경이 구축되어 있음; 세부 UI 패턴은 확인 불가.",
+        "4) 강점: 라이브 접속 가능(https://store.sony.co.kr/), 공식 브랜드 스토어 표기, HTML에서 Google Analytics·GTM 삽입 확인(근거 있음), 프로젝트 수상('WINNER PRIZE') 등록.",
+        "5) 개선점: 보유한 GTM·GA를 활용해 전자상거래 및 전환 이벤트(장바구니·구매완료)와 퍼널을 명확히 계측하고, 메뉴·CTA 라벨을 구조화해 분석 가능성을 높일 것; 시각·내비게이션 세부는 현재 확인 불가.",
+        "6) 기술/플러그인 키워드: Google Analytics, Google Tag Manager + A) 메인 IA 퀵액션 재배치: 상단 퀵액션을 '신상품 · 베스트 · 이벤트 · 고객지원 · 마이페이지' 순으로 우선 배치해 구매 여정 핵심 경로를 단축할 것 + B) 전환/체류/탐색 KPI: 전환율(CVR), 구매 전환수, 장바구니 이탈률, 평균 세션 시간, 페이지/세션, 이탈률(페이지별 퍼널) + C) 공공기관 Do/Don't: Do - 접근성(가독성·키보드 내비게이션)과 개인정보·수집목적 고지 명확화, 로그 익명화 적용; Don't - 사용자 동의 없이 서드파티 태그로 과도한 추적 금지 + D) 오늘의 한 줄: 태그를 정비하면 고객 여정이 보입니다."
+      ],
+      "notion_url": "https://app.notion.com/p/40c69790c1438100af99c04de6031592",
+      "source": "notion",
+      "agency": "아이파트너즈",
+      "methods": [
+        "콘텐츠"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/28080.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-11-02T19:40:57.845860+00:00"
+    },
+    {
+      "str_no": "28079",
+      "site_name": "현대자동차그룹 글로벌 UX 스튜디오",
+      "registered_date": "2026-11-02",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28079",
+      "live_url": "https://www.hyundaimotorgroup.com/ko/uxstudio/main",
+      "domain": "hyundaimotorgroup.com",
+      "technologies": [
+        "Google Tag Manager",
+        "jQuery",
+        "Swiper"
+      ],
+      "lines": [
+        "1) 현대자동차그룹 글로벌 UX 스튜디오 / 2026-11-02 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28079 / 실사이트: https://www.hyundaimotorgroup.com/ko/uxstudio/main",
+        "2) 목적: 방문자가 UX 스튜디오(UX 테스트존·SDV존·UX 아카이브·UX 라운지) 정보를 확인하고 예약할 수 있도록 존 기반으로 구성된 글로벌 UX 스튜디오 사이트; 타깃: 확인 불가",
+        "3) 상단 글로벌·언어 네비게이션(EN), 존 기반 카테고리(UX 테스트 존·SDV 존·아카이브·라운지), 프로그램/이벤트/예약 전용 CTA(나의 예약·예약하기·프로그램 예약), 정책 링크(개인정보 처리방침·서비스 이용약관)",
+        "4) 모던·깔끔(WHITE) 콘셉트 일관성, 존별 정보구조로 체험 옵션 명확화, 예약 관련 CTA 다수 노출, Google Tag Manager·jQuery·Swiper 기술 스택 확인됨",
+        "5) 메뉴 내 '공지'와 '공지사항' 중복 제거 및 예약 관련 CTA(나의 예약·예약하기·프로그램 예약) 통합으로 경로 단순화 필요; 추가 개선 필요항목(예: 타깃 사용자 정의 등)은 제공된 근거에 없어 확인 불가",
+        "6) 기술/플러그인 키워드: Google Tag Manager, jQuery, Swiper + A) 메인 IA 퀵액션 재배치: '나의 예약/예약하기/프로그램 예약'을 단일 '예약' 허브로 통합하고 'UX 존' 관련 항목을 체험 공간 하위로 그룹화, 중복된 '공지' 항목 병합 + B) 전환/체류/탐색 KPI: 예약 전환율(예약 버튼 클릭 → 완료), 페이지별 평균 체류시간 및 세션당 페이지뷰, 주요 CTA 클릭률(예약 관련 버튼) + C) 공공기관 Do/Don't: Do – 개인정보 처리방침·서비스 이용약관을 상시 노출하고 GTM으로 예약 이벤트 측정 적용; Don't – 메뉴 항목 중복(예: '공지'·'공지사항') 및 예약 CTA 분산으로 이용자 혼선 유발하지 말 것 + D) 오늘의 한 줄: 예약 관련 CTA를 '예약' 허브로 통합해 이용자 흐름을 단순화하라."
+      ],
+      "notion_url": "https://app.notion.com/p/UX-40c69790c14381d19edae46f25b571f6",
+      "source": "notion",
+      "agency": "아이파트너즈",
+      "concepts": [
+        "모던한",
+        "깔끔한"
+      ],
+      "colors": [
+        "WHITE"
+      ],
+      "evidence": [
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "jQuery: HTML에서 'jquery.min.js' 확인",
+        "Swiper: HTML에서 'swiper.min' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/28079.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-11-02T19:40:57.845860+00:00"
+    },
     {
       "str_no": "28076",
       "site_name": "서울디자인페스티벌",
@@ -49,7 +174,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/28076.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-10-30T16:09:26.839954+00:00"
     },
     {
@@ -94,7 +218,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/28056.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-10-30T16:09:26.839954+00:00"
     },
     {
@@ -316,7 +439,7 @@
       "website_reachable": true,
       "thumbnail_status": "failed",
       "thumbnail_error": "Page.screenshot: Timeout 30000ms exceeded.\nCall log:\n  - taking page screenshot\n  - waiting for fonts to load...\n  - fonts loaded\n",
-      "thumbnail_attempted_at": "2026-10-30T16:09:26.839954+00:00"
+      "thumbnail_attempted_at": "2026-11-02T19:40:57.845860+00:00"
     },
     {
       "str_no": "28012",
@@ -7924,6 +8047,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-11-02",
     "2026-10-30",
     "2026-10-29",
     "2026-10-28",
@@ -8011,6 +8135,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-11-03T04:40:57.752693+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 3,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-10-31T01:09:26.746858+09:00",
       "mode": "live",
