@@ -1,11 +1,159 @@
 {
-  "generated_at": "2026-11-03T04:40:57.752693+09:00",
+  "generated_at": "2026-11-04T02:13:51.609357+09:00",
   "mode": "live",
   "status": "success",
   "new_count": 3,
   "failure_count": 0,
-  "total_count": 193,
+  "total_count": 196,
   "items": [
+    {
+      "str_no": "28182",
+      "site_name": "숏플로우",
+      "registered_date": "2026-11-03",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28182",
+      "live_url": "https://www.short-flow.com/",
+      "domain": "short-flow.com",
+      "targets": [
+        "여성",
+        "남성",
+        "중고등학생",
+        "대학생",
+        "20-30대",
+        "30-40대"
+      ],
+      "lines": [
+        "1) 숏플로우 / 2026-11-03 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28182 / 실사이트: https://www.short-flow.com/",
+        "2) 목적·대상·IA: 숏폼콘텐츠 IP 마켓플레이스(Shortflow)로 AI 매칭·흥행예측·자동 제안 기능을 제공해 제작자·구매자(여성, 남성, 중고등학생, 대학생, 20–30대, 30–40대)를 대상으로 하나, 메뉴·CTA 레이블이 제공되지 않아 현재 IA 구성 상태는 제공된 자료로 확인 불가.",
+        "3) UX 패턴: 모션그래픽·영상·사진·그래픽 기반의 심플·모던하면서도 역동적·화려하고 독특한 레이아웃을 지향하는 콘셉트가 명시되어 있으나, 실제 메뉴 흐름·CTA 배치는 제공 자료로 확인 불가.",
+        "4) 강점: 'AI 매칭·흥행 예측·자동 제안'이라는 명확한 가치제안과 숏폼 IP 마켓플레이스라는 포지셔닝, 다양한 타깃층 명시 및 BLACK/ORANGE/WHITE의 강렬한 컬러 팔레트가 제공되어 브랜드 아이덴티티 방향이 분명함.",
+        "5) 개선점: 제공 자료상 menu_labels·cta_labels가 빈 값으로 확인되어 메인 IA에 '홈·마켓플레이스(탐색)·IP 등록/판매·AI 매칭·흥행예측·추천 제안·고객센터·로그인' 등 핵심 내비게이션과 시각적 CTA를 우선 배치할 것; 퍼포먼스·접근성·분석 적용 여부는 제공 자료로 확인 불가.",
+        "6) 기술/플러그인 키워드: GA4, Lottie, CDN, A/B테스트 + A) 메인 IA 퀵액션 재배치: 1) 마켓플레이스(IP 탐색) 2) IP 등록/판매 3) AI 매칭 4) 흥행예측(결과보기) 5) 자동 제안·추천 6) 고객지원/문의 7) 로그인/회원가입(프로필)으로 상단·모바일 햄버거·푸터에 일관되게 노출 + B) 전환/체류/탐색 KPI: IP 등록 전환율, 제안 수락률(거래 전환), 평균 세션 지속시간, 페이지/세션, 주요 CTA 클릭률, 이탈률 추적 + C) 공공기관 Do/Don't: Do: 서비스 흐름(주요 기능)과 개인정보·이용약관·문의채널을 명확히 표기하고 접근성 준수(WCAG) 및 데이터 처리 고지를 마련할 것; Don't: 과도한 자동재생·불명확한 가입 절차·비 노출된 고객센터는 피할 것 + D) 오늘의 한 줄: 메뉴와 명확한 CTA부터 정리하면 AI 기반 가치 제안이 즉시 전달됩니다."
+      ],
+      "notion_url": "https://app.notion.com/p/40d69790c14381eb8bebebbda33ffa50",
+      "source": "notion",
+      "agency": "디자인픽셀",
+      "methods": [
+        "모션그래픽",
+        "사진",
+        "영상",
+        "그래픽디자인",
+        "콘텐츠"
+      ],
+      "concepts": [
+        "심플한",
+        "역동적인",
+        "재미있는",
+        "화려한",
+        "독특한 레이아웃",
+        "강렬한",
+        "모던한"
+      ],
+      "colors": [
+        "BLACK",
+        "ORANGE",
+        "WHITE"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/28182.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-11-03T17:13:51.717587+00:00"
+    },
+    {
+      "str_no": "28126",
+      "site_name": "언플러",
+      "registered_date": "2026-11-03",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28126",
+      "live_url": "https://www.onflou.com/",
+      "domain": "onflou.com",
+      "targets": [
+        "기업"
+      ],
+      "technologies": [
+        "React",
+        "Next.js"
+      ],
+      "lines": [
+        "1) 언플러 / 2026-11-03 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28126 / 실사이트: https://www.onflou.com/",
+        "2) 목적·대상: 기업 대상 웹에이전시(웹·모바일 개발·UX컨설팅) 영업·포트폴리오 목적으로 보이며 주요 CTA는 CONTACT; 상세 IA 구조는 메뉴 라벨 미기재로 세부 확인 불가.",
+        "3) UX 패턴: 3D·모션그래픽(제작 방법 명시) 기반 비주얼 중심 경험을 지향한 것으로 보이나 메뉴 라벨이 비어 있어 전체 내비게이션 구조는 확인 불가.",
+        "4) 강점: 최신 기술 스택(React, Next.js) 사용 증거·명확한 CTA(CONTACT) 존재·기업 대상 서비스 키워드를 설명에 포함·수상(WINNER PRIZE) 표기로 신뢰도 보강.",
+        "5) 개선점: 메뉴 라벨 미기재로 내비게이션·정보구조 불명확 → 서비스·포트폴리오·회사·문의 등 주요 메뉴 명시·고정 CTA 추가·접근성(대체텍스트·키보드)·로딩 최적화 검토 권장; 일부 세부 콘텐츠는 확인 불가.",
+        "6) 기술/플러그인 키워드: React, Next.js + A) 메인 IA 퀵액션 재배치: 상단 네비게이션에 'Contact(문의)' 고정 우측, 좌측부터 '서비스 > 포트폴리오 > 회사정보' 순으로 빠른 접근성 배치 및 모바일 햄버거 내 동일 순서 유지 + B) 전환/체류/탐색 KPI: CONTACT 클릭률(전환율), 문의폼 제출률, 세션당 페이지수, 평균 세션 지속시간, 이탈률 모니터링 + C) 공공기관 Do/Don't: Do—명확한 메뉴·접근성(ARIA·대체텍스트·키보드), 문서화된 서비스 설명 제공; Don't—과도한 모션으로 접근성·성능 저해 금지 + D) 오늘의 한 줄: React·Next.js 기반의 비주얼 중심 사이트이나 메뉴 라벨 부재로 내비게이션 명료화가 우선 필요하다."
+      ],
+      "notion_url": "https://app.notion.com/p/40d69790c1438104a2f5f1a624b0b16e",
+      "source": "notion",
+      "agency": "언플러",
+      "methods": [
+        "3D",
+        "모션그래픽"
+      ],
+      "colors": [
+        "WHITE"
+      ],
+      "evidence": [
+        "React: HTML에서 '_next/static' 확인",
+        "Next.js: HTML에서 '/_next/' 확인",
+        "응답 헤더 x-powered-by=Next.js"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/28126.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-11-03T17:13:51.717587+00:00"
+    },
+    {
+      "str_no": "28078",
+      "site_name": "SOLEW",
+      "registered_date": "2026-11-03",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28078",
+      "live_url": "https://solewofficial.com/",
+      "domain": "solewofficial.com",
+      "targets": [
+        "여성",
+        "남성",
+        "20-30대"
+      ],
+      "technologies": [
+        "jQuery",
+        "Swiper",
+        "Cafe24"
+      ],
+      "lines": [
+        "1) SOLEW / 2026-11-03 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28078 / 실사이트: https://solewofficial.com/",
+        "2) 목적·타깃·주요 IA: SOLEW 공식몰로 컨템포러리 패션과 악세사리를 판매하는 사이트이며 주요 타깃은 20–30대 남성·여성으로, 상단 가로 메뉴(PRODUCT·신제품·남성복·여성복·악세사리)와 LOOK BOOK 중심 탐색 구조가 확인됨.",
+        "3) 탐색·UI 패턴: 상단 글로벌 내비게이션 기반의 카테고리 중심 구조, LOOK BOOK을 단일 CTA로 강조, 커뮤니티·공지·Q/A·리뷰·약관·인스타 연동 등 정보·커뮤니케이션 채널 분리, 슬라이더/캐러셀은 Swiper로 구현(HTML 근거 확인).",
+        "4) 강점: 심플·모던 톤(BLACK/WHITE)과 브랜드 메시지('자연과 감성')가 일관되게 반영되어 있으며 Cafe24 기반의 표준 전자상거래 구조와 jQuery/Swiper 사용으로 구현 안정성이 확인됨.",
+        "5) 개선점: 구매 전환 유도 CTA가 LOOK BOOK에 편중되어 있어 제품 쇼핑·장바구니·검색의 상시 가시성 확보가 필요하며 메뉴 우선순위 재배치와 모바일 네비·접근성(ARIA·대체텍스트) 검토·성능(jQuery 의존도 축소) 최적화를 권고하나 장바구니 가시성 등 일부 기능 존재 여부는 제공 근거에 없어 확인 불가.",
+        "6) 기술/플러그인 키워드: jQuery, Swiper, Cafe24 + A) 메인 IA 퀵액션 재배치: 상단 우측 CTA를 'SHOP(제품목록)/장바구니' 우선 배치하고 LOOK BOOK은 보조 CTA로 이동해 제품구매 흐름을 단축할 것 + B) 전환/체류/탐색 KPI: 전환율(구매/장바구니 추가), 이탈률·체류시간, 페이지/세션, 제품 상세 진입률을 주 KPI로 설정할 것 + C) 공공기관 Do/Don't: Do—명확한 개인정보처리방침·약관 노출, 접근성(대체텍스트·키보드 네비·명암 대비) 준수; Don't—강제체크박스(비동의 시 선택불가)·어두운 패턴 사용 금지 + D) 오늘의 한 줄: 제품 구매 동선 우선화로 LOOK BOOK 강조를 보완하라."
+      ],
+      "notion_url": "https://app.notion.com/p/SOLEW-40d69790c1438170a6e2e7b77312ffda",
+      "source": "notion",
+      "agency": "도아 DOA",
+      "methods": [
+        "사진"
+      ],
+      "concepts": [
+        "심플한",
+        "안정적",
+        "모던한",
+        "깔끔한"
+      ],
+      "colors": [
+        "BLACK",
+        "WHITE"
+      ],
+      "evidence": [
+        "jQuery: HTML에서 'jquery-' 확인",
+        "Swiper: HTML에서 'swiper-bundle' 확인",
+        "Cafe24: HTML에서 'cafe24.com' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/28078.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-11-03T17:13:51.717587+00:00"
+    },
     {
       "str_no": "28081",
       "site_name": "아이파트너즈",
@@ -52,7 +200,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/28081.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-11-02T19:40:57.845860+00:00"
     },
     {
@@ -87,7 +234,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/28080.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-11-02T19:40:57.845860+00:00"
     },
     {
@@ -128,7 +274,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/28079.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-11-02T19:40:57.845860+00:00"
     },
     {
@@ -8047,6 +8192,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-11-03",
     "2026-11-02",
     "2026-10-30",
     "2026-10-29",
@@ -8135,6 +8281,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-11-04T02:13:51.609357+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 3,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-11-03T04:40:57.752693+09:00",
       "mode": "live",
