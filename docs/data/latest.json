@@ -1,11 +1,208 @@
 {
-  "generated_at": "2026-11-04T02:13:51.609357+09:00",
+  "generated_at": "2026-11-05T02:26:30.780331+09:00",
   "mode": "live",
   "status": "success",
-  "new_count": 3,
+  "new_count": 4,
   "failure_count": 0,
-  "total_count": 196,
+  "total_count": 200,
   "items": [
+    {
+      "str_no": "28187",
+      "site_name": "1912허브앤코",
+      "registered_date": "2026-11-05",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28187",
+      "live_url": "https://1912herb.com/",
+      "domain": "1912herb.com",
+      "targets": [
+        "여성",
+        "30-40대",
+        "40대 이후"
+      ],
+      "technologies": [
+        "jQuery",
+        "GSAP"
+      ],
+      "lines": [
+        "1) 1912허브앤코 / 2026-11-05 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28187 / 실사이트: https://1912herb.com/",
+        "2) 목적·대상·IA: 사이트명 'Herb&Co.'로 제품·웰니스 중심(메뉴: Shop, Brand, Heritage, Wellness, Products, Healthcare, Inner Beauty, Cosmetic)이며 대상은 제공된 타깃 '여성, 30-40대, 40대 이후'로 설정되어 있음.",
+        "3) UX 패턴: 사진·영상·제품 중심 콘텐츠 구성(제공된 methods: 사진, 영상, 제품), '심플한'·'자연적인/환경적인' 콘셉트와 GREEN 색상 사용이 명시되어 있고 GSAP·jQuery 포함으로 인터랙션/애니메이션 활용 가능함(HTML 근거: 'gsap.min.js', 'jquery-').",
+        "4) 강점: 제품·웰니스·브랜드를 분류한 명확한 메뉴 구조, 다국어 라벨(KR/EN)과 Contact CTA 존재, 수상(WINNER PRIZE) 표기 및 GSAP·jQuery로 표현 가능한 시각적 완성도 근거 보유.",
+        "5) 개선점: 메뉴 항목이 다수로 초기사용자 대상 핵심 CTA(Shop·Contact) 우선순위가 불분명하므로 상단 가시성 강화 권장, 메타 설명 필드가 비어있음(description: '')으로 SEO·SNS 노출용 요약 보완 필요; 그 외 세부 사용성/접근성 수치는 제공 근거 없어 확인 불가.",
+        "6) 기술/플러그인 키워드: jQuery, GSAP + A) 메인 IA 퀵액션 재배치: 상단 네비게이션에서 Shop과 Contact/Contact Us를 시각적으로 분리·우선 CTA로 배치하고 Language 토글은 축소(또는 드롭다운)하여 클릭 경로 단축 + B) 전환/체류/탐색 KPI: Shop 클릭률(CTR), Contact 전환율(문의 제출 비율), 페이지당 평균 체류시간, 이탈률(세션 종료 비율) 측정(세부 목표 수치: 확인 불가) + C) 공공기관 Do/Don't: (제공 근거로 구체 적용 사례 확인 불가) Do: 명확한 카테고리·언어 토글 제공과 최소한의 애니메이션으로 접근성 준수; Don't: 시각적 과부하·애니메이션 과다로 정보 접근 방해 금지 + D) 오늘의 한 줄: 사진·영상 기반의 심플한 그린 브랜드 경험은 상단 CTA 단축으로 전환을 가속하세요."
+      ],
+      "notion_url": "https://app.notion.com/p/1912-40e69790c14381209064d5934b86101b",
+      "source": "notion",
+      "agency": "디자인더하다",
+      "methods": [
+        "사진",
+        "영상",
+        "제품"
+      ],
+      "concepts": [
+        "심플한",
+        "자연적인/환경적인"
+      ],
+      "colors": [
+        "GREEN"
+      ],
+      "evidence": [
+        "jQuery: HTML에서 'jquery-' 확인",
+        "GSAP: HTML에서 'gsap.min.js' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/28187.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-11-04T17:26:30.885805+00:00"
+    },
+    {
+      "str_no": "28184",
+      "site_name": "매스티지",
+      "registered_date": "2026-11-04",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28184",
+      "live_url": "https://www.masstigegov.com/2026/index.html",
+      "domain": "masstigegov.com",
+      "targets": [
+        "기업"
+      ],
+      "lines": [
+        "1) 매스티지 / 2026-11-04 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28184 / 실사이트: https://www.masstigegov.com/2026/index.html",
+        "2) 목적·대상·IA: 기업 대상의 고급·첨단·실험적 포트폴리오·홍보 사이트를 지향하는 것으로 보이며(근거: targets, concepts, methods), 상세한 정보구조(메뉴·IA) 관련 데이터는 제공되지 않아 확인 불가.",
+        "3) UX 패턴: 3D·모션그래픽·타이포·콘텐츠 중심의 화려하고 강렬한 시각 연출을 주요 패턴으로 채택한 것으로 보이나 구체적 UI 컴포넌트·네비게이션 패턴은 제공 근거 없음(확인 불가).",
+        "4) 강점: 바이올렛 색상 기반의 일관된 브랜드 콘셉트(고급·첨단·실험적)와 라이브 URL 존재로 공개 페이지 확인 가능, WINNER PRIZE 수상 표기가 신뢰성에 기여함(근거: colors, concepts, live_url, award_name).",
+        "5) 개선점: 페이지 타이틀·메타 설명이 비어 있고 메뉴·CTA 라벨·기술 스택 정보가 제공되지 않아 SEO·접근성·네비게이션 검증이 불가(확인 불가), 애니메이션·모션의 접근성 영향 점검 권고.",
+        "6) 기술/플러그인 키워드: WebGL/three.js, Lottie, GSAP, ARIA, Google Analytics(확인 불가) + A) 메인 IA 퀵액션 재배치: 상단 우선순위로 '포트폴리오(Work)·서비스(Services)·회사(About)·문의(Contact)' 탭을 고정해 주요 콘텐츠로의 진입을 단축 — 현재 메뉴 라벨 제공 안됨(확인 불가) + B) 전환/체류/탐색 KPI: 문의(컨택) 전환율, 평균 세션 지속시간, 페이지당 탐색 깊이 측정(현재 KPI 값 제공 안됨·확인 불가) + C) 공공기관 Do/Don't: Do — 명확한 메타데이터·대체텍스트·키보드 네비게이션과 문서화된 접근성 준수, Don't — 과도한 시각효과로 정보 접근성을 저해하지 말 것(현재 구현 상태 확인 불가) + D) 오늘의 한 줄: 시각적 화려함은 유지하되 명확한 네비게이션과 메타정보로 신뢰도를 연결하라."
+      ],
+      "notion_url": "https://app.notion.com/p/40e69790c1438137ab3fdd020c864c8d",
+      "source": "notion",
+      "agency": "매스티지",
+      "methods": [
+        "3D",
+        "모션그래픽",
+        "타이포",
+        "콘텐츠"
+      ],
+      "concepts": [
+        "고급스러운",
+        "첨단적인",
+        "실험적인",
+        "화려한",
+        "강렬한"
+      ],
+      "colors": [
+        "VIOLET"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/28184.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-11-04T17:26:30.885805+00:00"
+    },
+    {
+      "str_no": "28082",
+      "site_name": "SOLUM",
+      "registered_date": "2026-11-04",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28082",
+      "live_url": "https://www.solum-group.com/",
+      "domain": "solum-group.com",
+      "targets": [
+        "기업"
+      ],
+      "technologies": [
+        "Google Tag Manager"
+      ],
+      "lines": [
+        "1) SOLUM / 2026-11-04 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28082 / 실사이트: https://www.solum-group.com/",
+        "2) 목적/대상/IA: 기업(B2B) 대상의 글로벌 공식 사이트로, 제품 카테고리(ESL & IoT, Display, Automotive & Power, Sensor, Lifestyle)와 상세 ESG 섹션(방향과 약속, CEO 약속, ESG 비전 등) 및 Contact Us/문의하기 CTA를 주요 IA 요소로 구성함.",
+        "3) UX 패턴: 상단 제품 중심 네비게이션 + 별도 ESG 허브 구조, Contact Us 중심 CTA 노출, 메뉴에 영어·한국어 혼용 표기 및 영상 활용(근거: menu_labels, cta_labels, methods).",
+        "4) 강점: 제품군별 직관적 카테고리 구성과 풍부한 ESG 관련 페이지 보유로 기업 신뢰성·정보 제공에 유리하고(근거: menu_labels), GTM 설치로 추적 준비됨(근거: technologies, evidence).",
+        "5) 개선점: Contact Us/문의하기 CTA의 시각적 고정(헤더 고정·우측 상단)으로 전환률 개선 권장, ESG 관련 항목을 허브로 통합해 탐색 단순화 권장; 사이트 내 영상 노출 위치·로딩 영향은 확인 불가(확인 불가 표기).",
+        "6) 기술/플러그인 키워드: Google Tag Manager + A) 메인 IA 퀵액션 재배치: 헤더 우측 상단에 Contact Us/문의하기 고정 CTA 배치 및 제품(ESL & IoT, Display, Automotive & Power, Sensor, Lifestyle) 바로가기 4~5개를 퀵액션으로 노출 + B) 전환/체류/탐색 KPI: Contact Us(문의) 전환수 및 전환율(월), CTA 클릭률, 평균 세션 지속시간, 페이지/세션, ESG 자료실 다운로드 수/다운로드율 + C) 공공기관 Do/Don't: Do—접근성(명확 연락처·ARIA·콘트라스트) 및 개인정보·문의 흐름 명시, 메뉴 구조·용어는 단순화(Do); Don't—복잡한 다중 메뉴로 탐색 분산·과도한 전문용어 사용(Do not) + D) 오늘의 한 줄: 제품 중심 IA와 풍부한 ESG 콘텐츠는 강점이나 Contact Us CTA 가시성 개선으로 B2B 전환을 빠르게 끌어올릴 수 있음."
+      ],
+      "notion_url": "https://app.notion.com/p/SOLUM-40e69790c14381839749ea8f045a2b54",
+      "source": "notion",
+      "agency": "아이파트너즈",
+      "methods": [
+        "영상"
+      ],
+      "evidence": [
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/28082.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-11-04T17:26:30.885805+00:00"
+    },
+    {
+      "str_no": "28049",
+      "site_name": "데브스튜디오",
+      "registered_date": "2026-11-04",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28049",
+      "live_url": "https://devs7ud.io",
+      "domain": "devs7ud.io",
+      "targets": [
+        "여성",
+        "남성",
+        "20-30대",
+        "30-40대",
+        "40대 이후",
+        "기업"
+      ],
+      "technologies": [
+        "React",
+        "Next.js"
+      ],
+      "lines": [
+        "1) 데브스튜디오 / 2026-11-04 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28049 / 실사이트: https://devs7ud.io",
+        "2) 목적·타깃(IA): 개발·디자인 뉴스·랭킹·트렌드 제공(사이트 설명에서 확인됨); 주요 타깃: 여성, 남성, 20-30대, 30-40대, 40대 이후, 기업.",
+        "3) UX 패턴: 콘텐츠 허브형 상단 카테고리 네비게이션(오늘·읽기·뉴스·랭킹·트렌드 등), 키보드 검색 표기(검색 ⌘K), 다수의 CTA(문의·구독 등) 노출.",
+        "4) 강점: 명확한 서비스 설명('개발과 디자인의 흐름…' 확인), 폭넓은 주제 접근을 위한 풍부한 메뉴 구성, 검색 단축키 표기, React·Next.js 사용(/_next/ 경로 및 x-powered-by=Next.js 응답 헤더로 확인).",
+        "5) 개선점: 메뉴·레이블이 과다하여 우선순위 불명확—핵심 퀵액션(검색·프로젝트 문의하기·구독하기)을 상단 가시영역에 재배치하고 메뉴 그룹화를 통해 단순화 권고; 모바일·접근성 상태: 확인 불가.",
+        "6) 기술/플러그인 키워드: React, Next.js, 키보드검색(⌘K) + A) 메인 IA 퀵액션 재배치: 상단 우측 고정영역에 '검색(⌘K)', '프로젝트 문의하기', '구독하기'를 우선 배치하고 나머지 메뉴는 주제별 그룹(예: 읽기·뉴스·랭킹·트렌드)으로 축소·접기 처리. + B) 전환/체류/탐색 KPI: 문의 전환율(문의 클릭→폼 제출), 페이지당 평균 체류시간, 메뉴 클릭당 이탈률(클릭 후 이탈 비율), 검색 유효성(검색→콘텐츠 열람 비율). + C) 공공기관 Do/Don't: Do—명확한 문의·접근 경로 제공, 키보드 접근성·명확한 라벨 적용, 중요한 정보(문의·구독)를 상단에 고정; Don't—과도한 메뉴 중복 및 비표준 네비게이션 사용 금지. + D) 오늘의 한 줄: 검색을 중심으로 핵심 퀵액션을 상단에 고정하면 탐색성과 전환이 동시에 개선됩니다."
+      ],
+      "notion_url": "https://app.notion.com/p/40e69790c14381aca978f863f4f07b43",
+      "source": "notion",
+      "agency": "devs7udio",
+      "methods": [
+        "모션그래픽",
+        "일러스트",
+        "타이포",
+        "그래픽디자인"
+      ],
+      "concepts": [
+        "고급스러운",
+        "귀여운",
+        "신비적인",
+        "심플한",
+        "안정적",
+        "여성적인",
+        "재미있는",
+        "첨단적인",
+        "실험적인",
+        "화려한",
+        "독특한 레이아웃",
+        "강렬한",
+        "모던한",
+        "깔끔한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "BLUE",
+        "WHITE",
+        "YELLOW"
+      ],
+      "evidence": [
+        "React: HTML에서 '_next/static' 확인",
+        "Next.js: HTML에서 '/_next/' 확인",
+        "응답 헤더 x-powered-by=Next.js"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/28049.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-11-04T17:26:30.885805+00:00"
+    },
     {
       "str_no": "28182",
       "site_name": "숏플로우",
@@ -56,7 +253,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/28182.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-11-03T17:13:51.717587+00:00"
     },
     {
@@ -99,7 +295,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/28126.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-11-03T17:13:51.717587+00:00"
     },
     {
@@ -151,7 +346,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/28078.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-11-03T17:13:51.717587+00:00"
     },
     {
@@ -8192,6 +8386,8 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-11-05",
+    "2026-11-04",
     "2026-11-03",
     "2026-11-02",
     "2026-10-30",
@@ -8281,6 +8477,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-11-05T02:26:30.780331+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 4,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-11-04T02:13:51.609357+09:00",
       "mode": "live",
