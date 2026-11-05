@@ -1,11 +1,123 @@
 {
-  "generated_at": "2026-11-05T02:26:30.780331+09:00",
+  "generated_at": "2026-11-06T02:32:32.160626+09:00",
   "mode": "live",
   "status": "success",
-  "new_count": 4,
+  "new_count": 3,
   "failure_count": 0,
-  "total_count": 200,
+  "total_count": 203,
   "items": [
+    {
+      "str_no": "28248",
+      "site_name": "리메인레이어",
+      "registered_date": "2026-11-05",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28248",
+      "live_url": "https://remainlayer.com/",
+      "domain": "remainlayer.com",
+      "targets": [
+        "기업"
+      ],
+      "technologies": [
+        "Google Analytics",
+        "jQuery",
+        "Swiper"
+      ],
+      "lines": [
+        "1) 리메인레이어 / 2026-11-05 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28248 / 실사이트: https://remainlayer.com/",
+        "2) 목적·타깃(검증): 웹사이트는 기업 대상 풀서비스 에이전시로 브랜드 경험 제공을 목적으로 서비스·포트폴리오 중심 탐색을 지원하는 IA가 적합함, 세부 사용자 흐름·목표는 제공 정보만으로는 추가 확인 불가.",
+        "3) UX 패턴: 글로벌 네비게이션에 portfolio/services/about/contact 중심 레이블과 중복된 contact CTA가 존재하고, Swiper(캐러셀)·jQuery 기반 인터랙션 패턴 및 Google Analytics 추적이 확인됨; 비주얼·반응형 구현 세부는 확인 불가.",
+        "4) 강점: 명확한 브랜드 설명(title·description), 서비스·포트폴리오 중심의 직관적 메뉴 구성과 다수의 CTA(문의 유도), Google Analytics로 데이터 기반 분석 가능성 및 Swiper로 동적 콘텐츠 제시 확인.",
+        "5) 개선점: 네비게이션 내 'contact' 중복(contact/contact us) 통합·표준화, 'Enterprise Solutions open_in_new' 외부 링크 표기·설명 명확화, Swiper 사용 구간에 접근성(대체텍스트·키보드 제어)·정지 컨트롤 추가 권장; 그 외 세부 성능·접근성 지표는 확인 불가.",
+        "6) 기술/플러그인 키워드: Google Analytics, jQuery, Swiper + A) 메인 IA 퀵액션 재배치: 네비게이션 우선순위를 'services > portfolio > Enterprise Solutions(외부 링크 표기) > remaincareer > about > contact(단일화)'로 재정렬해 문의 전환 동선을 단순화 + B) 전환/체류/탐색 KPI: 문의(컨택) 전환율, 문의 클릭률(CTA CTR), 평균 세션 지속시간, 페이지당 조회수(페이지깊이), 이탈률 모니터링 설정 권장 + C) 공공기관 Do/Don't: Do - 메뉴 라벨과 CTA를 중복 없이 명확히 표기하고 외부 링크는 별도 아이콘·설명으로 안내, 접근성 지침(대체텍스트·키보드 네비게이션) 준수; Don't - 중복된 네비게이션 레이블로 이용자 혼란 유발 금지 + D) 오늘의 한 줄: 네비게이션 중복 정리와 CTA 통일만으로도 문의 전환을 빠르게 개선할 수 있습니다."
+      ],
+      "notion_url": "https://app.notion.com/p/40f69790c1438192af30f6e77086fbac",
+      "source": "notion",
+      "agency": "리메인레이어",
+      "methods": [
+        "그래픽디자인"
+      ],
+      "concepts": [
+        "신비적인"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "jQuery: HTML에서 'jquery-' 확인",
+        "Swiper: HTML에서 'swiper-bundle' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/28248.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-11-05T17:32:32.260655+00:00"
+    },
+    {
+      "str_no": "28238",
+      "site_name": "와키컴퍼니",
+      "registered_date": "2026-11-05",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28238",
+      "live_url": "https://www.wacky.kr/",
+      "domain": "wacky.kr",
+      "targets": [
+        "기업"
+      ],
+      "technologies": [
+        "jQuery"
+      ],
+      "lines": [
+        "1) 와키컴퍼니 / 2026-11-05 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28238 / 실사이트: https://www.wacky.kr/",
+        "2) 목적·타깃·IA: 기업 대상 UX 기반 디지털 미디어 디자인 서비스 홍보·포트폴리오 및 문의 유도용 사이트로, 주요 IA는 Home, About, Project, Contact(Contact가 주요 CTA).",
+        "3) UX 패턴: 상단 단순 네비게이션(4개 메뉴) 기반의 프로젝트 중심 포트폴리오 탐색과 Contact CTA 노출을 통한 문의 유도; 모션그래픽 제공이 서비스 핵심임(제공 근거: methods: 모션그래픽).",
+        "4) 강점: 명확한 가치제시('UX기반의 디지털 미디어 디자인'), 간결한 메뉴 구조, 프로젝트 중심 흐름과 Contact CTA 노출, 수상 이력(WINNER PRIZE)으로 신뢰도 보강.",
+        "5) 개선점: Project 페이지에 모션그래픽 샘플 재생·썸네일·카테고리 필터 도입과 Contact CTA를 스티키/고대비로 고정해 문의 동선을 강화하고, jQuery 사용은 보안·성능 점검 권고; 모바일·접근성 상태는 제공된 정보로는 확인 불가.",
+        "6) 기술/플러그인 키워드: jQuery + A) 메인 IA 퀵액션 재배치: 상단 우측 Contact CTA를 스티키·고대비 버튼으로 고정하고 Project를 우선 가시영역에 배치해 포트폴리오→문의 동선 단축 + B) 전환/체류/탐색 KPI: Contact 클릭률(CTR), 문의폼 제출률(Conversion rate), 평균 세션 시간(Avg. session duration), 페이지/세션(특히 Project 페이지 뷰), 이탈률(Bounce rate) 모니터링 + C) 공공기관 Do/Don't: Do—접근성(대체텍스트·키보드 네비게이션) 준수, 개인정보처리방침·명확한 연락처 표기; Don't—불필요한 플러그인 의존 및 자동재생 미사용(접근성·보안 문제) + D) 오늘의 한 줄: Project와 Contact의 시각적·행동적 연결을 즉시 강화하세요."
+      ],
+      "notion_url": "https://app.notion.com/p/40f69790c14381d982b0c1fd2f1536bc",
+      "source": "notion",
+      "agency": "와키컴퍼니",
+      "methods": [
+        "모션그래픽"
+      ],
+      "evidence": [
+        "jQuery: HTML에서 'jquery-' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/28238.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-11-05T17:32:32.260655+00:00"
+    },
+    {
+      "str_no": "28237",
+      "site_name": "디자인쿨쿨쿨",
+      "registered_date": "2026-11-05",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28237",
+      "live_url": "https://designcoolcoolcool.vercel.app/",
+      "domain": "designcoolcoolcool.vercel.app",
+      "targets": [
+        "기업"
+      ],
+      "technologies": [
+        "Google Analytics"
+      ],
+      "lines": [
+        "1) 디자인쿨쿨쿨 / 2026-11-05 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28237 / 실사이트: https://designcoolcoolcool.vercel.app/",
+        "2) 목적: 기업 대상 맞춤 반응형 홈페이지 제작 서비스 홍보 및 상담·문의 유도; 주요 IA 항목으로는 브랜드(디자인쿨쿨쿨), works, styles, price, 맞춤 상담 신청, contact로 구성되어 있음.",
+        "3) 탑 네비게이션 기반 섹션형 IA(works, styles, price 등)와 다수의 상담/문의 CTA(중복 레이블 존재)가 눈에 띄며 SEO 중심 문구(title/description)와 Google Analytics 태그가 확인됨.",
+        "4) 서비스 포지셔닝이 명확한 타이틀·설명으로 방문 목적이 즉시 파악되며(홈페이지 제작 전문), 상담·문의 CTA가 반복 배치되어 전환 유도 여지가 있고 Google Analytics로 트래픽 수집 준비가 되어 있음.",
+        "5) CTA 레이블 중복을 통합해 단일 우선 CTA('맞춤 상담 신청')로 집중시키고(현재 중복 표기 확인됨), 주요 상담 버튼을 고정 헤더 또는 화면 하단 고정으로 배치해 접근성을 높일 것; 서브페이지 콘텐츠 구조·반응형 세부 레이아웃은 제공자료로는 확인 불가(확인 불가).",
+        "6) 기술/플러그인 키워드: Google Analytics + A) 메인 IA 퀵액션 재배치: '맞춤 상담 신청'을 단일 우선 CTA로 통합 후 헤더 고정 및 모바일 하단 고정 버튼으로 배치하여 중복 레이블 제거 + B) 전환/체류/탐색 KPI: 상담신청 전환율(CTA 클릭→폼 제출), 평균 세션 지속시간(체류), 페이지/세션(탐색)으로 설정 및 이벤트(CTA 클릭, 폼 제출) 목표 등록 + C) 공공기관 Do/Don't: Do - 명확한 문의 경로·개인정보 처리 안내 및 접근성 확보; Don't - 팝업·광고성 요소로 접근성 저해 금지 및 오도성 문구 사용 금지 + D) 오늘의 한 줄: CTA 중복을 없애고 단일 우선 액션에 집중하면 상담 전환이 높아집니다."
+      ],
+      "notion_url": "https://app.notion.com/p/40f69790c14381568b68e56306ff9d14",
+      "source": "notion",
+      "agency": "디자인쿨쿨쿨",
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/28237.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-11-05T17:32:32.260655+00:00"
+    },
     {
       "str_no": "28187",
       "site_name": "1912허브앤코",
@@ -52,7 +164,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/28187.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-11-04T17:26:30.885805+00:00"
     },
     {
@@ -95,7 +206,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/28184.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-11-04T17:26:30.885805+00:00"
     },
     {
@@ -131,7 +241,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/28082.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-11-04T17:26:30.885805+00:00"
     },
     {
@@ -200,7 +309,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/28049.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-11-04T17:26:30.885805+00:00"
     },
     {
@@ -8477,6 +8585,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-11-06T02:32:32.160626+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 3,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-11-05T02:26:30.780331+09:00",
       "mode": "live",
