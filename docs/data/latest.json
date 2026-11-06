@@ -1,11 +1,51 @@
 {
-  "generated_at": "2026-11-06T02:32:32.160626+09:00",
+  "generated_at": "2026-11-07T01:52:38.065317+09:00",
   "mode": "live",
   "status": "success",
-  "new_count": 3,
+  "new_count": 1,
   "failure_count": 0,
-  "total_count": 203,
+  "total_count": 204,
   "items": [
+    {
+      "str_no": "28206",
+      "site_name": "스컹크웍스스튜디오",
+      "registered_date": "2026-11-06",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28206",
+      "live_url": "https://skunkworks.co.kr/",
+      "domain": "skunkworks.co.kr",
+      "targets": [
+        "기업"
+      ],
+      "lines": [
+        "1) 스컹크웍스스튜디오 / 2026-11-06 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28206 / 실사이트: https://skunkworks.co.kr/",
+        "2) 목적·대상·IA: 기업 대상 IT 제작 파트너(요구사항 분석부터 완수까지) 소개 및 포트폴리오 전시로 문의 유도, 주요 IA는 SKUNKWORKS STUDIO·WORKS·NEWS·ABOUT·CONTACT 중심.",
+        "3) UX 패턴: 메뉴 기반 포트폴리오 중심 구조(WORKS/NEWS/ABOUT/CONTACT)와 모션·영상·타이포 등 시각적 콘텐츠 강조로 역동적·강렬한 체험 제공; 세부 상호작용·접근성·퍼포먼스 상태는 확인 불가.",
+        "4) 강점: 5~10년 차 이상 숙련 인력 기반의 엔드투엔드 IT 제작 역량(설명문 근거), 모션·영상·타이포 중심의 강렬한 시각 아이덴티티(BLACK 콘셉트) 및 WINNER PRIZE 수상으로 신뢰성 제공.",
+        "5) 개선제안: CTA 라벨(Contact/CONTACT) 통일 및 가시성 강화, 메인 IA에서 WORKS→CONTACT 우선 퀵액션 재배치로 문의 전환 촉진, 포트폴리오별 성과 지표·사례 명확화 및 접근성·성능 진단 권장(현상태는 확인 불가).",
+        "6) 기술/플러그인 키워드: Google Analytics 4, Hotjar(또는 FullStory), Lighthouse, axe-core + A) 메인 IA 퀵액션 재배치: 상단 우측 고정 CTA를 'CONTACT'로 통일하고 메인 화면(또는 헤더에) WORKS 바로가기·대표 프로젝트 1~3개를 퀵액션으로 배치해 문의 동선 단축 + B) 전환/체류/탐색 KPI: 문의(컨택) 전환율, CTA 클릭률, 페이지별 평균 체류시간, 프로젝트별 세션당 페이지수, 이탈률(프로젝트·랜딩별) 측정 + C) 공공기관 Do/Don't: Do - 접근성 표준 준수(명시적 대비·대체텍스트·키보드 네비), 개인정보·응답 절차 명시, 명확한 연락 경로 제공; Don't - 자동 재생 음향·과도한 애니메이션으로 정보 접근 방해 금지 + D) 오늘의 한 줄: 포트폴리오 중심의 시각적 장점을 살려 CONTACT 동선을 최우선으로 단순화하십시오."
+      ],
+      "notion_url": "https://app.notion.com/p/41069790c14381cfb98feaac7f8483d1",
+      "source": "notion",
+      "agency": "스컹크웍스스튜디오",
+      "methods": [
+        "모션그래픽",
+        "사진",
+        "영상",
+        "타이포"
+      ],
+      "concepts": [
+        "역동적인",
+        "재미있는",
+        "강렬한"
+      ],
+      "colors": [
+        "BLACK"
+      ],
+      "website_reachable": true,
+      "thumbnail_status": "failed",
+      "thumbnail_error": "HTTP 403",
+      "thumbnail_attempted_at": "2026-11-06T16:52:38.166361+00:00"
+    },
     {
       "str_no": "28248",
       "site_name": "리메인레이어",
@@ -46,7 +86,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/28248.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-11-05T17:32:32.260655+00:00"
     },
     {
@@ -82,7 +121,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/28238.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-11-05T17:32:32.260655+00:00"
     },
     {
@@ -115,7 +153,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/28237.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-11-05T17:32:32.260655+00:00"
     },
     {
@@ -8494,6 +8531,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-11-06",
     "2026-11-05",
     "2026-11-04",
     "2026-11-03",
@@ -8585,6 +8623,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-11-07T01:52:38.065317+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 1,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-11-06T02:32:32.160626+09:00",
       "mode": "live",
