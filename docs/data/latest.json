@@ -1,11 +1,116 @@
 {
-  "generated_at": "2026-11-07T01:52:38.065317+09:00",
+  "generated_at": "2026-11-10T04:58:40.127676+09:00",
   "mode": "live",
   "status": "success",
-  "new_count": 1,
+  "new_count": 3,
   "failure_count": 0,
-  "total_count": 204,
+  "total_count": 207,
   "items": [
+    {
+      "str_no": "28277",
+      "site_name": "교보 SBI저축은행",
+      "registered_date": "2026-11-09",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28277",
+      "live_url": "https://www.kyobosbi.com/",
+      "domain": "kyobosbi.com",
+      "agency": "미등록",
+      "methods": [
+        "그래픽디자인"
+      ],
+      "concepts": [
+        "신뢰적인"
+      ],
+      "colors": [
+        "BLUE",
+        "WHITE"
+      ],
+      "technologies": [
+        "Google Tag Manager",
+        "jQuery",
+        "Swiper"
+      ],
+      "evidence": [
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "jQuery: HTML에서 'jquery-' 확인",
+        "Swiper: HTML에서 'swiper.min' 확인"
+      ],
+      "website_reachable": true,
+      "lines": [
+        "1) 교보 SBI저축은행 / 2026-11-09 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28277 / 실사이트: https://www.kyobosbi.com/",
+        "2) 목적/타깃/주요 IA: 목적은 예적금·대출·카드 등 금융상품 정보 제공 및 고객서비스 제공; 타깃 정보는 제공되지 않아 확인 불가; IA는 메뉴 라벨 기준으로 상품군(예적금·입출금·대출·카드), 고객문의·회사소개 등으로 분리되어 있음.",
+        "3) UX 패턴: 상단 상품 분류형 내비게이션(예적금·입출금·대출·카드), 다수의 법적·서비스 CTA(계약철회·자료열람·금리인하 등) 및 즉시/예약이체·신규가입 같은 트랜잭션 중심 액션, Swiper·jQuery 기반 인터랙션과 GTM 태깅 사용 확인.",
+        "4) 강점: '신뢰적인' 콘셉트와 BLUE·WHITE 색상 사용으로 일관된 브랜드 인상, 상품·서비스 중심의 명확한 메뉴·광범위한 CTA 구성, Google Tag Manager·jQuery·Swiper 사용으로 분석·인터랙션 구현 여지 확인.",
+        "5) 개선권장(증거 기반·추측 표기): 핵심 CTA(신규가입·즉시이체·고객문의) 우선순위화 및 모바일 접근성 강화, 핵심금리·상품비교 가시성 향상 권장; 구체적 사용성·접근성 문제는 증거 부족으로 확인 불가.",
+        "6) 기술/플러그인 키워드: Google Tag Manager, jQuery, Swiper + A) 메인 IA 퀵액션 재배치: '신규가입·즉시/예약이체·고객문의'를 상단 및 모바일 하단 고정 CTA로 통합해 우선순위 노출 및 접근성 확보 + B) 전환/체류/탐색 KPI: 신규가입 전환율, 즉시이체 완료율, 평균 페이지 체류시간, 메뉴 클릭 퍼널(탐색 경로) 모니터링 설정 + C) 공공기관 Do/Don't: Do — 계약철회·자료열람·금리인하 등 법적 권리와 수어상담·고객문의 절차를 명확히 노출; Don't — 절차·정보 분산으로 이용자 혼란 유발(확인 불가 항목은 별도 검증 필요) + D) 오늘의 한 줄: 신뢰 중심의 파란색 디자인과 법적·금융 CTA가 많은 구조는 핵심행동 노출로 전환 기회를 제공함(추가 검증 필요: 확인 불가)"
+      ],
+      "thumbnail_status": "failed",
+      "thumbnail_error": "Page.evaluate: Execution context was destroyed, most likely because of a navigation",
+      "thumbnail_attempted_at": "2026-11-09T19:58:40.201301+00:00"
+    },
+    {
+      "str_no": "28240",
+      "site_name": "유니픽스",
+      "registered_date": "2026-11-09",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28240",
+      "live_url": "https://unipics.com/",
+      "domain": "unipics.com",
+      "targets": [
+        "기업"
+      ],
+      "lines": [
+        "1) 유니픽스 / 2026-11-09 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28240 / 실사이트: https://unipics.com/",
+        "2) 목적·타깃·IA: 사이트명 '유니픽스', 등록정보에 따르면 기업을 주요 타깃으로 하는 웹사이트로 표기됨(구체적 서비스 구성·정보 구조는 실사이트 접근 실패로 확인 불가).",
+        "3) 실사이트 접근 실패(HTTPError)로 UI/UX 패턴·메뉴 구조·CTA 라벨 등 직접 확인 불가.",
+        "4) 제공 근거상 강점: 수상 이력(WINNER PRIZE) 표기와 '재미있는' 콘셉트 명시로 브랜드 톤이 분명하고, 타깃이 '기업'으로 명확함.",
+        "5) 실사이트 미접근으로 상세 개선점 확인 불가; 우선 권장점(확인 불가): IA·메뉴 우선순위 정리, 주요 CTA(문의/견적) 가시성 확보, 반응형·접근성(ARIA) 점검 및 성능 모니터링 도입.",
+        "6) 기술/플러그인 키워드: Google Analytics / GTM / Lighthouse / A/B 테스트 툴 / CMS(예: WordPress/Headless) / ARIA 접근성 검사 + A) 메인 IA 퀵액션 재배치: 메인 네비게이션 우선순위 권장안 — 포트폴리오(또는 제품) → 서비스소개 → 견적/문의(CTA) → 고객지원/FAQ(실사이트 미확인) + B) 전환/체류/탐색 KPI: 문의·견적 클릭 전환율, CTA 클릭률, 페이지당 체류시간, 이탈률, 페이지/세션 및 모바일 대비 전환률 + C) 공공기관 Do/Don't: Do — 접근성·개인정보보호·명확한 이용안내 준수; Don't — 비표준 네비게이션·과도한 애니메이션으로 접근성 저해 금지 + D) 오늘의 한 줄: 실사이트 접근 실패로 상세 검증 불가하니 우선 접근성·주요 CTA·분석 툴 연동부터 점검하세요."
+      ],
+      "notion_url": "https://app.notion.com/p/41369790c143814a8833c07e3d352c41",
+      "source": "notion",
+      "agency": "유니픽스",
+      "concepts": [
+        "재미있는"
+      ],
+      "website_reachable": false,
+      "thumbnail_status": "failed",
+      "thumbnail_error": "HTTP 403",
+      "thumbnail_attempted_at": "2026-11-09T19:58:40.201301+00:00"
+    },
+    {
+      "str_no": "28198",
+      "site_name": "디자인하우스",
+      "registered_date": "2026-11-09",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28198",
+      "live_url": "https://designhouse.co.kr/",
+      "domain": "designhouse.co.kr",
+      "targets": [
+        "대학생",
+        "20-30대"
+      ],
+      "lines": [
+        "1) 디자인하우스 / 2026-11-09 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28198 / 실사이트: https://designhouse.co.kr/",
+        "2) 목적: 디자인 관점으로 콘텐츠·공간·비즈니스를 기획·연결하는 브랜드 경험 제공; 주요 대상: 대학생·20–30대; IA 초점: 편집형 카테고리(Explore, M+, 월간 디자인 등)와 행사·출판 네비게이션 중심으로 구성되어 있음.",
+        "3) 타이포 중심의 심플 컬러(WHITE·YELLOW) 기반 편집형 레이아웃, 다단계 서브메뉴(↳ 표기)로 카테고리 분류를 명시하고 CTA는 Contact·DH BOOKS·문의하기 등 문의·콘텐츠 연결 중심으로 노출됨.",
+        "4) 브랜드 미션(디자인 관점의 연결)과 편집·출판·페스티벌 등 풍부한 카테고리(월간 디자인, DH BOOKS, 서울리빙디자인페어 등)를 통해 젊은 타깃(대학생·20–30대)에 적합한 콘텐츠 허브 역할이 가능함.",
+        "5) 현재 확인 가능한 CTA는 Contact·DH BOOKS·문의하기로 제한되며(다른 핵심 액션 노출 여부는 확인 불가), 상단 네비게이션에 문의·도서·이벤트·구독 같은 핵심 액션을 직관적으로 재배치해 사용자 전환 경로를 단축할 것을 권장함.",
+        "6) 기술/플러그인 키워드: 확인 불가 + A) 메인 IA 퀵액션 재배치: 상단 글로벌 네비에 핵심 액션(문의/도서(DH BOOKS)/이벤트 신청/구독)을 명확한 버튼으로 고정 노출 + B) 전환/체류/탐색 KPI: 문의 클릭률(CTA CTR), 도서 클릭→구매 전환률, 이벤트 신청율, 페이지 평균 체류시간, 탐색깊이(페이지/세션) 추적 + C) 공공기관 Do/Don't: Do – 명확한 정보구조·접근성 표준 준수(글자크기·대비·모바일 최적화), 명확한 문의/민원 경로 제공; Don't – 전문 용어·브랜드명만으로 경로 숨기기, 복잡한 서브메뉴로 이용자 혼란 유발 금지 + D) 오늘의 한 줄: 타이포 중심의 편집 콘텐츠 허브라면 핵심 액션을 상단에 고정해 전환 경로를 단축하라."
+      ],
+      "notion_url": "https://app.notion.com/p/41369790c14381b5a69cf1ac2123560f",
+      "source": "notion",
+      "agency": "미등록",
+      "methods": [
+        "타이포"
+      ],
+      "colors": [
+        "WHITE",
+        "YELLOW"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/28198.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-11-09T19:58:40.201301+00:00"
+    },
     {
       "str_no": "28206",
       "site_name": "스컹크웍스스튜디오",
@@ -44,7 +149,7 @@
       "website_reachable": true,
       "thumbnail_status": "failed",
       "thumbnail_error": "HTTP 403",
-      "thumbnail_attempted_at": "2026-11-06T16:52:38.166361+00:00"
+      "thumbnail_attempted_at": "2026-11-09T19:58:40.201301+00:00"
     },
     {
       "str_no": "28248",
@@ -8531,6 +8636,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-11-09",
     "2026-11-06",
     "2026-11-05",
     "2026-11-04",
@@ -8623,6 +8729,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-11-10T04:58:40.127676+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 3,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-11-07T01:52:38.065317+09:00",
       "mode": "live",
