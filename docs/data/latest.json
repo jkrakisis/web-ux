@@ -1,11 +1,163 @@
 {
-  "generated_at": "2026-11-11T02:12:09.433591+09:00",
+  "generated_at": "2026-11-12T02:21:43.086656+09:00",
   "mode": "live",
   "status": "success",
-  "new_count": 1,
+  "new_count": 3,
   "failure_count": 0,
-  "total_count": 208,
+  "total_count": 211,
   "items": [
+    {
+      "str_no": "28286",
+      "site_name": "삼성SDS",
+      "registered_date": "2026-11-11",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28286",
+      "live_url": "https://www.samsungsds.com/",
+      "domain": "samsungsds.com",
+      "agency": "미등록",
+      "targets": [
+        "기업"
+      ],
+      "methods": [
+        "콘텐츠"
+      ],
+      "concepts": [
+        "안정적"
+      ],
+      "technologies": [
+        "jQuery",
+        "Swiper"
+      ],
+      "evidence": [
+        "jQuery: HTML에서 'jquery-' 확인",
+        "Swiper: HTML에서 'swiper-bundle' 확인"
+      ],
+      "website_reachable": true,
+      "lines": [
+        "1) 삼성SDS / 2026-11-11 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28286 / 실사이트: https://www.samsungsds.com/",
+        "2) 목적/대상: 기업 대상의 클라우드·디지털 물류·SaaS 서비스 홍보 및 문의 유도(사이트 설명 근거); 상세 IA 구조는 제공 근거로 확인 불가.",
+        "3) UX 패턴: 단일 메뉴 라벨('Samsung SDS')과 주요 CTA '문의하기'·'구독 신청하기' 노출이 확인되며, HTML에서 Swiper 기반 슬라이더 사용이 확인됨; 상세 내비게이션 흐름은 확인 불가.",
+        "4) 강점: 38년 산업 노하우·기업 맞춤 클라우드·올인원 매니지드 서비스·검증된 SaaS를 강조하는 신뢰성·전문성 메시지가 설명문에서 명확히 드러남.",
+        "5) 개선: 메뉴 구조의 세부 분류·사용자 여정·모바일 대응 등 구체 데이터는 제공되지 않아 특정 개선안 도출은 확인 불가; CTA 성과·탐색 데이터 확보 필요.",
+        "6) 기술/플러그인 키워드: jQuery, Swiper + A) 메인 IA 퀵액션 재배치: '문의하기'를 상단 고정 또는 화면 우측 퀵액션으로 우선 배치하고 '구독 신청하기'는 콘텐츠 엔드·푸터에 중복 배치해 접근성 강화(CTA 라벨 근거) + B) 전환/체류/탐색 KPI: 전환율(문의 제출 완료율), 체류(평균 세션 시간·페이지/세션), 탐색(CTA 클릭률·슬라이드 상호작용 이벤트 수집 — Swiper 근거) + C) 공공기관 Do/Don't: Do - 명확한 문의 흐름·개인정보 처리 안내와 접근성 유지, Do - 핵심 서비스(클라우드·물류·SaaS) 요약을 눈에 띄게 제시; Don't - 과도한 브랜딩으로 정보 숨김·복잡한 탐색 유도 금지 + D) 오늘의 한 줄: 기업 대상 안정성과 전문성 중심으로 문의 유도에 초점이 맞춰진 사이트."
+      ],
+      "thumbnail_url": "thumbnails/28286.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-11-11T17:21:43.198005+00:00"
+    },
+    {
+      "str_no": "28281",
+      "site_name": "디파이",
+      "registered_date": "2026-11-11",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28281",
+      "live_url": "https://www.dfy.co.kr/",
+      "domain": "dfy.co.kr",
+      "targets": [
+        "기업"
+      ],
+      "technologies": [
+        "Google Analytics",
+        "React",
+        "Next.js"
+      ],
+      "lines": [
+        "1) 디파이 / 2026-11-11 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28281 / 실사이트: https://www.dfy.co.kr/",
+        "2) 목적/대상/IA: 기업 대상 브랜드·크리에이티브 서비스 소개 및 포트폴리오 전달을 목적으로 하며 IA는 Home/About/Work + Contact CTA의 단순 네비게이션 구조로 보이나 내부 세부 구조는 확인 불가.",
+        "3) UX 패턴: '모던' 콘셉트와 BLACK 색상 지향, 상단 단순 메뉴(Home/About/Work)와 Contact CTA 중심의 포트폴리오 우선 흐름으로 추정되나 세부 인터랙션·반응성은 확인 불가.",
+        "4) 강점: 명확한 브랜드 태그라인과 소개 문구, 포트폴리오 중심의 간결한 메뉴 구조, React·Next.js 기반 최신 스택과 Google Analytics 연동으로 측정 가능성 확보.",
+        "5) 개선점: 메인 IA에서 Work·Contact의 가시성·우선순위 강화로 문의 동선 단축, 페이지별 목표·GA 이벤트 태깅 도입, 검정 기반 디자인의 접근성(명암비·대체텍스트 등) 검토 권장; 구체 UX 결함 여부는 확인 불가.",
+        "6) 기술/플러그인 키워드: Google Analytics, React, Next.js + A) 메인 IA 퀵액션 재배치: 네비게이션 우선순위를 Work → About → Home으로 조정하고 Contact를 상단 고정 CTA 및 각 Work 페이지 하단에 반복 배치하여 포트폴리오→문의 경로를 단축 + B) 전환/체류/탐색 KPI: Contact 제출 수(전환), 세션 지속시간 및 페이지/세션(체류), Work 클릭률 및 CTA 클릭률(탐색)으로 설정하고 GA 이벤트로 태깅 적용 + C) 공공기관 Do/Don't: Do: 웹접근성(국가표준) 준수, 개인정보·이용약관·문의처 명확 표기, 명확한 콘텐츠 카테고리 제공; Don't: 자동재생 미디어·불명확한 네비게이션·낮은 명암비 디자인 유지 금지 + D) 오늘의 한 줄: 포트폴리오 우선의 단순 구조를 유지하되 Contact 동선을 최적화해 문의 전환을 끌어올리라."
+      ],
+      "notion_url": "https://app.notion.com/p/41569790c1438187be31f6750a291091",
+      "source": "notion",
+      "agency": "디파이 (DFY®)",
+      "concepts": [
+        "모던한"
+      ],
+      "colors": [
+        "BLACK"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "React: HTML에서 '_next/static' 확인",
+        "Next.js: HTML에서 '/_next/' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/28281.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-11-11T17:21:43.198005+00:00"
+    },
+    {
+      "str_no": "28207",
+      "site_name": "AI ART AWARD ‘NEXT ART AI'",
+      "registered_date": "2026-11-11",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28207",
+      "live_url": "https://nextartai.co.kr/ko",
+      "domain": "nextartai.co.kr",
+      "targets": [
+        "여성",
+        "남성",
+        "초등학생",
+        "중고등학생",
+        "대학생",
+        "20-30대",
+        "30-40대",
+        "40대 이후"
+      ],
+      "technologies": [
+        "React",
+        "Next.js"
+      ],
+      "lines": [
+        "1) AI ART AWARD ‘NEXT ART AI' / 2026-11-11 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28207 / 실사이트: https://nextartai.co.kr/ko",
+        "2) 목적: ‘호반 넥스트 아트 AI’ 어워드의 홍보·작품접수·전시·아카이브 제공; 주요 타깃: 제공된 목록 전체(여성, 남성, 초등·중고등학생, 대학생, 20–30대, 30–40대, 40대 이후).",
+        "3) 메뉴·CTA에 중복 레이블('HOME HOME','ABOUT ABOUT','APPLY APPLY','NOTICE NOTICE')과 영어/한국어 혼용이 보이며, 강렬·실험적 비주얼 콘셉트(Black, Violet, White, Yellow)와 React/Next.js 기반 프론트엔드 사용이 확인됨; 구체적 탐색 흐름은 확인 불가.",
+        "4) 사이트 접속 가능(https://nextartai.co.kr/ko) 및 어워드 설명 문구가 명시되어 있으며 강렬한 콘셉트와 색상 사용, React·Next.js 기술 스택 보유는 유지보수·확장성 측면에서 강점으로 판단됨(세부 성능·구현은 확인 불가).",
+        "5) 우선 메뉴 라벨 중복 제거 및 언어·레이블 일관성 확보, CTA 하나로 통합(Apply), IA(메뉴 구조) 명확화로 사용자 경로 단순화 권장; 접근성(명확한 링크 텍스트·ARIA)은 확인 불가하므로 점검 필요.",
+        "6) 기술/플러그인 키워드: React, Next.js + A) 메인 IA 퀵액션 재배치: 메뉴를 중복 제거 후 HOME / ABOUT / APPLY / VOTE / EXHIBITION / NOTICE / ARCHIVE / LOGIN 순으로 정렬하고 CTA는 'APPLY'로 통합할 것. + B) 전환/체류/탐색 KPI: Apply 클릭률(CTR), Apply 페이지 체류시간, 지원 완료 전환율(지원 시작→제출), VOTE 전환율 및 페이지별 이탈률(현재 값은 확인 불가). + C) 공공기관 Do/Don't: Do—명확한 레이블·일관된 내비게이션·눈에 띄는 CTA 제공, Do—색 대비·콘텐츠 구조로 가독성 확보; Don't—중복 라벨·혼용 언어·혼란스러운 라우팅 제공 금지. + D) 오늘의 한 줄: 메뉴 라벨 정리만으로 이용자 혼란과 이탈을 크게 줄일 수 있습니다."
+      ],
+      "notion_url": "https://app.notion.com/p/AI-ART-AWARD-NEXT-ART-AI-41569790c1438178b59eec320b1da563",
+      "source": "notion",
+      "agency": "헤이하이컴퍼니",
+      "methods": [
+        "3D",
+        "모션그래픽",
+        "사진",
+        "영상",
+        "일러스트",
+        "타이포",
+        "그래픽합성",
+        "그래픽디자인",
+        "콘텐츠"
+      ],
+      "concepts": [
+        "역동적인",
+        "재미있는",
+        "첨단적인",
+        "실험적인",
+        "화려한",
+        "독특한 레이아웃",
+        "강렬한",
+        "모던한",
+        "깔끔한"
+      ],
+      "colors": [
+        "BLACK",
+        "VIOLET",
+        "WHITE",
+        "YELLOW"
+      ],
+      "evidence": [
+        "React: HTML에서 '_next/static' 확인",
+        "Next.js: HTML에서 '/_next/' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/28207.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-11-11T17:21:43.198005+00:00"
+    },
     {
       "str_no": "28084",
       "site_name": "아이파트너즈 NX LAB",
@@ -47,7 +199,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/28084.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-11-10T17:12:09.520361+00:00"
     },
     {
@@ -88,8 +239,8 @@
         "6) 기술/플러그인 키워드: Google Tag Manager, jQuery, Swiper + A) 메인 IA 퀵액션 재배치: '신규가입·즉시/예약이체·고객문의'를 상단 및 모바일 하단 고정 CTA로 통합해 우선순위 노출 및 접근성 확보 + B) 전환/체류/탐색 KPI: 신규가입 전환율, 즉시이체 완료율, 평균 페이지 체류시간, 메뉴 클릭 퍼널(탐색 경로) 모니터링 설정 + C) 공공기관 Do/Don't: Do — 계약철회·자료열람·금리인하 등 법적 권리와 수어상담·고객문의 절차를 명확히 노출; Don't — 절차·정보 분산으로 이용자 혼란 유발(확인 불가 항목은 별도 검증 필요) + D) 오늘의 한 줄: 신뢰 중심의 파란색 디자인과 법적·금융 CTA가 많은 구조는 핵심행동 노출로 전환 기회를 제공함(추가 검증 필요: 확인 불가)"
       ],
       "thumbnail_status": "failed",
-      "thumbnail_error": "Page.add_style_tag: Execution context was destroyed, most likely because of a navigation",
-      "thumbnail_attempted_at": "2026-11-10T17:12:09.520361+00:00",
+      "thumbnail_error": "empty first viewport",
+      "thumbnail_attempted_at": "2026-11-11T17:21:43.198005+00:00",
       "notion_url": "https://app.notion.com/p/SBI-41369790c14381e5a5b9ed7faab46748",
       "source": "notion"
     },
@@ -120,7 +271,7 @@
       "website_reachable": false,
       "thumbnail_status": "failed",
       "thumbnail_error": "HTTP 403",
-      "thumbnail_attempted_at": "2026-11-10T17:12:09.520361+00:00"
+      "thumbnail_attempted_at": "2026-11-11T17:21:43.198005+00:00"
     },
     {
       "str_no": "28198",
@@ -194,7 +345,7 @@
       "website_reachable": true,
       "thumbnail_status": "failed",
       "thumbnail_error": "HTTP 403",
-      "thumbnail_attempted_at": "2026-11-10T17:12:09.520361+00:00"
+      "thumbnail_attempted_at": "2026-11-11T17:21:43.198005+00:00"
     },
     {
       "str_no": "28248",
@@ -8681,6 +8832,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-11-11",
     "2026-11-10",
     "2026-11-09",
     "2026-11-06",
@@ -8775,6 +8927,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-11-12T02:21:43.086656+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 3,
+      "failure_count": 0
+    },
     {
       "generated_at": "2026-11-11T02:12:09.433591+09:00",
       "mode": "live",
