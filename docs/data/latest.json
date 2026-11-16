@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-14T02:20:06.177820+09:00",
+  "generated_at": "2026-11-17T04:46:03.339200+09:00",
   "mode": "live",
-  "status": "success",
-  "new_count": 4,
-  "failure_count": 0,
-  "total_count": 220,
+  "status": "partial",
+  "new_count": 1,
+  "failure_count": 1,
+  "total_count": 221,
   "items": [
     {
       "str_no": "28224",
@@ -49,8 +49,39 @@
       ],
       "thumbnail_url": "thumbnails/28224.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
-      "thumbnail_attempted_at": "2026-11-13T17:20:06.281471+00:00"
+      "thumbnail_attempted_at": "2026-11-13T17:20:06.281471+00:00",
+      "notion_url": "https://app.notion.com/p/41769790c143810ba0facb169228161f",
+      "source": "notion"
+    },
+    {
+      "str_no": "28282",
+      "site_name": "현대커미셜",
+      "registered_date": "2026-11-16",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28282",
+      "live_url": "https://www.hyundaicommercial.com/",
+      "domain": "hyundaicommercial.com",
+      "targets": [
+        "기업"
+      ],
+      "lines": [
+        "1) 현대커미셜 / 2026-11-16 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28282 / 실사이트: https://www.hyundaicommercial.com/",
+        "2) 목적/대상: 제공 데이터에 따르면 대상은 '기업'으로 등록되어 있으나 IA의 구체적 목적·구성은 사이트 접근 실패로 확인 불가.",
+        "3) UX 패턴: 브랜드 색상(ORANGE, WHITE) 사용 정보와 수상 이력만 확인되며, 네비게이션·CTA 레이블·레이아웃 등 구체적 UX 패턴은 접근 실패로 확인 불가.",
+        "4) 강점: WINNER PRIZE 수상 및 브랜드 색상(오렌지·화이트) 명시라는 긍정적 신호가 있으나 구체적 UI·콘텐츠 근거는 사이트 접근 실패로 확인 불가.",
+        "5) 개선권고: 메인 IA의 퀵액션·CTA 가시성 개선, 전환추적·접근성 강화 권장이며 세부 개선항목은 현 사이트 레이아웃 비확인으로 확인 불가.",
+        "6) 기술/플러그인 키워드: Google Analytics, Hotjar, CDN, Lighthouse + A) 메인 IA 퀵액션 재배치: 우선순위를 '서비스 안내 → 기업(법인)문의/상담 → 상담/견적 → 고객지원'으로 재배치 권장(현 구성은 사이트 접근 실패로 확인 불가) + B) 전환/체류/탐색 KPI: 전환율(문의·견적 신청), 세션당 페이지수, 평균 세션 시간, 이탈률을 우선 모니터링 및 목표 설정 + C) 공공기관 Do/Don't: Do: 접근성 준수(웹콘텐츠 접근성 지침), 명확한 메뉴·법인 전용 경로 제공; Don't: 문의경로 미노출·전문용어 미해설 등 사용자 혼선 유발 행위 금지(구성 세부사항은 확인 불가) + D) 오늘의 한 줄: 사이트 접속 실패로 내부 검증이 불가능하니 우선 접근성·분석 도구 설치 후 IA와 퀵액션 우선순위를 재점검하십시오."
+      ],
+      "notion_url": "https://app.notion.com/p/41a69790c1438124ae97ed4cbe44ab67",
+      "source": "notion",
+      "agency": "미등록",
+      "colors": [
+        "ORANGE",
+        "WHITE"
+      ],
+      "website_reachable": false,
+      "thumbnail_status": "failed",
+      "thumbnail_error": "Page.evaluate: Execution context was destroyed, most likely because of a navigation",
+      "thumbnail_attempted_at": "2026-11-16T19:46:03.431065+00:00"
     },
     {
       "str_no": "28310",
@@ -104,7 +135,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/28310.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-11-13T17:20:06.281471+00:00"
     },
     {
@@ -156,7 +186,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/28288.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-11-13T17:20:06.281471+00:00"
     },
     {
@@ -209,7 +238,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/28287.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-11-13T17:20:06.281471+00:00"
     },
     {
@@ -9272,6 +9300,7 @@
   "preview_items": [],
   "available_dates": [
     "2026-11-20",
+    "2026-11-16",
     "2026-11-13",
     "2026-11-12",
     "2026-11-11",
@@ -9369,6 +9398,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-11-17T04:46:03.339200+09:00",
+      "mode": "live",
+      "status": "partial",
+      "new_count": 1,
+      "failure_count": 1
+    },
     {
       "generated_at": "2026-11-14T02:20:06.177820+09:00",
       "mode": "live",
@@ -10000,5 +10036,9 @@
       "failure_count": 0
     }
   ],
-  "failures": []
+  "failures": [
+    {
+      "text": "자동 등록 실패 — 티빙\n사이트명: 티빙\n등록일: 2026-11-16\nGDWEB str_no: 28327\nGDWEB URL: www.gdweb.co.kr/sub/view.asp?str_no=28327\n실사이트 URL: 확인 불가\n제작사: 미등록\n표현방법: 콘텐츠\n디자인 컨셉: 확인 불가\n주색상: BLACK\n처리 상태: 자동 등록 실패\n실패 사유: GDWEB 상세에서 실사이트 URL을 확정하지 못함"
+    }
+  ]
 }
