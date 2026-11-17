@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-17T04:46:03.339200+09:00",
+  "generated_at": "2026-11-18T03:42:06.799354+09:00",
   "mode": "live",
   "status": "partial",
   "new_count": 1,
   "failure_count": 1,
-  "total_count": 221,
+  "total_count": 222,
   "items": [
     {
       "str_no": "28224",
@@ -54,6 +54,32 @@
       "source": "notion"
     },
     {
+      "str_no": "28362",
+      "site_name": "GS 리테일",
+      "registered_date": "2026-11-17",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28362",
+      "live_url": "https://www.gsretail.com/",
+      "domain": "gsretail.com",
+      "agency": "미등록",
+      "methods": [
+        "사진",
+        "인물/사람"
+      ],
+      "website_reachable": true,
+      "lines": [
+        "1) GS 리테일 / 2026-11-17 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28362 / 실사이트: https://www.gsretail.com/",
+        "2) 목적/대상/IA: 사이트명은 'GS Retail'로 확인되며(https://www.gsretail.com/), 상세 목적·타깃 유저·정보구조는 제공 자료에 없어 확인 불가.",
+        "3) UX 패턴: '사진'·'인물/사람' 중심의 시각 요소 사용이 명시되어 있음; 메뉴·CTA·네비게이션 패턴에 대한 구체 정보는 제공되지 않아 확인 불가.",
+        "4) 강점: 사이트가 접근 가능하며(final_url 확인됨), 사이트명(타이틀) 표기와 사진/인물 이미지 사용, WINNER PRIZE 수상 기록이 제공 자료로 확인됨.",
+        "5) 개선점: 메뉴 라벨·CTA·메타 설명·기술 스택·증거(evidence)가 제공되지 않아 정보구조·전환 흐름 분석 불가 — 메뉴·CTA·설명문구·분석 지표 추가를 권장함.",
+        "6) 기술/플러그인 키워드: 접근성 도구·웹분석(Analytics)·CMS·이미지 최적화 플러그인 + A) 메인 IA 퀵액션 재배치: 상단 헤더에 핵심 사용자 경로를 퀵액션으로 배치해 1클릭 접근성 확보(현재 메뉴 라벨 미제공으로 세부 구성은 확인 불가) + B) 전환/체류/탐색 KPI: 페이지별 이탈률·세션 지속시간·퀵액션 클릭률을 측정하여 전환률·체류시간 개선 목표 설정(구체 수치는 제공자료에 없어 확인 불가) + C) 공공기관 Do/Don't: Do - 명확한 메뉴·CTA·접근성 고지 및 증빙자료 제공; Don't - 정보구조가 불분명한 상태로 이미지 중심만으로 정보 전달하는 것(기관 해당 여부는 제공자료에 없어 확인 불가) + D) 오늘의 한 줄: 사이트 접속은 가능하나 IA·CTA 정보 부족으로 전환 최적화 여부는 확인 불가."
+      ],
+      "thumbnail_url": "thumbnails/28362.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-11-17T18:42:06.907166+00:00"
+    },
+    {
       "str_no": "28282",
       "site_name": "현대커미셜",
       "registered_date": "2026-11-16",
@@ -81,7 +107,7 @@
       "website_reachable": false,
       "thumbnail_status": "failed",
       "thumbnail_error": "Page.evaluate: Execution context was destroyed, most likely because of a navigation",
-      "thumbnail_attempted_at": "2026-11-16T19:46:03.431065+00:00"
+      "thumbnail_attempted_at": "2026-11-17T18:42:06.907166+00:00"
     },
     {
       "str_no": "28310",
@@ -9300,6 +9326,7 @@
   "preview_items": [],
   "available_dates": [
     "2026-11-20",
+    "2026-11-17",
     "2026-11-16",
     "2026-11-13",
     "2026-11-12",
@@ -9398,6 +9425,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-11-18T03:42:06.799354+09:00",
+      "mode": "live",
+      "status": "partial",
+      "new_count": 1,
+      "failure_count": 1
+    },
     {
       "generated_at": "2026-11-17T04:46:03.339200+09:00",
       "mode": "live",
