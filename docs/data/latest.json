@@ -1,11 +1,212 @@
 {
-  "generated_at": "2026-11-20T03:29:14.469271+09:00",
+  "generated_at": "2026-11-21T02:58:09.197763+09:00",
   "mode": "live",
   "status": "partial",
-  "new_count": 2,
+  "new_count": 4,
   "failure_count": 1,
-  "total_count": 227,
+  "total_count": 231,
   "items": [
+    {
+      "str_no": "28411",
+      "site_name": "실리코바이오",
+      "registered_date": "2026-11-20",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28411",
+      "live_url": "https://www.silicobio.com/",
+      "domain": "silicobio.com",
+      "agency": "플렉스",
+      "targets": [
+        "기업"
+      ],
+      "methods": [
+        "사진"
+      ],
+      "concepts": [
+        "첨단적인"
+      ],
+      "colors": [
+        "BLACK",
+        "BLUE"
+      ],
+      "technologies": [
+        "React",
+        "Next.js"
+      ],
+      "evidence": [
+        "React: HTML에서 '_next/static' 확인",
+        "Next.js: HTML에서 '/_next/' 확인",
+        "응답 헤더 x-powered-by=Next.js"
+      ],
+      "website_reachable": true,
+      "lines": [
+        "1) 실리코바이오 / 2026-11-20 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28411 / 실사이트: https://www.silicobio.com/",
+        "2) 목적: 합성생물학 기반 정밀발효·바이오제조 솔루션을 기업 대상으로 홍보하고 문의를 유도하는 B2B 사이트로, IA 핵심은 상단 글로벌 메뉴(HOME, LAB-TO-MARKET, PIPELINE, 3STEP, ABOUT, RESEARCH & NEWS, CONTACT)를 통한 제품·연구·문의 경로 구성.",
+        "3) 시각적·내비게이션 패턴: 사진 중심의 첨단 이미지 사용(제공 메소드: 사진, 콘셉트: 첨단적인), 상단 메뉴 기반 탐색과 CONTACT 이메일/CTA가 주요 액션 경로이며 React·Next.js 기반으로 빌드된 것으로 확인됨.",
+        "4) 강점: R&D에서 상업화까지의 통합 바이오제조 솔루션 메시지가 명확하고(사이트 설명), 명시적 문의 CTA(이메일) 제공 및 React/Next.js 기술스택으로 성능·확장성 잠재력이 있음; 색상(BLACK·BLUE)이 첨단 이미지를 강화함.",
+        "5) 개선권장: 메인 화면에 CONTACT·PIPELINE 퀵액션을 상시 노출해 문의 동선을 단축하고(퀵액션 재배치 권장), 파이프라인·리서치 섹션에 요약+명확한 CTA 추가, 접근성(대체텍스트·ARIA) 및 SEO 메타 최적화 권장; 현재 구체적 구현 상태는 확인 불가.",
+        "6) 기술/플러그인 키워드: React, Next.js + A) 메인 IA 퀵액션 재배치: 상단 우측 고정 'CONTACT' 버튼 추가·PIPELINE 요약 바로가기·3STEP을 하이라이트로 전면 배치하여 문의·전환 경로 단축 + B) 전환/체류/탐색 KPI: 문의(이메일) 전송 전환율, 파이프라인·리서치 페이지별 평균 체류시간, 네비게이션 클릭수·페이지당 탐색 깊이 추적 + C) 공공기관 Do/Don't: Do - 연락처·담당자·담당부서 명확 표기 및 접근성(대체텍스트·명도 대비) 준수; Don't - 기술적 용어만 나열해 비즈니스 가치를 불분명하게 제시하지 말 것 + D) 오늘의 한 줄: 기업 고객은 빠른 문의 경로와 명확한 가치 제시를 가장 먼저 평가합니다."
+      ],
+      "thumbnail_url": "thumbnails/28411.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-11-20T17:58:09.281649+00:00"
+    },
+    {
+      "str_no": "28407",
+      "site_name": "소이정 AI테크랩",
+      "registered_date": "2026-11-20",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28407",
+      "live_url": "https://aitech.soijeong.com/",
+      "domain": "aitech.soijeong.com",
+      "targets": [
+        "여성",
+        "남성",
+        "대학생",
+        "20-30대",
+        "30-40대",
+        "40대 이후",
+        "기업"
+      ],
+      "technologies": [
+        "Google Tag Manager",
+        "jQuery",
+        "GSAP",
+        "Swiper"
+      ],
+      "lines": [
+        "1) 소이정 AI테크랩 / 2026-11-20 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28407 / 실사이트: https://aitech.soijeong.com/",
+        "2) 목적·대상 IA 요약: AI 검색(GEO) 최적화·AI 챗봇·AI CMS·AI 이미지·영상 제작을 제공하는 기업 사이트로, 대상은 여성·남성·대학생·20-30대·30-40대·40대 이후·기업으로 명시됨.",
+        "3) 관찰된 UX 패턴: 상단 메뉴에 'GEO 무료진단', '견적문의'(중복), 'AI Search', '포트폴리오', 'News', 'FAQ', SOIJEONG·Medi-Lab·3D Lab 등 정보 중심 네비게이션과 GSAP(ScrollTrigger)·Swiper 기반 모션·슬라이더 사용, Google Tag Manager·jQuery 포함.",
+        "4) 강점: 타이틀·설명에서 서비스 가치(홈페이지 구조 설계→운영·성과 연결)를 명확히 제시하고 블랙·오렌지·화이트의 일관된 색상, 즉각적 CTA('GEO 무료진단', 견적문의)과 포트폴리오·연구실로 전문성·신뢰성 전달.",
+        "5) 개선 권고(근거 기반): 메뉴 내 '견적문의' 중복 통합 및 CTA 표준화로 전환경로 단순화, 'GEO 무료진단'을 메인 퀵액션으로 상단 고정 권장; 사이트 성능·모바일 최적화 상태는 제공 근거에 없음(확인 불가), 추적 구현은 GTM으로 확인되어 전환측정 활용 가능.",
+        "6) 기술/플러그인 키워드: Google Tag Manager, jQuery, GSAP, Swiper + A) 메인 IA 퀵액션 재배치: 우선순위 제안 — 1. GEO 무료진단(상단 고정) 2. 견적문의(통합·단일 CTA) 3. 포트폴리오 4. AI Search 5. 소이정의 특별함 6. News/FAQ/Medi‑Lab/3D Lab + B) 전환/체류/탐색 KPI: 견적 문의 전환률, GEO 무료진단 클릭률, 포트폴리오 평균 체류시간, 페이지당 탐색 깊이(페이지 이동 수) + C) 공공기관 Do/Don't: Do — 개인정보·추적(GTM) 고지 및 접근성 준수, 명확한 서비스 범위 표기; Don't — 과장된 성과표기 및 비동의 트래킹 사용 금지 + D) 오늘의 한 줄: GEO 무료진단을 메인 퀵액션으로 고정해 전환경로를 단순화하십시오."
+      ],
+      "notion_url": "https://app.notion.com/p/AI-41e69790c14381908015d611aaae3509",
+      "source": "notion",
+      "agency": "소이정",
+      "methods": [
+        "모션그래픽",
+        "사진",
+        "영상",
+        "일러스트",
+        "타이포",
+        "그래픽합성",
+        "그래픽디자인",
+        "인물/사람",
+        "콘텐츠"
+      ],
+      "concepts": [
+        "신비적인",
+        "심플한",
+        "첨단적인",
+        "강렬한",
+        "모던한",
+        "깔끔한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "BLACK",
+        "ORANGE",
+        "WHITE"
+      ],
+      "evidence": [
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "jQuery: HTML에서 'jquery-' 확인",
+        "GSAP: HTML에서 'scrolltrigger' 확인",
+        "Swiper: HTML에서 'swiper-bundle' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/28407.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-11-20T17:58:09.281649+00:00"
+    },
+    {
+      "str_no": "28402",
+      "site_name": "목암연구소",
+      "registered_date": "2026-11-20",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28402",
+      "live_url": "https://www.mogam.re.kr/",
+      "domain": "mogam.re.kr",
+      "targets": [
+        "20-30대",
+        "기업"
+      ],
+      "technologies": [
+        "Google Analytics",
+        "React",
+        "Next.js"
+      ],
+      "lines": [
+        "1) 목암연구소 / 2026-11-20 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28402 / 실사이트: https://www.mogam.re.kr/",
+        "2) 목암연구소 사이트 목적은 비영리 생명공학 연구기관 소개 및 대외협력·채용·문의 유도이며, 주타깃은 20-30대·기업으로 현재 상단 메뉴(목암연구소·연구분야·최신소식·대외협력·채용안내·Contact Us)와 단일 CTA(Contact Us)를 중심으로 IA가 구성되어 있어 타깃별 퀵액션 재배치가 필요함; 확인 불가: 내부 목표 우선순위·사용자리서치.",
+        "3) 현재 확인된 UX 패턴은 한줄 상단 네비게이션과 단일 글로벌 CTA 노출이며 React·Next.js 기반(HTML '/_next/'와 x-powered-by 증거)으로 SPA/SSR 특성을 활용한 설계로 추정됨; 3D·그래픽·신비적·심플·첨단·강렬 콘셉트의 실제 표현 방식은 확인 불가.",
+        "4) 강점: 기관명·목적이 명확(사이트 타이틀·설명), BLUE/WHITE 색상과 제시된 콘셉트가 기관 신뢰감·첨단 이미지를 지원하며 React/Next.js 및 Google Analytics(gtag) 도입으로 성능·분석 기반 운영이 가능함.",
+        "5) 개선권장사항(제공 근거 기반): 상단 IA를 타깃별 퀵액션으로 분화(기업협력·연구성과·채용)하고 Contact Us 외 다중 CTA 배치로 유입 경로를 명확히 하며 모바일에서 하단 고정 네비 도입과 GA 기반 이벤트 측정으로 전환 최적화; 확인 불가: 현재 페이지별 전환흐름·A/B 테스트 결과.",
+        "6) 기술/플러그인 키워드: React, Next.js, Google Analytics(gtag) + A) 메인 IA 퀵액션 재배치: 상단 우측 단일 CTA를 분화하여 우선순위(기업협력·연구성과·채용)로 재배치하고 모바일 하단 고정 퀵링크로 동일 항목 노출 + B) 전환/체류/탐색 KPI: Contact 문의 제출수(주간) · 대외협력 클릭률 · 채용 지원 클릭률 · 페이지당 평균 체류시간 · 이탈률(Session Bounce) + C) 공공기관 Do/Don't: Do=명확한 기관소개·투명한 연구정보·접근성 준수·분석 기반 개선, Don't=과장된 임상효과 표기·상업적 오퍼 혼재 + D) 오늘의 한 줄: 단일 Contact CTA를 타깃별 퀵액션으로 분화하면 대외협력·채용 전환이 개선됩니다."
+      ],
+      "notion_url": "https://app.notion.com/p/41e69790c14381c2b5e9f05e9ebc048e",
+      "source": "notion",
+      "agency": "레이팩트",
+      "methods": [
+        "3D",
+        "그래픽디자인"
+      ],
+      "concepts": [
+        "신비적인",
+        "심플한",
+        "첨단적인",
+        "강렬한"
+      ],
+      "colors": [
+        "BLUE",
+        "WHITE"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "React: HTML에서 '_next/static' 확인",
+        "Next.js: HTML에서 '/_next/' 확인",
+        "응답 헤더 x-powered-by=Next.js"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/28402.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-11-20T17:58:09.281649+00:00"
+    },
+    {
+      "str_no": "28328",
+      "site_name": "롯데맴버스",
+      "registered_date": "2026-11-20",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28328",
+      "live_url": "https://www.lottemembers.com/",
+      "domain": "lottemembers.com",
+      "lines": [
+        "1) 롯데맴버스 / 2026-11-20 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28328 / 실사이트: https://www.lottemembers.com/",
+        "2) 목적: '롯데멤버스'는 L.POINT·L.PAY 중심으로 고객의 일상과 롯데를 연결하는 데이터·마케팅 기업(사이트 타이틀·설명 근거); 주요 대상은 제공 데이터에 없음(확인 불가); IA 특성: 서비스·솔루션·브랜드·채용·콘텐츠(캐릭터·리포트) 중심으로 광범위한 메뉴 구조.",
+        "3) 서비스·솔루션 및 기업정보 중심의 광범위한 글로벌 메뉴 구조(예: 엘포인트·엘페이·통합ID·마케팅 서비스 등), 캐릭터·트렌드리포트 같은 콘텐츠 마케팅 요소와 일러스트·귀여운 콘셉트(제공: methods: 일러스트, concepts: 귀여운, colors: RED/WHITE)가 혼재됨.",
+        "4) 명확한 브랜드 타이틀·설명으로 서비스 핵심(L.POINT·L.PAY)을 전달함, 서비스·솔루션 카테고리와 기업정보(연혁·준법경영·채용)가 균형 있게 포함되어 정보 제공 역할에 적합함, 캐릭터·일러스트 콘셉트로 브랜드 아이덴티티 강화 가능.",
+        "5) 개선 권고: cta_labels가 제공되지 않아 주요 전환경로 불명확(제공데이터: cta_labels: [] → 확인 불가); IA 우선순위 재정립을 통해 'L.POINT·L.PAY·롯데 통합 ID·롯데모바일상품권'을 최상단 퀵액션으로 고정하고 메뉴 통합·라벨 명확화 및 접근성 점검 권고.",
+        "6) 기술/플러그인 키워드: GA4, Heatmap(Hotjar/FullStory), 검색엔진(Console), 접근성검사(Axe/Lighthouse) + A) 메인 IA 퀵액션 재배치: 헤더/모바일 하단 고정영역에 우선 순위로 'L.POINT · L.PAY · 롯데 통합 ID · 롯데모바일상품권'을 배치하고 시각적 CTA(RED 버튼)로 강조 + B) 전환/체류/탐색 KPI: L.POINT 가입·로그인·결제 전환율, CTA 클릭률(CTR), 페이지별 체류시간·이탈률, 평균 탐색 깊이(페이지/세션), 주요 태스크 완료율 + C) 공공기관 Do/Don't: Do – 접근성(색대비/키보드), 개인정보·이용약관 투명성, 명확한 서비스 라벨·절차 제공; Don't – 핵심 서비스 심층화(숨김), 혼동되는 라벨·과도한 프로모션으로 정보 노이즈 유발 금지 + D) 오늘의 한 줄: 상단 고정 퀵액션으로 'L.POINT·L.PAY·통합ID'를 즉시 노출하면 이용자 전환 경로가 단축됩니다."
+      ],
+      "notion_url": "https://app.notion.com/p/41e69790c14381f49b47edc2a19d8a22",
+      "source": "notion",
+      "agency": "미등록",
+      "methods": [
+        "일러스트"
+      ],
+      "concepts": [
+        "귀여운"
+      ],
+      "colors": [
+        "RED",
+        "WHITE"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/28328.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-11-20T17:58:09.281649+00:00"
+    },
     {
       "str_no": "28224",
       "site_name": "미디어브레인",
@@ -92,7 +293,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/28403.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-11-19T18:29:14.562150+00:00"
     },
     {
@@ -135,7 +335,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/28364.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-11-19T18:29:14.562150+00:00"
     },
     {
@@ -171,7 +370,7 @@
       ],
       "thumbnail_status": "failed",
       "thumbnail_error": "empty first viewport",
-      "thumbnail_attempted_at": "2026-11-19T18:29:14.562150+00:00",
+      "thumbnail_attempted_at": "2026-11-20T17:58:09.281649+00:00",
       "notion_url": "https://app.notion.com/p/41c69790c1438189ae09d1c57a4d326b",
       "source": "notion"
     },
@@ -267,7 +466,7 @@
       "website_reachable": true,
       "thumbnail_status": "failed",
       "thumbnail_error": "first viewport is visually empty",
-      "thumbnail_attempted_at": "2026-11-19T18:29:14.562150+00:00"
+      "thumbnail_attempted_at": "2026-11-20T17:58:09.281649+00:00"
     },
     {
       "str_no": "28362",
@@ -9644,6 +9843,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-11-21T02:58:09.197763+09:00",
+      "mode": "live",
+      "status": "partial",
+      "new_count": 4,
+      "failure_count": 1
+    },
     {
       "generated_at": "2026-11-20T03:29:14.469271+09:00",
       "mode": "live",
