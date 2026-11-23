@@ -1,11 +1,203 @@
 {
-  "generated_at": "2026-11-21T02:58:09.197763+09:00",
+  "generated_at": "2026-11-24T06:37:34.727460+09:00",
   "mode": "live",
   "status": "partial",
-  "new_count": 4,
+  "new_count": 3,
   "failure_count": 1,
-  "total_count": 231,
+  "total_count": 234,
   "items": [
+    {
+      "str_no": "28422",
+      "site_name": "더샵천안라크원 본사이트",
+      "registered_date": "2026-11-23",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28422",
+      "live_url": "https://xn--9m1bw2f3rksoeb6bl4oj1g.kr/",
+      "domain": "xn--9m1bw2f3rksoeb6bl4oj1g.kr",
+      "agency": "디아트픽셀",
+      "targets": [
+        "여성",
+        "남성",
+        "학부모",
+        "20-30대",
+        "30-40대",
+        "40대 이후",
+        "기업",
+        "주부"
+      ],
+      "methods": [
+        "3D",
+        "사진",
+        "영상",
+        "일러스트",
+        "풍경",
+        "인물/사람",
+        "건물/빌딩"
+      ],
+      "concepts": [
+        "신비적인",
+        "심플한",
+        "역동적인",
+        "모던한",
+        "깔끔한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "BLACK",
+        "SILVER",
+        "WHITE"
+      ],
+      "technologies": [
+        "Google Analytics",
+        "Google Tag Manager",
+        "jQuery",
+        "GSAP",
+        "Swiper",
+        "Cafe24"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "jQuery: HTML에서 'jquery.min.js' 확인",
+        "GSAP: HTML에서 'scrolltrigger' 확인",
+        "Swiper: HTML에서 'swiper.min' 확인",
+        "Cafe24: HTML에서 'cafe24.com' 확인"
+      ],
+      "website_reachable": true,
+      "lines": [
+        "1) 더샵천안라크원 본사이트 / 2026-11-23 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28422 / 실사이트: https://xn--9m1bw2f3rksoeb6bl4oj1g.kr/",
+        "2) 목적: 더샵 천안라크원 분양·브랜딩 정보 전달 및 관심고객(리드) 확보; 주요 타겟: 여성, 남성, 학부모, 20–30대, 30–40대, 40대 이후, 기업, 주부.",
+        "3) 검증된 기술 근거로 확인되는 패턴: ScrollTrigger 기반 애니메이션(GSAP), 슬라이더(Swiper) 활용의 시각적 몰입형 페이지, 상단 로고·ON/OFF·전화번호·관심고객등록으로 축약된 심플 메뉴 구조(CTA 라벨은 비어 있음으로 확인).",
+        "4) 시각 콘셉트는 신비적·모던·깔끔·신뢰적이며 색상 팔레트(BLACK/SILVER/WHITE)와 3D·사진·영상 등 멀티미디어 기법이 결합되어 있어 고급스러운 브랜드 연출이 가능하며 Google Analytics·GTM이 도입되어 데이터 수집 체계가 마련되어 있음.",
+        "5) 확인된 문제점: cta_labels가 비어 있어 주요 행동 유도(CTA)가 약화됨(확인); 권장 개선: 상단·고정영역에 명확한 CTA(관심고객등록, 전화걸기) 배치 및 GTM을 통한 이벤트 트래킹 추가로 전환 측정성 강화; 접근성·모바일 최적화 여부는 제공 근거에 없음(확인 불가).",
+        "6) 기술/플러그인 키워드: Google Analytics, Google Tag Manager, jQuery, GSAP(ScrollTrigger), Swiper, Cafe24 + A) 메인 IA 퀵액션 재배치: 상단 우측·모바일 상단에 '관심고객등록'을 고정 스티키 CTA로 배치하고, 전화번호(1600.6833)는 클릭/통화 버튼으로 병렬 배치하여 1차 행동 유도 우선순위로 재배치. + B) 전환/체류/탐색 KPI: 관심고객등록 전환률(리드), CTA 클릭률, 세션당 페이지뷰·평균 세션시간(체류), 이탈률/페이지별 경유 흐름(탐색). + C) 공공기관 Do/Don't: Do - 명확한 연락처·개인정보 수집·이용 고지와 접근성 표준 준수; Don't - 모호한 CT A 표기·과장성 문구 사용(정보 비일치) 및 개인정보 수집 동의 없이 리드 유도. + D) 오늘의 한 줄: '명확한 CTA와 GTM 기반 이벤트로 리드를 측정 가능한 자산으로 전환하세요.'"
+      ],
+      "thumbnail_url": "thumbnails/28422.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-11-23T21:37:34.850168+00:00"
+    },
+    {
+      "str_no": "28415",
+      "site_name": "서울디지털대학교 입학지원센터",
+      "registered_date": "2026-11-23",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28415",
+      "live_url": "https://go.sdu.ac.kr/",
+      "domain": "go.sdu.ac.kr",
+      "targets": [
+        "여성",
+        "남성",
+        "대학생",
+        "20-30대",
+        "30-40대",
+        "40대 이후"
+      ],
+      "technologies": [
+        "Google Analytics",
+        "jQuery",
+        "Swiper"
+      ],
+      "lines": [
+        "1) 서울디지털대학교 입학지원센터 / 2026-11-23 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28415 / 실사이트: https://go.sdu.ac.kr/",
+        "2) 목적: 교육부 인가 4년제 사이버대학의 신입학·편입학 안내 및 입학지원 유도; 주요 대상: 여성·남성·대학생·20–30대·30–40대·40대 이후; 주요 IA 엔트리포인트: 입학 자료 신청, 입학 지원서 작성, 맞춤정보(나의 학과/전형/장학/자격증) 경로.",
+        "3) 디자인·콘텐츠 패턴: 사진·일러스트·인물 중심의 콘텐츠 사용, 심플·모던·깔끔·신뢰적 컨셉과 BLUE/GRAY/WHITE 색상 조합, Swiper 기반 슬라이더 사용(HTML 근거 있음) 및 다수의 CTA와 상세 메뉴 중심 내비게이션.",
+        "4) 강점: 사이트 목적(신입학·편입학 안내)과 설명이 명확하며 입학자료신청·입학지원서작성 등 전환용 CTA와 세부 메뉴가 풍부하고 Google Analytics·jQuery·Swiper 사용이 HTML 근거로 확인됨, 사이트 접근 가능(최종 URL 확인됨).",
+        "5) 개선사항: 메뉴·CTA 중복('입학 자료 신청' 등) 정리 및 '나의 학과/전형/장학' 등 맞춤경로를 상단에 우선 배치해 경로 단축, Swiper 활용 시 접근성·성능 점검 권고; 모바일 반응성·접근성 상태는 제공 근거로 확인 불가.",
+        "6) 기술/플러그인 키워드: Google Analytics, jQuery, Swiper + A) 메인 IA 퀵액션 재배치: 상단 퀵액션 우선순위 1) 입학지원서 작성 2) 입학 자료 신청 3) 맞춤정보 찾기(나의 학과/전형/장학/자격증) 4) 입학상담 예약으로 통합·정렬 + B) 전환/체류/탐색 KPI: 입학자료신청 클릭률(CTR), 지원서 작성 완료 전환율, 폼 이탈률, 평균 세션 시간, 페이지별 이탈률(Goal 전환 설정은 Google Analytics 사용) + C) 공공기관 Do/Don't: Do: 입학요건·모집일정·장학정보를 명확·투명하게 노출하고 개인정보처리 방침·접근성 안내를 분명히 제시할 것; Don't: 중복 메뉴·모호한 항목(예: '... (test)')과 과도한 중복 CTA로 혼란 유발하지 말 것 + D) 오늘의 한 줄: 중복 CTA 정리와 맞춤 경로 상단 배치로 지원 전환 효율을 높이십시오."
+      ],
+      "notion_url": "https://app.notion.com/p/42169790c1438108b68ce9aa7cb3d0da",
+      "source": "notion",
+      "agency": "피터패트",
+      "methods": [
+        "사진",
+        "일러스트",
+        "인물/사람",
+        "콘텐츠"
+      ],
+      "concepts": [
+        "심플한",
+        "안정적",
+        "재미있는",
+        "모던한",
+        "깔끔한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "BLUE",
+        "GRAY",
+        "WHITE"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "jQuery: HTML에서 'jquery-' 확인",
+        "Swiper: HTML에서 'swiper.min' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/28415.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-11-23T21:37:34.850168+00:00"
+    },
+    {
+      "str_no": "28414",
+      "site_name": "서울디지털대학교",
+      "registered_date": "2026-11-23",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28414",
+      "live_url": "https://www.sdu.ac.kr/",
+      "domain": "sdu.ac.kr",
+      "targets": [
+        "여성",
+        "남성",
+        "대학생",
+        "20-30대",
+        "30-40대",
+        "40대 이후"
+      ],
+      "technologies": [
+        "Google Analytics",
+        "Google Tag Manager",
+        "jQuery",
+        "Swiper"
+      ],
+      "lines": [
+        "1) 서울디지털대학교 / 2026-11-23 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28414 / 실사이트: https://www.sdu.ac.kr/",
+        "2) 목적: 교육부 인가 4년제 사이버대학교로서 입학·수강·학사정보 제공을 목표로 하며 주요 타깃은 20–40대 직장인 및 대학생(제공된 타깃: 여성, 남성, 대학생, 20-30대, 30-40대, 40대 이후)이고 IA 핵심은 '입학 지원하기'·'입학지원센터'·'수강신청/학점포기'·'발급신청/학생증신청' 등의 빠른 접근성 제공으로 보인다; 기타 세부 사용자 흐름은 확인 불가",
+        "3) 디자인·콘셉트: '심플·모던·깔끔·독특한 레이아웃'과 일러스트/인물 중심 콘텐츠를 지향하고 색상은 BLUE/GRAY 위주이며 Swiper·jQuery 사용으로 캐러셀·인터랙션 기반 UI 패턴을 활용중인 것으로 보인다; 상세 UX 흐름과 반응성은 확인 불가",
+        "4) 강점: 교육부 인가(신뢰성) 표기와 명확한 입학·학사 관련 CTA(입학 지원하기, 수강신청 등) 노출, 분석 도구(Google Analytics·GTM) 도입으로 데이터 기반 운영 여지가 확인되며 블루·그레이 톤이 신뢰감에 유리하다",
+        "5) 개선점: 핵심 전환 액션(입학·수강·증명발급)을 헤더/모바일 원터치 퀵액션으로 재배치해 IA 우선순위를 명확히 하고 메뉴 중복(예: '입학지원센터' vs '입학 지원하기') 정리·카테고리 통일 및 Swiper 성능·접근성 점검과 GA/GTM 기반 전환 퍼널 설정이 필요하며 일부 세부 이용자 흐름은 확인 불가",
+        "6) 기술/플러그인 키워드: Google Analytics, Google Tag Manager, jQuery, Swiper + A) 메인 IA 퀵액션 재배치: 헤더 우측과 모바일 상단에 우선 CTA 1순위 '입학 지원하기', 2순위 '수강신청/학점포기', 3순위 '발급신청/학생증신청'을 고정하고 '학교소개/대학정보'는 햄버거 내 2차 메뉴로 이관 + B) 전환/체류/탐색 KPI: 입학지원 클릭률(CTA CTR), 수강신청 전환율(신청 완료/방문 비율), 페이지 평균 체류시간, 이탈률(랜딩별), 주요 탐색 클릭수(메뉴별 클릭·이동 경로) 추적 + C) 공공기관 Do/Don't: Do - 학사·입학정보 명확 표기·접근성(예: 대체텍스트·키보드 내비) 준수 및 개인정보·장학 조건 투명 공개, Don't - 복잡한 메뉴 구성·중복 CTA 및 추적 미설정으로 전환 데이터 손실 금지 + D) 오늘의 한 줄: 핵심 CTA를 헤더·모바일 상단에 고정해 전환 경로를 단축하라"
+      ],
+      "notion_url": "https://app.notion.com/p/42169790c143819e8cf1fa41a0c75cd1",
+      "source": "notion",
+      "agency": "피터패트",
+      "methods": [
+        "일러스트",
+        "인물/사람",
+        "콘텐츠"
+      ],
+      "concepts": [
+        "심플한",
+        "재미있는",
+        "독특한 레이아웃",
+        "모던한",
+        "깔끔한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "BLUE",
+        "GRAY"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "jQuery: HTML에서 'jquery-' 확인",
+        "Swiper: HTML에서 'swiper.min' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/28414.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-11-23T21:37:34.850168+00:00"
+    },
     {
       "str_no": "28411",
       "site_name": "실리코바이오",
@@ -47,8 +239,9 @@
       ],
       "thumbnail_url": "thumbnails/28411.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
-      "thumbnail_attempted_at": "2026-11-20T17:58:09.281649+00:00"
+      "thumbnail_attempted_at": "2026-11-20T17:58:09.281649+00:00",
+      "notion_url": "https://app.notion.com/p/41e69790c1438105a075cbfbc18e57de",
+      "source": "notion"
     },
     {
       "str_no": "28407",
@@ -117,7 +310,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/28407.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-11-20T17:58:09.281649+00:00"
     },
     {
@@ -170,7 +362,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/28402.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-11-20T17:58:09.281649+00:00"
     },
     {
@@ -204,7 +395,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/28328.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-11-20T17:58:09.281649+00:00"
     },
     {
@@ -9741,6 +9931,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-11-23",
     "2026-11-20",
     "2026-11-19",
     "2026-11-18",
@@ -9843,6 +10034,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-11-24T06:37:34.727460+09:00",
+      "mode": "live",
+      "status": "partial",
+      "new_count": 3,
+      "failure_count": 1
+    },
     {
       "generated_at": "2026-11-21T02:58:09.197763+09:00",
       "mode": "live",
