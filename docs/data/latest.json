@@ -1,11 +1,121 @@
 {
-  "generated_at": "2026-11-24T06:37:34.727460+09:00",
+  "generated_at": "2026-11-25T05:18:06.825821+09:00",
   "mode": "live",
   "status": "partial",
-  "new_count": 3,
+  "new_count": 2,
   "failure_count": 1,
-  "total_count": 234,
+  "total_count": 236,
   "items": [
+    {
+      "str_no": "28432",
+      "site_name": "스튜디오 제이티",
+      "registered_date": "2026-11-24",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28432",
+      "live_url": "https://www.studio-jt.co.kr/",
+      "domain": "studio-jt.co.kr",
+      "targets": [
+        "여성",
+        "남성",
+        "초등학생",
+        "중고등학생",
+        "학부모",
+        "대학생",
+        "20-30대",
+        "30-40대",
+        "40대 이후",
+        "기업",
+        "주부"
+      ],
+      "technologies": [
+        "Google Analytics",
+        "Google Tag Manager",
+        "WordPress"
+      ],
+      "lines": [
+        "1) 스튜디오 제이티 / 2026-11-24 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28432 / 실사이트: https://www.studio-jt.co.kr/",
+        "2) 목적/타깃: 사이트 설명(브랜드 전략부터 기업 웹사이트·맞춤 개발 제안)과 타깃 리스트(여성·남성·초등학생·중고등학생·학부모·대학생·20-30대·30-40대·40대 이후·기업·주부)를 근거로 워드프레스 기반 기업·브랜드 웹사이트 제작 서비스 홍보 및 문의 유도용 IA로 설계되어 있음.",
+        "3) 네비게이션은 Work·Agency·Story 중심의 포트폴리오 탐색 구조와 SEO/GEO Lab·Inspiration Lab 등 리서치/랩 섹션을 병행하고 상단에 Contact·Contact Stranger 등 중복 CTA를 배치해 포트폴리오 노출과 문의 유도를 동시에 시도하는 패턴이 관찰됨.",
+        "4) 강점: 워드프레스 기반(HTML에서 '/wp-content/' 확인), Google Analytics 및 Google Tag Manager 연동 확인(각각 'google-analytics.com'·'googletagmanager.com/gtm.js' 확인), 수상 이력·포트폴리오 중심 메뉴로 신뢰성·전시성 확보.",
+        "5) 개선점: 메뉴 내 'Contact' 라벨 중복(특히 'Contact Stranger' 표기는 모호)으로 CTA 명확성 저하, 주요 IA(Work·Agency·Contact) 우선순위 시각화 필요성, 모바일·접근성·성능 관련 세부 검증은 제공 근거 외 항목은 확인 불가.",
+        "6) 기술/플러그인 키워드: Google Analytics, Google Tag Manager, WordPress + A) 상단 네비게이션 재배치(메인 우선순위: Work > Agency > Story/Labs > Contact), 중복 CTA('Contact Stranger') 통합 또는 라벨 명확화로 메인 CTA 고정 배치 + B) KPI 제안: 문의(컨택) 전송 수(전환)·평균 세션 지속시간(체류)·페이지/세션 및 Work 클릭률(탐색)·이탈률(네비게이션 효율) 모니터링 + C) 공공기관 Do/Don't: Do - 명확한 연락 경로·웹표준·접근성 준수·분석 태깅 적용, Don't - 모호한 CTA·중복 네비게이션·정보 가리는 과도한 비주얼 사용 + D) 오늘의 한 줄: 포트폴리오 노출과 문의 동선을 단일화해 명확한 CTA로 전환을 확보하라."
+      ],
+      "notion_url": "https://app.notion.com/p/42269790c1438160a53afdbe58758a41",
+      "source": "notion",
+      "agency": "스튜디오 제이티",
+      "methods": [
+        "3D",
+        "모션그래픽",
+        "사진",
+        "영상",
+        "일러스트",
+        "타이포",
+        "그래픽합성",
+        "그래픽디자인",
+        "제품",
+        "콘텐츠"
+      ],
+      "concepts": [
+        "신비적인",
+        "심플한",
+        "인간적인",
+        "재미있는",
+        "첨단적인",
+        "실험적인",
+        "화려한",
+        "독특한 레이아웃",
+        "강렬한",
+        "깔끔한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "BLUE",
+        "RED"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'google-analytics.com' 확인",
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "WordPress: HTML에서 '/wp-content/' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/28432.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-11-24T20:18:06.928099+00:00"
+    },
+    {
+      "str_no": "28361",
+      "site_name": "Daum기업소개",
+      "registered_date": "2026-11-24",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28361",
+      "live_url": "https://daumcorp.com/",
+      "domain": "daumcorp.com",
+      "lines": [
+        "1) Daum기업소개 / 2026-11-24 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28361 / 실사이트: https://daumcorp.com/",
+        "2) 목적·대상·IA: AI 기반 콘텐츠·검색 플랫폼 기업으로 회사소개·서비스·뉴스·채용·제품(다음앱·다음 메일·다음 카페·티스토리)·정책·제휴 정보를 제공하는 사이트이며, 주요 타깃은 제공자료에 없음(확인 불가), IA는 상단 메뉴 중심의 전형적 기업형 구조로 구성되어 있음.",
+        "3) UX 패턴: 일러스트 기반의 시각 콘셉트와 BLACK·BLUE 색상 조합으로 첨단 이미지를 강조하고 상단 메뉴 네비게이션과 단일 주요 CTA(제휴문의)를 중심으로 탐색 흐름을 구성함.",
+        "4) 강점: 'AI 기반 콘텐츠·검색 플랫폼'이라는 명확한 브랜드 포지셔닝과 다음앱·메일·카페·티스토리 등 핵심 서비스의 메뉴 통합으로 이용자 정보 접근 경로를 단순화함.",
+        "5) 개선점: 제공자료 기준 CTA가 '제휴문의'로만 표기되어 전환 경로가 제한적이므로 채용·서비스 체험·고객지원 등 다중 CTA와 서비스별 진입점을 상단 및 모바일에 노출해 탐색성과 전환을 높일 것을 권고함.",
+        "6) 기술/플러그인 키워드: 접근성·분석·폼·CDN + A) 메인 IA 퀵액션 재배치: 상단 우측의 '제휴문의'를 포함해 3개(제휴문의·인재영입·서비스체험) 퀵액션으로 재배치하여 데스크톱·모바일에서 일관된 위치에 고정 표시 + B) 전환/체류/탐색 KPI: 제휴문의 제출 전환율, 평균 체류시간(페이지/세션 기반), 메뉴별 클릭률(CTR) 및 이탈률을 핵심 지표로 설정하여 모니터링 + C) 공공기관 Do/Don't: Do — 개인정보처리방침·오시는길·공지사항 등 필수정보를 상시 노출하고 웹접근성 준수; Don't — 주요 전환을 단일 CTA에만 의존하거나 필수 정보·연동(기술) 항목을 숨기지 말 것 + D) 오늘의 한 줄: 상단 메뉴 중심의 단순한 IA를 다중 CTA와 KPI 기반 측정으로 전환 유도형 구조로 전환하라."
+      ],
+      "notion_url": "https://app.notion.com/p/Daum-42269790c14381839c7ced6df1272274",
+      "source": "notion",
+      "agency": "미등록",
+      "methods": [
+        "일러스트"
+      ],
+      "concepts": [
+        "첨단적인"
+      ],
+      "colors": [
+        "BLACK",
+        "BLUE"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/28361.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-11-24T20:18:06.928099+00:00"
+    },
     {
       "str_no": "28422",
       "site_name": "더샵천안라크원 본사이트",
@@ -73,8 +183,9 @@
       ],
       "thumbnail_url": "thumbnails/28422.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
-      "thumbnail_attempted_at": "2026-11-23T21:37:34.850168+00:00"
+      "thumbnail_attempted_at": "2026-11-23T21:37:34.850168+00:00",
+      "notion_url": "https://app.notion.com/p/42169790c143811c8b60d61cdaae0bd7",
+      "source": "notion"
     },
     {
       "str_no": "28415",
@@ -134,7 +245,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/28415.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-11-23T21:37:34.850168+00:00"
     },
     {
@@ -195,7 +305,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/28414.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-11-23T21:37:34.850168+00:00"
     },
     {
@@ -9931,6 +10040,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-11-24",
     "2026-11-23",
     "2026-11-20",
     "2026-11-19",
@@ -10034,6 +10144,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-11-25T05:18:06.825821+09:00",
+      "mode": "live",
+      "status": "partial",
+      "new_count": 2,
+      "failure_count": 1
+    },
     {
       "generated_at": "2026-11-24T06:37:34.727460+09:00",
       "mode": "live",
