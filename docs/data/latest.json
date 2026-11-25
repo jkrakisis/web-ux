@@ -1,11 +1,125 @@
 {
-  "generated_at": "2026-11-25T05:18:06.825821+09:00",
+  "generated_at": "2026-11-26T04:31:16.427684+09:00",
   "mode": "live",
   "status": "partial",
   "new_count": 2,
   "failure_count": 1,
-  "total_count": 236,
+  "total_count": 238,
   "items": [
+    {
+      "str_no": "28443",
+      "site_name": "코르디아",
+      "registered_date": "2026-11-25",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28443",
+      "live_url": "https://cordia.co.kr/",
+      "domain": "cordia.co.kr",
+      "agency": "히어앤나우",
+      "targets": [
+        "여성",
+        "남성",
+        "20-30대",
+        "30-40대",
+        "40대 이후",
+        "기업",
+        "주부"
+      ],
+      "methods": [
+        "사진",
+        "영상",
+        "그래픽합성",
+        "건물/빌딩"
+      ],
+      "concepts": [
+        "고급스러운",
+        "심플한",
+        "안정적",
+        "모던한",
+        "깔끔한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "BLACK",
+        "BROWN",
+        "IVORY"
+      ],
+      "technologies": [
+        "Google Analytics",
+        "Google Tag Manager",
+        "jQuery",
+        "GSAP",
+        "Swiper"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "jQuery: HTML에서 'jquery-' 확인",
+        "GSAP: HTML에서 'gsap.min.js' 확인",
+        "Swiper: HTML에서 'swiper.min' 확인"
+      ],
+      "website_reachable": true,
+      "lines": [
+        "1) 코르디아 / 2026-11-25 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28443 / 실사이트: https://cordia.co.kr/",
+        "2) 목적·타깃·IA: 목적은 'The First Hospitality House' 콘셉트의 숙박·브랜딩 홍보 및 문의/방문예약 유도; 주요 타깃은 제공된 연령·성별·기업·주부 그룹이며 상단 메뉴 레이블은 제공 자료에 없어 IA 세부 구성은 확인 불가, CTA로 'CONTACT'와 '갤러리 방문예약' 확인.",
+        "3) UX 패턴: 제공 근거에 따르면 사진·영상·그래픽 합성·건물 이미지를 활용한 고급·모던 비주얼 중심 구성이며, 스크롤 애니메이션과 슬라이더 계열 상호작용 흔적이 확인됨(증거: GSAP, Swiper, jQuery); 세부 레이아웃 흐름은 확인 불가.",
+        "4) 강점: 고급스럽고 심플한 브랜드 콘셉트 일관성(근거: 콘셉트·색상·방법), 분석·추적 태그 보유로 성과 측정 가능(근거: Google Analytics·GTM), 인터랙티브 요소 구현 기술 보유(GSAP·Swiper); 내비게이션 전체 구조는 확인 불가.",
+        "5) 개선점: 정보구조(메뉴 레이블) 명시화 및 주요 예약·문의 CTA의 가시성·상시 노출 강화 필요, 접근성(대체텍스트·키보드), 모바일 성능·로딩 최적화 점검 권장하며 구체 성능 수치는 제공 자료로 확인 불가.",
+        "6) 기술/플러그인 키워드: Google Analytics, Google Tag Manager, jQuery, GSAP, Swiper + A) 메인 IA 퀵액션 재배치: 헤더 우측 및 스크롤 고정(스티키) 영역에 '갤러리 방문예약'·'CONTACT'를 우선 배치하고 모바일에서는 하단 고정 액션바로 상시 노출(현재 배치 상태는 제공 자료로 확인 불가) + B) 전환/체류/탐색 KPI: 문의(CTA) 클릭률(CTR), 갤러리 방문예약 전환율, 평균 세션 시간, 페이지/세션, 이탈률(목표 대비 증감 모니터링) + C) 공공기관 Do/Don't: Do=명확한 개인정보 처리·예약절차 고지, 웹 접근성(대체텍스트·키보드 네비게이션) 준수, 모바일 최적화; Don't=자동재생·과도한 애니메이션으로 접근성·성능 저해, 개인정보 수집 미고지 + D) 오늘의 한 줄: 고급스러운 비주얼과 애니메이션 기술을 유지하되 CTA 가시성 강화로 예약 전환을 즉시 개선하세요."
+      ],
+      "thumbnail_url": "thumbnails/28443.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-11-25T19:31:16.523513+00:00"
+    },
+    {
+      "str_no": "28442",
+      "site_name": "THE MARE",
+      "registered_date": "2026-11-25",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28442",
+      "live_url": "https://themare.co.kr/",
+      "domain": "themare.co.kr",
+      "targets": [
+        "여성",
+        "남성",
+        "40대 이후"
+      ],
+      "technologies": [
+        "Google Tag Manager",
+        "Cafe24"
+      ],
+      "lines": [
+        "1) THE MARE / 2026-11-25 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28442 / 실사이트: https://themare.co.kr/",
+        "2) 목적: 여성 컨템포러리 패션·라이프스타일 브랜드 홍보·판매; 타깃: 제공값 기준 여성·남성·40대 이후; IA 현황: 메뉴 레이블·CTA 레이블 미제공으로 세부 IA 구조는 확인 불가.",
+        "3) 사진·인물 중심의 비주얼 우선 UX, 모던·깔끔·신뢰적 톤(색상: BLACK/WHITE) 적용, 전자상거래 플랫폼(Cafe24)·분석(GTM) 연동 확인; 구체적 내비게이션 패턴은 데이터 미제공으로 확인 불가.",
+        "4) 브랜드 콘셉트(모던·깔끔·신뢰)에 부합하는 미니멀 색상 및 인물 사진 중심 비주얼, Cafe24 기반 상거래·Google Tag Manager 존재로 분석 연동 가능성이 확인됨.",
+        "5) 메뉴·CTA 레이블 부재로 주요 전환 경로·탐색 흐름 불명(확인 불가); 권장 개선: 상단 네비게이션·명시적 CTA 추가, GTM을 통한 전자상거래 이벤트 구현·검증, 이미지 대체텍스트·접근성 보완.",
+        "6) 기술/플러그인 키워드: Google Tag Manager, Cafe24, responsive images, accessibility audit tool + A) 메인 IA 퀵액션 재배치: 상단 고정영역에 검색·주요 카테고리·장바구니·회원(로그인/마이페이지) 등 핵심 구매경로를 노출하고(현행 메뉴 레이블 미제공으로 구체 배치는 확인 불가) + B) 전환/체류/탐색 KPI: 전자상거래 전환율(구매/세션), 장바구니 전환율, 평균 세션 시간, 페이지/세션, 이탈률(관련 이벤트·태그 구현 여부는 GTM 설정 확인 필요, 확인 불가) + C) 공공기관 Do/Don't: DO—명확한 네비게이션·일관된 CTA, 접근성(alt 텍스트/키보드 탐색/명확한 콘트라스트)과 개인정보 수집·이용 고지 준수; DON'T—모호한 CTA·과도한 팝업·비표준 개인정보 요구(현행 적용 여부 확인 불가) + D) 오늘의 한 줄: 미니멀한 브랜드력이 강점이나 IA·CTA 가시성 및 GTM 이벤트 검증이 우선 보완 필요하다"
+      ],
+      "notion_url": "https://app.notion.com/p/THE-MARE-42369790c14381be8c41d5ca6d96d984",
+      "source": "notion",
+      "agency": "도아 DOA",
+      "methods": [
+        "사진",
+        "인물/사람"
+      ],
+      "concepts": [
+        "모던한",
+        "깔끔한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "BLACK",
+        "WHITE"
+      ],
+      "evidence": [
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "Cafe24: HTML에서 'cafe24.com' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/28442.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-11-25T19:31:16.523513+00:00"
+    },
     {
       "str_no": "28432",
       "site_name": "스튜디오 제이티",
@@ -79,7 +193,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/28432.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-11-24T20:18:06.928099+00:00"
     },
     {
@@ -113,7 +226,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/28361.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-11-24T20:18:06.928099+00:00"
     },
     {
@@ -10040,6 +10152,7 @@
   ],
   "preview_items": [],
   "available_dates": [
+    "2026-11-25",
     "2026-11-24",
     "2026-11-23",
     "2026-11-20",
@@ -10144,6 +10257,13 @@
     "2026-03-03"
   ],
   "run_history": [
+    {
+      "generated_at": "2026-11-26T04:31:16.427684+09:00",
+      "mode": "live",
+      "status": "partial",
+      "new_count": 2,
+      "failure_count": 1
+    },
     {
       "generated_at": "2026-11-25T05:18:06.825821+09:00",
       "mode": "live",
