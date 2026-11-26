@@ -388,7 +388,7 @@ def run(config: AppConfig, since: str = "", no_ai: bool = False) -> tuple[int, s
 
     if output_blocks or failures:
         report = "\n\n".join([*output_blocks, *failures])
-        exit_code = 1 if failures else 0
+        exit_code = 0  # partial failures (individual sites) are expected; total failure returns 1 above
     else:
         report = "신규 없음"
         exit_code = 0
