@@ -1,11 +1,218 @@
 {
-  "generated_at": "2026-11-27T04:14:01.477213+09:00",
+  "generated_at": "2026-11-28T04:09:05.144907+09:00",
   "mode": "live",
-  "status": "partial",
-  "new_count": 3,
-  "failure_count": 1,
-  "total_count": 241,
+  "status": "success",
+  "new_count": 5,
+  "failure_count": 0,
+  "total_count": 246,
   "items": [
+    {
+      "str_no": "28485",
+      "site_name": "아젤라힐",
+      "registered_date": "2026-11-27",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28485",
+      "live_url": "https://azelaheal.co.kr/",
+      "domain": "azelaheal.co.kr",
+      "targets": [
+        "여성",
+        "20-30대",
+        "30-40대"
+      ],
+      "technologies": [
+        "Google Analytics",
+        "GSAP"
+      ],
+      "lines": [
+        "1) 아젤라힐 / 2026-11-27 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28485 / 실사이트: https://azelaheal.co.kr/",
+        "2) 제품 중심 브랜드 홍보 및 약국 판매 안내를 목적으로 한 사이트로, 명시된 주요 타깃은 여성(20-30대, 30-40대)이다.",
+        "3) 메뉴는 Brand / Product / Media / FAQ / '판매 약국 찾기 (새 창)' 구조로 구성되어 있으며 CTA 레이블은 비어있고 GSAP 기반 애니메이션과 Google Analytics 트래킹이 적용된 것으로 확인됨.",
+        "4) 타깃(여성 20–40대)과 일치하는 PINK·WHITE 색상 및 '귀여운·여성적·모던·신뢰적' 콘셉트가 명시되어 있고 제품 중심 타이틀/설명이 분명하며 GSAP·Google Analytics 적용으로 시각효과와 분석 준비가 되어 있음.",
+        "5) 명시적 CTA 부재(website.cta_labels 빈 배열)로 전환 동선이 불명확하므로 상단 퀵액션·제품 페이지 내 CTA 추가와 전환 목표 설정을 권장하며, 접근성·반응성 여부는 제공된 근거로 확인 불가.",
+        "6) 기술/플러그인 키워드: Google Analytics, GSAP + A) 메인 IA 퀵액션 재배치: 상단 우측에 '판매 약국 찾기'를 전환 퀵액션으로 눈에 띄게 배치하고 Product 메뉴 하위에 명확한 CTA(예: 상세/구매) 버튼을 추가할 것 + B) 전환/체류/탐색 KPI: 판매 약국 클릭률(CTR), 페이지별 체류시간, 세션당 페이지뷰(탐색 깊이), 제품 상세->약국 전환 퍼널 전환율 설정 + C) 공공기관 Do/Don't: Do: 외부 링크는 '(새 창)' 표기처럼 사용자에게 새 창 열림을 명확히 표시할 것; Don't: 특정 운영 방침과의 충돌 여부는 제공 근거로 확인 불가 + D) 오늘의 한 줄: 제품 중심 콘셉트는 명확하나 CTA 부재로 전환 최적화가 시급하다."
+      ],
+      "notion_url": "https://app.notion.com/p/42569790c14381ad8582d6ddcb4a7329",
+      "source": "notion",
+      "agency": "레이팩트",
+      "methods": [
+        "일러스트",
+        "일상소품",
+        "타이포",
+        "제품"
+      ],
+      "concepts": [
+        "귀여운",
+        "여성적인",
+        "모던한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "PINK",
+        "WHITE"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "GSAP: HTML에서 'gsap.min.js' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/28485.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-11-27T19:09:05.254764+00:00"
+    },
+    {
+      "str_no": "28468",
+      "site_name": "건양사이버대학교 입학지원센터",
+      "registered_date": "2026-11-27",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28468",
+      "live_url": "https://go.kycu.ac.kr/",
+      "domain": "go.kycu.ac.kr",
+      "targets": [
+        "30-40대",
+        "40대 이후"
+      ],
+      "technologies": [
+        "Google Tag Manager",
+        "jQuery",
+        "Swiper"
+      ],
+      "lines": [
+        "1) 건양사이버대학교 입학지원센터 / 2026-11-27 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28468 / 실사이트: https://go.kycu.ac.kr/",
+        "2) 목적: 건양사이버대학교 입학지원 안내 및 지원 전환 유도, 대상: 30-40대·40대 이후, 주요 IA(메뉴 라벨로 확인): 입학지원센터·입학안내·모집요강·지원 방법·장학 안내 등.",
+        "3) UX 패턴: 안정적·깔끔한 그린 기반 비주얼과 사진 중심 콘텐츠, 명확한 CTAs(사전입학상담신청 등)·메뉴 기반 내비게이션, Swiper 슬라이더·jQuery 사용 및 Google Tag Manager로 태깅 확인.",
+        "4) 강점: 입학 관련 핵심 정보와 다수의 직관적 CTA로 전환 경로가 명확하고, Swiper·GTM 도입으로 인터랙티브 UI 및 기본 분석 체계 존재(증거: 메뉴·CTA·기술 목록).",
+        "5) 개선점: 메뉴 항목이 많아 주요 사용자 여정 기준으로 퀵액션 우선순위 재배치 필요, Swiper 접근성·키보드 지원 및 대체텍스트 점검 권장, GTM 이벤트 세분화로 전환 추적 강화; 모바일 반응성·성능 상태는 확인 불가.",
+        "6) 기술/플러그인 키워드: Google Tag Manager, jQuery, Swiper + A) 메인 IA 퀵액션 재배치: 상단 노출 우선순위로 '사전입학상담신청' → '나의전형찾기' → '입학 안내 자료 신청하기' → '모집요강/지원 방법' 순으로 배치해 지원 전환 경로를 단축 + B) 전환/체류/탐색 KPI: 사전입학상담 클릭률(CTR), 지원서 제출 전환율, 페이지당 체류시간·이탈률(탐색경로) 추적 + C) 공공기관 Do/Don't: Do - 입학·장학·서류정보를 명확하고 우선적으로 제공하고 개인정보 안내를 가시화할 것; Don't - 메뉴 중복·혼선 유발 요소 및 비공식 링크 사용 금지 + D) 오늘의 한 줄: 입학 여정을 단축하는 명확한 퀵액션이 전환을 만든다."
+      ],
+      "notion_url": "https://app.notion.com/p/42569790c143811b84a8c2f06e84778e",
+      "source": "notion",
+      "agency": "스케치북",
+      "methods": [
+        "사진",
+        "콘텐츠"
+      ],
+      "concepts": [
+        "안정적",
+        "깔끔한"
+      ],
+      "colors": [
+        "GREEN"
+      ],
+      "evidence": [
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "jQuery: HTML에서 'jquery-' 확인",
+        "Swiper: HTML에서 'swiper-bundle' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/28468.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-11-27T19:09:05.254764+00:00"
+    },
+    {
+      "str_no": "28465",
+      "site_name": "어반베리어",
+      "registered_date": "2026-11-27",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28465",
+      "live_url": "https://www.urbanbarrier.global/",
+      "domain": "urbanbarrier.global",
+      "targets": [
+        "여성",
+        "대학생",
+        "20-30대",
+        "30-40대"
+      ],
+      "technologies": [
+        "Google Tag Manager"
+      ],
+      "lines": [
+        "1) 어반베리어 / 2026-11-27 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28465 / 실사이트: https://www.urbanbarrier.global/",
+        "2) 목적/타깃/주요 IA: 브랜드·제품 가치 전달 및 문의(Contact) 유도가 주요 목적이며, 제공 근거상 타깃은 '여성, 대학생, 20-30대, 30-40대'로 설정되어 있음.",
+        "3) UX 패턴: 사진·영상·인물·제품·손/행위 중심의 비주얼 퍼스트 레이아웃과 고급·심플·여성적·자연적 콘셉트(색상 BLUE·IVORY·WHITE), 상단 KO/EN 언어 토글 및 CONTACT 메뉴/CTA 노출(메뉴·CTA 레이블 근거).",
+        "4) 강점: 사이트 설명으로 전달되는 브랜드 메시지가 명확하고 비주얼·콘셉트·색상으로 일관된 고급스러운 정체성이 확보되며 KO/EN·CONTACT 노출과 Google Tag Manager 적용이 확인됨.",
+        "5) 개선점: 메인 CTA(문의) 및 탐색 흐름의 시각적 우선순위·고정성 검토 권장(현재 위치·동선은 확인 불가), 제품/루틴 탐색·카테고리 가시성 여부 확인 권장(확인 불가), GTM 기반 이벤트 태깅과 전환 측정 정책 점검 권장.",
+        "6) 기술/플러그인 키워드: Google Tag Manager + A) 메인 IA 퀵액션 재배치: 상단 우측 CONTACT를 고정 헤더 또는 언어 토글 근처로 배치하고(또는 히어로에 Contact CTA 병행) 문의 흐름을 단축할 것(확인 불가) + B) 전환/체류/탐색 KPI: CTA 클릭률(문의), 문의 완료율, 평균 페이지 체류시간, 세션당 페이지수(탐색 깊이), 언어별 전환율 + C) 공공기관 Do/Don't: Do - 명확한 문의경로 제공·다국어 지원·개인정보 수집·이용 고지; Don't - 과도한 팝업 및 수집 고지 미비(확인 불가) + D) 오늘의 한 줄: 고급스러운 비주얼 정체성은 명확하나 문의 동선·태깅 검증이 필요(확인 불가)."
+      ],
+      "notion_url": "https://app.notion.com/p/42569790c14381809f6adf6ff89296f2",
+      "source": "notion",
+      "agency": "헤이하이컴퍼니",
+      "methods": [
+        "사진",
+        "영상",
+        "인물/사람",
+        "제품",
+        "손/행위"
+      ],
+      "concepts": [
+        "고급스러운",
+        "심플한",
+        "여성적인",
+        "자연적인/환경적인",
+        "깔끔한",
+        "신뢰적인"
+      ],
+      "colors": [
+        "BLUE",
+        "IVORY",
+        "WHITE"
+      ],
+      "evidence": [
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/28465.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-11-27T19:09:05.254764+00:00"
+    },
+    {
+      "str_no": "28446",
+      "site_name": "칼로커트",
+      "registered_date": "2026-11-27",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28446",
+      "live_url": "https://kalokut-k.com/",
+      "domain": "kalokut-k.com",
+      "targets": [
+        "여성",
+        "남성"
+      ],
+      "technologies": [
+        "Google Analytics",
+        "Google Tag Manager",
+        "Cafe24"
+      ],
+      "lines": [
+        "1) 칼로커트 / 2026-11-27 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28446 / 실사이트: https://kalokut-k.com/",
+        "2) 공식몰로서 다이어트 보조제(칼로커트) 제품 판매가 주목적이며 주요 대상은 여성·남성으로 제품·브랜드·이벤트 중심의 IA 구조가 관찰됨.",
+        "3) 상단 카테고리형 내비게이션(ALL, 제품군, BRAND STORY, REVIEW, COMMUNITY)과 로그인/회원가입, 상품 용량(0,10포,60포) 및 구매 CTA(회원가입, BUY NOW)가 노출되는 전형적인 전자상거래 UX 패턴이 확인됨.",
+        "4) 제품 중심 메시지(상품 설명에 ‘다이어트 보조제’ 명시)와 명확한 구매 CTA 보유, Google Analytics·Google Tag Manager 연동 및 Cafe24 플랫폼 사용으로 분석·운영 인프라가 구축되어 있음.",
+        "5) 메뉴 레이블 내 중복 항목('칼로커트', '칼로커트 ↗' 등) 정리와 BUY NOW·용량(60포/10포) CTA의 우선순위 재배치로 전환 경로 단축 필요; 접근성·모바일 최적화 여부는 확인 불가.",
+        "6) 기술/플러그인 키워드: Google Analytics, Google Tag Manager, Cafe24, CTA·헤더 내비게이션 + A) 메인 IA 퀵액션 재배치: 헤더 우측에 BUY NOW·주요 용량(60포·10포) 직접 노출·로그인·회원가입은 계정 드롭다운으로 통합·중복된 브랜드 메뉴 통합 + B) 전환/체류/탐색 KPI: BUY NOW 클릭률(CTR), 장바구니 전환율, 구매 전환율, 평균 세션시간·페이지/세션, 이탈률 및 재구매율 추적 + C) 공공기관 Do/Don't: Do—투명한 개인정보·트래킹 고지 및 접근성 표준 준수; Don't—중복 메뉴·모호한 CTA로 이용자 혼동 유발 금지(권고·확인 불가) + D) 오늘의 한 줄: 메뉴 중복 정리와 BUY NOW 전면배치로 구매전환 개선 가능."
+      ],
+      "notion_url": "https://app.notion.com/p/42569790c1438129bb98ff240768951a",
+      "source": "notion",
+      "agency": "플랜에이제트",
+      "methods": [
+        "제품"
+      ],
+      "concepts": [
+        "역동적인",
+        "신뢰적인"
+      ],
+      "colors": [
+        "PINK",
+        "WHITE"
+      ],
+      "evidence": [
+        "Google Analytics: HTML에서 'googletagmanager.com/gtag' 확인",
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "Cafe24: HTML에서 'cafe24.com' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/28446.jpg",
+      "thumbnail_status": "success",
+      "thumbnail_error": "",
+      "thumbnail_attempted_at": "2026-11-27T19:09:05.254764+00:00"
+    },
     {
       "str_no": "28424",
       "site_name": "aL",
@@ -39,8 +246,44 @@
       ],
       "thumbnail_url": "thumbnails/28424.jpg",
       "thumbnail_status": "success",
+      "thumbnail_attempted_at": "2026-11-26T19:14:01.593509+00:00",
+      "notion_url": "https://app.notion.com/p/aL-42469790c1438196ad94c9609f669248",
+      "source": "notion"
+    },
+    {
+      "str_no": "28312",
+      "site_name": "기아 텔런트 라운지",
+      "registered_date": "2026-11-27",
+      "detail_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=28312",
+      "live_url": "https://career.kia.com/",
+      "domain": "career.kia.com",
+      "technologies": [
+        "Google Tag Manager",
+        "jQuery"
+      ],
+      "lines": [
+        "1) 기아 텔런트 라운지 / 2026-11-27 / GDWEB 상세: https://www.gdweb.co.kr/sub/view.asp?str_no=28312 / 실사이트: https://career.kia.com/",
+        "2) 목적: 채용·커리어 포털(근거: live_url 'career.kia.com' 및 사이트 제목 '기아 탤런트 라운지') · 주요 대상: 확인 불가 · IA 개요: 확인 불가",
+        "3) UX 패턴: 인물·사람 중심 콘텐츠 사용(근거: methods '인물/사람') · 메뉴·CTA 레이블 없음으로 보임(근거: menu_labels·cta_labels 빈값) · 설명 카피: 'Join the movement'",
+        "4) 강점: 사이트 접근 가능(근거: reachable true, final_url 확인) · 브랜드/목적 노출(제목 '기아 탤런트 라운지', 설명 'Join the movement') · 분석 태깅 가능(Google Tag Manager 확인)",
+        "5) 개선점: 메뉴·CTA 라벨 부재로 탐색성·전환성 개선 필요(근거: menu_labels·cta_labels 빈값) · GTM 기반 이벤트·전환 설계 권장(근거: Google Tag Manager 확인) · 모바일·성능·세분화 대상 정보: 확인 불가",
+        "6) 기술/플러그인 키워드: Google Tag Manager, jQuery + A) 메인 IA 퀵액션 재배치: '채용공고(검색) · 지원하기(퀵지원) · 인재스토리 · 회사소개 · FAQ/문의' 순으로 상단 노출하여 지원 전환 경로 단축 + B) 전환/체류/탐색 KPI: 지원 클릭→지원 완료 전환율, 페이지당 평균 체류시간, 이탈률(랜딩별), 네비게이션 클릭경로(핵심 CTA 클립) 측정 + C) 공공기관 Do/Don't: Do – 명확한 메뉴·접근성 고지 및 개인정보 처리 안내 명시; Don't – 주요 정보 숨김·모호한 네비게이션 제공 금지 + D) 오늘의 한 줄: 메뉴와 CTA를 명확히 배치하면 지원 전환이 즉시 개선됩니다."
+      ],
+      "notion_url": "https://app.notion.com/p/42569790c14381d48988c3d0889e0508",
+      "source": "notion",
+      "agency": "미등록",
+      "methods": [
+        "인물/사람"
+      ],
+      "evidence": [
+        "Google Tag Manager: HTML에서 'googletagmanager.com/gtm.js' 확인",
+        "jQuery: HTML에서 'jquery-' 확인"
+      ],
+      "website_reachable": true,
+      "thumbnail_url": "thumbnails/28312.jpg",
+      "thumbnail_status": "success",
       "thumbnail_error": "",
-      "thumbnail_attempted_at": "2026-11-26T19:14:01.593509+00:00"
+      "thumbnail_attempted_at": "2026-11-27T19:09:05.254764+00:00"
     },
     {
       "str_no": "28419",
@@ -101,7 +344,6 @@
       "website_reachable": true,
       "thumbnail_url": "thumbnails/28419.jpg",
       "thumbnail_status": "success",
-      "thumbnail_error": "",
       "thumbnail_attempted_at": "2026-11-26T19:14:01.593509+00:00"
     },
     {
@@ -132,7 +374,7 @@
       "website_reachable": false,
       "thumbnail_status": "failed",
       "thumbnail_error": "HTTP 403",
-      "thumbnail_attempted_at": "2026-11-26T19:14:01.593509+00:00"
+      "thumbnail_attempted_at": "2026-11-27T19:09:05.254764+00:00"
     },
     {
       "str_no": "28443",
@@ -10388,6 +10630,13 @@
   ],
   "run_history": [
     {
+      "generated_at": "2026-11-28T04:09:05.144907+09:00",
+      "mode": "live",
+      "status": "success",
+      "new_count": 5,
+      "failure_count": 0
+    },
+    {
       "generated_at": "2026-11-27T04:14:01.477213+09:00",
       "mode": "live",
       "status": "partial",
@@ -11081,9 +11330,5 @@
       "failure_count": 0
     }
   ],
-  "failures": [
-    {
-      "text": "자동 등록 실패 — 티빙\n사이트명: 티빙\n등록일: 2026-11-16\nGDWEB str_no: 28327\nGDWEB URL: www.gdweb.co.kr/sub/view.asp?str_no=28327\n실사이트 URL: 확인 불가\n제작사: 미등록\n표현방법: 콘텐츠\n디자인 컨셉: 확인 불가\n주색상: BLACK\n처리 상태: 자동 등록 실패\n실패 사유: GDWEB 상세에서 실사이트 URL을 확정하지 못함"
-    }
-  ]
+  "failures": []
 }
